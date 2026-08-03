@@ -1,0 +1,87 @@
+[
+  {
+    "adjacentDomains": [
+      "incident-response",
+      "threat-intel"
+    ],
+    "span": "adjacent",
+    "scoredBy": "Opus 5",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": 48,
+    "passingScore": null,
+    "prerequisites": [
+      "One year of SOC or security analyst experience recommended"
+    ],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "id": "cd-ccdl2",
+    "name": "CCDL2",
+    "fullName": "Certified CyberDefender Level 2",
+    "vendor": "CyberDefenders",
+    "vendorUrl": "https://cyberdefenders.org/certifications/certified-cyberdefender-level2/",
+    "domain": "forensics",
+    "level": 70,
+    "examFormat": "practical",
+    "cost": {
+      "amount": 849,
+      "currency": "USD",
+      "note": "Exam-only path; $1,199 with the course. Renamed from CCD in March 2026."
+    },
+    "sources": [
+      "https://cyberdefenders.org/certifications/certified-cyberdefender-level2/"
+    ],
+    "levelNote": "Score weights the required training as well as the exam: the CCDL2 course, described by CyberDefenders as intermediate, 8 modules. Exam-only score 65, +5 for the training. level measures the depth a credential demands, not only how the exam checks it."
+  },
+  {
+    "adjacentDomains": [
+      "incident-response"
+    ],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": 48,
+    "passingScore": null,
+    "prerequisites": [
+      "Windows and Linux fundamentals, command line, networking"
+    ],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "id": "cd-ccdl1",
+    "name": "CCDL1",
+    "fullName": "Certified CyberDefender Level 1",
+    "vendor": "CyberDefenders",
+    "vendorUrl": "https://cyberdefenders.org/certifications/certified-cyberdefender-level1/",
+    "domain": "soc",
+    "level": 45,
+    "examFormat": "practical",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "Price not published on the certification page."
+    },
+    "sources": [
+      "https://cyberdefenders.org/certifications/certified-cyberdefender-level1/"
+    ],
+    "levelNote": "Score weights the required training as well as the exam: the CCDL1 course, an entry-level SOC programme. Exam-only score 42, +3 for the training. level measures the depth a credential demands, not only how the exam checks it."
+  }
+]

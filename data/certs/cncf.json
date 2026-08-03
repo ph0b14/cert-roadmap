@@ -1,0 +1,44 @@
+[
+  {
+    "adjacentDomains": [
+      "appsec"
+    ],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "levelNote": "No training weight: this body sells the exam on its own and its courseware is optional. Level reflects the exam alone. Unusual among platform certifications in being fully performance-based against a live Kubernetes cluster.",
+    "courseCode": null,
+    "examCode": null,
+    "examFormat": "practical",
+    "examHours": 2,
+    "passingScore": null,
+    "prerequisites": [
+      "Certified Kubernetes Administrator (CKA) in good standing"
+    ],
+    "renewal": {
+      "required": true,
+      "years": 2,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "id": "cncf-cks",
+    "name": "CKS",
+    "fullName": "Certified Kubernetes Security Specialist",
+    "vendor": "CNCF",
+    "vendorUrl": "https://www.cncf.io/training/certification/cks/",
+    "domain": "cloud",
+    "level": 55,
+    "cost": {
+      "amount": 445,
+      "currency": "USD",
+      "note": "Performance-based exam in a live cluster."
+    },
+    "sources": [
+      "https://www.cncf.io/training/certification/cks/"
+    ]
+  }
+]

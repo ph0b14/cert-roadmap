@@ -1,0 +1,222 @@
+---
+import '../styles/global.css'
+import { PARENT_SITE } from '../site'
+
+interface Props {
+  title: string
+  description: string
+  canonical?: string | URL
+  jsonLd?: unknown
+}
+
+const { title, description, canonical, jsonLd } = Astro.props
+
+/**
+ * Mirrors the navigation on pyaeheinnkyaw.com. The section links are anchors on
+ * the About page, so from this subdomain they need absolute URLs rather than
+ * the bare `#experience` the parent site can use.
+ */
+const ABOUT = 'https://about.pyaeheinnkyaw.com'
+const NAV = [
+  { label: 'Home', href: PARENT_SITE },
+  { label: 'About Me', href: ABOUT },
+  { label: 'BTLO Write-Ups', href: `${PARENT_SITE}/category/btlo-write-ups/` },
+  { label: 'Experience', href: `${ABOUT}#experience` },
+  { label: 'Achievements', href: `${ABOUT}#achievements` },
+  { label: 'Research', href: `${ABOUT}#research` },
+  { label: 'Certifications', href: `${ABOUT}#certifications` },
+  { label: 'Certification Roadmap', href: 'https://certs.pyaeheinnkyaw.com', current: true },
+  { label: 'Contact', href: `${ABOUT}#contact` },
+]
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    {canonical && <link rel="canonical" href={canonical.toString()} />}
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" href="/favicon.png" />
+
+    {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
+
+    {/*
+      Resolve the theme before first paint, otherwise a dark-mode visitor gets a
+      white flash. `is:inline` keeps Astro from bundling and deferring it.
+    */}
+    <script is:inline>
+      ;(() => {
+        const KEY = 'phk-theme'
+        let stored = null
+        try {
+          stored = localStorage.getItem(KEY)
+        } catch {
+          /* private mode — fall through to the system preference */
+        }
+        const theme =
+          stored === 'light' || stored === 'dark'
+            ? stored
+            : window.matchMedia('(prefers-color-scheme: dark)').matches
+              ? 'dark'
+              : 'light'
+        document.documentElement.dataset.theme = theme
+      })()
+    </script>
+  </head>
+
+  <body>
+    <div
+      class="sticky top-0 z-40 border-b border-[var(--color-edge)] bg-[var(--color-surface)] px-4"
+    >
+      <div class="mx-auto flex h-12 max-w-[1600px] items-center gap-3">
+        <a
+          href={PARENT_SITE}
+          class="shrink-0 text-sm font-semibold tracking-tight text-[var(--color-ink)] no-underline hover:text-[var(--pri-color)]"
+        >
+          PHK Knowledge Sharing
+        </a>
+
+        <nav aria-label="Main" class="ml-auto hidden lg:block">
+          <ul class="flex flex-wrap items-center gap-0.5">
+            {
+              NAV.map((item) => (
+                <li>
+                  <a
+                    href={item.href}
+                    aria-current={item.current ? 'page' : undefined}
+                    class="block whitespace-nowrap px-2 py-1.5 text-[13px] no-underline transition-colors"
+                    style={`color: ${item.current ? 'var(--pri-color)' : 'var(--color-ink)'}`}
+                  >
+                    {item.label}
+                  </a>
+                </li>
+              ))
+            }
+          </ul>
+        </nav>
+
+        <button
+          id="theme-toggle"
+          type="button"
+          aria-label="Toggle dark mode"
+          title="Toggle dark mode"
+          class="ml-auto grid h-8 w-8 shrink-0 place-items-center rounded-md border border-[var(--color-edge)] text-[var(--color-ink-dim)] hover:border-[var(--color-ink-dim)] hover:text-[var(--color-ink)] lg:ml-2"
+        >
+          <svg
+            class="h-4 w-4"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            aria-hidden="true"
+          >
+            {/* Sun — shown in dark mode, i.e. "switch to light" */}
+            <g class="theme-icon-sun">
+              <circle cx="12" cy="12" r="4"></circle>
+              <path
+                d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M19.1 4.9l-1.4 1.4M6.3 17.7l-1.4 1.4"
+              ></path>
+            </g>
+            {/* Moon — shown in light mode */}
+            <path class="theme-icon-moon" d="M21 12.8A9 9 0 1111.2 3a7 7 0 009.8 9.8z"></path>
+          </svg>
+        </button>
+
+        <button
+          id="menu-toggle"
+          type="button"
+          aria-label="Menu"
+          aria-expanded="false"
+          aria-controls="mobile-nav"
+          class="grid h-8 w-8 shrink-0 place-items-center rounded-md border border-[var(--color-edge)] text-[var(--color-ink-dim)] hover:border-[var(--color-ink-dim)] hover:text-[var(--color-ink)] lg:hidden"
+        >
+          <svg
+            class="h-4 w-4"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            aria-hidden="true"
+          >
+            <path d="M4 7h16M4 12h16M4 17h16"></path>
+          </svg>
+        </button>
+      </div>
+
+      <nav
+        id="mobile-nav"
+        aria-label="Main"
+        hidden
+        class="border-t border-[var(--color-edge)] lg:hidden"
+      >
+        <ul class="mx-auto max-w-[1600px] py-1">
+          {
+            NAV.map((item) => (
+              <li>
+                <a
+                  href={item.href}
+                  aria-current={item.current ? 'page' : undefined}
+                  class="block border-b border-[var(--color-edge)] px-1 py-2.5 text-[13px] no-underline last:border-b-0"
+                  style={`color: ${item.current ? 'var(--pri-color)' : 'var(--color-ink)'}`}
+                >
+                  {item.label}
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+      </nav>
+    </div>
+
+    <slot />
+
+    <style is:global>
+      .theme-icon-sun {
+        display: none;
+      }
+      html[data-theme='dark'] .theme-icon-sun {
+        display: inline;
+      }
+      html[data-theme='dark'] .theme-icon-moon {
+        display: none;
+      }
+    </style>
+
+    <script is:inline>
+      ;(() => {
+        const KEY = 'phk-theme'
+        const root = document.documentElement
+        document
+          .getElementById('theme-toggle')
+          ?.addEventListener('click', () => {
+            const next = root.dataset.theme === 'dark' ? 'light' : 'dark'
+            root.dataset.theme = next
+            try {
+              localStorage.setItem(KEY, next)
+            } catch {
+              /* preference just won't persist */
+            }
+          })
+        const menu = document.getElementById('mobile-nav')
+        const toggle = document.getElementById('menu-toggle')
+        toggle?.addEventListener('click', () => {
+          const open = menu.hasAttribute('hidden')
+          if (open) menu.removeAttribute('hidden')
+          else menu.setAttribute('hidden', '')
+          toggle.setAttribute('aria-expanded', String(open))
+        })
+
+        // Enable colour transitions only after the initial theme is settled.
+        requestAnimationFrame(() => root.classList.add('theme-ready'))
+      })()
+    </script>
+  </body>
+</html>

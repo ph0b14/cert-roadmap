@@ -1,0 +1,80 @@
+[
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "levelNote": "72 hours of active lab time spread over eight days, gated on holding CRTO.",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": 192,
+    "passingScore": null,
+    "prerequisites": [
+      "zps-crto"
+    ],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "id": "zps-crtl",
+    "name": "CRTL",
+    "fullName": "Zero-Point Certified Red Team Lead",
+    "vendor": "Zero-Point Security",
+    "vendorUrl": "https://www.zeropointsecurity.co.uk/red-team-lead/wt3ky",
+    "domain": "pentest",
+    "level": 75,
+    "examFormat": "practical",
+    "cost": {
+      "amount": null,
+      "currency": "GBP",
+      "note": "Course and exam sold together."
+    },
+    "sources": [
+      "https://www.zeropointsecurity.co.uk/"
+    ]
+  },
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "levelNote": "48 hours of lab time across four days, six of eight flags to pass, behind a 20-hour course.",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": 96,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "id": "zps-crto",
+    "name": "CRTO",
+    "fullName": "Zero-Point Certified Red Team Operator",
+    "vendor": "Zero-Point Security",
+    "vendorUrl": "https://www.zeropointsecurity.co.uk/red-team-ops/kkbtl",
+    "domain": "pentest",
+    "level": 62,
+    "examFormat": "practical",
+    "cost": {
+      "amount": 399,
+      "currency": "GBP",
+      "note": "Course and exam bundle."
+    },
+    "sources": [
+      "https://www.zeropointsecurity.co.uk/"
+    ]
+  }
+]

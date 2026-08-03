@@ -1,0 +1,306 @@
+[
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "levelNote": "Altered Security rates the associated lab as Advanced. Level rests on exam format and course positioning; this body does not publish question counts or cut scores.",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": 48,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "id": "as-crtm",
+    "name": "CRTM",
+    "fullName": "Altered Security Certified Red Team Master",
+    "vendor": "Altered Security",
+    "vendorUrl": "https://www.alteredsecurity.com/",
+    "domain": "pentest",
+    "level": 75,
+    "examFormat": "practical",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "Priced as a lab bundle; see the vendor page."
+    },
+    "sources": [
+      "https://www.alteredsecurity.com/"
+    ]
+  },
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "levelNote": "Altered Security rates the associated lab as Advanced. Level rests on exam format and course positioning; this body does not publish question counts or cut scores.",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": 48,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "id": "as-carte",
+    "name": "CARTE",
+    "fullName": "Altered Security Certified Azure Red Team Expert",
+    "vendor": "Altered Security",
+    "vendorUrl": "https://www.alteredsecurity.com/",
+    "domain": "cloud",
+    "level": 70,
+    "examFormat": "practical",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "Priced as a lab bundle; see the vendor page."
+    },
+    "sources": [
+      "https://www.alteredsecurity.com/"
+    ]
+  },
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "levelNote": "Altered Security rates the associated lab as Intermediate. Level rests on exam format and course positioning; this body does not publish question counts or cut scores.",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": 48,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "id": "as-crte",
+    "name": "CRTE",
+    "fullName": "Altered Security Certified Red Team Expert",
+    "vendor": "Altered Security",
+    "vendorUrl": "https://www.alteredsecurity.com/",
+    "domain": "pentest",
+    "level": 68,
+    "examFormat": "practical",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "Priced as a lab bundle; see the vendor page."
+    },
+    "sources": [
+      "https://www.alteredsecurity.com/"
+    ]
+  },
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "levelNote": "Altered Security rates the associated lab as Intermediate. Level rests on exam format and course positioning; this body does not publish question counts or cut scores.",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": 24,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "id": "as-cetp",
+    "name": "CETP",
+    "fullName": "Altered Security Certified Evasion Techniques Professional",
+    "vendor": "Altered Security",
+    "vendorUrl": "https://www.alteredsecurity.com/",
+    "domain": "pentest",
+    "level": 62,
+    "examFormat": "practical",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "Priced as a lab bundle; see the vendor page."
+    },
+    "sources": [
+      "https://www.alteredsecurity.com/"
+    ]
+  },
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "levelNote": "Altered Security rates the associated lab as Beginner. Level rests on exam format and course positioning; this body does not publish question counts or cut scores.",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": 24,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "id": "as-cartp",
+    "name": "CARTP",
+    "fullName": "Altered Security Certified Azure Red Team Professional",
+    "vendor": "Altered Security",
+    "vendorUrl": "https://www.alteredsecurity.com/",
+    "domain": "cloud",
+    "level": 57,
+    "examFormat": "practical",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "Priced as a lab bundle; see the vendor page."
+    },
+    "sources": [
+      "https://www.alteredsecurity.com/"
+    ]
+  },
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "levelNote": "Altered Security rates the associated lab as Beginner. Level rests on exam format and course positioning; this body does not publish question counts or cut scores.",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": 24,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "id": "as-crtp",
+    "name": "CRTP",
+    "fullName": "Altered Security Certified Red Team Professional",
+    "vendor": "Altered Security",
+    "vendorUrl": "https://www.alteredsecurity.com/",
+    "domain": "pentest",
+    "level": 55,
+    "examFormat": "practical",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "Priced as a lab bundle; see the vendor page."
+    },
+    "sources": [
+      "https://www.alteredsecurity.com/"
+    ]
+  },
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "levelNote": "Altered Security rates the associated lab as Beginner. Level rests on exam format and course positioning; this body does not publish question counts or cut scores.",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": 24,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "id": "as-cespadcs",
+    "name": "CESP-ADCS",
+    "fullName": "Altered Security Certified Enterprise Security Professional — AD CS",
+    "vendor": "Altered Security",
+    "vendorUrl": "https://www.alteredsecurity.com/",
+    "domain": "pentest",
+    "level": 52,
+    "examFormat": "practical",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "Priced as a lab bundle; see the vendor page."
+    },
+    "sources": [
+      "https://www.alteredsecurity.com/"
+    ]
+  },
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "levelNote": "Altered Security rates the associated lab as Elementary. Level rests on exam format and course positioning; this body does not publish question counts or cut scores.",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": 24,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "id": "as-acpt",
+    "name": "ACPT",
+    "fullName": "Altered Security Attacking and Compromising Perimeter Targets",
+    "vendor": "Altered Security",
+    "vendorUrl": "https://www.alteredsecurity.com/",
+    "domain": "pentest",
+    "level": 40,
+    "examFormat": "practical",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "Priced as a lab bundle; see the vendor page."
+    },
+    "sources": [
+      "https://www.alteredsecurity.com/"
+    ]
+  }
+]

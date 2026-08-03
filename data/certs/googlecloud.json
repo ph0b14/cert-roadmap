@@ -1,0 +1,40 @@
+[
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "levelNote": "No training weight: this body sells the exam on its own and its courseware is optional. Level reflects the exam alone.",
+    "courseCode": null,
+    "examCode": null,
+    "examFormat": "multiple-choice",
+    "examHours": 2,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": true,
+      "years": 2,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "id": "gcp-security-engineer",
+    "name": "GCP PCSE",
+    "fullName": "Google Cloud Professional Cloud Security Engineer",
+    "vendor": "Google Cloud",
+    "vendorUrl": "https://cloud.google.com/learn/certification/cloud-security-engineer",
+    "domain": "cloud",
+    "level": 48,
+    "cost": {
+      "amount": 200,
+      "currency": "USD",
+      "note": "55 questions in 120 minutes."
+    },
+    "sources": [
+      "https://cloud.google.com/learn/certification/cloud-security-engineer"
+    ]
+  }
+]

@@ -1,0 +1,378 @@
+[
+  {
+    "id": "htb-cape",
+    "name": "CAPE",
+    "fullName": "HTB Certified Active Directory Pentesting Expert",
+    "vendor": "Hack The Box",
+    "vendorUrl": "https://academy.hackthebox.com/preview/certifications/htb-certified-active-directory-pentesting-expert",
+    "domain": "pentest",
+    "adjacentDomains": [
+      "exploitdev"
+    ],
+    "span": "none",
+    "level": 82,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": 1260,
+      "currency": "USD",
+      "note": "Exam voucher. Requires 100% completion of the matching Academy job-role path, which needs a subscription."
+    },
+    "courseCode": null,
+    "examCode": null,
+    "examFormat": "practical",
+    "examHours": 240,
+    "passingScore": null,
+    "prerequisites": [
+      "Full completion of the matching HTB Academy job-role path"
+    ],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "sources": [
+      "https://academy.hackthebox.com/preview/certifications",
+      "https://help.hackthebox.com/en/articles/12741732-academy-certifications"
+    ],
+    "levelNote": "Score weights the required training as well as the exam: the Active Directory Penetration Tester path is rated Hard by HTB Academy, 15 modules. Exam-only score 78, +4 for the training. level measures the depth a credential demands, not only how the exam checks it."
+  },
+  {
+    "id": "htb-cwee",
+    "name": "CWEE",
+    "fullName": "HTB Certified Web Exploitation Expert",
+    "vendor": "Hack The Box",
+    "vendorUrl": "https://academy.hackthebox.com/preview/certifications/htb-certified-web-exploitation-expert",
+    "domain": "webapp",
+    "adjacentDomains": [
+      "exploitdev"
+    ],
+    "span": "none",
+    "level": 80,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": 1260,
+      "currency": "USD",
+      "note": "Exam voucher. Requires 100% completion of the matching Academy job-role path, which needs a subscription."
+    },
+    "courseCode": null,
+    "examCode": null,
+    "examFormat": "practical",
+    "examHours": 240,
+    "passingScore": null,
+    "prerequisites": [
+      "Full completion of the matching HTB Academy job-role path"
+    ],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "sources": [
+      "https://academy.hackthebox.com/preview/certifications",
+      "https://help.hackthebox.com/en/articles/12741732-academy-certifications"
+    ],
+    "levelNote": "Score weights the required training as well as the exam: the Senior Web Penetration Tester path is rated Hard by HTB Academy, 15 modules. Exam-only score 76, +4 for the training. level measures the depth a credential demands, not only how the exam checks it."
+  },
+  {
+    "id": "htb-cwpe",
+    "name": "CWPE",
+    "fullName": "HTB Certified Wi-Fi Pentesting Expert",
+    "vendor": "Hack The Box",
+    "vendorUrl": "https://academy.hackthebox.com/preview/certifications/htb-certified-wi-fi-pentesting-expert",
+    "domain": "pentest",
+    "adjacentDomains": [],
+    "span": "none",
+    "level": 75,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": 1260,
+      "currency": "USD",
+      "note": "Exam voucher. Requires 100% completion of the matching Academy job-role path, which needs a subscription."
+    },
+    "courseCode": null,
+    "examCode": null,
+    "examFormat": "practical",
+    "examHours": 168,
+    "passingScore": null,
+    "prerequisites": [
+      "Full completion of the matching HTB Academy job-role path"
+    ],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "sources": [
+      "https://academy.hackthebox.com/preview/certifications",
+      "https://help.hackthebox.com/en/articles/12741732-academy-certifications"
+    ],
+    "levelNote": "Score weights the required training as well as the exam: the Wi-Fi Penetration Tester path is rated Hard by HTB Academy, 10 modules. Exam-only score 68, +7 for the training. level measures the depth a credential demands, not only how the exam checks it."
+  },
+  {
+    "id": "htb-cpts",
+    "name": "CPTS",
+    "fullName": "HTB Certified Penetration Testing Specialist",
+    "vendor": "Hack The Box",
+    "vendorUrl": "https://academy.hackthebox.com/preview/certifications/htb-certified-penetration-testing-specialist",
+    "domain": "pentest",
+    "adjacentDomains": [],
+    "span": "none",
+    "level": 71,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": 490,
+      "currency": "USD",
+      "note": "Exam voucher. Requires 100% completion of the matching Academy job-role path, which needs a subscription."
+    },
+    "courseCode": null,
+    "examCode": null,
+    "examFormat": "practical",
+    "examHours": 240,
+    "passingScore": 85,
+    "prerequisites": [
+      "Full completion of the matching HTB Academy job-role path"
+    ],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "sources": [
+      "https://academy.hackthebox.com/preview/certifications",
+      "https://help.hackthebox.com/en/articles/12741732-academy-certifications"
+    ],
+    "levelNote": "Score weights the required training as well as the exam: the Penetration Tester path is rated Medium by HTB Academy, 28 modules. Exam-only score 64, +7 for the training. level measures the depth a credential demands, not only how the exam checks it."
+  },
+  {
+    "id": "htb-coae",
+    "name": "COAE",
+    "fullName": "HTB Certified Offensive AI Expert",
+    "vendor": "Hack The Box",
+    "vendorUrl": "https://academy.hackthebox.com/preview/certifications/htb-certified-offensive-ai-expert",
+    "domain": "ai-security",
+    "adjacentDomains": [
+      "pentest"
+    ],
+    "span": "none",
+    "level": 70,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": 490,
+      "currency": "USD",
+      "note": "Exam voucher. Requires 100% completion of the matching Academy job-role path, which needs a subscription."
+    },
+    "courseCode": null,
+    "examCode": null,
+    "examFormat": "practical",
+    "examHours": 168,
+    "passingScore": null,
+    "prerequisites": [
+      "Full completion of the matching HTB Academy job-role path"
+    ],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "sources": [
+      "https://academy.hackthebox.com/preview/certifications",
+      "https://help.hackthebox.com/en/articles/12741732-academy-certifications"
+    ],
+    "levelNote": "AI security is roughly three years old as a discipline and its credentials have not yet accumulated the depth of the established expert-tier certs. The whole column was re-rated together on that basis. Seven-day practical against live AI infrastructure, behind HTB's Hard-rated AI Red Teamer path. The most demanding assessment in the AI column."
+  },
+  {
+    "id": "htb-cdsa",
+    "name": "CDSA",
+    "fullName": "HTB Certified Defensive Security Analyst",
+    "vendor": "Hack The Box",
+    "vendorUrl": "https://academy.hackthebox.com/preview/certifications/htb-certified-defensive-security-analyst",
+    "domain": "soc",
+    "adjacentDomains": [
+      "incident-response"
+    ],
+    "span": "none",
+    "level": 67,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": 490,
+      "currency": "USD",
+      "note": "Exam voucher. Requires 100% completion of the matching Academy job-role path, which needs a subscription."
+    },
+    "courseCode": null,
+    "examCode": null,
+    "examFormat": "practical",
+    "examHours": 168,
+    "passingScore": null,
+    "prerequisites": [
+      "Full completion of the matching HTB Academy job-role path"
+    ],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "sources": [
+      "https://academy.hackthebox.com/preview/certifications",
+      "https://help.hackthebox.com/en/articles/12741732-academy-certifications"
+    ],
+    "levelNote": "Score weights the required training as well as the exam: the SOC Analyst path on HTB Academy (difficulty not exposed on the library page; taken as Medium). Exam-only score 60, +7 for the training. level measures the depth a credential demands, not only how the exam checks it."
+  },
+  {
+    "id": "htb-cwes",
+    "name": "CWES",
+    "fullName": "HTB Certified Web Exploitation Specialist",
+    "vendor": "Hack The Box",
+    "vendorUrl": "https://academy.hackthebox.com/preview/certifications/htb-certified-web-exploitation-specialist",
+    "domain": "webapp",
+    "adjacentDomains": [],
+    "span": "none",
+    "level": 65,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": 490,
+      "currency": "USD",
+      "note": "Exam voucher. Requires 100% completion of the matching Academy job-role path, which needs a subscription."
+    },
+    "courseCode": null,
+    "examCode": null,
+    "examFormat": "practical",
+    "examHours": 168,
+    "passingScore": null,
+    "prerequisites": [
+      "Full completion of the matching HTB Academy job-role path"
+    ],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "sources": [
+      "https://academy.hackthebox.com/preview/certifications",
+      "https://help.hackthebox.com/en/articles/12741732-academy-certifications"
+    ],
+    "levelNote": "Score weights the required training as well as the exam: the Web Penetration Tester path on HTB Academy (difficulty not exposed on the library page; taken as Medium). Exam-only score 58, +7 for the training. level measures the depth a credential demands, not only how the exam checks it."
+  },
+  {
+    "id": "htb-cbbh",
+    "name": "CBBH",
+    "fullName": "HTB Certified Bug Bounty Hunter",
+    "vendor": "Hack The Box",
+    "vendorUrl": "https://academy.hackthebox.com/preview/certifications",
+    "domain": "webapp",
+    "adjacentDomains": [],
+    "span": "none",
+    "level": 55,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "Replaced by CWES on 1 October 2025; existing holders were migrated automatically."
+    },
+    "courseCode": null,
+    "examCode": null,
+    "examFormat": "practical",
+    "examHours": 168,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "retired",
+    "lastVerified": "2026-08-03",
+    "sources": [
+      "https://www.hackthebox.com/blog/HTB-CWES-announcement"
+    ]
+  },
+  {
+    "id": "htb-cjca",
+    "name": "CJCA",
+    "fullName": "HTB Certified Junior Cybersecurity Associate",
+    "vendor": "Hack The Box",
+    "vendorUrl": "https://academy.hackthebox.com/preview/certifications/htb-certified-junior-cybersecurity-associate",
+    "domain": "security-engineering",
+    "adjacentDomains": [
+      "soc",
+      "pentest"
+    ],
+    "span": "none",
+    "level": 41,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": 490,
+      "currency": "USD",
+      "note": "Exam voucher. Requires 100% completion of the matching Academy job-role path, which needs a subscription."
+    },
+    "courseCode": null,
+    "examCode": null,
+    "examFormat": "practical",
+    "examHours": 120,
+    "passingScore": null,
+    "prerequisites": [
+      "Full completion of the matching HTB Academy job-role path"
+    ],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "sources": [
+      "https://academy.hackthebox.com/preview/certifications",
+      "https://help.hackthebox.com/en/articles/12741732-academy-certifications"
+    ],
+    "levelNote": "Score weights the required training as well as the exam: the Junior Cybersecurity Analyst path on HTB Academy, an entry-level path. Exam-only score 38, +3 for the training. level measures the depth a credential demands, not only how the exam checks it."
+  }
+]

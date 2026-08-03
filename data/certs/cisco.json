@@ -1,0 +1,156 @@
+[
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "levelNote": "No training weight: this body sells the exam on its own and its courseware is optional. Level reflects the exam alone. An eight-hour hands-on lab; among the most demanding practical exams in networking security.",
+    "courseCode": null,
+    "examCode": null,
+    "examFormat": "practical",
+    "examHours": 8,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": true,
+      "years": 3,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "id": "cisco-ccie-security",
+    "name": "CCIE Security",
+    "fullName": "Cisco Certified Internetwork Expert Security",
+    "vendor": "Cisco",
+    "vendorUrl": "https://www.cisco.com/site/us/en/learn/training-certifications/certifications/",
+    "domain": "security-engineering",
+    "level": 88,
+    "cost": {
+      "amount": 1900,
+      "currency": "USD",
+      "note": "Eight-hour hands-on lab plus a written qualifying exam."
+    },
+    "sources": [
+      "https://www.cisco.com/site/us/en/learn/training-certifications/certifications/"
+    ]
+  },
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "levelNote": "No training weight: this body sells the exam on its own and its courseware is optional. Level reflects the exam alone.",
+    "courseCode": null,
+    "examCode": "350-701 SCOR + concentration",
+    "examFormat": "multiple-choice",
+    "examHours": null,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": true,
+      "years": 3,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "id": "cisco-ccnp-security",
+    "name": "CCNP Security",
+    "fullName": "Cisco Certified Network Professional Security",
+    "vendor": "Cisco",
+    "vendorUrl": "https://www.cisco.com/site/us/en/learn/training-certifications/certifications/",
+    "domain": "security-engineering",
+    "level": 55,
+    "cost": {
+      "amount": 700,
+      "currency": "USD",
+      "note": "Two exams: core plus a concentration."
+    },
+    "sources": [
+      "https://www.cisco.com/site/us/en/learn/training-certifications/certifications/"
+    ]
+  },
+  {
+    "adjacentDomains": [
+      "incident-response"
+    ],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "levelNote": "No training weight: this body sells the exam on its own and its courseware is optional. Level reflects the exam alone.",
+    "courseCode": null,
+    "examCode": "350-201 CBRCOR + 300-215 CBRFIR",
+    "examFormat": "multiple-choice",
+    "examHours": null,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": true,
+      "years": 3,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "id": "cisco-cyberops-professional",
+    "name": "CyberOps Professional",
+    "fullName": "Cisco Certified CyberOps Professional",
+    "vendor": "Cisco",
+    "vendorUrl": "https://www.cisco.com/site/us/en/learn/training-certifications/certifications/",
+    "domain": "soc",
+    "level": 55,
+    "cost": {
+      "amount": 700,
+      "currency": "USD",
+      "note": "Two exams: core plus a concentration."
+    },
+    "sources": [
+      "https://www.cisco.com/site/us/en/learn/training-certifications/certifications/"
+    ]
+  },
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "levelNote": "No training weight: this body sells the exam on its own and its courseware is optional. Level reflects the exam alone. Renamed from CyberOps Associate to CCNA Cybersecurity in February 2026; existing holders were migrated automatically.",
+    "courseCode": null,
+    "examCode": "200-201 CBROPS",
+    "examFormat": "multiple-choice",
+    "examHours": 2,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": true,
+      "years": 3,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "id": "cisco-ccna-cybersecurity",
+    "name": "CCNA Cyber",
+    "fullName": "Cisco Certified Network Associate Cybersecurity",
+    "vendor": "Cisco",
+    "vendorUrl": "https://www.cisco.com/site/us/en/learn/training-certifications/certifications/",
+    "domain": "soc",
+    "level": 40,
+    "cost": {
+      "amount": 300,
+      "currency": "USD",
+      "note": "120-minute exam."
+    },
+    "sources": [
+      "https://www.cisco.com/site/us/en/learn/training-certifications/certifications/"
+    ]
+  }
+]

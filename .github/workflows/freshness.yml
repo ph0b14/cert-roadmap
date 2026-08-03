@@ -1,0 +1,82 @@
+name: freshness
+
+# The failure mode this project is built to avoid is silent decay. Every Monday
+# we probe every vendor URL and surface anything broken or long-unverified as a
+# tracking issue, so staleness becomes visible work instead of slow rot.
+on:
+  schedule:
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  linkcheck:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+
+      - id: check
+        run: npm run linkcheck
+        continue-on-error: true
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: linkcheck-report
+          path: reports/linkcheck.json
+
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs')
+            const report = JSON.parse(fs.readFileSync('reports/linkcheck.json', 'utf8'))
+            if (!report.broken.length && !report.stale.length) {
+              core.info('dataset is fresh — no issue needed')
+              return
+            }
+
+            const lines = ['## Broken vendor links', '']
+            if (report.broken.length) {
+              lines.push('| Cert | Domain | Status | URL |', '| --- | --- | --- | --- |')
+              for (const b of report.broken) {
+                lines.push(`| ${b.name} | ${b.domain} | \`${b.status}\` | ${b.url} |`)
+              }
+            } else {
+              lines.push('_None._')
+            }
+
+            lines.push('', `## Unverified for 180+ days (${report.stale.length})`, '')
+            lines.push(report.stale.map(s => `- ${s.name} (${s.domain}) — last verified ${s.lastVerified}`).join('\n') || '_None._')
+
+            const title = `Freshness: ${report.broken.length} broken, ${report.stale.length} stale`
+            const existing = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: 'freshness',
+            })
+
+            if (existing.data.length) {
+              await github.rest.issues.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: existing.data[0].number,
+                title,
+                body: lines.join('\n'),
+              })
+            } else {
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title,
+                body: lines.join('\n'),
+                labels: ['freshness'],
+              })
+            }

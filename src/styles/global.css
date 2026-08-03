@@ -1,0 +1,120 @@
+@import 'tailwindcss';
+
+/*
+ * Theme tokens mirror pyaeheinnkyaw.com (Blogus) so the roadmap reads as part
+ * of the same site when served from a subdomain. The portfolio's own variable
+ * names are kept as the source of truth; the chart's semantic tokens
+ * (surface / ink / edge) derive from them, so restyling the parent site only
+ * requires editing the two blocks below.
+ */
+:root {
+  --pri-color: #8c1a38;
+  --head-color: #212121;
+  --text-color: #718096;
+  --bg-color: #fff;
+  --box-color: #fff;
+  --border-color: #e2e8f0;
+  --wrap-color: #eff2f7;
+
+  --headFont: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', system-ui, sans-serif;
+  --bodyFont: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', system-ui, sans-serif;
+
+  /* Derived, semantic tokens the chart consumes. */
+  --color-surface: var(--bg-color);
+  --color-surface-2: var(--wrap-color);
+  --color-surface-3: #dfe5ee;
+  --color-edge: var(--border-color);
+  --color-ink: var(--head-color);
+  --color-ink-dim: #4a5568;
+  --color-ink-faint: #8494a8;
+
+  /*
+   * Band hues are tuned per theme rather than shared: a colour with enough
+   * contrast on white is usually too dark on black, and vice versa. Offensive
+   * takes the site's crimson so the roadmap's dominant accent matches the
+   * parent site.
+   */
+  --color-band-offensive: #8c1a38;
+  --color-band-defensive: #1c5f80;
+  --color-band-platform: #1c6b52;
+  --color-band-specialist: #8a5a12;
+}
+
+html[data-theme='dark'] {
+  --head-color: #fff;
+  --text-color: #d5d5d5;
+  --bg-color: #000;
+  --box-color: #222;
+  --border-color: #333;
+  --wrap-color: #161616;
+
+  --color-surface-3: #2c2c2c;
+  --color-ink-dim: #b4b4b4;
+  --color-ink-faint: #8a8a8a;
+
+  --color-band-offensive: #e2657f;
+  --color-band-defensive: #5cb3d9;
+  --color-band-platform: #4cc496;
+  --color-band-specialist: #d9a441;
+}
+
+html {
+  background: var(--color-surface);
+  scrollbar-color: var(--color-surface-3) transparent;
+  color-scheme: light;
+}
+html[data-theme='dark'] {
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  color: var(--color-ink);
+  background: var(--color-surface);
+  font-family: var(--bodyFont);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--headFont);
+  color: var(--color-ink);
+}
+
+a {
+  color: var(--pri-color);
+}
+
+/* The chart scrolls horizontally on narrow viewports; keep the scrollbar subtle
+   but visible so the affordance is discoverable. */
+.chart-scroll::-webkit-scrollbar {
+  height: 10px;
+}
+.chart-scroll::-webkit-scrollbar-thumb {
+  background: var(--color-surface-3);
+  border-radius: 5px;
+}
+.chart-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Ease the colour flip when the user toggles, but never on first paint —
+   Base.astro adds .theme-ready only after the stored preference is applied. */
+.theme-ready body,
+.theme-ready body * {
+  transition:
+    background-color 0.18s ease,
+    border-color 0.18s ease,
+    color 0.18s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

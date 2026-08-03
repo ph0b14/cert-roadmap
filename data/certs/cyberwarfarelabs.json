@@ -1,0 +1,382 @@
+[
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "levelNote": "Assessed as a 30-day lab. Level rests on exam format and course positioning; this body does not publish question counts or cut scores.",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": null,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "id": "cwl-csco",
+    "name": "CSCO",
+    "fullName": "CyberWarFare Labs Certified Stealth Cyber Operator",
+    "vendor": "CyberWarFare Labs",
+    "vendorUrl": "https://cyberwarfare.live/certifications/",
+    "domain": "pentest",
+    "level": 65,
+    "examFormat": "practical",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "Course and exam sold together."
+    },
+    "sources": [
+      "https://cyberwarfare.live/certifications/"
+    ]
+  },
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "levelNote": "Assessed as a exam-based. Level rests on exam format and course positioning; this body does not publish question counts or cut scores.",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": null,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "id": "cwl-cedp",
+    "name": "CEDP",
+    "fullName": "CyberWarFare Labs Certified Exploit Development Professional",
+    "vendor": "CyberWarFare Labs",
+    "vendorUrl": "https://cyberwarfare.live/certifications/",
+    "domain": "exploitdev",
+    "level": 62,
+    "examFormat": "practical",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "Course and exam sold together."
+    },
+    "sources": [
+      "https://cyberwarfare.live/certifications/"
+    ]
+  },
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "levelNote": "Assessed as a exam-based. Level rests on exam format and course positioning; this body does not publish question counts or cut scores.",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": null,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "id": "cwl-crts",
+    "name": "CRTS",
+    "fullName": "CyberWarFare Labs Certified Red Team Specialist (V2)",
+    "vendor": "CyberWarFare Labs",
+    "vendorUrl": "https://cyberwarfare.live/certifications/",
+    "domain": "pentest",
+    "level": 58,
+    "examFormat": "practical",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "Course and exam sold together."
+    },
+    "sources": [
+      "https://cyberwarfare.live/certifications/"
+    ]
+  },
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "levelNote": "Assessed as a 30-day flag-based. Level rests on exam format and course positioning; this body does not publish question counts or cut scores.",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": null,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "id": "cwl-adrts",
+    "name": "AD-RTS",
+    "fullName": "CyberWarFare Labs Active Directory Red Team Specialist",
+    "vendor": "CyberWarFare Labs",
+    "vendorUrl": "https://cyberwarfare.live/certifications/",
+    "domain": "pentest",
+    "level": 55,
+    "examFormat": "practical",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "Course and exam sold together."
+    },
+    "sources": [
+      "https://cyberwarfare.live/certifications/"
+    ]
+  },
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "levelNote": "Assessed as a 30-day lab. Level rests on exam format and course positioning; this body does not publish question counts or cut scores.",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": null,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "id": "cwl-cpta",
+    "name": "CPTA",
+    "fullName": "CyberWarFare Labs Certified Purple Team Analyst (V2)",
+    "vendor": "CyberWarFare Labs",
+    "vendorUrl": "https://cyberwarfare.live/certifications/",
+    "domain": "soc",
+    "level": 55,
+    "examFormat": "practical",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "Course and exam sold together."
+    },
+    "sources": [
+      "https://cyberwarfare.live/certifications/"
+    ]
+  },
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "levelNote": "Assessed as a 6-hour CTF. Level rests on exam format and course positioning; this body does not publish question counts or cut scores.",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": null,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "id": "cwl-crtid",
+    "name": "CRT-ID",
+    "fullName": "CyberWarFare Labs Certified Red Team Infra Developer",
+    "vendor": "CyberWarFare Labs",
+    "vendorUrl": "https://cyberwarfare.live/certifications/",
+    "domain": "pentest",
+    "level": 55,
+    "examFormat": "practical",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "Course and exam sold together."
+    },
+    "sources": [
+      "https://cyberwarfare.live/certifications/"
+    ]
+  },
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "levelNote": "Assessed as a flag-based across AWS, Azure and GCP. Level rests on exam format and course positioning; this body does not publish question counts or cut scores.",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": null,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "id": "cwl-mcrta",
+    "name": "MCRTA",
+    "fullName": "CyberWarFare Labs Multi-Cloud Red Team Analyst",
+    "vendor": "CyberWarFare Labs",
+    "vendorUrl": "https://cyberwarfare.live/certifications/",
+    "domain": "cloud",
+    "level": 52,
+    "examFormat": "practical",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "Course and exam sold together."
+    },
+    "sources": [
+      "https://cyberwarfare.live/certifications/"
+    ]
+  },
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "levelNote": "Assessed as a flag-based. Level rests on exam format and course positioning; this body does not publish question counts or cut scores.",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": null,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "id": "cwl-mcbta",
+    "name": "MCBTA",
+    "fullName": "CyberWarFare Labs Multi-Cloud Blue Team Analyst",
+    "vendor": "CyberWarFare Labs",
+    "vendorUrl": "https://cyberwarfare.live/certifications/",
+    "domain": "cloud",
+    "level": 50,
+    "examFormat": "practical",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "Course and exam sold together."
+    },
+    "sources": [
+      "https://cyberwarfare.live/certifications/"
+    ]
+  },
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "levelNote": "Assessed as a 6-hour practical after 30 days of labs. Level rests on exam format and course positioning; this body does not publish question counts or cut scores.",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": null,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "id": "cwl-crta",
+    "name": "CRTA",
+    "fullName": "CyberWarFare Labs Certified Red Team Analyst",
+    "vendor": "CyberWarFare Labs",
+    "vendorUrl": "https://cyberwarfare.live/certifications/",
+    "domain": "pentest",
+    "level": 48,
+    "examFormat": "practical",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "Course and exam sold together."
+    },
+    "sources": [
+      "https://cyberwarfare.live/certifications/"
+    ]
+  },
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "levelNote": "Assessed as a exam-based. Level rests on exam format and course positioning; this body does not publish question counts or cut scores.",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": null,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "id": "cwl-ccda",
+    "name": "CCDA",
+    "fullName": "CyberWarFare Labs Certified Cyber Defence Analyst",
+    "vendor": "CyberWarFare Labs",
+    "vendorUrl": "https://cyberwarfare.live/certifications/",
+    "domain": "soc",
+    "level": 45,
+    "examFormat": "practical",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "Course and exam sold together."
+    },
+    "sources": [
+      "https://cyberwarfare.live/certifications/"
+    ]
+  }
+]

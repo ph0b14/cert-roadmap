@@ -1,0 +1,56 @@
+name: Dispute a difficulty score
+description: A certification is rated too high or too low.
+title: 'Level: <ACRONYM> <current> → <proposed>'
+labels: [level-dispute]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Scores are editorial judgements and are published openly so they can be argued with. The
+        anchor table and the scoring rules are in
+        [CONTRIBUTING.md](../blob/main/CONTRIBUTING.md).
+
+        **What carries weight:** exam format and duration, cut score, prerequisites, the depth of
+        the required training, and comparison to a named anchor.
+        **What does not:** price, prestige, how hard you personally found it, or the vendor's own
+        tier naming.
+
+  - type: input
+    id: cert
+    attributes:
+      label: Which certification
+      placeholder: GCFA
+    validations: { required: true }
+
+  - type: input
+    id: proposed
+    attributes:
+      label: Current score → proposed score
+      placeholder: 77 → 72
+    validations: { required: true }
+
+  - type: input
+    id: anchor
+    attributes:
+      label: Which anchor is it comparable to
+      description: Name a certification from the anchor table and say why this one belongs beside it.
+      placeholder: About level with OSWE (75) — same depth of source-code work, shorter exam.
+    validations: { required: true }
+
+  - type: textarea
+    id: case
+    attributes:
+      label: The case
+      description: >-
+        Reference the evidence on the record — exam format, hours, cut score, prerequisites,
+        training tier. If the score breaks a scoring rule on purpose, say which and why.
+    validations: { required: true }
+
+  - type: textarea
+    id: experience
+    attributes:
+      label: Have you sat this exam?
+      description: >-
+        Optional, but first-hand experience is exactly what the published evidence cannot capture —
+        GIME is scored above the multiple-choice ceiling because a practitioner explained that its
+        missing hands-on component is a logistics constraint, not a depth one.

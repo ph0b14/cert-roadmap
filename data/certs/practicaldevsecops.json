@@ -1,0 +1,382 @@
+[
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "levelNote": "All Practical DevSecOps exams are task-oriented against live infrastructure. Level rests on exam format and course positioning; this body does not publish question counts or cut scores.",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": null,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "id": "pdso-cde",
+    "name": "CDE",
+    "fullName": "Practical DevSecOps Certified DevSecOps Expert",
+    "vendor": "Practical DevSecOps",
+    "vendorUrl": "https://www.practical-devsecops.com/",
+    "domain": "appsec",
+    "level": 68,
+    "examFormat": "practical",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "Course and exam sold together."
+    },
+    "sources": [
+      "https://www.practical-devsecops.com/"
+    ]
+  },
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "levelNote": "All Practical DevSecOps exams are task-oriented against live infrastructure. Level rests on exam format and course positioning; this body does not publish question counts or cut scores.",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": null,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "id": "pdso-ccnse",
+    "name": "CCNSE",
+    "fullName": "Practical DevSecOps Certified Cloud-Native Security Expert",
+    "vendor": "Practical DevSecOps",
+    "vendorUrl": "https://www.practical-devsecops.com/",
+    "domain": "cloud",
+    "level": 60,
+    "examFormat": "practical",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "Course and exam sold together."
+    },
+    "sources": [
+      "https://www.practical-devsecops.com/"
+    ]
+  },
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "levelNote": "12-hour hands-on exam. All Practical DevSecOps exams are task-oriented against live infrastructure. Level rests on exam format and course positioning; this body does not publish question counts or cut scores.",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": 12,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "id": "pdso-cdp",
+    "name": "CDP",
+    "fullName": "Practical DevSecOps Certified DevSecOps Professional",
+    "vendor": "Practical DevSecOps",
+    "vendorUrl": "https://www.practical-devsecops.com/",
+    "domain": "appsec",
+    "level": 58,
+    "examFormat": "practical",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "Course and exam sold together."
+    },
+    "sources": [
+      "https://www.practical-devsecops.com/"
+    ]
+  },
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "levelNote": "All Practical DevSecOps exams are task-oriented against live infrastructure. Level rests on exam format and course positioning; this body does not publish question counts or cut scores.",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": null,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "id": "pdso-csse",
+    "name": "CSSE",
+    "fullName": "Practical DevSecOps Certified Software Supply Chain Security Expert",
+    "vendor": "Practical DevSecOps",
+    "vendorUrl": "https://www.practical-devsecops.com/",
+    "domain": "appsec",
+    "level": 58,
+    "examFormat": "practical",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "Course and exam sold together."
+    },
+    "sources": [
+      "https://www.practical-devsecops.com/"
+    ]
+  },
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "levelNote": "All Practical DevSecOps exams are task-oriented against live infrastructure. Level rests on exam format and course positioning; this body does not publish question counts or cut scores.",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": null,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "id": "pdso-casp",
+    "name": "CASP",
+    "fullName": "Practical DevSecOps Certified API Security Professional",
+    "vendor": "Practical DevSecOps",
+    "vendorUrl": "https://www.practical-devsecops.com/",
+    "domain": "webapp",
+    "level": 55,
+    "examFormat": "practical",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "Course and exam sold together."
+    },
+    "sources": [
+      "https://www.practical-devsecops.com/"
+    ]
+  },
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "levelNote": "6-hour hands-on exam. All Practical DevSecOps exams are task-oriented against live infrastructure. Level rests on exam format and course positioning; this body does not publish question counts or cut scores.",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": 6,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "id": "pdso-ccse",
+    "name": "PDSO-CCSE",
+    "fullName": "Practical DevSecOps Certified Container Security Expert",
+    "vendor": "Practical DevSecOps",
+    "vendorUrl": "https://www.practical-devsecops.com/",
+    "domain": "cloud",
+    "level": 55,
+    "examFormat": "practical",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "Course and exam sold together."
+    },
+    "sources": [
+      "https://www.practical-devsecops.com/"
+    ]
+  },
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "levelNote": "AI security is roughly three years old as a discipline and its credentials have not yet accumulated the depth of the established expert-tier certs. The whole column was re-rated together on that basis. Task-oriented hands-on exam from Practical DevSecOps, focused on securing AI pipelines rather than attacking models.",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": null,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "id": "pdso-caisp",
+    "name": "CAISP",
+    "fullName": "Practical DevSecOps Certified AI Security Professional",
+    "vendor": "Practical DevSecOps",
+    "vendorUrl": "https://www.practical-devsecops.com/",
+    "domain": "ai-security",
+    "level": 52,
+    "examFormat": "practical",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "Course and exam sold together."
+    },
+    "sources": [
+      "https://www.practical-devsecops.com/"
+    ]
+  },
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "levelNote": "AI security is roughly three years old as a discipline and its credentials have not yet accumulated the depth of the established expert-tier certs. The whole column was re-rated together on that basis. Hands-on exam covering Model Context Protocol security, a narrow if timely scope.",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": null,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "id": "pdso-cmcpse",
+    "name": "CMCPSE",
+    "fullName": "Practical DevSecOps Certified MCP Security Expert",
+    "vendor": "Practical DevSecOps",
+    "vendorUrl": "https://www.practical-devsecops.com/",
+    "domain": "ai-security",
+    "level": 50,
+    "examFormat": "practical",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "Course and exam sold together."
+    },
+    "sources": [
+      "https://www.practical-devsecops.com/"
+    ]
+  },
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "levelNote": "All Practical DevSecOps exams are task-oriented against live infrastructure. Level rests on exam format and course positioning; this body does not publish question counts or cut scores.",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": null,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "id": "pdso-ctmp",
+    "name": "CTMP",
+    "fullName": "Practical DevSecOps Certified Threat Modeling Professional",
+    "vendor": "Practical DevSecOps",
+    "vendorUrl": "https://www.practical-devsecops.com/",
+    "domain": "security-engineering",
+    "level": 50,
+    "examFormat": "practical",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "Course and exam sold together."
+    },
+    "sources": [
+      "https://www.practical-devsecops.com/"
+    ]
+  },
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "levelNote": "All Practical DevSecOps exams are task-oriented against live infrastructure. Level rests on exam format and course positioning; this body does not publish question counts or cut scores.",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": null,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "id": "pdso-csc",
+    "name": "CSC",
+    "fullName": "Practical DevSecOps Certified Security Champion",
+    "vendor": "Practical DevSecOps",
+    "vendorUrl": "https://www.practical-devsecops.com/",
+    "domain": "appsec",
+    "level": 35,
+    "examFormat": "practical",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "Course and exam sold together."
+    },
+    "sources": [
+      "https://www.practical-devsecops.com/"
+    ]
+  }
+]

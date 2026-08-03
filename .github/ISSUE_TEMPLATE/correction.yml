@@ -1,0 +1,54 @@
+name: Correct a certification
+description: A price, exam format, URL, status or other field is wrong or out of date.
+title: 'Fix: <ACRONYM> — <field>'
+labels: [correction]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Vendors change their catalogues constantly — renames, retirements, re-priced exams. This
+        is the most useful kind of contribution and the easiest to verify.
+
+  - type: input
+    id: cert
+    attributes:
+      label: Which certification
+      placeholder: GCFA
+    validations: { required: true }
+
+  - type: dropdown
+    id: field
+    attributes:
+      label: What is wrong
+      options:
+        - Price
+        - Exam format
+        - Exam length
+        - Passing score
+        - Status (retired, renamed, announced)
+        - Official URL
+        - Domain placement
+        - Prerequisites
+        - Renewal terms
+        - Name or acronym
+        - Something else
+    validations: { required: true }
+
+  - type: input
+    id: current
+    attributes:
+      label: What the chart says now
+    validations: { required: true }
+
+  - type: input
+    id: correct
+    attributes:
+      label: What it should say
+    validations: { required: true }
+
+  - type: input
+    id: source
+    attributes:
+      label: Source
+      description: A page on the issuing body's own site showing the correct value.
+    validations: { required: true }

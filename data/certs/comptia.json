@@ -1,0 +1,234 @@
+[
+  {
+    "adjacentDomains": [
+      "cloud"
+    ],
+    "span": "none",
+    "courseCode": null,
+    "examCode": "CAS-005",
+    "examHours": 2.75,
+    "passingScore": null,
+    "prerequisites": [
+      "Ten years IT administration including five in security (recommended)"
+    ],
+    "renewal": {
+      "required": true,
+      "years": 3,
+      "ceCredits": 75
+    },
+    "accreditation": {
+      "ansiIso17024": true,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "id": "comptia-securityx",
+    "name": "SecurityX",
+    "fullName": "CompTIA SecurityX",
+    "vendor": "CompTIA",
+    "vendorUrl": "https://www.comptia.org/en-us/certifications/securityx/",
+    "domain": "security-engineering",
+    "level": 55,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": 417,
+      "currency": "USD",
+      "note": "Single-attempt voucher. Formerly CASP+; renamed SecurityX in December 2024."
+    },
+    "examFormat": "hybrid",
+    "sources": [
+      "https://www.comptia.org/en-us/certifications/securityx/"
+    ]
+  },
+  {
+    "adjacentDomains": [
+      "incident-response"
+    ],
+    "span": "none",
+    "courseCode": null,
+    "examCode": "CS0-003",
+    "examHours": 2.75,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": true,
+      "years": 3,
+      "ceCredits": 60
+    },
+    "accreditation": {
+      "ansiIso17024": true,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "id": "comptia-cysa-plus",
+    "name": "CySA+",
+    "fullName": "CompTIA Cybersecurity Analyst",
+    "vendor": "CompTIA",
+    "vendorUrl": "https://www.comptia.org/en-us/certifications/cybersecurity-analyst/",
+    "domain": "soc",
+    "level": 48,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": 439,
+      "currency": "USD",
+      "note": "Single-attempt voucher, US pricing as of 1 June 2026. CompTIA reports a scaled pass mark (750 of 100–900 for SY0-701/CS0-003/PT0-003), not a percentage."
+    },
+    "examFormat": "hybrid",
+    "sources": [
+      "https://www.comptia.org/en-us/certifications/cybersecurity-analyst/"
+    ]
+  },
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "courseCode": null,
+    "examCode": "PT0-003",
+    "examHours": 2.75,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": true,
+      "years": 3,
+      "ceCredits": 60
+    },
+    "accreditation": {
+      "ansiIso17024": true,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "id": "comptia-pentest-plus",
+    "name": "PenTest+",
+    "fullName": "CompTIA PenTest+",
+    "vendor": "CompTIA",
+    "vendorUrl": "https://www.comptia.org/en-us/certifications/pentest/",
+    "domain": "pentest",
+    "level": 48,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": 439,
+      "currency": "USD",
+      "note": "Single-attempt voucher, US pricing as of 1 June 2026. CompTIA reports a scaled pass mark (750 of 100–900 for SY0-701/CS0-003/PT0-003), not a percentage."
+    },
+    "examFormat": "hybrid",
+    "sources": [
+      "https://www.comptia.org/en-us/certifications/pentest/"
+    ]
+  },
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": null,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": true,
+      "years": 3,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "announced",
+    "lastVerified": "2026-08-03",
+    "id": "comptia-secot-plus",
+    "name": "SecOT+",
+    "fullName": "CompTIA SecOT+",
+    "vendor": "CompTIA",
+    "vendorUrl": "https://www.comptia.org/en-us/certifications/",
+    "domain": "ot-ics-iot",
+    "level": 45,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "Announced for December 2026; exam details not yet published."
+    },
+    "examFormat": null,
+    "sources": [
+      "https://www.comptia.org/en-us/certifications/"
+    ]
+  },
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "courseCode": null,
+    "examCode": "CY0-001",
+    "examHours": 1,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": true,
+      "years": 3,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "id": "comptia-secai-plus",
+    "name": "SecAI+",
+    "fullName": "CompTIA SecAI+",
+    "vendor": "CompTIA",
+    "vendorUrl": "https://www.comptia.org/en-us/certifications/secai/",
+    "domain": "ai-security",
+    "level": 40,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "Pricing not published on the certification page. CompTIA reports a scaled pass mark (750 of 100–900 for SY0-701/CS0-003/PT0-003), not a percentage."
+    },
+    "examFormat": "hybrid",
+    "sources": [
+      "https://www.comptia.org/en-us/certifications/secai/"
+    ],
+    "levelNote": "AI security is roughly three years old as a discipline and its credentials have not yet accumulated the depth of the established expert-tier certs. The whole column was re-rated together on that basis. 60 questions in 60 minutes, CompTIA's shortest security exam."
+  },
+  {
+    "adjacentDomains": [
+      "soc",
+      "incident-response"
+    ],
+    "span": "none",
+    "courseCode": null,
+    "examCode": "SY0-701",
+    "examHours": 1.5,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": true,
+      "years": 3,
+      "ceCredits": 50
+    },
+    "accreditation": {
+      "ansiIso17024": true,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "id": "comptia-security-plus",
+    "name": "Security+",
+    "fullName": "CompTIA Security+",
+    "vendor": "CompTIA",
+    "vendorUrl": "https://www.comptia.org/en-us/certifications/security/",
+    "domain": "security-engineering",
+    "level": 33,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": 439,
+      "currency": "USD",
+      "note": "Single-attempt voucher, US pricing as of 1 June 2026. CompTIA reports a scaled pass mark (750 of 100–900 for SY0-701/CS0-003/PT0-003), not a percentage."
+    },
+    "examFormat": "hybrid",
+    "sources": [
+      "https://www.comptia.org/en-us/certifications/security/"
+    ]
+  }
+]

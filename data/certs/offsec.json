@@ -1,0 +1,647 @@
+[
+  {
+    "id": "osee",
+    "name": "OSEE",
+    "fullName": "OffSec Exploitation Expert",
+    "vendor": "OffSec",
+    "vendorUrl": "https://www.offsec.com/courses/exp-401/",
+    "domain": "exploitdev",
+    "adjacentDomains": [],
+    "level": 93,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "Pricing not published on the OffSec website for EXP-401; historically offered as a Black Hat USA in-person course at ~$5,000-$12,000+ depending on format/year. Learn One ($2,749/year) covers 200/300-level courses and may not include EXP-401. Contact OffSec directly for current pricing."
+    },
+    "span": "none",
+    "courseCode": "EXP-401",
+    "examCode": null,
+    "examFormat": "practical",
+    "examHours": 72,
+    "passingScore": null,
+    "prerequisites": [
+      "osed"
+    ],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "sources": [
+      "https://www.offsec.com/courses/exp-401/"
+    ],
+    "levelNote": "Score weights the required training as well as the exam: EXP-401 is rated Expert by OffSec, its most advanced course. Exam-only score 93, +4 for the training. level measures the depth a credential demands, not only how the exam checks it."
+  },
+  {
+    "id": "osce3",
+    "name": "OSCE³",
+    "fullName": "OffSec Certified Expert ³",
+    "vendor": "OffSec",
+    "vendorUrl": "https://www.offsec.com/certificates/osce3/",
+    "domain": "pentest",
+    "adjacentDomains": [
+      "webapp",
+      "exploitdev"
+    ],
+    "level": 88,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "OSCE3 is automatically awarded at no additional cost upon earning all three component certifications: OSEP (PEN-300), OSWE (WEB-300), and OSED (EXP-301). Each component cert costs $1,749 as a Course + Cert Bundle (or $2,749/year via Learn One). Total cost is approximately $5,247 if purchasing three separate Course + Cert Bundles, but there is no standalone OSCE3 exam or fee. OSCE3 does not expire."
+    },
+    "span": "adjacent",
+    "courseCode": null,
+    "examCode": null,
+    "examFormat": "practical",
+    "examHours": null,
+    "passingScore": null,
+    "prerequisites": [
+      "osep",
+      "oswe",
+      "osed"
+    ],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "sources": [
+      "https://www.offsec.com/certificates/osce3/",
+      "https://www.offsec.com/blog/osce3-certification/"
+    ],
+    "levelNote": "Composite credential, awarded for holding its component certifications. No training weight applied — that would count the components' courses twice."
+  },
+  {
+    "id": "osep",
+    "name": "OSEP",
+    "fullName": "OffSec Experienced Penetration Tester",
+    "vendor": "OffSec",
+    "vendorUrl": "https://www.offsec.com/courses/pen-300/",
+    "domain": "pentest",
+    "adjacentDomains": [],
+    "level": 84,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": 1749,
+      "currency": "USD",
+      "note": "Course + Cert Bundle: $1,749 (90 days lab access, 1 exam attempt). Learn One annual subscription: $2,749/year (1 year access, 2 exam attempts). OSEP does not expire."
+    },
+    "span": "none",
+    "courseCode": "PEN-300",
+    "examCode": null,
+    "examFormat": "practical",
+    "examHours": 48,
+    "passingScore": null,
+    "prerequisites": [
+      "oscp"
+    ],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "sources": [
+      "https://www.offsec.com/courses/pen-300/",
+      "https://www.offsec.com/pricing/"
+    ],
+    "levelNote": "Score weights the required training as well as the exam: PEN-300 is rated Advanced by OffSec, 671 hours of content across 20 modules. Exam-only score 80, +4 for the training. level measures the depth a credential demands, not only how the exam checks it."
+  },
+  {
+    "id": "osed",
+    "name": "OSED",
+    "fullName": "OffSec Exploit Developer",
+    "vendor": "OffSec",
+    "vendorUrl": "https://www.offsec.com/courses/exp-301/",
+    "domain": "exploitdev",
+    "adjacentDomains": [
+      "pentest"
+    ],
+    "level": 80,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": 1749,
+      "currency": "USD",
+      "note": "Course + Cert Bundle: $1,749 (90 days lab access, 1 exam attempt). Learn One annual subscription: $2,749/year (1 year access, 2 exam attempts). OSED does not expire. Also required for OSCE3 (no additional OSCE3 exam cost)."
+    },
+    "span": "none",
+    "courseCode": "EXP-301",
+    "examCode": null,
+    "examFormat": "practical",
+    "examHours": 48,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "sources": [
+      "https://www.offsec.com/courses/exp-301/"
+    ],
+    "levelNote": "Score weights the required training as well as the exam: EXP-301 is rated Advanced by OffSec, 932 hours across 13 modules. Exam-only score 76, +4 for the training. level measures the depth a credential demands, not only how the exam checks it."
+  },
+  {
+    "id": "oswe",
+    "name": "OSWE",
+    "fullName": "OffSec Web Expert",
+    "vendor": "OffSec",
+    "vendorUrl": "https://www.offsec.com/courses/web-300/",
+    "domain": "webapp",
+    "adjacentDomains": [
+      "appsec"
+    ],
+    "level": 79,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": 1749,
+      "currency": "USD",
+      "note": "Course + Cert Bundle: $1,749 (90 days lab access, 1 exam attempt). Learn One annual subscription: $2,749/year (1 year access, 2 exam attempts). OSWE does not expire. Also required for OSCE3 (no additional OSCE3 exam cost)."
+    },
+    "span": "none",
+    "courseCode": "WEB-300",
+    "examCode": null,
+    "examFormat": "practical",
+    "examHours": 48,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "sources": [
+      "https://www.offsec.com/courses/web-300/"
+    ],
+    "levelNote": "Score weights the required training as well as the exam: WEB-300 is rated Advanced by OffSec, 105 hours across 17 modules. Exam-only score 72, +7 for the training. level measures the depth a credential demands, not only how the exam checks it."
+  },
+  {
+    "id": "osmr",
+    "name": "OSMR",
+    "fullName": "OffSec macOS Researcher",
+    "vendor": "OffSec",
+    "vendorUrl": "https://www.offsec.com/courses/",
+    "domain": "exploitdev",
+    "adjacentDomains": [
+      "pentest"
+    ],
+    "level": 78,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "EXP-312 course was fully removed from the OffSec platform in January 2026. New OSMR exam issuance placed on hiatus effective November 2, 2025. Existing credentials remain valid. Course content now available only via Learn Unlimited/Learn Enterprise subscribers as learning paths. No new enrollments possible; price is not applicable."
+    },
+    "span": "none",
+    "courseCode": "EXP-312",
+    "examCode": null,
+    "examFormat": "practical",
+    "examHours": 47.75,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "retired",
+    "lastVerified": "2026-08-03",
+    "sources": [
+      "https://help.offsec.com/hc/en-us/articles/41591722499604-OSMR-Certification-Exam-Changes-FAQ",
+      "https://niccs.cisa.gov/training/catalog/ata/offsec-exp-312-advanced-macos-control-bypasses-osmr"
+    ]
+  },
+  {
+    "id": "osai",
+    "name": "OSAI",
+    "fullName": "OffSec AI Red Teamer",
+    "vendor": "OffSec",
+    "vendorUrl": "https://www.offsec.com/courses/ai-300/",
+    "domain": "ai-security",
+    "adjacentDomains": [
+      "pentest"
+    ],
+    "level": 73,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": 1749,
+      "currency": "USD",
+      "note": "Course + Cert Bundle: $1,749 (90 days lab access, 1 exam attempt). Learn One annual subscription: $2,749/year (1 year access, 2 exam attempts). Passing the AI-300 exam awards both OSAI (no expiry) and OSAI+ (expires 3 years). Course launched March 2026. AI/LLM tools are permitted during the exam."
+    },
+    "span": "none",
+    "courseCode": "AI-300",
+    "examCode": null,
+    "examFormat": "practical",
+    "examHours": 24,
+    "passingScore": null,
+    "prerequisites": [
+      "oscp"
+    ],
+    "renewal": {
+      "required": true,
+      "years": 3,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "sources": [
+      "https://www.offsec.com/courses/ai-300/"
+    ],
+    "levelNote": "AI security is roughly three years old as a discipline and its credentials have not yet accumulated the depth of the established expert-tier certs. The whole column was re-rated together on that basis. AI-300 is a 300-level OffSec course, so it sits above the 200-level line — but not fully level with OSEP, OSWE and OSED. Those are 671, 105 and 932 content hours with 48-hour exams; AI-300 is 65 hours with a 24-hour exam. The course number marks the family and prerequisite, not equivalent depth. Top of the AI column on the strength of that practical and an OSCP-level prerequisite."
+  },
+  {
+    "id": "oscp",
+    "name": "OSCP",
+    "fullName": "OffSec Certified Professional",
+    "vendor": "OffSec",
+    "vendorUrl": "https://www.offsec.com/courses/pen-200/",
+    "domain": "pentest",
+    "adjacentDomains": [],
+    "level": 69,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": 1749,
+      "currency": "USD",
+      "note": "Course + Cert Bundle: $1,749 (90 days lab access, 1 exam attempt). Learn One annual subscription: $2,749/year (1 year access, 2 exam attempts). Standalone OSCP+ exam: $1,699. Passing the PEN-200 exam awards both OSCP (no expiry) and OSCP+ (expires 3 years). Most representative price is the Course + Cert Bundle."
+    },
+    "span": "none",
+    "courseCode": "PEN-200",
+    "examCode": null,
+    "examFormat": "practical",
+    "examHours": 24,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": true,
+      "years": 3,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "sources": [
+      "https://www.offsec.com/courses/pen-200/",
+      "https://www.offsec.com/pricing/"
+    ],
+    "levelNote": "Score weights the required training as well as the exam: PEN-200 is rated Intermediate by OffSec, 321 hours of content across 20 modules. Exam-only score 62, +7 for the training. level measures the depth a credential demands, not only how the exam checks it."
+  },
+  {
+    "id": "oswa",
+    "name": "OSWA",
+    "fullName": "OffSec Web Assessor",
+    "vendor": "OffSec",
+    "vendorUrl": "https://www.offsec.com/courses/web-200/",
+    "domain": "webapp",
+    "adjacentDomains": [
+      "pentest"
+    ],
+    "level": 62,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": 1749,
+      "currency": "USD",
+      "note": "Course + Cert Bundle: $1,749 (90 days lab access, 1 exam attempt). Learn One annual subscription: $2,749/year (1 year access, 2 exam attempts). OSWA does not expire."
+    },
+    "span": "none",
+    "courseCode": "WEB-200",
+    "examCode": null,
+    "examFormat": "practical",
+    "examHours": 24,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "sources": [
+      "https://www.offsec.com/courses/web-200/"
+    ],
+    "levelNote": "Score weights the required training as well as the exam: WEB-200 is rated Intermediate by OffSec, 231 hours across 16 modules. Exam-only score 55, +7 for the training. level measures the depth a credential demands, not only how the exam checks it."
+  },
+  {
+    "id": "osda",
+    "name": "OSDA",
+    "fullName": "OffSec Defense Analyst",
+    "vendor": "OffSec",
+    "vendorUrl": "https://www.offsec.com/courses/soc-200/",
+    "domain": "soc",
+    "adjacentDomains": [
+      "threat-intel"
+    ],
+    "level": 57,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": 1749,
+      "currency": "USD",
+      "note": "Course + Cert Bundle: $1,749 (90 days lab access, 1 exam attempt). Learn One annual subscription: $2,749/year (1 year access, 2 exam attempts). OSDA does not expire."
+    },
+    "span": "none",
+    "courseCode": "SOC-200",
+    "examCode": null,
+    "examFormat": "practical",
+    "examHours": 24,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "sources": [
+      "https://www.offsec.com/courses/soc-200/"
+    ],
+    "levelNote": "Score weights the required training as well as the exam: SOC-200 is rated Intermediate by OffSec, 374 hours across 19 modules. Exam-only score 50, +7 for the training. level measures the depth a credential demands, not only how the exam checks it."
+  },
+  {
+    "id": "osth",
+    "name": "OSTH",
+    "fullName": "OffSec Threat Hunter",
+    "vendor": "OffSec",
+    "vendorUrl": "https://www.offsec.com/courses/th-200/",
+    "domain": "threat-intel",
+    "adjacentDomains": [
+      "soc"
+    ],
+    "level": 57,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": 1749,
+      "currency": "USD",
+      "note": "Course + Cert Bundle: $1,749 (90 days lab access, 1 exam attempt). Learn One annual subscription: $2,749/year (1 year access, 2 exam attempts). OSTH expires 3 years after issuance."
+    },
+    "span": "none",
+    "courseCode": "TH-200",
+    "examCode": null,
+    "examFormat": "hybrid",
+    "examHours": 8,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": true,
+      "years": 3,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "sources": [
+      "https://www.offsec.com/courses/th-200/"
+    ],
+    "levelNote": "Score weights the required training as well as the exam: TH-200 is rated Intermediate by OffSec, 54 hours across 7 modules. Exam-only score 50, +7 for the training. level measures the depth a credential demands, not only how the exam checks it."
+  },
+  {
+    "id": "osir",
+    "name": "OSIR",
+    "fullName": "OffSec Incident Responder",
+    "vendor": "OffSec",
+    "vendorUrl": "https://www.offsec.com/courses/ir-200/",
+    "domain": "incident-response",
+    "adjacentDomains": [
+      "soc"
+    ],
+    "level": 52,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": 1749,
+      "currency": "USD",
+      "note": "Course + Cert Bundle: $1,749 (90 days lab access, 1 exam attempt). Learn One annual subscription: $2,749/year (1 year access, 2 exam attempts). OSIR expires 3 years after issuance."
+    },
+    "span": "none",
+    "courseCode": "IR-200",
+    "examCode": null,
+    "examFormat": "hybrid",
+    "examHours": 8,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": true,
+      "years": 3,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "sources": [
+      "https://www.offsec.com/courses/ir-200/"
+    ],
+    "levelNote": "Score weights the required training as well as the exam: IR-200 is rated Beginner by OffSec, 34 hours across 13 modules. Exam-only score 50, +2 for the training. level measures the depth a credential demands, not only how the exam checks it."
+  },
+  {
+    "id": "oswp",
+    "name": "OSWP",
+    "fullName": "OffSec Wireless Professional",
+    "vendor": "OffSec",
+    "vendorUrl": "https://www.offsec.com/courses/pen-210/",
+    "domain": "pentest",
+    "adjacentDomains": [
+      "security-engineering"
+    ],
+    "level": 48,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": 799,
+      "currency": "USD",
+      "note": "Learn Fundamentals subscription: $799/year (includes PEN-210 access and exam attempts). Learn One: $2,749/year. No standalone Course + Cert Bundle price confirmed for PEN-210; $799 Learn Fundamentals is the lowest tier that includes this course. OSWP does not expire."
+    },
+    "span": "none",
+    "courseCode": "PEN-210",
+    "examCode": null,
+    "examFormat": "practical",
+    "examHours": 4,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "sources": [
+      "https://www.offsec.com/courses/pen-210/"
+    ],
+    "levelNote": "Score weights the required training as well as the exam: PEN-210 is a 200-level OffSec course on wireless attacks. Exam-only score 42, +6 for the training. level measures the depth a credential demands, not only how the exam checks it."
+  },
+  {
+    "id": "klcp",
+    "name": "KLCP",
+    "fullName": "Kali Linux Certified Professional",
+    "vendor": "OffSec",
+    "vendorUrl": "https://www.offsec.com/courses/pen-103/",
+    "domain": "pentest",
+    "adjacentDomains": [],
+    "level": 31,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": 799,
+      "currency": "USD",
+      "note": "PEN-103 course content is free with account signup. Exam attempt included with Learn Fundamentals ($799/year) or Learn One ($2,749/year) subscriptions. No standalone Course + Cert Bundle pricing confirmed. KLCP does not expire. This is a multiple-choice exam (80 questions, 90 minutes)."
+    },
+    "span": "none",
+    "courseCode": "PEN-103",
+    "examCode": null,
+    "examFormat": "multiple-choice",
+    "examHours": 1.5,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "sources": [
+      "https://www.offsec.com/courses/pen-103/"
+    ],
+    "levelNote": "Score weights the required training as well as the exam: PEN-103 is an introductory OffSec course on Kali Linux. Exam-only score 28, +3 for the training. level measures the depth a credential demands, not only how the exam checks it."
+  },
+  {
+    "id": "oscc-sjd",
+    "name": "OSCC-SJD",
+    "fullName": "OffSec CyberCore Certified – Secure Java Development",
+    "vendor": "OffSec",
+    "vendorUrl": "https://www.offsec.com/courses/sjd-100/",
+    "domain": "appsec",
+    "adjacentDomains": [],
+    "level": 30,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": 899,
+      "currency": "USD",
+      "note": "CyberCore standalone product: $899 (1 year access to SJD-100 course, labs, and 2 exam attempts). OSCC-SJD expires 3 years after issuance."
+    },
+    "span": "none",
+    "courseCode": "SJD-100",
+    "examCode": null,
+    "examFormat": "practical",
+    "examHours": 6,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": true,
+      "years": 3,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "sources": [
+      "https://www.offsec.com/courses/sjd-100/"
+    ],
+    "levelNote": "Score weights the required training as well as the exam: a 100-level OffSec foundations course. Exam-only score 27, +3 for the training. level measures the depth a credential demands, not only how the exam checks it."
+  },
+  {
+    "id": "oscc-sec",
+    "name": "OSCC-SEC",
+    "fullName": "OffSec CyberCore Certified",
+    "vendor": "OffSec",
+    "vendorUrl": "https://www.offsec.com/courses/sec-100/",
+    "domain": "security-engineering",
+    "adjacentDomains": [
+      "pentest"
+    ],
+    "level": 28,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": 899,
+      "currency": "USD",
+      "note": "CyberCore standalone product: $899 (1 year access to SEC-100 course, labs, and 2 exam attempts). Additional exam retakes are $159 each. OSCC-SEC expires 3 years after issuance."
+    },
+    "span": "none",
+    "courseCode": "SEC-100",
+    "examCode": null,
+    "examFormat": "hybrid",
+    "examHours": 6,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": true,
+      "years": 3,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "sources": [
+      "https://www.offsec.com/courses/sec-100/",
+      "https://www.offsec.com/products/cybercore/"
+    ],
+    "levelNote": "Score weights the required training as well as the exam: a 100-level OffSec foundations course. Exam-only score 25, +3 for the training. level measures the depth a credential demands, not only how the exam checks it."
+  }
+]

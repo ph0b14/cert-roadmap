@@ -1,0 +1,667 @@
+[
+  {
+    "vendor": "INE Security",
+    "adjacentDomains": [
+      "exploitdev"
+    ],
+    "span": "none",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": null,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "retired",
+    "lastVerified": "2026-08-03",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "Retired by INE on 1 October 2023 along with four other eLearnSecurity credentials."
+    },
+    "id": "ine-ecptx",
+    "name": "eCPTX",
+    "fullName": "eLearnSecurity Certified Penetration Tester eXtreme",
+    "vendorUrl": "https://ine.com/blog/els-is-retiring-5-certifications-heres-what-you-need-to-know",
+    "domain": "pentest",
+    "level": 78,
+    "scoredBy": "Opus 5",
+    "examFormat": "practical",
+    "sources": [
+      "https://ine.com/blog/els-is-retiring-5-certifications-heres-what-you-need-to-know"
+    ]
+  },
+  {
+    "vendor": "INE Security",
+    "adjacentDomains": [
+      "exploitdev"
+    ],
+    "span": "none",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": null,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "INE sells exam vouchers through subscription bundles rather than at a published standalone price."
+    },
+    "id": "ine-ewptxv2",
+    "name": "eWPTXv2",
+    "fullName": "INE Web Application Penetration Tester eXtreme",
+    "vendorUrl": "https://ine.com/security/certifications/ewptx-certification",
+    "domain": "webapp",
+    "level": 77,
+    "scoredBy": "Opus 5",
+    "examFormat": "practical",
+    "sources": [
+      "https://ine.com/security/certifications/ewptx-certification",
+      "https://ine.com/security"
+    ],
+    "levelNote": "Score weights the required training as well as the exam: an INE expert-level learning path. Exam-only score 70, +7 for the training. level measures the depth a credential demands, not only how the exam checks it."
+  },
+  {
+    "vendor": "INE Security",
+    "adjacentDomains": [],
+    "span": "none",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": null,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "retired",
+    "lastVerified": "2026-08-03",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "Retired by INE on 1 October 2023 along with four other eLearnSecurity credentials."
+    },
+    "id": "ine-ecxd",
+    "name": "eCXD",
+    "fullName": "eLearnSecurity Certified eXploit Developer",
+    "vendorUrl": "https://ine.com/blog/els-is-retiring-5-certifications-heres-what-you-need-to-know",
+    "domain": "exploitdev",
+    "level": 74,
+    "scoredBy": "Opus 5",
+    "examFormat": "practical",
+    "sources": [
+      "https://ine.com/blog/els-is-retiring-5-certifications-heres-what-you-need-to-know"
+    ]
+  },
+  {
+    "vendor": "INE Security",
+    "adjacentDomains": [],
+    "span": "none",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": null,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "retired",
+    "lastVerified": "2026-08-03",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "Retired by INE on 1 October 2023 along with four other eLearnSecurity credentials."
+    },
+    "id": "ine-ecmap",
+    "name": "eCMAP",
+    "fullName": "eLearnSecurity Certified Malware Analysis Professional",
+    "vendorUrl": "https://ine.com/blog/els-is-retiring-5-certifications-heres-what-you-need-to-know",
+    "domain": "malware-re",
+    "level": 70,
+    "scoredBy": "Opus 5",
+    "examFormat": "practical",
+    "sources": [
+      "https://ine.com/blog/els-is-retiring-5-certifications-heres-what-you-need-to-know"
+    ]
+  },
+  {
+    "vendor": "INE Security",
+    "adjacentDomains": [
+      "soc"
+    ],
+    "span": "none",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": null,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "INE sells exam vouchers through subscription bundles rather than at a published standalone price."
+    },
+    "id": "ine-ecthp",
+    "name": "eCTHP",
+    "fullName": "INE Certified Threat Hunting Professional",
+    "vendorUrl": "https://ine.com/security/certifications/ecthp-certification",
+    "domain": "threat-intel",
+    "level": 70,
+    "scoredBy": "Opus 5",
+    "examFormat": "practical",
+    "sources": [
+      "https://ine.com/security/certifications/ecthp-certification",
+      "https://ine.com/security"
+    ],
+    "levelNote": "Score weights the required training as well as the exam: an INE expert-level learning path. Exam-only score 60, +10 for the training. level measures the depth a credential demands, not only how the exam checks it."
+  },
+  {
+    "vendor": "INE Security",
+    "adjacentDomains": [],
+    "span": "none",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": null,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "retired",
+    "lastVerified": "2026-08-03",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "Retired by INE on 1 October 2023 along with four other eLearnSecurity credentials."
+    },
+    "id": "ine-ecre",
+    "name": "eCRE",
+    "fullName": "eLearnSecurity Certified Reverse Engineer",
+    "vendorUrl": "https://ine.com/blog/els-is-retiring-5-certifications-heres-what-you-need-to-know",
+    "domain": "malware-re",
+    "level": 68,
+    "scoredBy": "Opus 5",
+    "examFormat": "practical",
+    "sources": [
+      "https://ine.com/blog/els-is-retiring-5-certifications-heres-what-you-need-to-know"
+    ]
+  },
+  {
+    "vendor": "INE Security",
+    "adjacentDomains": [],
+    "span": "none",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": null,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "INE sells exam vouchers through subscription bundles rather than at a published standalone price."
+    },
+    "id": "ine-ecppt",
+    "name": "eCPPT",
+    "fullName": "INE Certified Professional Penetration Tester",
+    "vendorUrl": "https://ine.com/security/certifications/ecppt-certification",
+    "domain": "pentest",
+    "level": 65,
+    "scoredBy": "Opus 5",
+    "examFormat": "practical",
+    "sources": [
+      "https://ine.com/security/certifications/ecppt-certification",
+      "https://ine.com/security"
+    ],
+    "levelNote": "Score weights the required training as well as the exam: the Penetration Testing Professional path, which INE positions as advanced. Exam-only score 55, +10 for the training. level measures the depth a credential demands, not only how the exam checks it."
+  },
+  {
+    "vendor": "INE Security",
+    "adjacentDomains": [],
+    "span": "none",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": null,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "INE sells exam vouchers through subscription bundles rather than at a published standalone price."
+    },
+    "id": "ine-ecdfp",
+    "name": "eCDFP",
+    "fullName": "INE Certified Digital Forensics Professional",
+    "vendorUrl": "https://ine.com/security/certifications/ecdfp-certification",
+    "domain": "forensics",
+    "level": 62,
+    "scoredBy": "Opus 5",
+    "examFormat": "practical",
+    "sources": [
+      "https://ine.com/security/certifications/ecdfp-certification",
+      "https://ine.com/security"
+    ],
+    "levelNote": "Score weights the required training as well as the exam: an INE professional-level learning path. Exam-only score 55, +7 for the training. level measures the depth a credential demands, not only how the exam checks it."
+  },
+  {
+    "vendor": "INE Security",
+    "adjacentDomains": [
+      "appsec"
+    ],
+    "span": "none",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": null,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "INE sells exam vouchers through subscription bundles rather than at a published standalone price."
+    },
+    "id": "ine-emapt",
+    "name": "eMAPT",
+    "fullName": "INE Mobile Application Penetration Tester",
+    "vendorUrl": "https://ine.com/security/certifications/emapt-certification",
+    "domain": "pentest",
+    "level": 59,
+    "scoredBy": "Opus 5",
+    "examFormat": "practical",
+    "sources": [
+      "https://ine.com/security/certifications/emapt-certification",
+      "https://ine.com/security"
+    ],
+    "levelNote": "Score weights the required training as well as the exam: an INE professional-level learning path. Exam-only score 52, +7 for the training. level measures the depth a credential demands, not only how the exam checks it."
+  },
+  {
+    "vendor": "INE Security",
+    "adjacentDomains": [],
+    "span": "none",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": null,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "INE sells exam vouchers through subscription bundles rather than at a published standalone price."
+    },
+    "id": "ine-ewpt",
+    "name": "eWPT",
+    "fullName": "INE Web Application Penetration Tester",
+    "vendorUrl": "https://ine.com/security/certifications/ewpt-certification",
+    "domain": "webapp",
+    "level": 59,
+    "scoredBy": "Opus 5",
+    "examFormat": "practical",
+    "sources": [
+      "https://ine.com/security/certifications/ewpt-certification",
+      "https://ine.com/security"
+    ],
+    "levelNote": "Score weights the required training as well as the exam: an INE professional-level learning path. Exam-only score 52, +7 for the training. level measures the depth a credential demands, not only how the exam checks it."
+  },
+  {
+    "vendor": "INE Security",
+    "adjacentDomains": [],
+    "span": "none",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": null,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "INE sells exam vouchers through subscription bundles rather than at a published standalone price."
+    },
+    "id": "ine-ecir",
+    "name": "eCIR",
+    "fullName": "INE Certified Incident Responder",
+    "vendorUrl": "https://ine.com/security/certifications/ecir-certification",
+    "domain": "incident-response",
+    "level": 57,
+    "scoredBy": "Opus 5",
+    "examFormat": "practical",
+    "sources": [
+      "https://ine.com/security/certifications/ecir-certification",
+      "https://ine.com/security"
+    ],
+    "levelNote": "Score weights the required training as well as the exam: an INE professional-level learning path. Exam-only score 50, +7 for the training. level measures the depth a credential demands, not only how the exam checks it."
+  },
+  {
+    "vendor": "INE Security",
+    "adjacentDomains": [
+      "webapp"
+    ],
+    "span": "none",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": null,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "retired",
+    "lastVerified": "2026-08-03",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "Retired by INE on 1 October 2023 along with four other eLearnSecurity credentials."
+    },
+    "id": "ine-ewdp",
+    "name": "eWDP",
+    "fullName": "eLearnSecurity Web Defense Professional",
+    "vendorUrl": "https://ine.com/blog/els-is-retiring-5-certifications-heres-what-you-need-to-know",
+    "domain": "appsec",
+    "level": 55,
+    "scoredBy": "Opus 5",
+    "examFormat": "practical",
+    "sources": [
+      "https://ine.com/blog/els-is-retiring-5-certifications-heres-what-you-need-to-know"
+    ]
+  },
+  {
+    "vendor": "INE Security",
+    "adjacentDomains": [],
+    "span": "none",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": null,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "INE sells exam vouchers through subscription bundles rather than at a published standalone price."
+    },
+    "id": "ine-eiama",
+    "name": "eIAMA",
+    "fullName": "INE Certified Identity and Access Management Technologist",
+    "vendorUrl": "https://ine.com/security/certifications/eiama-certification",
+    "domain": "security-engineering",
+    "level": 53,
+    "scoredBy": "Opus 5",
+    "examFormat": "hybrid",
+    "sources": [
+      "https://ine.com/security/certifications/eiama-certification",
+      "https://ine.com/security"
+    ],
+    "levelNote": "Score weights the required training as well as the exam: an INE professional-level learning path. Exam-only score 44, +9 for the training. level measures the depth a credential demands, not only how the exam checks it."
+  },
+  {
+    "vendor": "INE Security",
+    "adjacentDomains": [],
+    "span": "none",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": null,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "INE sells exam vouchers through subscription bundles rather than at a published standalone price."
+    },
+    "id": "ine-eais",
+    "name": "eAIS",
+    "fullName": "INE AI Systems Security Specialist",
+    "vendorUrl": "https://ine.com/security/certifications/eais-certification",
+    "domain": "ai-security",
+    "level": 50,
+    "scoredBy": "Opus 5",
+    "examFormat": "hybrid",
+    "sources": [
+      "https://ine.com/security/certifications/eais-certification",
+      "https://ine.com/security"
+    ],
+    "levelNote": "AI security is roughly three years old as a discipline and its credentials have not yet accumulated the depth of the established expert-tier certs. The whole column was re-rated together on that basis. INE professional-level path with a hybrid exam; no published exam length."
+  },
+  {
+    "vendor": "INE Security",
+    "adjacentDomains": [
+      "soc"
+    ],
+    "span": "none",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": null,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "INE sells exam vouchers through subscription bundles rather than at a published standalone price."
+    },
+    "id": "ine-eeda",
+    "name": "eEDA",
+    "fullName": "INE Enterprise Defense Administrator",
+    "vendorUrl": "https://ine.com/security/certifications/eeda-certification",
+    "domain": "security-engineering",
+    "level": 35,
+    "scoredBy": "Opus 5",
+    "examFormat": "hybrid",
+    "sources": [
+      "https://ine.com/security/certifications/eeda-certification",
+      "https://ine.com/security"
+    ],
+    "levelNote": "Score weights the required training as well as the exam: an INE entry-level learning path. Exam-only score 32, +3 for the training. level measures the depth a credential demands, not only how the exam checks it."
+  },
+  {
+    "vendor": "INE Security",
+    "adjacentDomains": [],
+    "span": "none",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": null,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "INE sells exam vouchers through subscription bundles rather than at a published standalone price."
+    },
+    "id": "ine-ejpt",
+    "name": "eJPT",
+    "fullName": "INE Junior Penetration Tester",
+    "vendorUrl": "https://ine.com/security/certifications/ejpt-certification",
+    "domain": "pentest",
+    "level": 33,
+    "scoredBy": "Opus 5",
+    "examFormat": "practical",
+    "sources": [
+      "https://ine.com/security/certifications/ejpt-certification",
+      "https://ine.com/security"
+    ],
+    "levelNote": "Score weights the required training as well as the exam: an INE entry-level learning path. Exam-only score 30, +3 for the training. level measures the depth a credential demands, not only how the exam checks it."
+  },
+  {
+    "vendor": "INE Security",
+    "adjacentDomains": [],
+    "span": "none",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": null,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "INE sells exam vouchers through subscription bundles rather than at a published standalone price."
+    },
+    "id": "ine-esoc",
+    "name": "eSOC",
+    "fullName": "INE Security Operations Center Analyst",
+    "vendorUrl": "https://ine.com/security/certifications/esoc-certification",
+    "domain": "soc",
+    "level": 31,
+    "scoredBy": "Opus 5",
+    "examFormat": "practical",
+    "sources": [
+      "https://ine.com/security/certifications/esoc-certification",
+      "https://ine.com/security"
+    ],
+    "levelNote": "Score weights the required training as well as the exam: an INE entry-level learning path. Exam-only score 28, +3 for the training. level measures the depth a credential demands, not only how the exam checks it."
+  }
+]

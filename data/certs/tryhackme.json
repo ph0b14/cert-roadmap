@@ -1,0 +1,275 @@
+[
+  {
+    "adjacentDomains": [
+      "incident-response"
+    ],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": 72,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": true,
+      "years": 3,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "id": "thm-sal2",
+    "name": "SAL2",
+    "fullName": "TryHackMe Security Analyst Level 2",
+    "vendor": "TryHackMe",
+    "vendorUrl": "https://tryhackme.com/certification/security-analyst-level-2",
+    "domain": "soc",
+    "level": 65,
+    "examFormat": "practical",
+    "cost": {
+      "amount": 637,
+      "currency": "USD",
+      "note": "Exam voucher including premium learning access and one free retake; 15% off for subscribers."
+    },
+    "sources": [
+      "https://tryhackme.com/certification/security-analyst-level-2"
+    ],
+    "levelNote": "Score weights the required training as well as the exam: a TryHackMe intermediate path, included with the exam voucher. Exam-only score 58, +7 for the training. level measures the depth a credential demands, not only how the exam checks it."
+  },
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": 48,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": true,
+      "years": 3,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "id": "thm-web1",
+    "name": "WEB1",
+    "fullName": "TryHackMe Web App Pentester Level 1",
+    "vendor": "TryHackMe",
+    "vendorUrl": "https://tryhackme.com/certification/web-application-pentester-level-1",
+    "domain": "webapp",
+    "level": 57,
+    "examFormat": "practical",
+    "cost": {
+      "amount": 254,
+      "currency": "USD",
+      "note": "Exam voucher including premium learning access and one free retake; 15% off for subscribers."
+    },
+    "sources": [
+      "https://tryhackme.com/certification/web-application-pentester-level-1"
+    ],
+    "levelNote": "Score weights the required training as well as the exam: a TryHackMe intermediate path, included with the exam voucher. Exam-only score 48, +9 for the training. level measures the depth a credential demands, not only how the exam checks it."
+  },
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": 48,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": true,
+      "years": 3,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "id": "thm-ai1",
+    "name": "AI1",
+    "fullName": "TryHackMe AI Security",
+    "vendor": "TryHackMe",
+    "vendorUrl": "https://tryhackme.com/certification/ai-security",
+    "domain": "ai-security",
+    "level": 54,
+    "examFormat": "practical",
+    "cost": {
+      "amount": 339,
+      "currency": "USD",
+      "note": "Exam voucher including premium learning access and one free retake; 15% off for subscribers."
+    },
+    "sources": [
+      "https://tryhackme.com/certification/ai-security"
+    ],
+    "levelNote": "AI security is roughly three years old as a discipline and its credentials have not yet accumulated the depth of the established expert-tier certs. The whole column was re-rated together on that basis. 48-hour practical behind TryHackMe's AI Security path, pitched at newcomers to the discipline."
+  },
+  {
+    "adjacentDomains": [
+      "webapp"
+    ],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": 48,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": true,
+      "years": 3,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "id": "thm-pt1",
+    "name": "PT1",
+    "fullName": "TryHackMe Junior Penetration Tester",
+    "vendor": "TryHackMe",
+    "vendorUrl": "https://tryhackme.com/certification/junior-penetration-tester",
+    "domain": "pentest",
+    "level": 51,
+    "examFormat": "practical",
+    "cost": {
+      "amount": 297,
+      "currency": "USD",
+      "note": "Exam voucher including premium learning access and one free retake; 15% off for subscribers."
+    },
+    "sources": [
+      "https://tryhackme.com/certification/junior-penetration-tester"
+    ],
+    "levelNote": "Score weights the required training as well as the exam: a TryHackMe entry-professional path, included with the exam voucher. Exam-only score 45, +6 for the training. level measures the depth a credential demands, not only how the exam checks it."
+  },
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": 24,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": true,
+      "years": 3,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "id": "thm-sal1",
+    "name": "SAL1",
+    "fullName": "TryHackMe Security Analyst Level 1",
+    "vendor": "TryHackMe",
+    "vendorUrl": "https://tryhackme.com/certification/security-analyst-level-1",
+    "domain": "soc",
+    "level": 44,
+    "examFormat": "practical",
+    "cost": {
+      "amount": 349,
+      "currency": "USD",
+      "note": "Exam voucher including premium learning access and one free retake; 15% off for subscribers."
+    },
+    "sources": [
+      "https://tryhackme.com/certification/security-analyst-level-1"
+    ],
+    "levelNote": "Score weights the required training as well as the exam: a TryHackMe entry-professional path, included with the exam voucher. Exam-only score 38, +6 for the training. level measures the depth a credential demands, not only how the exam checks it."
+  },
+  {
+    "adjacentDomains": [
+      "soc",
+      "pentest"
+    ],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": 24,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": true,
+      "years": 3,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "id": "thm-sec1",
+    "name": "SEC1",
+    "fullName": "TryHackMe Cyber Security 101",
+    "vendor": "TryHackMe",
+    "vendorUrl": "https://tryhackme.com/certification/cyber-security-101",
+    "domain": "security-engineering",
+    "level": 31,
+    "examFormat": "practical",
+    "cost": {
+      "amount": 129,
+      "currency": "USD",
+      "note": "Exam voucher including premium learning access and one free retake; 15% off for subscribers."
+    },
+    "sources": [
+      "https://tryhackme.com/certification/cyber-security-101"
+    ],
+    "levelNote": "Score weights the required training as well as the exam: a TryHackMe foundational path, included with the exam voucher. Exam-only score 28, +3 for the training. level measures the depth a credential demands, not only how the exam checks it."
+  },
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": null,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": true,
+      "years": 3,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "id": "thm-sec0",
+    "name": "SEC0",
+    "fullName": "TryHackMe Pre Security",
+    "vendor": "TryHackMe",
+    "vendorUrl": "https://tryhackme.com/certification/pre-security",
+    "domain": "security-engineering",
+    "level": 18,
+    "examFormat": "practical",
+    "cost": {
+      "amount": 58,
+      "currency": "USD",
+      "note": "Exam voucher including premium learning access and one free retake; 15% off for subscribers."
+    },
+    "sources": [
+      "https://tryhackme.com/certification/pre-security"
+    ],
+    "levelNote": "Score weights the required training as well as the exam: a TryHackMe foundational path, included with the exam voucher. Exam-only score 15, +3 for the training. level measures the depth a credential demands, not only how the exam checks it."
+  }
+]

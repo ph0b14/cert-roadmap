@@ -1,0 +1,42 @@
+[
+  {
+    "adjacentDomains": [
+      "incident-response"
+    ],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "levelNote": "Four-hour exam mixing multiple choice with hands-on tasks. No training weight: ISACA courseware is optional and sold separately.",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": 4,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": true,
+      "years": 3,
+      "ceCredits": 120
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "id": "isaca-ccoa",
+    "name": "CCOA",
+    "fullName": "ISACA Certified Cybersecurity Operations Analyst",
+    "vendor": "ISACA",
+    "vendorUrl": "https://www.isaca.org/credentialing/ccoa",
+    "domain": "soc",
+    "level": 48,
+    "examFormat": "hybrid",
+    "cost": {
+      "amount": 399,
+      "currency": "USD",
+      "note": "Member pricing is lower."
+    },
+    "sources": [
+      "https://www.isaca.org/credentialing/ccoa"
+    ]
+  }
+]

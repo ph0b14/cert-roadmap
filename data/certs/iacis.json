@@ -1,0 +1,126 @@
+[
+  {
+    "id": "iacis-cfce",
+    "name": "CFCE",
+    "fullName": "IACIS Certified Forensic Computer Examiner",
+    "vendor": "IACIS",
+    "vendorUrl": "https://www.iacis.com/certification/cfce/",
+    "domain": "forensics",
+    "adjacentDomains": [
+      "incident-response"
+    ],
+    "span": "none",
+    "level": 79,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": 800,
+      "currency": "USD",
+      "note": "External candidate fee; IACIS membership fee is waived with purchase. Training is priced separately."
+    },
+    "courseCode": null,
+    "examCode": null,
+    "examFormat": "hybrid",
+    "examHours": 1056,
+    "passingScore": 80,
+    "prerequisites": [
+      "72 hours of documented forensic training",
+      "Four-month mentored peer-review phase, passing all four scenario problems"
+    ],
+    "renewal": {
+      "required": true,
+      "years": 3,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "sources": [
+      "https://www.iacis.com/certification/cfce/",
+      "https://www.iacis.com/certification/"
+    ],
+    "levelNote": "Score weights the required training as well as the exam: 72 hours of required forensic training plus a four-month mentored peer review. Exam-only score 72, +7 for the training. level measures the depth a credential demands, not only how the exam checks it."
+  },
+  {
+    "id": "iacis-cawfe",
+    "name": "CAWFE",
+    "fullName": "IACIS Certified Advanced Windows Forensic Examiner",
+    "vendor": "IACIS",
+    "vendorUrl": "https://www.iacis.com/certification/cawfe/",
+    "domain": "forensics",
+    "adjacentDomains": [],
+    "span": "none",
+    "level": 71,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "Fee not published on the certification page; differs for members and non-members."
+    },
+    "courseCode": null,
+    "examCode": null,
+    "examFormat": "hybrid",
+    "examHours": 8,
+    "passingScore": 80,
+    "prerequisites": [
+      "80% on the 125-question written exam to unlock the practical assessment"
+    ],
+    "renewal": {
+      "required": true,
+      "years": 3,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "sources": [
+      "https://www.iacis.com/certification/cawfe/"
+    ],
+    "levelNote": "Score weights the required training as well as the exam: IACIS instructor-led training at intermediate level. Exam-only score 64, +7 for the training. level measures the depth a credential demands, not only how the exam checks it."
+  },
+  {
+    "id": "iacis-icmde",
+    "name": "ICMDE",
+    "fullName": "IACIS Certified Mobile Device Examiner",
+    "vendor": "IACIS",
+    "vendorUrl": "https://www.iacis.com/certification/mobile-cert/",
+    "domain": "forensics",
+    "adjacentDomains": [],
+    "span": "none",
+    "level": 69,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "Fee not published on the certification page; differs for members and non-members."
+    },
+    "courseCode": null,
+    "examCode": null,
+    "examFormat": "hybrid",
+    "examHours": 48,
+    "passingScore": 80,
+    "prerequisites": [
+      "80% on the written exam to unlock the practical assessment"
+    ],
+    "renewal": {
+      "required": true,
+      "years": 3,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "sources": [
+      "https://www.iacis.com/certification/mobile-cert/"
+    ],
+    "levelNote": "Score weights the required training as well as the exam: IACIS instructor-led training at intermediate level. Exam-only score 62, +7 for the training. level measures the depth a credential demands, not only how the exam checks it."
+  }
+]

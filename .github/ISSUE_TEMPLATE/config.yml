@@ -1,0 +1,10 @@
+# Blank issues stay enabled: not every contribution fits a form, and turning
+# them off pushes people into the wrong template rather than into no issue.
+blank_issues_enabled: true
+contact_links:
+  - name: Scope and scoring rules
+    url: https://github.com/ph0b14/cert-roadmap/blob/main/CONTRIBUTING.md
+    about: What belongs on the chart, how levels are scored, and the anchor table.
+  - name: Edit the data directly
+    url: https://github.com/ph0b14/cert-roadmap/tree/main/data/certs
+    about: One JSON file per issuing body. A pull request is faster than an issue if you know JSON.

@@ -1,0 +1,248 @@
+---
+import Base from '../../layouts/Base.astro'
+import { allCerts } from '../../lib/certs'
+import { DOMAINS, tierFor } from '../../schema'
+import { correctionUrl, fixUrl } from '../../site'
+
+// One static page per certification. This is the single biggest SEO advantage
+// over an image-based chart: every cert becomes an indexable, linkable,
+// screen-reader-navigable page instead of pixels inside a PNG.
+export function getStaticPaths() {
+  return allCerts.map((cert) => ({ params: { id: cert.id }, props: { cert } }))
+}
+
+const { cert } = Astro.props
+const domain = DOMAINS.find((d) => d.id === cert.domain)
+const tier = tierFor(cert.level)
+
+const siblings = allCerts
+  .filter((c) => c.domain === cert.domain && c.id !== cert.id)
+  .sort((a, b) => Math.abs(a.level - cert.level) - Math.abs(b.level - cert.level))
+  .slice(0, 8)
+
+/**
+ * Prerequisites are stored as record ids where they point at another cert, and
+ * as free text otherwise. Resolve the ids so the page shows "OSEP, OSWE, OSED"
+ * rather than the internal `osep, oswe, osed`.
+ */
+const prerequisites = cert.prerequisites.map((p) => {
+  const match = allCerts.find((c) => c.id === p)
+  return match ? match.name : p
+})
+
+const cost =
+  cert.cost.amount === null
+    ? 'Price unlisted'
+    : cert.cost.amount === 0
+      ? 'Free'
+      : new Intl.NumberFormat('en-US', {
+          style: 'currency',
+          currency: cert.cost.currency || 'USD',
+          maximumFractionDigits: 0,
+        }).format(cert.cost.amount)
+
+const title = `${cert.name} — ${cert.fullName} | Security Certification Roadmap`
+const description = `${cert.fullName} (${cert.name}) from ${cert.vendor}: ${tier.label}-level ${domain?.label ?? cert.domain} certification. ${cost}${cert.examCode ? ` · exam ${cert.examCode}` : ''}. Difficulty, cost, format, and renewal requirements.`
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'EducationalOccupationalCredential',
+  name: cert.fullName,
+  alternateName: cert.name,
+  description,
+  url: cert.vendorUrl ?? undefined,
+  credentialCategory: 'certificate',
+  competencyRequired: domain?.label,
+  recognizedBy: { '@type': 'Organization', name: cert.vendor },
+  ...(cert.cost.amount
+    ? {
+        offers: {
+          '@type': 'Offer',
+          price: cert.cost.amount,
+          priceCurrency: cert.cost.currency || 'USD',
+        },
+      }
+    : {}),
+}
+
+const rows: [string, string][] = [
+  ['Issuing body', cert.vendor],
+  ['Domain', domain?.label ?? cert.domain],
+  [
+    'Difficulty',
+    `${cert.level} / 100 — ${tier.label}` +
+      (cert.scoredBy ? ` (scored by ${cert.scoredBy})` : ''),
+  ],
+  ['Cost', cost + (cert.cost.note ? ` (${cert.cost.note})` : '')],
+  ['Course code', cert.courseCode ?? '—'],
+  ['Exam code', cert.examCode ?? '—'],
+  ['Exam format', cert.examFormat ?? '—'],
+  // Multi-day lab windows (HTB, OffSec) read as nonsense in hours — "168 hours"
+  // is a seven-day exam, and that is how every candidate talks about it.
+  [
+    'Exam length',
+    cert.examHours === null
+      ? '—'
+      : cert.examHours >= 48 && cert.examHours % 24 === 0
+        ? `${cert.examHours / 24} days`
+        : `${cert.examHours} hours`,
+  ],
+  ['Passing score', cert.passingScore !== null ? `${cert.passingScore}%` : '—'],
+  ['Prerequisites', prerequisites.length ? prerequisites.join(', ') : 'None'],
+  [
+    'Renewal',
+    cert.renewal.required
+      ? `Every ${cert.renewal.years ?? '?'} years${cert.renewal.ceCredits ? ` · ${cert.renewal.ceCredits} CE credits` : ''}`
+      : 'None required',
+  ],
+  ['ANSI/ISO 17024', cert.accreditation.ansiIso17024 ? 'Accredited' : 'Not accredited'],
+  [
+    'DoD 8140',
+    cert.accreditation.dod8140.length ? cert.accreditation.dod8140.join(', ') : 'Not listed',
+  ],
+  ['Status', cert.status],
+  ['Last verified', cert.lastVerified],
+]
+---
+
+<Base
+  title={title}
+  description={description}
+  canonical={new URL(`/cert/${cert.id}/`, Astro.site)}
+  jsonLd={jsonLd}
+>
+  <div class="mx-auto max-w-3xl px-5 py-10">
+      <a href="/" class="text-xs text-[var(--color-ink-faint)] hover:text-[var(--color-ink-dim)]">
+        ← Full roadmap
+      </a>
+
+      <header class="mt-4 mb-7">
+        <h1 class="text-3xl font-bold tracking-tight">{cert.name}</h1>
+        <p class="mt-1 text-lg text-[var(--color-ink-dim)]">{cert.fullName}</p>
+        {
+          cert.status !== 'active' && (
+            <p class="mt-3 inline-block rounded border border-[var(--color-edge)] bg-[var(--color-surface-2)] px-2.5 py-1 text-xs uppercase tracking-wide text-[var(--color-ink-dim)]">
+              {cert.status}
+            </p>
+          )
+        }
+      </header>
+
+      <table class="w-full border-collapse text-sm">
+        <tbody>
+          {
+            rows.map(([k, v]) => (
+              <tr class="border-b border-[var(--color-edge)]">
+                <th
+                  scope="row"
+                  class="w-44 py-2.5 pr-4 text-left font-normal align-top text-[var(--color-ink-faint)]"
+                >
+                  {k}
+                </th>
+                <td class="py-2.5">{v}</td>
+              </tr>
+            ))
+          }
+        </tbody>
+      </table>
+
+      {
+        cert.vendorUrl && (
+          <a
+            href={cert.vendorUrl}
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+            class="mt-6 inline-block rounded-md border border-[var(--color-edge)] bg-[var(--color-surface-2)] px-4 py-2.5 text-sm font-medium hover:border-[var(--color-ink-dim)]"
+          >
+            Official {cert.vendor} page ↗
+          </a>
+        )
+      }
+
+      {
+        cert.levelNote && (
+          <p class="mt-6 rounded-md border-l-2 border-[var(--pri-color)] bg-[var(--color-surface-2)] px-3 py-2.5 text-xs leading-relaxed text-[var(--color-ink-dim)]">
+            <strong class="text-[var(--color-ink)]">On this score:</strong> {cert.levelNote}
+          </p>
+        )
+      }
+
+      <p class="mt-4 text-xs leading-relaxed text-[var(--color-ink-faint)]">
+        Something wrong here?
+        <a
+          href={fixUrl(cert)}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="underline hover:text-[var(--color-ink-dim)]"
+        >
+          Report a correction
+        </a>
+        {' or '}
+        <a
+          href={correctionUrl(cert)}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="underline hover:text-[var(--color-ink-dim)]"
+        >
+          dispute the score
+        </a>
+         — both open a short form, no Git or JSON needed. The score is an editorial judgement and
+        the reasoning is meant to be public.
+      </p>
+
+      {
+        siblings.length > 0 && (
+          <section class="mt-10">
+            <h2 class="mb-3 text-sm font-semibold uppercase tracking-wider text-[var(--color-ink-faint)]">
+              Nearest in {domain?.label}
+            </h2>
+            <ul class="flex flex-wrap gap-2">
+              {siblings.map((s) => (
+                <li>
+                  <a
+                    href={`/cert/${s.id}/`}
+                    class="inline-block rounded border border-[var(--color-edge)] bg-[var(--color-surface-2)] px-2.5 py-1.5 text-xs hover:border-[var(--color-ink-dim)]"
+                  >
+                    {s.name}
+                    <span class="ml-1.5 tabular-nums text-[var(--color-ink-faint)]">{s.level}</span>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )
+      }
+
+      {
+        cert.sources.length > 0 && (
+          <section class="mt-10 border-t border-[var(--color-edge)] pt-4">
+            <h2 class="mb-2 text-xs font-semibold uppercase tracking-wider text-[var(--color-ink-faint)]">
+              Sources
+            </h2>
+            <ul class="flex flex-col gap-1">
+              {cert.sources.map((s) => (
+                <li>
+                  <a
+                    href={s}
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                    class="break-all text-xs text-[var(--color-ink-faint)] underline hover:text-[var(--color-ink-dim)]"
+                  >
+                    {s}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )
+      }
+
+      <footer class="mt-10 border-t border-[var(--color-edge)] pt-4 text-xs leading-relaxed text-[var(--color-ink-faint)]">
+        <p>
+          {cert.name} is a trademark of {cert.vendor} and is used here nominatively for
+          identification. This project is independent and not affiliated with or endorsed by
+          {' '}{cert.vendor}.
+        </p>
+      </footer>
+  </div>
+</Base>

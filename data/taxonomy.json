@@ -1,0 +1,49 @@
+{
+  "$comment": "Domain taxonomy for the technical security certification roadmap. 13 columns across 4 bands. Ordered left-to-right as rendered on the chart.",
+  "bands": [
+    {
+      "id": "offensive",
+      "label": "Offensive",
+      "domains": [
+        { "id": "pentest",             "label": "Penetration Testing",            "blurb": "Network and infrastructure assessment; general-purpose offensive certs. Mobile pentest lives here." },
+        { "id": "webapp",              "label": "Web & API Security",             "blurb": "Application-layer offensive work: web, API, and browser-side exploitation." },
+        { "id": "exploitdev",          "label": "Exploit Dev & Vuln Research",    "blurb": "Binary exploitation, fuzzing, memory corruption, 0-day research." }
+      ]
+    },
+    {
+      "id": "defensive",
+      "label": "Defensive",
+      "domains": [
+        { "id": "soc",                 "label": "SOC & Detection Engineering",    "blurb": "Alert triage, SIEM, detection authoring, and security monitoring operations." },
+        { "id": "forensics",           "label": "Digital Forensics",              "blurb": "Host, network, mobile, and cloud artifact analysis; evidence handling." },
+        { "id": "incident-response",   "label": "Incident Response",              "blurb": "Containment, eradication, recovery, and breach handling." },
+        { "id": "threat-intel",        "label": "Threat Intel & Hunting",         "blurb": "CTI production, adversary tracking, and hypothesis-driven threat hunting." },
+        { "id": "malware-re",          "label": "Malware Analysis & RE",          "blurb": "Static and dynamic malware analysis, unpacking, reverse engineering." }
+      ]
+    },
+    {
+      "id": "platform",
+      "label": "Platform & Build",
+      "domains": [
+        { "id": "cloud",               "label": "Cloud & Container Security",     "blurb": "AWS/Azure/GCP security, Kubernetes, and container runtime hardening. Excludes pure cloud-ops certs." },
+        { "id": "security-engineering","label": "Security Engineering & Arch",    "blurb": "Systems hardening, secure network and identity design, security architecture, and cryptography engineering." },
+        { "id": "appsec",              "label": "Secure Dev & DevSecOps",         "blurb": "Secure SDLC, code review, supply chain, and pipeline security." }
+      ]
+    },
+    {
+      "id": "specialist",
+      "label": "Specialist",
+      "domains": [
+        { "id": "ot-ics-iot",          "label": "OT / ICS / IoT & Hardware",      "blurb": "Industrial control systems, SCADA, embedded, and hardware security." },
+        { "id": "ai-security",         "label": "AI / ML Security",               "blurb": "Securing AI systems, model/prompt attacks, and AI governance with a technical bent." }
+      ]
+    }
+  ],
+  "tiers": [
+    { "id": "entry",        "label": "Entry",        "min": 0,  "max": 24, "blurb": "No experience assumed. Vocabulary and fundamentals." },
+    { "id": "associate",    "label": "Associate",    "min": 25, "max": 44, "blurb": "0-2 years. Can execute defined tasks under supervision." },
+    { "id": "professional", "label": "Professional", "min": 45, "max": 69, "blurb": "2-5 years. Works independently on real engagements." },
+    { "id": "expert",       "label": "Expert",       "min": 70, "max": 89, "blurb": "5-10 years. Handles novel problems; often practical multi-day exams." },
+    { "id": "master",       "label": "Master",       "min": 90, "max": 100, "blurb": "10+ years. Field-defining difficulty; very low pass rates." }
+  ]
+}

@@ -1,0 +1,101 @@
+---
+import Base from '../layouts/Base.astro'
+import RoadmapChart from '../components/RoadmapChart.tsx'
+import { allCerts, loadIssues } from '../lib/certs'
+import { DOMAINS, TIERS } from '../schema'
+import { ADD_CERT_URL, REPO_URL } from '../site'
+
+const active = allCerts.filter((c) => c.status === 'active')
+const vendors = new Set(allCerts.map((c) => c.vendor)).size
+const updated = allCerts.reduce(
+  (max, c) => (c.lastVerified > max ? c.lastVerified : max),
+  '1970-01-01',
+)
+
+const title = 'Technical Security Certification Roadmap'
+const description = `A maintained, technical-only cybersecurity certification roadmap: ${active.length} certifications across ${DOMAINS.length} hands-on domains, from penetration testing and malware reverse engineering to cloud, OT/ICS, and AI security.`
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: title,
+  description,
+  numberOfItems: active.length,
+  itemListElement: active.slice(0, 100).map((c, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    item: {
+      '@type': 'EducationalOccupationalCredential',
+      name: c.fullName,
+      alternateName: c.name,
+      url: c.vendorUrl ?? undefined,
+      credentialCategory: 'certificate',
+      recognizedBy: { '@type': 'Organization', name: c.vendor },
+    },
+  })),
+}
+
+// Surface data problems loudly in dev; the CI validator hard-fails on them.
+if (loadIssues.length && import.meta.env.DEV) {
+  console.warn(`\n⚠  ${loadIssues.length} dataset issue(s):`)
+  for (const i of loadIssues.slice(0, 20)) {
+    console.warn(`   ${i.file} [${i.id}] ${i.message}`)
+  }
+}
+---
+
+<Base title={title} description={description} canonical={Astro.site} jsonLd={jsonLd}>
+  <header class="border-b border-[var(--color-edge)] px-4 py-6">
+    <div class="mx-auto max-w-[1600px]">
+      <h1 class="text-2xl font-bold tracking-tight sm:text-3xl">
+        Technical Security Certification Roadmap
+      </h1>
+      <p class="mt-2 max-w-3xl text-sm leading-relaxed text-[var(--color-ink-dim)]">
+        Hands-on cybersecurity certifications only — no governance, audit, privacy, or project
+        management. Positioned by the depth each one actually demands, not by its marketing tier.
+        Click any certification for pricing, exam format, and sources.
+      </p>
+      <p class="mt-3 flex flex-wrap gap-x-4 gap-y-1 text-xs text-[var(--color-ink-faint)]">
+        <span>
+          <strong class="text-[var(--color-ink-dim)]">{active.length}</strong> active certifications
+        </span>
+        <span>
+          <strong class="text-[var(--color-ink-dim)]">{DOMAINS.length}</strong> technical domains
+        </span>
+        <span>
+          <strong class="text-[var(--color-ink-dim)]">{vendors}</strong>
+          {vendors === 1 ? ' issuing body' : ' issuing bodies'}
+        </span>
+        <span>Last verified <strong class="text-[var(--color-ink-dim)]">{updated}</strong></span>
+      </p>
+    </div>
+  </header>
+
+  <main>
+    <RoadmapChart client:load certs={allCerts} domains={DOMAINS} tiers={TIERS} />
+  </main>
+
+  <footer
+    class="border-t border-[var(--color-edge)] px-4 py-8 text-xs leading-relaxed text-[var(--color-ink-faint)]"
+  >
+    <div class="mx-auto max-w-[1600px]">
+      <p>
+        Certification names and marks are the property of their respective owners and are used here
+        nominatively for identification and comparison. This project is independent and is not
+        affiliated with, endorsed by, or sponsored by any certification body.
+      </p>
+      <p class="mt-2">
+        Level scores are editorial judgements about the depth a credential demands, published
+        openly so they can be argued with.
+        <a href={ADD_CERT_URL} target="_blank" rel="noopener noreferrer" class="underline">
+          Suggest a certification
+        </a>, or open any cert to report a correction or dispute its score — each is a short form,
+        no Git or JSON needed. If you would rather edit the data directly, every issuing body has
+        one JSON file in
+        <a href={`${REPO_URL}/tree/main/data/certs`} target="_blank" rel="noopener noreferrer" class="underline">
+          data/certs
+        </a>.
+      </p>
+    </div>
+  </footer>
+</Base>

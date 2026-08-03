@@ -1,0 +1,42 @@
+[
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "levelNote": "No training weight: this body sells the exam on its own and its courseware is optional. Level reflects the exam alone.",
+    "courseCode": null,
+    "examCode": "SCS-C03",
+    "examFormat": "multiple-choice",
+    "examHours": 2.8333333333333335,
+    "passingScore": null,
+    "prerequisites": [
+      "Five years security experience including two on AWS (recommended)"
+    ],
+    "renewal": {
+      "required": true,
+      "years": 3,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "id": "aws-security-specialty",
+    "name": "AWS Security",
+    "fullName": "AWS Certified Security — Specialty",
+    "vendor": "AWS",
+    "vendorUrl": "https://aws.amazon.com/certification/certified-security-specialty/",
+    "domain": "cloud",
+    "level": 50,
+    "cost": {
+      "amount": 300,
+      "currency": "USD",
+      "note": "65 questions in 170 minutes."
+    },
+    "sources": [
+      "https://aws.amazon.com/certification/certified-security-specialty/"
+    ]
+  }
+]

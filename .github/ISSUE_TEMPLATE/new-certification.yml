@@ -1,0 +1,124 @@
+name: Add a certification
+description: Propose a certification that is missing from the roadmap.
+title: 'Add: <ACRONYM>'
+labels: [new-cert]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        You do not need to know Git or JSON to use this form — fill it in and a maintainer will
+        turn it into a record. If you are comfortable editing JSON, a pull request against
+        `data/certs/<issuing-body>.json` is faster for everyone.
+
+        **Before you start:** every field must be traceable to the issuing body's own page.
+        Blog posts, training resellers and aggregator sites are not sources. If you cannot verify
+        a field, leave it blank — a missing value is more useful than a wrong one.
+
+  - type: input
+    id: acronym
+    attributes:
+      label: Acronym
+      placeholder: GCFA
+    validations: { required: true }
+
+  - type: input
+    id: fullname
+    attributes:
+      label: Full name
+      placeholder: GIAC Certified Forensic Analyst
+    validations: { required: true }
+
+  - type: input
+    id: vendor
+    attributes:
+      label: Issuing body
+      placeholder: GIAC
+    validations: { required: true }
+
+  - type: input
+    id: url
+    attributes:
+      label: Official certification page
+      description: The issuing body's own page. This is the source everything else is checked against.
+      placeholder: https://www.giac.org/certifications/certified-forensic-analyst-gcfa
+    validations: { required: true }
+
+  - type: dropdown
+    id: domain
+    attributes:
+      label: Primary domain
+      description: The single column it belongs in. Overlap goes in the next field.
+      options:
+        - Penetration Testing
+        - Web & API Security
+        - Exploit Dev & Vuln Research
+        - SOC & Detection Engineering
+        - Digital Forensics
+        - Incident Response
+        - Threat Intel & Hunting
+        - Malware Analysis & RE
+        - Cloud & Container Security
+        - Security Engineering & Arch
+        - Secure Dev & DevSecOps
+        - OT / ICS / IoT & Hardware
+        - AI / ML Security
+    validations: { required: true }
+
+  - type: input
+    id: adjacent
+    attributes:
+      label: Adjacent domains (optional, max two)
+      placeholder: Incident Response, Threat Intel & Hunting
+
+  - type: dropdown
+    id: format
+    attributes:
+      label: Exam format
+      options:
+        - practical (hands-on, graded on what you do)
+        - hybrid (multiple choice plus hands-on or simulation items)
+        - multiple-choice (no hands-on component)
+        - portfolio (awarded for holding other certifications)
+        - not published
+    validations: { required: true }
+
+  - type: input
+    id: length
+    attributes:
+      label: Exam length
+      description: As the body states it — hours for a sitting, days for a lab window.
+      placeholder: 3 hours / 7 days
+
+  - type: input
+    id: price
+    attributes:
+      label: Price and currency
+      description: The exam or voucher price from the issuing body. Not a reseller's price.
+      placeholder: 999 USD
+
+  - type: input
+    id: training
+    attributes:
+      label: Required or bundled training
+      description: >-
+        Course name and the body's own difficulty rating, if it publishes one. This feeds the
+        training weight in the score.
+      placeholder: SEC508, rated Intermediate by SANS, 6 days / 36 CPEs
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else
+      description: Prerequisites, renewal terms, accreditation, or why this belongs on the chart.
+
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Scope check
+      options:
+        - label: >-
+            This is a technical credential. Less than half the exam is policy, process or
+            paperwork. (Governance, audit, privacy and project management certs are out of scope.)
+          required: true
+        - label: It is backed by an assessment, not just course completion.
+          required: true

@@ -1,0 +1,459 @@
+[
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": 6,
+    "passingScore": 66,
+    "prerequisites": [],
+    "renewal": {
+      "required": true,
+      "years": 3,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "id": "crest-ccrts",
+    "name": "CCRTS",
+    "fullName": "CREST Certified Red Team Specialist",
+    "vendor": "CREST",
+    "vendorUrl": "https://www.crest-approved.org/crest-certified-red-team-specialist/",
+    "domain": "pentest",
+    "level": 80,
+    "scoredBy": "Opus 5",
+    "examFormat": "hybrid",
+    "cost": {
+      "amount": null,
+      "currency": "GBP",
+      "note": "CREST does not publish a single exam fee; cost varies by region and delivery partner."
+    },
+    "sources": [
+      "https://www.crest-approved.org/crest-certified-red-team-specialist/"
+    ]
+  },
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": 6,
+    "passingScore": 66,
+    "prerequisites": [],
+    "renewal": {
+      "required": true,
+      "years": 3,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "id": "crest-ccrtm",
+    "name": "CCRTM",
+    "fullName": "CREST Certified Red Team Manager",
+    "vendor": "CREST",
+    "vendorUrl": "https://www.crest-approved.org/skills-certifications-careers/crest-certified-red-team-manager/",
+    "domain": "pentest",
+    "level": 78,
+    "scoredBy": "Opus 5",
+    "examFormat": "hybrid",
+    "cost": {
+      "amount": null,
+      "currency": "GBP",
+      "note": "CREST does not publish a single exam fee; cost varies by region and delivery partner."
+    },
+    "sources": [
+      "https://www.crest-approved.org/skills-certifications-careers/crest-certified-red-team-manager/"
+    ]
+  },
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": null,
+    "passingScore": null,
+    "prerequisites": [
+      "Considerable real-world incident handling experience"
+    ],
+    "renewal": {
+      "required": true,
+      "years": 3,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "id": "crest-ccim",
+    "name": "CCIM",
+    "fullName": "CREST Certified Incident Manager",
+    "vendor": "CREST",
+    "vendorUrl": "https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-incident-manager/",
+    "domain": "incident-response",
+    "level": 72,
+    "scoredBy": "Opus 5",
+    "examFormat": "hybrid",
+    "cost": {
+      "amount": null,
+      "currency": "GBP",
+      "note": "CREST does not publish a single exam fee; cost varies by region and delivery partner."
+    },
+    "sources": [
+      "https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-incident-manager/"
+    ]
+  },
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": 6,
+    "passingScore": 66,
+    "prerequisites": [],
+    "renewal": {
+      "required": true,
+      "years": 3,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "id": "crest-cct-app",
+    "name": "CCT APP",
+    "fullName": "CREST Certified Tester — Application",
+    "vendor": "CREST",
+    "vendorUrl": "https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-web-application-tester/",
+    "domain": "webapp",
+    "level": 72,
+    "scoredBy": "Opus 5",
+    "examFormat": "hybrid",
+    "cost": {
+      "amount": null,
+      "currency": "GBP",
+      "note": "CREST does not publish a single exam fee; cost varies by region and delivery partner."
+    },
+    "sources": [
+      "https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-web-application-tester/"
+    ]
+  },
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": 6,
+    "passingScore": 66,
+    "prerequisites": [],
+    "renewal": {
+      "required": true,
+      "years": 3,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "id": "crest-cct-inf",
+    "name": "CCT INF",
+    "fullName": "CREST Certified Tester — Infrastructure",
+    "vendor": "CREST",
+    "vendorUrl": "https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-infrastructure-tester/",
+    "domain": "pentest",
+    "level": 72,
+    "scoredBy": "Opus 5",
+    "examFormat": "hybrid",
+    "cost": {
+      "amount": null,
+      "currency": "GBP",
+      "note": "CREST does not publish a single exam fee; cost varies by region and delivery partner."
+    },
+    "sources": [
+      "https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-infrastructure-tester/"
+    ]
+  },
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": null,
+    "passingScore": null,
+    "prerequisites": [
+      "Proven operational threat intelligence production experience"
+    ],
+    "renewal": {
+      "required": true,
+      "years": 3,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "id": "crest-cctim",
+    "name": "CCTIM",
+    "fullName": "CREST Certified Threat Intelligence Manager",
+    "vendor": "CREST",
+    "vendorUrl": "https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-threat-intelligence-manager/",
+    "domain": "threat-intel",
+    "level": 70,
+    "scoredBy": "Opus 5",
+    "examFormat": "hybrid",
+    "cost": {
+      "amount": null,
+      "currency": "GBP",
+      "note": "CREST does not publish a single exam fee; cost varies by region and delivery partner."
+    },
+    "sources": [
+      "https://www.crest-approved.org/certification-careers/crest-certifications/crest-certified-threat-intelligence-manager/"
+    ]
+  },
+  {
+    "adjacentDomains": [
+      "forensics"
+    ],
+    "span": "none",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": 2.5,
+    "passingScore": 60,
+    "prerequisites": [
+      "crest-cpia",
+      "6,000 hours of incident response experience"
+    ],
+    "renewal": {
+      "required": true,
+      "years": 3,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "id": "crest-cria",
+    "name": "CRIA",
+    "fullName": "CREST Registered Intrusion Analyst",
+    "vendor": "CREST",
+    "vendorUrl": "https://www.crest-approved.org/skills-certifications-careers/crest-registered-intrusion-analyst/",
+    "domain": "incident-response",
+    "level": 58,
+    "scoredBy": "Opus 5",
+    "examFormat": "multiple-choice",
+    "cost": {
+      "amount": null,
+      "currency": "GBP",
+      "note": "CREST does not publish a single exam fee; cost varies by region and delivery partner."
+    },
+    "sources": [
+      "https://www.crest-approved.org/skills-certifications-careers/crest-registered-intrusion-analyst/"
+    ]
+  },
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": null,
+    "passingScore": 66,
+    "prerequisites": [
+      "Two years producing threat intelligence"
+    ],
+    "renewal": {
+      "required": true,
+      "years": 3,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "id": "crest-crtia",
+    "name": "CRTIA",
+    "fullName": "CREST Registered Threat Intelligence Analyst",
+    "vendor": "CREST",
+    "vendorUrl": "https://www.crest-approved.org/certification-careers/crest-certifications/crest-registered-threat-intelligence-analyst/",
+    "domain": "threat-intel",
+    "level": 58,
+    "scoredBy": "Opus 5",
+    "examFormat": "hybrid",
+    "cost": {
+      "amount": null,
+      "currency": "GBP",
+      "note": "CREST does not publish a single exam fee; cost varies by region and delivery partner."
+    },
+    "sources": [
+      "https://www.crest-approved.org/certification-careers/crest-certifications/crest-registered-threat-intelligence-analyst/"
+    ]
+  },
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": 4,
+    "passingScore": 60,
+    "prerequisites": [
+      "crest-cpsa"
+    ],
+    "renewal": {
+      "required": true,
+      "years": 3,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "id": "crest-crt",
+    "name": "CRT",
+    "fullName": "CREST Registered Penetration Tester",
+    "vendor": "CREST",
+    "vendorUrl": "https://www.crest-approved.org/skills-certifications-careers/crest-registered-penetration-tester/",
+    "domain": "pentest",
+    "level": 55,
+    "scoredBy": "Opus 5",
+    "examFormat": "hybrid",
+    "cost": {
+      "amount": null,
+      "currency": "GBP",
+      "note": "CREST does not publish a single exam fee; cost varies by region and delivery partner."
+    },
+    "sources": [
+      "https://www.crest-approved.org/skills-certifications-careers/crest-registered-penetration-tester/"
+    ]
+  },
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": 2,
+    "passingScore": 60,
+    "prerequisites": [],
+    "renewal": {
+      "required": true,
+      "years": 3,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "id": "crest-cpia",
+    "name": "CPIA",
+    "fullName": "CREST Practitioner Intrusion Analyst",
+    "vendor": "CREST",
+    "vendorUrl": "https://www.crest-approved.org/certification-careers/crest-certifications/crest-practitioner-intrusion-analyst/",
+    "domain": "incident-response",
+    "level": 42,
+    "scoredBy": "Opus 5",
+    "examFormat": "multiple-choice",
+    "cost": {
+      "amount": null,
+      "currency": "GBP",
+      "note": "CREST does not publish a single exam fee; cost varies by region and delivery partner."
+    },
+    "sources": [
+      "https://www.crest-approved.org/certification-careers/crest-certifications/crest-practitioner-intrusion-analyst/"
+    ]
+  },
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": null,
+    "passingScore": 66,
+    "prerequisites": [],
+    "renewal": {
+      "required": true,
+      "years": 3,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "id": "crest-cptia",
+    "name": "CPTIA",
+    "fullName": "CREST Practitioner Threat Intelligence Analyst",
+    "vendor": "CREST",
+    "vendorUrl": "https://www.crest-approved.org/certification-careers/crest-certifications/crest-practitioner-threat-intelligence-analyst/",
+    "domain": "threat-intel",
+    "level": 42,
+    "scoredBy": "Opus 5",
+    "examFormat": "multiple-choice",
+    "cost": {
+      "amount": null,
+      "currency": "GBP",
+      "note": "CREST does not publish a single exam fee; cost varies by region and delivery partner."
+    },
+    "sources": [
+      "https://www.crest-approved.org/certification-careers/crest-certifications/crest-practitioner-threat-intelligence-analyst/"
+    ]
+  },
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": 2,
+    "passingScore": 60,
+    "prerequisites": [],
+    "renewal": {
+      "required": true,
+      "years": 3,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-03",
+    "id": "crest-cpsa",
+    "name": "CPSA",
+    "fullName": "CREST Practitioner Security Analyst",
+    "vendor": "CREST",
+    "vendorUrl": "https://www.crest-approved.org/certification-careers/crest-certifications/crest-practitioner-security-analyst/",
+    "domain": "pentest",
+    "level": 40,
+    "scoredBy": "Opus 5",
+    "examFormat": "multiple-choice",
+    "cost": {
+      "amount": null,
+      "currency": "GBP",
+      "note": "CREST does not publish a single exam fee; cost varies by region and delivery partner."
+    },
+    "sources": [
+      "https://www.crest-approved.org/certification-careers/crest-certifications/crest-practitioner-security-analyst/"
+    ]
+  }
+]
