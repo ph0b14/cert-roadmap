@@ -62,7 +62,8 @@ const MARGIN = 40
 const HEADER_H = 108
 const BAND_H = 26
 const COLHEAD_H = 44
-const FOOTER_H = 56
+/** Reserved strip below the plot for the separator, watermark and disclaimer. */
+const FOOTER_H = 72
 
 /** Resolve a CSS custom property to a concrete colour string. */
 function cssVar(name: string, fallback: string): string {
@@ -255,16 +256,36 @@ export function renderRoadmapCanvas(opts: ExportOptions): HTMLCanvasElement {
     ctx.globalAlpha = 1
   }
 
-  // ---- footer -------------------------------------------------------------
-  const fy = plotY + plotH + 18
+  // ---- footer and watermark -----------------------------------------------
+  // Sits in reserved space below the plot, never over a cell: the image is
+  // meant to be shared, and a mark across the chart would obscure exactly the
+  // thing being shared.
+  const fy = plotY + plotH + 22
+
+  ctx.strokeStyle = edge
+  ctx.lineWidth = 1
+  ctx.beginPath()
+  ctx.moveTo(MARGIN, fy - 12)
+  ctx.lineTo(width - MARGIN, fy - 12)
+  ctx.stroke()
+
+  ctx.textBaseline = 'top'
+  ctx.font = `400 12.5px ${FONT}`
   ctx.fillStyle = inkFaint
-  ctx.font = `400 12px ${FONT}`
-  ctx.fillText(opts.siteLabel, MARGIN, fy)
+  const prefix = 'Made with '
+  ctx.fillText(prefix, MARGIN, fy)
+
+  const prefixWidth = ctx.measureText(prefix).width
+  ctx.font = `700 12.5px ${FONT}`
+  ctx.fillStyle = primary
+  ctx.fillText(opts.siteLabel, MARGIN + prefixWidth, fy)
+
   ctx.font = `400 11px ${FONT}`
+  ctx.fillStyle = inkFaint
   ctx.fillText(
     'Certification names are trademarks of their respective owners. Levels are editorial judgements.',
     MARGIN,
-    fy + 18,
+    fy + 20,
   )
 
   return canvas

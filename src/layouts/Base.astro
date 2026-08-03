@@ -12,19 +12,15 @@ interface Props {
 const { title, description, canonical, jsonLd } = Astro.props
 
 /**
- * Mirrors the navigation on pyaeheinnkyaw.com. The section links are anchors on
- * the About page, so from this subdomain they need absolute URLs rather than
- * the bare `#experience` the parent site can use.
+ * Site-level navigation only. Experience, Achievements, Research and
+ * Certifications are in-page anchors belonging to the About page — carrying
+ * them here would send visitors off this site to jump to a section of another.
  */
 const ABOUT = 'https://about.pyaeheinnkyaw.com'
 const NAV = [
   { label: 'Home', href: PARENT_SITE },
   { label: 'About Me', href: ABOUT },
   { label: 'BTLO Write-Ups', href: `${PARENT_SITE}/category/btlo-write-ups/` },
-  { label: 'Experience', href: `${ABOUT}#experience` },
-  { label: 'Achievements', href: `${ABOUT}#achievements` },
-  { label: 'Research', href: `${ABOUT}#research` },
-  { label: 'Certifications', href: `${ABOUT}#certifications` },
   { label: 'Certification Roadmap', href: 'https://certs.pyaeheinnkyaw.com', current: true },
   { label: 'Contact', href: `${ABOUT}#contact` },
 ]
