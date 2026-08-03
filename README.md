@@ -59,8 +59,8 @@ DoD 8140 approval — and every cert gets its own crawlable, screen-reader-navig
 The original went stale because one person curated hundreds of records by hand. The machinery here
 is built so decay is *visible*:
 
-- `npm run validate` hard-fails on schema violations, duplicate ids, unknown domains, and files that
-  mix issuing bodies. It runs on every PR.
+- Every pull request is validated automatically — schema violations, duplicate ids, unknown
+  domains and files that mix issuing bodies all fail the build before they reach the chart.
 - A weekly GitHub Action probes every vendor URL. Dead links are the earliest signal a cert was
   retired or renamed. Results become a tracking issue automatically.
 - Every record carries `lastVerified` and `sources`. Anything unverified for 180+ days is flagged.
@@ -76,19 +76,8 @@ Each is a short form. No Git, no JSON, no local setup. See [CONTRIBUTING.md](CON
 what belongs on the chart and how scores are argued.
 
 If you would rather edit the data directly, every issuing body has one JSON file in
-[`data/certs/`](data/certs) and a pull request is faster for everyone.
-
-### Running it locally
-
-Only needed if you are changing the site itself rather than the data.
-
-```bash
-npm install
-npm run dev        # http://localhost:4321
-npm run validate   # check the dataset
-npm run build      # validate, then static build to dist/
-npm run linkcheck  # probe every vendor URL
-```
+[`data/certs/`](data/certs). Edit it in the GitHub web editor and open a pull request — CI checks
+the schema, ids, domains and links for you and comments if anything is wrong.
 
 ## Data model
 

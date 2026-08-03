@@ -5,11 +5,20 @@ public rather than decided in private.
 
 ## Adding or correcting a certification
 
-1. Edit the JSON file for its **issuing body** in `data/certs/` — `giac.json`, `offsec.json`,
-   `eccouncil.json`, `securityblueteam.json`. A new issuing body gets a new file; keep one body
-   per file.
-2. Run `npm run validate`. It will tell you exactly which record and field is wrong.
-3. Open a PR. Include the vendor page you used as a source in the description.
+**The easiest route is a form — no account setup, no tooling, no JSON.**
+
+- [Add a certification](../../issues/new?template=new-certification.yml)
+- [Correct a field](../../issues/new?template=correction.yml) — price, format, URL, status
+- [Dispute a score](../../issues/new?template=level-dispute.yml)
+
+If you would rather edit the data yourself:
+
+1. Open the JSON file for its **issuing body** in `data/certs/` — one file per body, a new body
+   gets a new file — and edit it straight in the GitHub web editor.
+2. Open a pull request. Include the vendor page you used as a source.
+3. CI validates it: schema, duplicate ids, unknown domains, mixed issuing bodies and dead links
+   are all caught automatically and reported on the PR. **You do not need to install or run
+   anything.**
 
 Files are grouped by issuing body because that is how the data is sourced and how it goes stale —
 when GIAC re-prices its catalogue, one file changes. Which **column** a cert appears in comes from
