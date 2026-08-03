@@ -599,11 +599,10 @@ export default function RoadmapChart({ certs, domains, tiers }: Props) {
 
       {certs.length === 0 ? (
         <div className="px-4 py-24 text-center text-sm text-[var(--color-ink-faint)]">
-          <p className="mb-1 text-[var(--color-ink-dim)]">No certification data loaded yet.</p>
-          <p>
-            Add vendor files to <code>data/_staging/</code>, then run{' '}
-            <code>npm run merge &amp;&amp; npm run validate</code>.
-          </p>
+          {/* Visitor-facing, not developer-facing: whoever sees this is reading
+              the published site, and there is nothing they can do about it. */}
+          <p className="mb-1 text-[var(--color-ink-dim)]">The roadmap could not be loaded.</p>
+          <p>Please try refreshing. If it keeps happening, the site is broken and not you.</p>
         </div>
       ) : visible.length === 0 ? (
         <p className="px-4 py-24 text-center text-sm text-[var(--color-ink-faint)]">

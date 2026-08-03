@@ -1,5 +1,7 @@
 # Technical Security Certification Roadmap
 
+### → [certs.pyaeheinnkyaw.com](https://certs.pyaeheinnkyaw.com)
+
 A maintained, **technical-only** cybersecurity certification roadmap. Hands-on credentials
 positioned by the depth they actually demand — not by their marketing tier, and not by price.
 
@@ -63,12 +65,27 @@ is built so decay is *visible*:
   retired or renamed. Results become a tracking issue automatically.
 - Every record carries `lastVerified` and `sources`. Anything unverified for 180+ days is flagged.
 
-## Development
+## Contributing
+
+**You do not need to clone this repository or install anything to contribute.** Use the site:
+
+- [Suggest a certification](https://github.com/ph0b14/cert-roadmap/issues/new?template=new-certification.yml)
+- Open any certification on the chart to report a correction or dispute its score
+
+Each is a short form. No Git, no JSON, no local setup. See [CONTRIBUTING.md](CONTRIBUTING.md) for
+what belongs on the chart and how scores are argued.
+
+If you would rather edit the data directly, every issuing body has one JSON file in
+[`data/certs/`](data/certs) and a pull request is faster for everyone.
+
+### Running it locally
+
+Only needed if you are changing the site itself rather than the data.
 
 ```bash
 npm install
-npm run validate   # check the dataset
 npm run dev        # http://localhost:4321
+npm run validate   # check the dataset
 npm run build      # validate, then static build to dist/
 npm run linkcheck  # probe every vendor URL
 ```
@@ -106,11 +123,6 @@ The schema is enforced by [`src/schema.ts`](src/schema.ts).
 ```
 
 Unknown values are `null`, never guessed. A missing price is more useful than a wrong one.
-
-## Contributing
-
-See [CONTRIBUTING.md](CONTRIBUTING.md). Corrections to level scores are especially welcome — that
-is the most subjective part of the project and the part most improved by argument.
 
 ## Legal
 
