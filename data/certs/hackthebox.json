@@ -343,7 +343,7 @@
       "pentest"
     ],
     "span": "none",
-    "level": 41,
+    "level": 45,
     "scoredBy": "Opus 5",
     "cost": {
       "amount": 490,
@@ -368,11 +368,11 @@
       "dod8140": []
     },
     "status": "active",
-    "lastVerified": "2026-08-03",
+    "lastVerified": "2026-08-04",
     "sources": [
       "https://academy.hackthebox.com/preview/certifications",
       "https://help.hackthebox.com/en/articles/12741732-academy-certifications"
     ],
-    "levelNote": "Score weights the required training as well as the exam: the Junior Cybersecurity Analyst path on HTB Academy, an entry-level path. Exam-only score 38, +3 for the training. level measures the depth a credential demands, not only how the exam checks it."
+    "levelNote": "Raised: a hands-on assessment was sitting below knowledge exams. A practical junior analyst exam."
   }
 ]

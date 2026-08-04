@@ -199,7 +199,7 @@
     "adjacentDomains": [],
     "span": "none",
     "scoredBy": "Opus 5",
-    "levelNote": "ATT&CK-mapped assessment combining knowledge and hands-on work. This body does not publish full exam specifications; level rests on format and scope. Score weights the required training: MAD20 courses are self-paced with labs. Exam-only score 28, +3 for the training.",
+    "levelNote": "Re-based onto the common knowledge-exam scale. A fundamentals-level assessment. ATT&CK-mapped assessment combining knowledge and hands-on work. This body does not publish full exam specifications; level rests on format and scope. Score weights the required training: MAD20 courses are self-paced with labs.",
     "courseCode": null,
     "examCode": null,
     "examHours": null,
@@ -222,7 +222,7 @@
     "vendor": "MAD20",
     "vendorUrl": "https://mad20.com/individuals",
     "domain": "soc",
-    "level": 31,
+    "level": 28,
     "examFormat": "hybrid",
     "cost": {
       "amount": null,

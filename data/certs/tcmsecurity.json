@@ -79,6 +79,82 @@
     "adjacentDomains": [],
     "span": "none",
     "scoredBy": "Opus 5",
+    "levelNote": "Raised: a hands-on assessment was sitting below knowledge exams. A 72-hour OSINT practical with a report, previously level with a two-hour paper. 3-day practical assessment plus a two-day reporting window. Level rests on exam format and course positioning; this body does not publish question counts or cut scores.",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": 72,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-04",
+    "id": "tcm-porp",
+    "name": "PORP",
+    "fullName": "TCM Security Practical OSINT Research Professional",
+    "vendor": "TCM Security",
+    "vendorUrl": "https://certifications.tcm-sec.com/",
+    "domain": "threat-intel",
+    "level": 58,
+    "examFormat": "practical",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "Sold as a voucher; TCM Academy training is separate."
+    },
+    "sources": [
+      "https://certifications.tcm-sec.com/"
+    ]
+  },
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "levelNote": "Raised: a hands-on assessment was sitting below knowledge exams. A 72-hour practical with a report. 3-day practical assessment plus a two-day reporting window. Level rests on exam format and course positioning; this body does not publish question counts or cut scores.",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": 72,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-04",
+    "id": "tcm-psap",
+    "name": "PSAP",
+    "fullName": "TCM Security Practical SOC Analyst Professional",
+    "vendor": "TCM Security",
+    "vendorUrl": "https://certifications.tcm-sec.com/",
+    "domain": "soc",
+    "level": 58,
+    "examFormat": "practical",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "Sold as a voucher; TCM Academy training is separate."
+    },
+    "sources": [
+      "https://certifications.tcm-sec.com/"
+    ]
+  },
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "scoredBy": "Opus 5",
     "levelNote": "5-day practical assessment plus a two-day reporting window. Level rests on exam format and course positioning; this body does not publish question counts or cut scores.",
     "courseCode": null,
     "examCode": null,
@@ -155,10 +231,10 @@
     "adjacentDomains": [],
     "span": "none",
     "scoredBy": "Opus 5",
-    "levelNote": "3-day practical assessment plus a two-day reporting window. Level rests on exam format and course positioning; this body does not publish question counts or cut scores.",
+    "levelNote": "Raised: a hands-on assessment was sitting below knowledge exams. A 48-hour practical with a report. 2-day practical assessment plus a two-day reporting window. Level rests on exam format and course positioning; this body does not publish question counts or cut scores.",
     "courseCode": null,
     "examCode": null,
-    "examHours": 72,
+    "examHours": 48,
     "passingScore": null,
     "prerequisites": [],
     "renewal": {
@@ -171,14 +247,14 @@
       "dod8140": []
     },
     "status": "active",
-    "lastVerified": "2026-08-03",
-    "id": "tcm-psap",
-    "name": "PSAP",
-    "fullName": "TCM Security Practical SOC Analyst Professional",
+    "lastVerified": "2026-08-04",
+    "id": "tcm-pipa",
+    "name": "PIPA",
+    "fullName": "TCM Security Practical IoT Pentest Associate",
     "vendor": "TCM Security",
     "vendorUrl": "https://certifications.tcm-sec.com/",
-    "domain": "soc",
-    "level": 52,
+    "domain": "ot-ics-iot",
+    "level": 50,
     "examFormat": "practical",
     "cost": {
       "amount": null,
@@ -193,10 +269,10 @@
     "adjacentDomains": [],
     "span": "none",
     "scoredBy": "Opus 5",
-    "levelNote": "3-day practical assessment plus a two-day reporting window. Level rests on exam format and course positioning; this body does not publish question counts or cut scores.",
+    "levelNote": "Raised: a hands-on assessment was sitting below knowledge exams. A 48-hour practical with a report. AI security is roughly three years old as a discipline and its credentials have not yet accumulated the depth of the established expert-tier certs. The whole column was re-rated together on that basis. Two-day practical from TCM, explicitly an associate-tier credential.",
     "courseCode": null,
     "examCode": null,
-    "examHours": 72,
+    "examHours": 48,
     "passingScore": null,
     "prerequisites": [],
     "renewal": {
@@ -209,13 +285,13 @@
       "dod8140": []
     },
     "status": "active",
-    "lastVerified": "2026-08-03",
-    "id": "tcm-porp",
-    "name": "PORP",
-    "fullName": "TCM Security Practical OSINT Research Professional",
+    "lastVerified": "2026-08-04",
+    "id": "tcm-papa",
+    "name": "PAPA",
+    "fullName": "TCM Security Practical AI Pentest Associate",
     "vendor": "TCM Security",
     "vendorUrl": "https://certifications.tcm-sec.com/",
-    "domain": "threat-intel",
+    "domain": "ai-security",
     "level": 48,
     "examFormat": "practical",
     "cost": {
@@ -231,7 +307,7 @@
     "adjacentDomains": [],
     "span": "none",
     "scoredBy": "Opus 5",
-    "levelNote": "AI security is roughly three years old as a discipline and its credentials have not yet accumulated the depth of the established expert-tier certs. The whole column was re-rated together on that basis. Two-day practical from TCM, explicitly an associate-tier credential.",
+    "levelNote": "Raised: a hands-on assessment was sitting below knowledge exams. A 48-hour practical with a report. 2-day practical assessment plus a two-day reporting window. Level rests on exam format and course positioning; this body does not publish question counts or cut scores.",
     "courseCode": null,
     "examCode": null,
     "examHours": 48,
@@ -247,166 +323,14 @@
       "dod8140": []
     },
     "status": "active",
-    "lastVerified": "2026-08-03",
-    "id": "tcm-papa",
-    "name": "PAPA",
-    "fullName": "TCM Security Practical AI Pentest Associate",
-    "vendor": "TCM Security",
-    "vendorUrl": "https://certifications.tcm-sec.com/",
-    "domain": "ai-security",
-    "level": 42,
-    "examFormat": "practical",
-    "cost": {
-      "amount": null,
-      "currency": "USD",
-      "note": "Sold as a voucher; TCM Academy training is separate."
-    },
-    "sources": [
-      "https://certifications.tcm-sec.com/"
-    ]
-  },
-  {
-    "adjacentDomains": [],
-    "span": "none",
-    "scoredBy": "Opus 5",
-    "levelNote": "2-day practical assessment plus a two-day reporting window. Level rests on exam format and course positioning; this body does not publish question counts or cut scores.",
-    "courseCode": null,
-    "examCode": null,
-    "examHours": 48,
-    "passingScore": null,
-    "prerequisites": [],
-    "renewal": {
-      "required": false,
-      "years": null,
-      "ceCredits": null
-    },
-    "accreditation": {
-      "ansiIso17024": false,
-      "dod8140": []
-    },
-    "status": "active",
-    "lastVerified": "2026-08-03",
-    "id": "tcm-pipa",
-    "name": "PIPA",
-    "fullName": "TCM Security Practical IoT Pentest Associate",
-    "vendor": "TCM Security",
-    "vendorUrl": "https://certifications.tcm-sec.com/",
-    "domain": "ot-ics-iot",
-    "level": 42,
-    "examFormat": "practical",
-    "cost": {
-      "amount": null,
-      "currency": "USD",
-      "note": "Sold as a voucher; TCM Academy training is separate."
-    },
-    "sources": [
-      "https://certifications.tcm-sec.com/"
-    ]
-  },
-  {
-    "adjacentDomains": [],
-    "span": "none",
-    "scoredBy": "Opus 5",
-    "levelNote": "2-day practical assessment plus a two-day reporting window. Level rests on exam format and course positioning; this body does not publish question counts or cut scores.",
-    "courseCode": null,
-    "examCode": null,
-    "examHours": 48,
-    "passingScore": null,
-    "prerequisites": [],
-    "renewal": {
-      "required": false,
-      "years": null,
-      "ceCredits": null
-    },
-    "accreditation": {
-      "ansiIso17024": false,
-      "dod8140": []
-    },
-    "status": "active",
-    "lastVerified": "2026-08-03",
-    "id": "tcm-pjpt",
-    "name": "PJPT",
-    "fullName": "TCM Security Practical Junior Penetration Tester",
-    "vendor": "TCM Security",
-    "vendorUrl": "https://certifications.tcm-sec.com/",
-    "domain": "pentest",
-    "level": 42,
-    "examFormat": "practical",
-    "cost": {
-      "amount": null,
-      "currency": "USD",
-      "note": "Sold as a voucher; TCM Academy training is separate."
-    },
-    "sources": [
-      "https://certifications.tcm-sec.com/"
-    ]
-  },
-  {
-    "adjacentDomains": [],
-    "span": "none",
-    "scoredBy": "Opus 5",
-    "levelNote": "2-day practical assessment plus a two-day reporting window. Level rests on exam format and course positioning; this body does not publish question counts or cut scores.",
-    "courseCode": null,
-    "examCode": null,
-    "examHours": 48,
-    "passingScore": null,
-    "prerequisites": [],
-    "renewal": {
-      "required": false,
-      "years": null,
-      "ceCredits": null
-    },
-    "accreditation": {
-      "ansiIso17024": false,
-      "dod8140": []
-    },
-    "status": "active",
-    "lastVerified": "2026-08-03",
-    "id": "tcm-pmpa",
-    "name": "PMPA",
-    "fullName": "TCM Security Practical Mobile Pentest Associate",
-    "vendor": "TCM Security",
-    "vendorUrl": "https://certifications.tcm-sec.com/",
-    "domain": "pentest",
-    "level": 42,
-    "examFormat": "practical",
-    "cost": {
-      "amount": null,
-      "currency": "USD",
-      "note": "Sold as a voucher; TCM Academy training is separate."
-    },
-    "sources": [
-      "https://certifications.tcm-sec.com/"
-    ]
-  },
-  {
-    "adjacentDomains": [],
-    "span": "none",
-    "scoredBy": "Opus 5",
-    "levelNote": "2-day practical assessment plus a two-day reporting window. Level rests on exam format and course positioning; this body does not publish question counts or cut scores.",
-    "courseCode": null,
-    "examCode": null,
-    "examHours": 48,
-    "passingScore": null,
-    "prerequisites": [],
-    "renewal": {
-      "required": false,
-      "years": null,
-      "ceCredits": null
-    },
-    "accreditation": {
-      "ansiIso17024": false,
-      "dod8140": []
-    },
-    "status": "active",
-    "lastVerified": "2026-08-03",
+    "lastVerified": "2026-08-04",
     "id": "tcm-psaa",
     "name": "PSAA",
     "fullName": "TCM Security Practical SOC Analyst Associate",
     "vendor": "TCM Security",
     "vendorUrl": "https://certifications.tcm-sec.com/",
     "domain": "soc",
-    "level": 42,
+    "level": 48,
     "examFormat": "practical",
     "cost": {
       "amount": null,
@@ -421,7 +345,7 @@
     "adjacentDomains": [],
     "span": "none",
     "scoredBy": "Opus 5",
-    "levelNote": "2-day practical assessment plus a two-day reporting window. Level rests on exam format and course positioning; this body does not publish question counts or cut scores.",
+    "levelNote": "Raised: a hands-on assessment was sitting below knowledge exams. A 48-hour practical with a report, previously below a two-hour paper. 2-day practical assessment plus a two-day reporting window. Level rests on exam format and course positioning; this body does not publish question counts or cut scores.",
     "courseCode": null,
     "examCode": null,
     "examHours": 48,
@@ -437,14 +361,14 @@
       "dod8140": []
     },
     "status": "active",
-    "lastVerified": "2026-08-03",
+    "lastVerified": "2026-08-04",
     "id": "tcm-pwpa",
     "name": "PWPA",
     "fullName": "TCM Security Practical Web Pentest Associate",
     "vendor": "TCM Security",
     "vendorUrl": "https://certifications.tcm-sec.com/",
     "domain": "webapp",
-    "level": 42,
+    "level": 48,
     "examFormat": "practical",
     "cost": {
       "amount": null,
@@ -459,7 +383,83 @@
     "adjacentDomains": [],
     "span": "none",
     "scoredBy": "Opus 5",
-    "levelNote": "1-day practical assessment plus a two-day reporting window. Level rests on exam format and course positioning; this body does not publish question counts or cut scores.",
+    "levelNote": "Raised: a hands-on assessment was sitting below knowledge exams. A 48-hour practical with a written report — it was sitting below CEH. 2-day practical assessment plus a two-day reporting window. Level rests on exam format and course positioning; this body does not publish question counts or cut scores.",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": 48,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-04",
+    "id": "tcm-pjpt",
+    "name": "PJPT",
+    "fullName": "TCM Security Practical Junior Penetration Tester",
+    "vendor": "TCM Security",
+    "vendorUrl": "https://certifications.tcm-sec.com/",
+    "domain": "pentest",
+    "level": 46,
+    "examFormat": "practical",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "Sold as a voucher; TCM Academy training is separate."
+    },
+    "sources": [
+      "https://certifications.tcm-sec.com/"
+    ]
+  },
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "levelNote": "Raised: a hands-on assessment was sitting below knowledge exams. A 48-hour mobile practical with a report. 2-day practical assessment plus a two-day reporting window. Level rests on exam format and course positioning; this body does not publish question counts or cut scores.",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": 48,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-04",
+    "id": "tcm-pmpa",
+    "name": "PMPA",
+    "fullName": "TCM Security Practical Mobile Pentest Associate",
+    "vendor": "TCM Security",
+    "vendorUrl": "https://certifications.tcm-sec.com/",
+    "domain": "pentest",
+    "level": 46,
+    "examFormat": "practical",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "Sold as a voucher; TCM Academy training is separate."
+    },
+    "sources": [
+      "https://certifications.tcm-sec.com/"
+    ]
+  },
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "levelNote": "A practical, but a help-desk-level one. 1-day practical assessment plus a two-day reporting window. Level rests on exam format and course positioning; this body does not publish question counts or cut scores.",
     "courseCode": null,
     "examCode": null,
     "examHours": 24,
@@ -475,14 +475,14 @@
       "dod8140": []
     },
     "status": "active",
-    "lastVerified": "2026-08-03",
+    "lastVerified": "2026-08-04",
     "id": "tcm-phda",
     "name": "PHDA",
     "fullName": "TCM Security Practical Help Desk Associate",
     "vendor": "TCM Security",
     "vendorUrl": "https://certifications.tcm-sec.com/",
     "domain": "security-engineering",
-    "level": 20,
+    "level": 24,
     "examFormat": "practical",
     "cost": {
       "amount": null,

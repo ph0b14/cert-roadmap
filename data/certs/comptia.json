@@ -1,122 +1,5 @@
 [
   {
-    "adjacentDomains": [
-      "cloud"
-    ],
-    "span": "none",
-    "courseCode": null,
-    "examCode": "CAS-005",
-    "examHours": 2.75,
-    "passingScore": null,
-    "prerequisites": [
-      "Ten years IT administration including five in security (recommended)"
-    ],
-    "renewal": {
-      "required": true,
-      "years": 3,
-      "ceCredits": 75
-    },
-    "accreditation": {
-      "ansiIso17024": true,
-      "dod8140": []
-    },
-    "status": "active",
-    "lastVerified": "2026-08-03",
-    "id": "comptia-securityx",
-    "name": "SecurityX",
-    "fullName": "CompTIA SecurityX",
-    "vendor": "CompTIA",
-    "vendorUrl": "https://www.comptia.org/en-us/certifications/securityx/",
-    "domain": "security-engineering",
-    "level": 55,
-    "scoredBy": "Opus 5",
-    "cost": {
-      "amount": 417,
-      "currency": "USD",
-      "note": "Single-attempt voucher. Formerly CASP+; renamed SecurityX in December 2024."
-    },
-    "examFormat": "hybrid",
-    "sources": [
-      "https://www.comptia.org/en-us/certifications/securityx/"
-    ]
-  },
-  {
-    "adjacentDomains": [
-      "incident-response"
-    ],
-    "span": "none",
-    "courseCode": null,
-    "examCode": "CS0-003",
-    "examHours": 2.75,
-    "passingScore": null,
-    "prerequisites": [],
-    "renewal": {
-      "required": true,
-      "years": 3,
-      "ceCredits": 60
-    },
-    "accreditation": {
-      "ansiIso17024": true,
-      "dod8140": []
-    },
-    "status": "active",
-    "lastVerified": "2026-08-03",
-    "id": "comptia-cysa-plus",
-    "name": "CySA+",
-    "fullName": "CompTIA Cybersecurity Analyst",
-    "vendor": "CompTIA",
-    "vendorUrl": "https://www.comptia.org/en-us/certifications/cybersecurity-analyst/",
-    "domain": "soc",
-    "level": 48,
-    "scoredBy": "Opus 5",
-    "cost": {
-      "amount": 439,
-      "currency": "USD",
-      "note": "Single-attempt voucher, US pricing as of 1 June 2026. CompTIA reports a scaled pass mark (750 of 100–900 for SY0-701/CS0-003/PT0-003), not a percentage."
-    },
-    "examFormat": "hybrid",
-    "sources": [
-      "https://www.comptia.org/en-us/certifications/cybersecurity-analyst/"
-    ]
-  },
-  {
-    "adjacentDomains": [],
-    "span": "none",
-    "courseCode": null,
-    "examCode": "PT0-003",
-    "examHours": 2.75,
-    "passingScore": null,
-    "prerequisites": [],
-    "renewal": {
-      "required": true,
-      "years": 3,
-      "ceCredits": 60
-    },
-    "accreditation": {
-      "ansiIso17024": true,
-      "dod8140": []
-    },
-    "status": "active",
-    "lastVerified": "2026-08-03",
-    "id": "comptia-pentest-plus",
-    "name": "PenTest+",
-    "fullName": "CompTIA PenTest+",
-    "vendor": "CompTIA",
-    "vendorUrl": "https://www.comptia.org/en-us/certifications/pentest/",
-    "domain": "pentest",
-    "level": 48,
-    "scoredBy": "Opus 5",
-    "cost": {
-      "amount": 439,
-      "currency": "USD",
-      "note": "Single-attempt voucher, US pricing as of 1 June 2026. CompTIA reports a scaled pass mark (750 of 100–900 for SY0-701/CS0-003/PT0-003), not a percentage."
-    },
-    "examFormat": "hybrid",
-    "sources": [
-      "https://www.comptia.org/en-us/certifications/pentest/"
-    ]
-  },
-  {
     "adjacentDomains": [],
     "span": "none",
     "courseCode": null,
@@ -154,42 +37,124 @@
     ]
   },
   {
-    "adjacentDomains": [],
+    "adjacentDomains": [
+      "cloud"
+    ],
     "span": "none",
     "courseCode": null,
-    "examCode": "CY0-001",
-    "examHours": 1,
+    "examCode": "CAS-005",
+    "examHours": 2.75,
+    "passingScore": null,
+    "prerequisites": [
+      "Ten years IT administration including five in security (recommended)"
+    ],
+    "renewal": {
+      "required": true,
+      "years": 3,
+      "ceCredits": 75
+    },
+    "accreditation": {
+      "ansiIso17024": true,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-04",
+    "id": "comptia-securityx",
+    "name": "SecurityX",
+    "fullName": "CompTIA SecurityX",
+    "vendor": "CompTIA",
+    "vendorUrl": "https://www.comptia.org/en-us/certifications/securityx/",
+    "domain": "security-engineering",
+    "level": 44,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": 417,
+      "currency": "USD",
+      "note": "Single-attempt voucher. Formerly CASP+; renamed SecurityX in December 2024."
+    },
+    "examFormat": "hybrid",
+    "sources": [
+      "https://www.comptia.org/en-us/certifications/securityx/"
+    ],
+    "levelNote": "Re-based onto the common knowledge-exam scale. 2h45 with performance-based questions, advanced syllabus — the top of the hybrid tier."
+  },
+  {
+    "adjacentDomains": [
+      "incident-response"
+    ],
+    "span": "none",
+    "courseCode": null,
+    "examCode": "CS0-003",
+    "examHours": 2.75,
     "passingScore": null,
     "prerequisites": [],
     "renewal": {
       "required": true,
       "years": 3,
-      "ceCredits": null
+      "ceCredits": 60
     },
     "accreditation": {
-      "ansiIso17024": false,
+      "ansiIso17024": true,
       "dod8140": []
     },
     "status": "active",
-    "lastVerified": "2026-08-03",
-    "id": "comptia-secai-plus",
-    "name": "SecAI+",
-    "fullName": "CompTIA SecAI+",
+    "lastVerified": "2026-08-04",
+    "id": "comptia-cysa-plus",
+    "name": "CySA+",
+    "fullName": "CompTIA Cybersecurity Analyst",
     "vendor": "CompTIA",
-    "vendorUrl": "https://www.comptia.org/en-us/certifications/secai/",
-    "domain": "ai-security",
+    "vendorUrl": "https://www.comptia.org/en-us/certifications/cybersecurity-analyst/",
+    "domain": "soc",
     "level": 40,
     "scoredBy": "Opus 5",
     "cost": {
-      "amount": null,
+      "amount": 439,
       "currency": "USD",
-      "note": "Pricing not published on the certification page. CompTIA reports a scaled pass mark (750 of 100–900 for SY0-701/CS0-003/PT0-003), not a percentage."
+      "note": "Single-attempt voucher, US pricing as of 1 June 2026. CompTIA reports a scaled pass mark (750 of 100–900 for SY0-701/CS0-003/PT0-003), not a percentage."
     },
     "examFormat": "hybrid",
     "sources": [
-      "https://www.comptia.org/en-us/certifications/secai/"
+      "https://www.comptia.org/en-us/certifications/cybersecurity-analyst/"
     ],
-    "levelNote": "AI security is roughly three years old as a discipline and its credentials have not yet accumulated the depth of the established expert-tier certs. The whole column was re-rated together on that basis. 60 questions in 60 minutes, CompTIA's shortest security exam."
+    "levelNote": "Re-based onto the common knowledge-exam scale. 2h45 with performance-based questions — a real hybrid, and the top of the paper tier, but not a substitute for an investigation."
+  },
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "courseCode": null,
+    "examCode": "PT0-003",
+    "examHours": 2.75,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": true,
+      "years": 3,
+      "ceCredits": 60
+    },
+    "accreditation": {
+      "ansiIso17024": true,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-04",
+    "id": "comptia-pentest-plus",
+    "name": "PenTest+",
+    "fullName": "CompTIA PenTest+",
+    "vendor": "CompTIA",
+    "vendorUrl": "https://www.comptia.org/en-us/certifications/pentest/",
+    "domain": "pentest",
+    "level": 40,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": 439,
+      "currency": "USD",
+      "note": "Single-attempt voucher, US pricing as of 1 June 2026. CompTIA reports a scaled pass mark (750 of 100–900 for SY0-701/CS0-003/PT0-003), not a percentage."
+    },
+    "examFormat": "hybrid",
+    "sources": [
+      "https://www.comptia.org/en-us/certifications/pentest/"
+    ],
+    "levelNote": "Re-based onto the common knowledge-exam scale. 2h45 with performance-based questions — a genuine hybrid, so above the pure papers and below anything with a report."
   },
   {
     "adjacentDomains": [
@@ -230,5 +195,43 @@
     "sources": [
       "https://www.comptia.org/en-us/certifications/security/"
     ]
+  },
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "courseCode": null,
+    "examCode": "CY0-001",
+    "examHours": 1,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": true,
+      "years": 3,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-04",
+    "id": "comptia-secai-plus",
+    "name": "SecAI+",
+    "fullName": "CompTIA SecAI+",
+    "vendor": "CompTIA",
+    "vendorUrl": "https://www.comptia.org/en-us/certifications/secai/",
+    "domain": "ai-security",
+    "level": 30,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "Pricing not published on the certification page. CompTIA reports a scaled pass mark (750 of 100–900 for SY0-701/CS0-003/PT0-003), not a percentage."
+    },
+    "examFormat": "hybrid",
+    "sources": [
+      "https://www.comptia.org/en-us/certifications/secai/"
+    ],
+    "levelNote": "Re-based onto the common knowledge-exam scale. A one-hour hybrid on a young syllabus. AI security is roughly three years old as a discipline and its credentials have not yet accumulated the depth of the established expert-tier certs. The whole column was re-rated together on that basis. 60 questions in 60 minutes, CompTIA's shortest security exam."
   }
 ]

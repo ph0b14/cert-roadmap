@@ -1,48 +1,6 @@
 [
   {
     "adjacentDomains": [
-      "cloud"
-    ],
-    "span": "none",
-    "scoredBy": "Opus 5",
-    "levelNote": "No training weight: this body sells the exam on its own and its courseware is optional. Level reflects the exam alone. Microsoft's only expert-tier security certification, gated on an associate-level prerequisite.",
-    "courseCode": null,
-    "examCode": "SC-100",
-    "examFormat": "multiple-choice",
-    "examHours": null,
-    "passingScore": null,
-    "prerequisites": [
-      "SC-200, SC-300 or AZ-500 in good standing"
-    ],
-    "renewal": {
-      "required": true,
-      "years": 1,
-      "ceCredits": null
-    },
-    "accreditation": {
-      "ansiIso17024": false,
-      "dod8140": []
-    },
-    "status": "active",
-    "lastVerified": "2026-08-03",
-    "id": "ms-sc-100",
-    "name": "SC-100",
-    "fullName": "Microsoft Cybersecurity Architect Expert",
-    "vendor": "Microsoft",
-    "vendorUrl": "https://learn.microsoft.com/en-us/credentials/certifications/cybersecurity-architect-expert/",
-    "domain": "security-engineering",
-    "level": 58,
-    "cost": {
-      "amount": 165,
-      "currency": "USD",
-      "note": "Price varies by region."
-    },
-    "sources": [
-      "https://learn.microsoft.com/en-us/credentials/certifications/cybersecurity-architect-expert/"
-    ]
-  },
-  {
-    "adjacentDomains": [
       "ai-security"
     ],
     "span": "none",
@@ -82,10 +40,52 @@
     ]
   },
   {
+    "adjacentDomains": [
+      "cloud"
+    ],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "levelNote": "Re-based onto the common knowledge-exam scale. An expert-badged paper that is still a paper. No training weight: this body sells the exam on its own and its courseware is optional. Level reflects the exam alone. Microsoft's only expert-tier security certification, gated on an associate-level prerequisite.",
+    "courseCode": null,
+    "examCode": "SC-100",
+    "examFormat": "multiple-choice",
+    "examHours": null,
+    "passingScore": null,
+    "prerequisites": [
+      "SC-200, SC-300 or AZ-500 in good standing"
+    ],
+    "renewal": {
+      "required": true,
+      "years": 1,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-04",
+    "id": "ms-sc-100",
+    "name": "SC-100",
+    "fullName": "Microsoft Cybersecurity Architect Expert",
+    "vendor": "Microsoft",
+    "vendorUrl": "https://learn.microsoft.com/en-us/credentials/certifications/cybersecurity-architect-expert/",
+    "domain": "security-engineering",
+    "level": 40,
+    "cost": {
+      "amount": 165,
+      "currency": "USD",
+      "note": "Price varies by region."
+    },
+    "sources": [
+      "https://learn.microsoft.com/en-us/credentials/certifications/cybersecurity-architect-expert/"
+    ]
+  },
+  {
     "adjacentDomains": [],
     "span": "none",
     "scoredBy": "Opus 5",
-    "levelNote": "No training weight: this body sells the exam on its own and its courseware is optional. Level reflects the exam alone. Retiring 31 August 2026.",
+    "levelNote": "Re-based onto the common knowledge-exam scale. A professional paper on one provider. No training weight: this body sells the exam on its own and its courseware is optional. Level reflects the exam alone. Retiring 31 August 2026.",
     "courseCode": null,
     "examCode": "AZ-500",
     "examFormat": "multiple-choice",
@@ -102,14 +102,14 @@
       "dod8140": []
     },
     "status": "active",
-    "lastVerified": "2026-08-03",
+    "lastVerified": "2026-08-04",
     "id": "ms-az-500",
     "name": "AZ-500",
     "fullName": "Microsoft Azure Security Engineer Associate",
     "vendor": "Microsoft",
     "vendorUrl": "https://learn.microsoft.com/en-us/credentials/certifications/azure-security-engineer/",
     "domain": "cloud",
-    "level": 48,
+    "level": 34,
     "cost": {
       "amount": 165,
       "currency": "USD",
@@ -125,7 +125,7 @@
     ],
     "span": "none",
     "scoredBy": "Opus 5",
-    "levelNote": "No training weight: this body sells the exam on its own and its courseware is optional. Level reflects the exam alone. 100-minute exam covering Sentinel, Defender XDR and KQL hunting.",
+    "levelNote": "Re-based onto the common knowledge-exam scale. 100 minutes of multiple choice on one vendor's product line. No training weight: this body sells the exam on its own and its courseware is optional. Level reflects the exam alone. 100-minute exam covering Sentinel, Defender XDR and KQL hunting.",
     "courseCode": null,
     "examCode": "SC-200",
     "examFormat": "multiple-choice",
@@ -142,14 +142,14 @@
       "dod8140": []
     },
     "status": "active",
-    "lastVerified": "2026-08-03",
+    "lastVerified": "2026-08-04",
     "id": "ms-sc-200",
     "name": "SC-200",
     "fullName": "Microsoft Security Operations Analyst Associate",
     "vendor": "Microsoft",
     "vendorUrl": "https://learn.microsoft.com/en-us/credentials/certifications/security-operations-analyst/",
     "domain": "soc",
-    "level": 48,
+    "level": 33,
     "cost": {
       "amount": 165,
       "currency": "USD",
@@ -163,7 +163,7 @@
     "adjacentDomains": [],
     "span": "none",
     "scoredBy": "Opus 5",
-    "levelNote": "No training weight: this body sells the exam on its own and its courseware is optional. Level reflects the exam alone.",
+    "levelNote": "Re-based onto the common knowledge-exam scale. A professional paper on one vendor's identity stack. No training weight: this body sells the exam on its own and its courseware is optional. Level reflects the exam alone.",
     "courseCode": null,
     "examCode": "SC-300",
     "examFormat": "multiple-choice",
@@ -180,14 +180,14 @@
       "dod8140": []
     },
     "status": "active",
-    "lastVerified": "2026-08-03",
+    "lastVerified": "2026-08-04",
     "id": "ms-sc-300",
     "name": "SC-300",
     "fullName": "Microsoft Identity and Access Administrator Associate",
     "vendor": "Microsoft",
     "vendorUrl": "https://learn.microsoft.com/en-us/credentials/certifications/identity-and-access-administrator/",
     "domain": "security-engineering",
-    "level": 45,
+    "level": 33,
     "cost": {
       "amount": 165,
       "currency": "USD",
@@ -201,7 +201,7 @@
     "adjacentDomains": [],
     "span": "none",
     "scoredBy": "Opus 5",
-    "levelNote": "No training weight: this body sells the exam on its own and its courseware is optional. Level reflects the exam alone. Replaced the retired SC-400.",
+    "levelNote": "Re-based onto the common knowledge-exam scale. A professional paper on one vendor's product line. No training weight: this body sells the exam on its own and its courseware is optional. Level reflects the exam alone. Replaced the retired SC-400.",
     "courseCode": null,
     "examCode": "SC-401",
     "examFormat": "multiple-choice",
@@ -218,14 +218,14 @@
       "dod8140": []
     },
     "status": "active",
-    "lastVerified": "2026-08-03",
+    "lastVerified": "2026-08-04",
     "id": "ms-sc-401",
     "name": "SC-401",
     "fullName": "Microsoft Information Security Administrator Associate",
     "vendor": "Microsoft",
     "vendorUrl": "https://learn.microsoft.com/en-us/credentials/certifications/",
     "domain": "security-engineering",
-    "level": 42,
+    "level": 33,
     "cost": {
       "amount": 165,
       "currency": "USD",
@@ -239,7 +239,7 @@
     "adjacentDomains": [],
     "span": "none",
     "scoredBy": "Opus 5",
-    "levelNote": "No training weight: this body sells the exam on its own and its courseware is optional. Level reflects the exam alone.",
+    "levelNote": "Re-based onto the common knowledge-exam scale. A fundamentals paper. No training weight: this body sells the exam on its own and its courseware is optional. Level reflects the exam alone.",
     "courseCode": null,
     "examCode": "SC-900",
     "examFormat": "multiple-choice",
@@ -256,7 +256,7 @@
       "dod8140": []
     },
     "status": "active",
-    "lastVerified": "2026-08-03",
+    "lastVerified": "2026-08-04",
     "id": "ms-sc-900",
     "name": "SC-900",
     "fullName": "Microsoft Security, Compliance and Identity Fundamentals",

@@ -97,7 +97,7 @@
       "incident-response",
       "forensics"
     ],
-    "level": 47,
+    "level": 52,
     "scoredBy": "Opus 5",
     "cost": {
       "amount": 531,
@@ -126,7 +126,7 @@
       "https://www.centri.org/certifications/blue-team-level-1",
       "https://www.centri.org/"
     ],
-    "levelNote": "Re-based twice. The original note called this \"a Centri entry-level course with hands-on labs\" and weighted it at entry tier, which did not survive checking the programme: 330+ lessons and 23 browser labs with 100 hours of access across six domains — security fundamentals, phishing analysis, threat intelligence, digital forensics, SIEM and incident response. That correction then overshot to 49, putting it above CCDL1, which examines a broader curriculum over twice the window. The exam is a 24-hour hands-on investigation of a live compromised corporate network answering 20 evidence-derived tasks at a 70% cut: a real assessment, and comfortably above the multiple-choice papers in its column, but the first step in the series rather than the top of it. Exam-only score 38, +9 for the training."
+    "levelNote": "A 24-hour hands-on investigation of a live compromised network, 20 evidence-derived tasks at a 70% cut, behind 330+ lessons and 23 labs across six domains. Clear of every knowledge exam in the column, and below CCDL1, which examines a broader curriculum over twice the window. Re-based twice. The original note called this \"a Centri entry-level course with hands-on labs\" and weighted it at entry tier, which did not survive checking the programme: 330+ lessons and 23 browser labs with 100 hours of access across six domains — security fundamentals, phishing analysis, threat intelligence, digital forensics, SIEM and incident response. That correction then overshot to 49, putting it above CCDL1, which examines a broader curriculum over twice the window. The exam is a 24-hour hands-on investigation of a live compromised corporate network answering 20 evidence-derived tasks at a 70% cut: a real assessment, and comfortably above the multiple-choice papers in its column, but the first step in the series rather than the top of it."
   },
   {
     "id": "cjde",
@@ -138,7 +138,7 @@
     "adjacentDomains": [
       "threat-intel"
     ],
-    "level": 42,
+    "level": 45,
     "scoredBy": "Opus 5",
     "cost": {
       "amount": 531,
@@ -162,11 +162,11 @@
       "dod8140": []
     },
     "status": "active",
-    "lastVerified": "2026-08-03",
+    "lastVerified": "2026-08-04",
     "sources": [
       "https://www.centri.org/certifications/certified-junior-detection-engineer",
       "https://www.centri.org/"
     ],
-    "levelNote": "Score weights the required training as well as the exam: a Centri entry-level course with hands-on labs. Exam-only score 36, +6 for the training. level measures the depth a credential demands, not only how the exam checks it."
+    "levelNote": "Raised: a hands-on assessment was sitting below knowledge exams. A 24-hour practical, narrower in scope than BTL1."
   }
 ]

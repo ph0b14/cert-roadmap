@@ -235,8 +235,7 @@
     "examHours": 2.5,
     "passingScore": 60,
     "prerequisites": [
-      "crest-cpia",
-      "6,000 hours of incident response experience"
+      "CPIA"
     ],
     "renewal": {
       "required": true,
@@ -248,16 +247,16 @@
       "dod8140": []
     },
     "status": "active",
-    "lastVerified": "2026-08-03",
+    "lastVerified": "2026-08-04",
     "id": "crest-cria",
     "name": "CRIA",
     "fullName": "CREST Registered Intrusion Analyst",
     "vendor": "CREST",
     "vendorUrl": "https://www.crest-approved.org/skills-certifications-careers/crest-registered-intrusion-analyst/",
     "domain": "incident-response",
-    "level": 58,
+    "level": 64,
     "scoredBy": "Opus 5",
-    "examFormat": "multiple-choice",
+    "examFormat": "hybrid",
     "cost": {
       "amount": null,
       "currency": "GBP",
@@ -265,7 +264,8 @@
     },
     "sources": [
       "https://www.crest-approved.org/skills-certifications-careers/crest-registered-intrusion-analyst/"
-    ]
+    ],
+    "levelNote": "Corrected on the evidence: this is a hands-on practical covering incident handling, network assessment, malware reverse engineering and host forensics, with a multiple-choice section attached — not the pure paper it was recorded as. Gated on holding CPIA."
   },
   {
     "adjacentDomains": [],
@@ -273,9 +273,9 @@
     "courseCode": null,
     "examCode": null,
     "examHours": null,
-    "passingScore": 66,
+    "passingScore": 60,
     "prerequisites": [
-      "Two years producing threat intelligence"
+      "CPTIA"
     ],
     "renewal": {
       "required": true,
@@ -287,14 +287,14 @@
       "dod8140": []
     },
     "status": "active",
-    "lastVerified": "2026-08-03",
+    "lastVerified": "2026-08-04",
     "id": "crest-crtia",
     "name": "CRTIA",
     "fullName": "CREST Registered Threat Intelligence Analyst",
     "vendor": "CREST",
     "vendorUrl": "https://www.crest-approved.org/certification-careers/crest-certifications/crest-registered-threat-intelligence-analyst/",
     "domain": "threat-intel",
-    "level": 58,
+    "level": 62,
     "scoredBy": "Opus 5",
     "examFormat": "hybrid",
     "cost": {
@@ -304,17 +304,18 @@
     },
     "sources": [
       "https://www.crest-approved.org/certification-careers/crest-certifications/crest-registered-threat-intelligence-analyst/"
-    ]
+    ],
+    "levelNote": "Corrected on the evidence: CREST's Registered tier is a practical assessment gated on the practitioner paper, not the pure multiple-choice exam it was recorded as."
   },
   {
     "adjacentDomains": [],
     "span": "none",
     "courseCode": null,
     "examCode": null,
-    "examHours": 4,
+    "examHours": 2.5,
     "passingScore": 60,
     "prerequisites": [
-      "crest-cpsa"
+      "CPSA"
     ],
     "renewal": {
       "required": true,
@@ -326,16 +327,16 @@
       "dod8140": []
     },
     "status": "active",
-    "lastVerified": "2026-08-03",
+    "lastVerified": "2026-08-04",
     "id": "crest-crt",
     "name": "CRT",
     "fullName": "CREST Registered Penetration Tester",
     "vendor": "CREST",
     "vendorUrl": "https://www.crest-approved.org/skills-certifications-careers/crest-registered-penetration-tester/",
     "domain": "pentest",
-    "level": 55,
+    "level": 58,
     "scoredBy": "Opus 5",
-    "examFormat": "hybrid",
+    "examFormat": "practical",
     "cost": {
       "amount": null,
       "currency": "GBP",
@@ -343,7 +344,8 @@
     },
     "sources": [
       "https://www.crest-approved.org/skills-certifications-careers/crest-registered-penetration-tester/"
-    ]
+    ],
+    "levelNote": "Corrected on the evidence, not just re-scored: this is a 2.5-hour fully practical exam in a supplied Kali environment requiring 60% in both the infrastructure and web sections independently, gated on holding CPSA. It was recorded as a 4-hour hybrid."
   },
   {
     "adjacentDomains": [],
@@ -363,14 +365,14 @@
       "dod8140": []
     },
     "status": "active",
-    "lastVerified": "2026-08-03",
+    "lastVerified": "2026-08-04",
     "id": "crest-cpia",
     "name": "CPIA",
     "fullName": "CREST Practitioner Intrusion Analyst",
     "vendor": "CREST",
     "vendorUrl": "https://www.crest-approved.org/certification-careers/crest-certifications/crest-practitioner-intrusion-analyst/",
     "domain": "incident-response",
-    "level": 42,
+    "level": 31,
     "scoredBy": "Opus 5",
     "examFormat": "multiple-choice",
     "cost": {
@@ -380,44 +382,8 @@
     },
     "sources": [
       "https://www.crest-approved.org/certification-careers/crest-certifications/crest-practitioner-intrusion-analyst/"
-    ]
-  },
-  {
-    "adjacentDomains": [],
-    "span": "none",
-    "courseCode": null,
-    "examCode": null,
-    "examHours": null,
-    "passingScore": 66,
-    "prerequisites": [],
-    "renewal": {
-      "required": true,
-      "years": 3,
-      "ceCredits": null
-    },
-    "accreditation": {
-      "ansiIso17024": false,
-      "dod8140": []
-    },
-    "status": "active",
-    "lastVerified": "2026-08-03",
-    "id": "crest-cptia",
-    "name": "CPTIA",
-    "fullName": "CREST Practitioner Threat Intelligence Analyst",
-    "vendor": "CREST",
-    "vendorUrl": "https://www.crest-approved.org/certification-careers/crest-certifications/crest-practitioner-threat-intelligence-analyst/",
-    "domain": "threat-intel",
-    "level": 42,
-    "scoredBy": "Opus 5",
-    "examFormat": "multiple-choice",
-    "cost": {
-      "amount": null,
-      "currency": "GBP",
-      "note": "CREST does not publish a single exam fee; cost varies by region and delivery partner."
-    },
-    "sources": [
-      "https://www.crest-approved.org/certification-careers/crest-certifications/crest-practitioner-threat-intelligence-analyst/"
-    ]
+    ],
+    "levelNote": "Re-based onto the common knowledge-exam scale. 120 multiple-choice questions in 2 hours at a 60% cut — CREST's practitioner paper, and the mandatory gate before CRIA."
   },
   {
     "adjacentDomains": [],
@@ -437,14 +403,52 @@
       "dod8140": []
     },
     "status": "active",
-    "lastVerified": "2026-08-03",
+    "lastVerified": "2026-08-04",
+    "id": "crest-cptia",
+    "name": "CPTIA",
+    "fullName": "CREST Practitioner Threat Intelligence Analyst",
+    "vendor": "CREST",
+    "vendorUrl": "https://www.crest-approved.org/certification-careers/crest-certifications/crest-practitioner-threat-intelligence-analyst/",
+    "domain": "threat-intel",
+    "level": 31,
+    "scoredBy": "Opus 5",
+    "examFormat": "multiple-choice",
+    "cost": {
+      "amount": null,
+      "currency": "GBP",
+      "note": "CREST does not publish a single exam fee; cost varies by region and delivery partner."
+    },
+    "sources": [
+      "https://www.crest-approved.org/certification-careers/crest-certifications/crest-practitioner-threat-intelligence-analyst/"
+    ],
+    "levelNote": "Re-based onto the common knowledge-exam scale. 120 multiple-choice questions in 2 hours at a 60% cut."
+  },
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": 2,
+    "passingScore": 60,
+    "prerequisites": [],
+    "renewal": {
+      "required": true,
+      "years": 3,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-04",
     "id": "crest-cpsa",
     "name": "CPSA",
     "fullName": "CREST Practitioner Security Analyst",
     "vendor": "CREST",
     "vendorUrl": "https://www.crest-approved.org/certification-careers/crest-certifications/crest-practitioner-security-analyst/",
     "domain": "pentest",
-    "level": 40,
+    "level": 30,
     "scoredBy": "Opus 5",
     "examFormat": "multiple-choice",
     "cost": {
@@ -454,6 +458,7 @@
     },
     "sources": [
       "https://www.crest-approved.org/certification-careers/crest-certifications/crest-practitioner-security-analyst/"
-    ]
+    ],
+    "levelNote": "Re-based onto the common knowledge-exam scale. 120 multiple-choice questions in 2 hours at a 60% cut — CREST's entry paper, and the mandatory gate before CRT."
   }
 ]

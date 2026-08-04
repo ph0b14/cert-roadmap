@@ -134,47 +134,6 @@
     "levelNote": "Composite credential, awarded for holding CEH and CEH Practical. No training weight applied — that would count the same courseware twice. Tracks its components. Exam-only score 56; no training weight."
   },
   {
-    "id": "coasp",
-    "name": "COASP",
-    "fullName": "Certified Offensive AI Security Professional",
-    "vendor": "EC-Council",
-    "vendorUrl": "https://www.eccouncil.org/ai-courses/certified-offensive-ai-security-professional-coasp/",
-    "domain": "ai-security",
-    "adjacentDomains": [
-      "pentest"
-    ],
-    "level": 55,
-    "scoredBy": "Opus 5",
-    "cost": {
-      "amount": null,
-      "currency": "USD",
-      "note": "training bundles start at $1,699 on-demand; standalone exam voucher price not verified from primary source"
-    },
-    "span": "none",
-    "courseCode": null,
-    "examCode": null,
-    "examFormat": "hybrid",
-    "examHours": null,
-    "passingScore": null,
-    "prerequisites": [],
-    "renewal": {
-      "required": true,
-      "years": 3,
-      "ceCredits": null
-    },
-    "accreditation": {
-      "ansiIso17024": false,
-      "dod8140": []
-    },
-    "status": "active",
-    "lastVerified": "2026-08-03",
-    "sources": [
-      "https://www.eccouncil.org/ai-courses/certified-offensive-ai-security-professional-coasp/",
-      "https://certificationpractice.com/exam-overviews/ec-council-certified-offensive-ai-security-professional-quick-facts"
-    ],
-    "levelNote": "AI security is roughly three years old as a discipline and its credentials have not yet accumulated the depth of the established expert-tier certs. The whole column was re-rated together on that basis. EC-Council courseware with a hybrid exam; scope is broad rather than deep."
-  },
-  {
     "id": "ceh-practical",
     "name": "CEH Practical",
     "fullName": "Certified Ethical Hacker Practical",
@@ -182,7 +141,7 @@
     "vendorUrl": "https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh-practical/",
     "domain": "pentest",
     "adjacentDomains": [],
-    "level": 54,
+    "level": 50,
     "scoredBy": "Opus 5",
     "cost": {
       "amount": 550,
@@ -221,53 +180,7 @@
       "https://store.eccouncil.org/product/ceh-practical-exam/",
       "https://www.eccouncil.org/accreditations/"
     ],
-    "levelNote": "20 challenges in 6 hours on the Aspen range at a 70% cut, with no report. Re-based hard: at 62 it sat level with CRTO (96 hours) and above PNPT (five days plus a report), which a six-hour challenge exam cannot support. EC-Council publishes no difficulty rating for its courses, so the weight here is read off what the programme actually is rather than assumed from the vendor. The 221 labs behind CEH are substantial and carry intermediate weight. Exam-only score 45, +9 for the training."
-  },
-  {
-    "id": "chfi",
-    "name": "CHFI",
-    "fullName": "Computer Hacking Forensic Investigator",
-    "vendor": "EC-Council",
-    "vendorUrl": "https://www.eccouncil.org/train-certify/computer-hacking-forensic-investigator-chfi/",
-    "domain": "forensics",
-    "adjacentDomains": [
-      "incident-response"
-    ],
-    "level": 50,
-    "scoredBy": "Opus 5",
-    "cost": {
-      "amount": 650,
-      "currency": "USD",
-      "note": "RPS exam voucher; training bundles start at $1,699"
-    },
-    "span": "none",
-    "courseCode": null,
-    "examCode": "312-49",
-    "examFormat": "multiple-choice",
-    "examHours": 4,
-    "passingScore": null,
-    "prerequisites": [],
-    "renewal": {
-      "required": true,
-      "years": 3,
-      "ceCredits": null
-    },
-    "accreditation": {
-      "ansiIso17024": true,
-      "dod8140": [
-        "211",
-        "212",
-        "221"
-      ]
-    },
-    "status": "active",
-    "lastVerified": "2026-08-04",
-    "sources": [
-      "https://www.eccouncil.org/train-certify/computer-hacking-forensic-investigator-chfi/",
-      "https://store.eccouncil.org/product/chfi-ecc-exam-voucher/",
-      "https://www.eccouncil.org/accreditations/"
-    ],
-    "levelNote": "Score weights the required training as well as the exam: official EC-Council courseware at intermediate level. Exam-only score 45, +5 for the training. level measures the depth a credential demands, not only how the exam checks it. The training bonus is capped for a pure multiple-choice exam: a deep course can lift a knowledge exam, but it remains a knowledge exam."
+    "levelNote": "Six hours, 20 challenges, no report. Above the short practicals, below anything demanding a written deliverable. 20 challenges in 6 hours on the Aspen range at a 70% cut, with no report. Re-based hard: at 62 it sat level with CRTO (96 hours) and above PNPT (five days plus a report), which a six-hour challenge exam cannot support. EC-Council publishes no difficulty rating for its courses, so the weight here is read off what the programme actually is rather than assumed from the vendor. The 221 labs behind CEH are substantial and carry intermediate weight."
   },
   {
     "id": "ecsa",
@@ -311,27 +224,27 @@
     ]
   },
   {
-    "id": "ecde",
-    "name": "ECDE",
-    "fullName": "EC-Council Certified DevSecOps Engineer",
+    "id": "coasp",
+    "name": "COASP",
+    "fullName": "Certified Offensive AI Security Professional",
     "vendor": "EC-Council",
-    "vendorUrl": "https://www.eccouncil.org/train-certify/certified-devsecops-engineer-ecde/",
-    "domain": "security-engineering",
+    "vendorUrl": "https://www.eccouncil.org/ai-courses/certified-offensive-ai-security-professional-coasp/",
+    "domain": "ai-security",
     "adjacentDomains": [
-      "appsec"
+      "pentest"
     ],
-    "level": 45,
+    "level": 42,
     "scoredBy": "Opus 5",
     "cost": {
       "amount": null,
       "currency": "USD",
-      "note": "exam voucher price not cleanly verified from primary store; third-party sources list ~$393 for RPS voucher; training bundles pricing varies"
+      "note": "training bundles start at $1,699 on-demand; standalone exam voucher price not verified from primary source"
     },
     "span": "none",
     "courseCode": null,
-    "examCode": "312-97",
-    "examFormat": "multiple-choice",
-    "examHours": 4,
+    "examCode": null,
+    "examFormat": "hybrid",
+    "examHours": null,
     "passingScore": null,
     "prerequisites": [],
     "renewal": {
@@ -346,95 +259,10 @@
     "status": "active",
     "lastVerified": "2026-08-04",
     "sources": [
-      "https://www.eccouncil.org/train-certify/certified-devsecops-engineer-ecde/",
-      "https://cert.eccouncil.org/retired-certification.html"
+      "https://www.eccouncil.org/ai-courses/certified-offensive-ai-security-professional-coasp/",
+      "https://certificationpractice.com/exam-overviews/ec-council-certified-offensive-ai-security-professional-quick-facts"
     ],
-    "levelNote": "4 hours of multiple choice. EC-Council publishes no difficulty rating for its courses, so the weight here is read off what the programme actually is rather than assumed from the vendor. A three-day DevSecOps programme is essentials-level, and the paper is not evidence of pipeline engineering skill. Exam-only score 40, +5 for the training."
-  },
-  {
-    "id": "ecih",
-    "name": "ECIH",
-    "fullName": "EC-Council Certified Incident Handler",
-    "vendor": "EC-Council",
-    "vendorUrl": "https://www.eccouncil.org/train-certify/ec-council-certified-incident-handler-ecih/",
-    "domain": "incident-response",
-    "adjacentDomains": [
-      "soc"
-    ],
-    "level": 45,
-    "scoredBy": "Opus 5",
-    "cost": {
-      "amount": 450,
-      "currency": "USD",
-      "note": "RPS exam voucher from EC-Council Store"
-    },
-    "span": "none",
-    "courseCode": null,
-    "examCode": "212-89",
-    "examFormat": "multiple-choice",
-    "examHours": 3,
-    "passingScore": null,
-    "prerequisites": [],
-    "renewal": {
-      "required": true,
-      "years": 3,
-      "ceCredits": null
-    },
-    "accreditation": {
-      "ansiIso17024": true,
-      "dod8140": [
-        "531"
-      ]
-    },
-    "status": "active",
-    "lastVerified": "2026-08-04",
-    "sources": [
-      "https://www.eccouncil.org/train-certify/ec-council-certified-incident-handler-ecih/",
-      "https://store.eccouncil.org/product/ecih-ecc-exam-voucher/",
-      "https://www.eccouncil.org/accreditations/"
-    ],
-    "levelNote": "3 hours of multiple choice. Re-based: at 49 it sat within three points of OSIR, an 8-hour hands-on incident-response exam. EC-Council publishes no difficulty rating for its courses, so the weight here is read off what the programme actually is rather than assumed from the vendor. A three-day programme is essentials-level, not intermediate. Exam-only score 40, +5 for the training."
-  },
-  {
-    "id": "ccse",
-    "name": "CCSE",
-    "fullName": "Certified Cloud Security Engineer",
-    "vendor": "EC-Council",
-    "vendorUrl": "https://www.eccouncil.org/train-certify/certified-cloud-security-engineer-course/",
-    "domain": "cloud",
-    "adjacentDomains": [
-      "security-engineering"
-    ],
-    "level": 43,
-    "scoredBy": "Opus 5",
-    "cost": {
-      "amount": 550,
-      "currency": "USD",
-      "note": "CCSE v2 RPS exam voucher from EC-Council Store"
-    },
-    "span": "none",
-    "courseCode": null,
-    "examCode": "312-40",
-    "examFormat": "multiple-choice",
-    "examHours": 4,
-    "passingScore": null,
-    "prerequisites": [],
-    "renewal": {
-      "required": true,
-      "years": 3,
-      "ceCredits": null
-    },
-    "accreditation": {
-      "ansiIso17024": false,
-      "dod8140": []
-    },
-    "status": "active",
-    "lastVerified": "2026-08-04",
-    "sources": [
-      "https://www.eccouncil.org/train-certify/certified-cloud-security-engineer-course/",
-      "https://store.eccouncil.org/product/ccse-ecc-exam-voucher/"
-    ],
-    "levelNote": "4 hours of multiple choice on cloud security across three providers. EC-Council publishes no difficulty rating for its courses, so the weight here is read off what the programme actually is rather than assumed from the vendor. Breadth of syllabus is not depth of assessment. Exam-only score 38, +5 for the training."
+    "levelNote": "Re-based onto the common knowledge-exam scale. A hybrid assessment on a young syllabus. AI security is roughly three years old as a discipline and its credentials have not yet accumulated the depth of the established expert-tier certs. The whole column was re-rated together on that basis. EC-Council courseware with a hybrid exam; scope is broad rather than deep."
   },
   {
     "id": "ceh",
@@ -446,7 +274,7 @@
     "adjacentDomains": [
       "security-engineering"
     ],
-    "level": 43,
+    "level": 37,
     "scoredBy": "Opus 5",
     "cost": {
       "amount": 1199,
@@ -484,30 +312,30 @@
       "https://cert.eccouncil.org/accreditations.html",
       "https://www.eccouncil.org/accreditations/"
     ],
-    "levelNote": "125 multiple-choice questions in 4 hours. EC-Council does not publish a fixed cut score for it — their own guidance puts the range at 60–85% depending on exam form — so the assessment guarantee is weaker than a body that publishes one per exam. Re-based below PenTest+, which carries performance-based questions. EC-Council publishes no difficulty rating for its courses, so the weight here is read off what the programme actually is rather than assumed from the vendor. 20 modules and 221 labs is real content and carries intermediate weight, capped at +5 because the exam is pure multiple choice. Exam-only score 38, +5 for the training."
+    "levelNote": "Re-based onto the common knowledge-exam scale. 125 questions in 4 hours on a broad professional syllabus, with no published fixed cut score. 125 multiple-choice questions in 4 hours. EC-Council does not publish a fixed cut score for it — their own guidance puts the range at 60–85% depending on exam form — so the assessment guarantee is weaker than a body that publishes one per exam. Re-based below PenTest+, which carries performance-based questions. EC-Council publishes no difficulty rating for its courses, so the weight here is read off what the programme actually is rather than assumed from the vendor. 20 modules and 221 labs is real content and carries intermediate weight, capped at +5 because the exam is pure multiple choice."
   },
   {
-    "id": "ctia",
-    "name": "CTIA",
-    "fullName": "Certified Threat Intelligence Analyst",
+    "id": "chfi",
+    "name": "CHFI",
+    "fullName": "Computer Hacking Forensic Investigator",
     "vendor": "EC-Council",
-    "vendorUrl": "https://www.eccouncil.org/train-certify/certified-threat-intelligence-analyst-ctia/",
-    "domain": "threat-intel",
+    "vendorUrl": "https://www.eccouncil.org/train-certify/computer-hacking-forensic-investigator-chfi/",
+    "domain": "forensics",
     "adjacentDomains": [
-      "soc"
+      "incident-response"
     ],
-    "level": 43,
+    "level": 37,
     "scoredBy": "Opus 5",
     "cost": {
-      "amount": 450,
+      "amount": 650,
       "currency": "USD",
-      "note": "CTIA v2 RPS exam voucher from EC-Council Store"
+      "note": "RPS exam voucher; training bundles start at $1,699"
     },
     "span": "none",
     "courseCode": null,
-    "examCode": "312-85",
+    "examCode": "312-49",
     "examFormat": "multiple-choice",
-    "examHours": 2,
+    "examHours": 4,
     "passingScore": null,
     "prerequisites": [],
     "renewal": {
@@ -516,16 +344,21 @@
       "ceCredits": null
     },
     "accreditation": {
-      "ansiIso17024": false,
-      "dod8140": []
+      "ansiIso17024": true,
+      "dod8140": [
+        "211",
+        "212",
+        "221"
+      ]
     },
     "status": "active",
     "lastVerified": "2026-08-04",
     "sources": [
-      "https://www.eccouncil.org/train-certify/certified-threat-intelligence-analyst-ctia/",
-      "https://store.eccouncil.org/product/ctia-ecc-exam-center-voucher/"
+      "https://www.eccouncil.org/train-certify/computer-hacking-forensic-investigator-chfi/",
+      "https://store.eccouncil.org/product/chfi-ecc-exam-voucher/",
+      "https://www.eccouncil.org/accreditations/"
     ],
-    "levelNote": "2 hours of multiple choice. Re-based: at 48 it sat exactly level with PORP, a 72-hour practical with a report. EC-Council publishes no difficulty rating for its courses, so the weight here is read off what the programme actually is rather than assumed from the vendor. Three days of instruction is essentials-level. Exam-only score 38, +5 for the training."
+    "levelNote": "Re-based onto the common knowledge-exam scale. Four hours of multiple choice on a broad syllabus. The training bonus is capped for a pure multiple-choice exam: a deep course can lift a knowledge exam, but it remains a knowledge exam."
   },
   {
     "id": "cnd",
@@ -537,7 +370,7 @@
     "adjacentDomains": [
       "soc"
     ],
-    "level": 41,
+    "level": 36,
     "scoredBy": "Opus 5",
     "cost": {
       "amount": 550,
@@ -572,7 +405,216 @@
       "https://store.eccouncil.org/product/cnd-vue-exam-voucher/",
       "https://www.eccouncil.org/accreditations/"
     ],
-    "levelNote": "4 hours of multiple choice. EC-Council publishes no difficulty rating for its courses, so the weight here is read off what the programme actually is rather than assumed from the vendor. A defensive networking programme at essentials level. Exam-only score 36, +5 for the training."
+    "levelNote": "Re-based onto the common knowledge-exam scale. Four hours of multiple choice. 4 hours of multiple choice. EC-Council publishes no difficulty rating for its courses, so the weight here is read off what the programme actually is rather than assumed from the vendor. A defensive networking programme at essentials level."
+  },
+  {
+    "id": "ecde",
+    "name": "ECDE",
+    "fullName": "EC-Council Certified DevSecOps Engineer",
+    "vendor": "EC-Council",
+    "vendorUrl": "https://www.eccouncil.org/train-certify/certified-devsecops-engineer-ecde/",
+    "domain": "security-engineering",
+    "adjacentDomains": [
+      "appsec"
+    ],
+    "level": 36,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "exam voucher price not cleanly verified from primary store; third-party sources list ~$393 for RPS voucher; training bundles pricing varies"
+    },
+    "span": "none",
+    "courseCode": null,
+    "examCode": "312-97",
+    "examFormat": "multiple-choice",
+    "examHours": 4,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": true,
+      "years": 3,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-04",
+    "sources": [
+      "https://www.eccouncil.org/train-certify/certified-devsecops-engineer-ecde/",
+      "https://cert.eccouncil.org/retired-certification.html"
+    ],
+    "levelNote": "Re-based onto the common knowledge-exam scale. Four hours of multiple choice. 4 hours of multiple choice. EC-Council publishes no difficulty rating for its courses, so the weight here is read off what the programme actually is rather than assumed from the vendor. A three-day DevSecOps programme is essentials-level, and the paper is not evidence of pipeline engineering skill."
+  },
+  {
+    "id": "ecih",
+    "name": "ECIH",
+    "fullName": "EC-Council Certified Incident Handler",
+    "vendor": "EC-Council",
+    "vendorUrl": "https://www.eccouncil.org/train-certify/ec-council-certified-incident-handler-ecih/",
+    "domain": "incident-response",
+    "adjacentDomains": [
+      "soc"
+    ],
+    "level": 35,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": 450,
+      "currency": "USD",
+      "note": "RPS exam voucher from EC-Council Store"
+    },
+    "span": "none",
+    "courseCode": null,
+    "examCode": "212-89",
+    "examFormat": "multiple-choice",
+    "examHours": 3,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": true,
+      "years": 3,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": true,
+      "dod8140": [
+        "531"
+      ]
+    },
+    "status": "active",
+    "lastVerified": "2026-08-04",
+    "sources": [
+      "https://www.eccouncil.org/train-certify/ec-council-certified-incident-handler-ecih/",
+      "https://store.eccouncil.org/product/ecih-ecc-exam-voucher/",
+      "https://www.eccouncil.org/accreditations/"
+    ],
+    "levelNote": "Re-based onto the common knowledge-exam scale. Three hours of multiple choice. 3 hours of multiple choice. Re-based: at 49 it sat within three points of OSIR, an 8-hour hands-on incident-response exam. EC-Council publishes no difficulty rating for its courses, so the weight here is read off what the programme actually is rather than assumed from the vendor. A three-day programme is essentials-level, not intermediate."
+  },
+  {
+    "id": "ccse",
+    "name": "CCSE",
+    "fullName": "Certified Cloud Security Engineer",
+    "vendor": "EC-Council",
+    "vendorUrl": "https://www.eccouncil.org/train-certify/certified-cloud-security-engineer-course/",
+    "domain": "cloud",
+    "adjacentDomains": [
+      "security-engineering"
+    ],
+    "level": 34,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": 550,
+      "currency": "USD",
+      "note": "CCSE v2 RPS exam voucher from EC-Council Store"
+    },
+    "span": "none",
+    "courseCode": null,
+    "examCode": "312-40",
+    "examFormat": "multiple-choice",
+    "examHours": 4,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": true,
+      "years": 3,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-04",
+    "sources": [
+      "https://www.eccouncil.org/train-certify/certified-cloud-security-engineer-course/",
+      "https://store.eccouncil.org/product/ccse-ecc-exam-voucher/"
+    ],
+    "levelNote": "Re-based onto the common knowledge-exam scale. Four hours of multiple choice across three providers. 4 hours of multiple choice on cloud security across three providers. EC-Council publishes no difficulty rating for its courses, so the weight here is read off what the programme actually is rather than assumed from the vendor. Breadth of syllabus is not depth of assessment."
+  },
+  {
+    "id": "csa",
+    "name": "CSA",
+    "fullName": "Certified SOC Analyst",
+    "vendor": "EC-Council",
+    "vendorUrl": "https://www.eccouncil.org/train-certify/certified-soc-analyst-csa/",
+    "domain": "soc",
+    "adjacentDomains": [
+      "threat-intel"
+    ],
+    "level": 34,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": 450,
+      "currency": "USD",
+      "note": "CSA v2 RPS exam voucher from EC-Council Store"
+    },
+    "span": "none",
+    "courseCode": null,
+    "examCode": "312-39",
+    "examFormat": "multiple-choice",
+    "examHours": 3,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": true,
+      "years": 3,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-04",
+    "sources": [
+      "https://www.eccouncil.org/train-certify/certified-soc-analyst-csa/",
+      "https://store.eccouncil.org/product/csav2-exam-voucher-rps/",
+      "https://cert.eccouncil.org/retired-certification.html"
+    ],
+    "levelNote": "Re-based onto the common knowledge-exam scale. Three hours of multiple choice. 3 hours of multiple choice. Re-based: at 41 it outranked BTL1, a 24-hour hands-on defensive exam, and sat close to CCDL1 at 48 hours. EC-Council publishes no difficulty rating for its courses, so the weight here is read off what the programme actually is rather than assumed from the vendor."
+  },
+  {
+    "id": "ctia",
+    "name": "CTIA",
+    "fullName": "Certified Threat Intelligence Analyst",
+    "vendor": "EC-Council",
+    "vendorUrl": "https://www.eccouncil.org/train-certify/certified-threat-intelligence-analyst-ctia/",
+    "domain": "threat-intel",
+    "adjacentDomains": [
+      "soc"
+    ],
+    "level": 34,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": 450,
+      "currency": "USD",
+      "note": "CTIA v2 RPS exam voucher from EC-Council Store"
+    },
+    "span": "none",
+    "courseCode": null,
+    "examCode": "312-85",
+    "examFormat": "multiple-choice",
+    "examHours": 2,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": true,
+      "years": 3,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-04",
+    "sources": [
+      "https://www.eccouncil.org/train-certify/certified-threat-intelligence-analyst-ctia/",
+      "https://store.eccouncil.org/product/ctia-ecc-exam-center-voucher/"
+    ],
+    "levelNote": "Re-based onto the common knowledge-exam scale. Two hours of multiple choice. 2 hours of multiple choice. Re-based: at 48 it sat exactly level with PORP, a 72-hour practical with a report. EC-Council publishes no difficulty rating for its courses, so the weight here is read off what the programme actually is rather than assumed from the vendor. Three days of instruction is essentials-level."
   },
   {
     "id": "case-net",
@@ -584,7 +626,7 @@
     "adjacentDomains": [
       "security-engineering"
     ],
-    "level": 39,
+    "level": 32,
     "scoredBy": "Opus 5",
     "cost": {
       "amount": 450,
@@ -615,7 +657,7 @@
       "https://www.eccouncil.org/train-certify/certified-application-security-engineer-case-net/",
       "https://store.eccouncil.org/product/case-dotnet-exam-voucher/"
     ],
-    "levelNote": "2 hours of multiple choice on secure .NET development. EC-Council publishes no difficulty rating for its courses, so the weight here is read off what the programme actually is rather than assumed from the vendor. Three days of instruction is essentials-level. Exam-only score 34, +5 for the training."
+    "levelNote": "Re-based onto the common knowledge-exam scale. Two hours of multiple choice. 2 hours of multiple choice on secure .NET development. EC-Council publishes no difficulty rating for its courses, so the weight here is read off what the programme actually is rather than assumed from the vendor. Three days of instruction is essentials-level."
   },
   {
     "id": "case-java",
@@ -627,7 +669,7 @@
     "adjacentDomains": [
       "security-engineering"
     ],
-    "level": 39,
+    "level": 32,
     "scoredBy": "Opus 5",
     "cost": {
       "amount": 450,
@@ -658,49 +700,7 @@
       "https://www.eccouncil.org/train-certify/certified-application-security-engineer-case-java/",
       "https://store.eccouncil.org/product/case-java-exam-voucher/"
     ],
-    "levelNote": "2 hours of multiple choice on secure Java development. EC-Council publishes no difficulty rating for its courses, so the weight here is read off what the programme actually is rather than assumed from the vendor. Three days of instruction is essentials-level. Exam-only score 34, +5 for the training."
-  },
-  {
-    "id": "csa",
-    "name": "CSA",
-    "fullName": "Certified SOC Analyst",
-    "vendor": "EC-Council",
-    "vendorUrl": "https://www.eccouncil.org/train-certify/certified-soc-analyst-csa/",
-    "domain": "soc",
-    "adjacentDomains": [
-      "threat-intel"
-    ],
-    "level": 38,
-    "scoredBy": "Opus 5",
-    "cost": {
-      "amount": 450,
-      "currency": "USD",
-      "note": "CSA v2 RPS exam voucher from EC-Council Store"
-    },
-    "span": "none",
-    "courseCode": null,
-    "examCode": "312-39",
-    "examFormat": "multiple-choice",
-    "examHours": 3,
-    "passingScore": null,
-    "prerequisites": [],
-    "renewal": {
-      "required": true,
-      "years": 3,
-      "ceCredits": null
-    },
-    "accreditation": {
-      "ansiIso17024": false,
-      "dod8140": []
-    },
-    "status": "active",
-    "lastVerified": "2026-08-04",
-    "sources": [
-      "https://www.eccouncil.org/train-certify/certified-soc-analyst-csa/",
-      "https://store.eccouncil.org/product/csav2-exam-voucher-rps/",
-      "https://cert.eccouncil.org/retired-certification.html"
-    ],
-    "levelNote": "3 hours of multiple choice. Re-based: at 41 it outranked BTL1, a 24-hour hands-on defensive exam, and sat close to CCDL1 at 48 hours. EC-Council publishes no difficulty rating for its courses, so the weight here is read off what the programme actually is rather than assumed from the vendor. Exam-only score 33, +5 for the training."
+    "levelNote": "Re-based onto the common knowledge-exam scale. Two hours of multiple choice. 2 hours of multiple choice on secure Java development. EC-Council publishes no difficulty rating for its courses, so the weight here is read off what the programme actually is rather than assumed from the vendor. Three days of instruction is essentials-level."
   },
   {
     "id": "eces",
@@ -710,7 +710,7 @@
     "vendorUrl": "https://www.eccouncil.org/train-certify/ec-council-certified-encryption-specialist-eces/",
     "domain": "security-engineering",
     "adjacentDomains": [],
-    "level": 38,
+    "level": 31,
     "scoredBy": "Opus 5",
     "cost": {
       "amount": 249,
@@ -739,6 +739,6 @@
       "https://www.eccouncil.org/train-certify/ec-council-certified-encryption-specialist-eces/",
       "https://store.eccouncil.org/product/eces-rp-exam-voucher/"
     ],
-    "levelNote": "2 hours of multiple choice on applied cryptography. EC-Council publishes no difficulty rating for its courses, so the weight here is read off what the programme actually is rather than assumed from the vendor. Exam-only score 33, +5 for the training."
+    "levelNote": "Re-based onto the common knowledge-exam scale. Two hours of multiple choice on applied cryptography. 2 hours of multiple choice on applied cryptography. EC-Council publishes no difficulty rating for its courses, so the weight here is read off what the programme actually is rather than assumed from the vendor."
   }
 ]

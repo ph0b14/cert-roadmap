@@ -82,45 +82,6 @@
     "levelNote": "Raised for the same reason as ISSAP: gated on CISSP plus two further years in security engineering. Exam-only score 55, +2 for the training."
   },
   {
-    "adjacentDomains": [],
-    "span": "none",
-    "scoredBy": "Opus 5",
-    "courseCode": null,
-    "examCode": null,
-    "examHours": null,
-    "passingScore": null,
-    "prerequisites": [
-      "Four years of software development lifecycle experience"
-    ],
-    "renewal": {
-      "required": true,
-      "years": 3,
-      "ceCredits": 90
-    },
-    "accreditation": {
-      "ansiIso17024": true,
-      "dod8140": []
-    },
-    "status": "active",
-    "lastVerified": "2026-08-03",
-    "id": "isc2-csslp",
-    "name": "CSSLP",
-    "fullName": "ISC² Certified Secure Software Lifecycle Professional",
-    "vendor": "ISC²",
-    "vendorUrl": "https://www.isc2.org/certifications/csslp",
-    "domain": "appsec",
-    "level": 42,
-    "examFormat": "multiple-choice",
-    "cost": {
-      "amount": 599,
-      "currency": "USD",
-      "note": "Exam fee, Americas region. ISC2 also charges an annual maintenance fee. Pass mark is 700 on a 700–1000 scaled range, not a percentage."
-    },
-    "sources": [
-      "https://www.isc2.org/certifications/csslp"
-    ]
-  },
-  {
     "adjacentDomains": [
       "security-engineering"
     ],
@@ -143,14 +104,14 @@
       "dod8140": []
     },
     "status": "active",
-    "lastVerified": "2026-08-03",
+    "lastVerified": "2026-08-04",
     "id": "isc2-ccsp",
     "name": "CCSP",
     "fullName": "ISC² Certified Cloud Security Professional",
     "vendor": "ISC²",
     "vendorUrl": "https://www.isc2.org/certifications/ccsp",
     "domain": "cloud",
-    "level": 40,
+    "level": 38,
     "examFormat": "multiple-choice",
     "cost": {
       "amount": 599,
@@ -159,7 +120,48 @@
     },
     "sources": [
       "https://www.isc2.org/certifications/ccsp"
-    ]
+    ],
+    "levelNote": "Re-based onto the common knowledge-exam scale. A broad professional paper; the experience requirement is credited separately."
+  },
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": null,
+    "passingScore": null,
+    "prerequisites": [
+      "Four years of software development lifecycle experience"
+    ],
+    "renewal": {
+      "required": true,
+      "years": 3,
+      "ceCredits": 90
+    },
+    "accreditation": {
+      "ansiIso17024": true,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-04",
+    "id": "isc2-csslp",
+    "name": "CSSLP",
+    "fullName": "ISC² Certified Secure Software Lifecycle Professional",
+    "vendor": "ISC²",
+    "vendorUrl": "https://www.isc2.org/certifications/csslp",
+    "domain": "appsec",
+    "level": 36,
+    "examFormat": "multiple-choice",
+    "cost": {
+      "amount": 599,
+      "currency": "USD",
+      "note": "Exam fee, Americas region. ISC2 also charges an annual maintenance fee. Pass mark is 700 on a 700–1000 scaled range, not a percentage."
+    },
+    "sources": [
+      "https://www.isc2.org/certifications/csslp"
+    ],
+    "levelNote": "Re-based onto the common knowledge-exam scale. A broad professional paper; the experience requirement is credited separately."
   },
   {
     "adjacentDomains": [
@@ -184,14 +186,14 @@
       "dod8140": []
     },
     "status": "active",
-    "lastVerified": "2026-08-03",
+    "lastVerified": "2026-08-04",
     "id": "isc2-sscp",
     "name": "SSCP",
     "fullName": "ISC² Systems Security Certified Practitioner",
     "vendor": "ISC²",
     "vendorUrl": "https://www.isc2.org/certifications/sscp",
     "domain": "security-engineering",
-    "level": 33,
+    "level": 31,
     "examFormat": "multiple-choice",
     "cost": {
       "amount": 249,
@@ -200,7 +202,8 @@
     },
     "sources": [
       "https://www.isc2.org/certifications/sscp"
-    ]
+    ],
+    "levelNote": "Re-based onto the common knowledge-exam scale. A professional paper; the experience requirement is credited separately."
   },
   {
     "adjacentDomains": [
@@ -224,14 +227,14 @@
       "dod8140": []
     },
     "status": "active",
-    "lastVerified": "2026-08-03",
+    "lastVerified": "2026-08-04",
     "id": "isc2-cc",
     "name": "CC",
     "fullName": "ISC² Certified in Cybersecurity",
     "vendor": "ISC²",
     "vendorUrl": "https://www.isc2.org/certifications/cc",
     "domain": "security-engineering",
-    "level": 22,
+    "level": 20,
     "examFormat": "multiple-choice",
     "cost": {
       "amount": 199,
@@ -240,6 +243,7 @@
     },
     "sources": [
       "https://www.isc2.org/certifications/cc"
-    ]
+    ],
+    "levelNote": "Re-based onto the common knowledge-exam scale. An entry paper."
   }
 ]

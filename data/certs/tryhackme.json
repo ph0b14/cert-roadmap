@@ -143,7 +143,7 @@
     "vendor": "TryHackMe",
     "vendorUrl": "https://tryhackme.com/certification/junior-penetration-tester",
     "domain": "pentest",
-    "level": 48,
+    "level": 50,
     "examFormat": "practical",
     "cost": {
       "amount": 297,
@@ -153,7 +153,7 @@
     "sources": [
       "https://tryhackme.com/certification/junior-penetration-tester"
     ],
-    "levelNote": "Held under 50: TryHackMe positions this as a junior credential and its 48-hour assessment matches that. Exam-only score 45, +3 for the included path."
+    "levelNote": "Raised: a hands-on assessment was sitting below knowledge exams. A 48-hour practical. Held under 50: TryHackMe positions this as a junior credential and its 48-hour assessment matches that."
   },
   {
     "adjacentDomains": [],
@@ -174,14 +174,14 @@
       "dod8140": []
     },
     "status": "active",
-    "lastVerified": "2026-08-03",
+    "lastVerified": "2026-08-04",
     "id": "thm-sal1",
     "name": "SAL1",
     "fullName": "TryHackMe Security Analyst Level 1",
     "vendor": "TryHackMe",
     "vendorUrl": "https://tryhackme.com/certification/security-analyst-level-1",
     "domain": "soc",
-    "level": 44,
+    "level": 48,
     "examFormat": "practical",
     "cost": {
       "amount": 349,
@@ -191,7 +191,7 @@
     "sources": [
       "https://tryhackme.com/certification/security-analyst-level-1"
     ],
-    "levelNote": "Score weights the required training as well as the exam: a TryHackMe entry-professional path, included with the exam voucher. Exam-only score 38, +6 for the training. level measures the depth a credential demands, not only how the exam checks it."
+    "levelNote": "A 24-hour practical investigation behind TryHackMe's SOC analyst path. Above the knowledge exams it used to sit under, and below BTL1, which is the broader programme."
   },
   {
     "adjacentDomains": [
@@ -215,14 +215,14 @@
       "dod8140": []
     },
     "status": "active",
-    "lastVerified": "2026-08-03",
+    "lastVerified": "2026-08-04",
     "id": "thm-sec1",
     "name": "SEC1",
     "fullName": "TryHackMe Cyber Security 101",
     "vendor": "TryHackMe",
     "vendorUrl": "https://tryhackme.com/certification/cyber-security-101",
     "domain": "security-engineering",
-    "level": 31,
+    "level": 36,
     "examFormat": "practical",
     "cost": {
       "amount": 129,
@@ -232,7 +232,7 @@
     "sources": [
       "https://tryhackme.com/certification/cyber-security-101"
     ],
-    "levelNote": "Score weights the required training as well as the exam: a TryHackMe foundational path, included with the exam voucher. Exam-only score 28, +3 for the training. level measures the depth a credential demands, not only how the exam checks it."
+    "levelNote": "A 24-hour practical, but an explicitly entry-level one behind a beginner path."
   },
   {
     "adjacentDomains": [],

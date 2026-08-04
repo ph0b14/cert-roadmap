@@ -457,7 +457,7 @@
     "adjacentDomains": [
       "soc"
     ],
-    "level": 52,
+    "level": 54,
     "scoredBy": "Opus 5",
     "cost": {
       "amount": 1749,
@@ -481,11 +481,11 @@
       "dod8140": []
     },
     "status": "active",
-    "lastVerified": "2026-08-03",
+    "lastVerified": "2026-08-04",
     "sources": [
       "https://www.offsec.com/courses/ir-200/"
     ],
-    "levelNote": "Score weights the required training as well as the exam: IR-200 is rated Beginner by OffSec, 34 hours across 13 modules. Exam-only score 50, +2 for the training. level measures the depth a credential demands, not only how the exam checks it."
+    "levelNote": "Raised: a hands-on assessment was sitting below knowledge exams. An 8-hour hands-on incident-response exam that was sitting below two-hour papers."
   },
   {
     "id": "oswp",
@@ -497,7 +497,7 @@
     "adjacentDomains": [
       "security-engineering"
     ],
-    "level": 48,
+    "level": 46,
     "scoredBy": "Opus 5",
     "cost": {
       "amount": 799,
@@ -521,49 +521,11 @@
       "dod8140": []
     },
     "status": "active",
-    "lastVerified": "2026-08-03",
+    "lastVerified": "2026-08-04",
     "sources": [
       "https://www.offsec.com/courses/pen-210/"
     ],
-    "levelNote": "Score weights the required training as well as the exam: PEN-210 is a 200-level OffSec course on wireless attacks. Exam-only score 42, +6 for the training. level measures the depth a credential demands, not only how the exam checks it."
-  },
-  {
-    "id": "klcp",
-    "name": "KLCP",
-    "fullName": "Kali Linux Certified Professional",
-    "vendor": "OffSec",
-    "vendorUrl": "https://www.offsec.com/courses/pen-103/",
-    "domain": "pentest",
-    "adjacentDomains": [],
-    "level": 31,
-    "scoredBy": "Opus 5",
-    "cost": {
-      "amount": 799,
-      "currency": "USD",
-      "note": "PEN-103 course content is free with account signup. Exam attempt included with Learn Fundamentals ($799/year) or Learn One ($2,749/year) subscriptions. No standalone Course + Cert Bundle pricing confirmed. KLCP does not expire. This is a multiple-choice exam (80 questions, 90 minutes)."
-    },
-    "span": "none",
-    "courseCode": "PEN-103",
-    "examCode": null,
-    "examFormat": "multiple-choice",
-    "examHours": 1.5,
-    "passingScore": null,
-    "prerequisites": [],
-    "renewal": {
-      "required": false,
-      "years": null,
-      "ceCredits": null
-    },
-    "accreditation": {
-      "ansiIso17024": false,
-      "dod8140": []
-    },
-    "status": "active",
-    "lastVerified": "2026-08-03",
-    "sources": [
-      "https://www.offsec.com/courses/pen-103/"
-    ],
-    "levelNote": "Score weights the required training as well as the exam: PEN-103 is an introductory OffSec course on Kali Linux. Exam-only score 28, +3 for the training. level measures the depth a credential demands, not only how the exam checks it."
+    "levelNote": "Raised: a hands-on assessment was sitting below knowledge exams. A 3h45 practical against live wireless networks."
   },
   {
     "id": "oscc-sjd",
@@ -643,5 +605,43 @@
       "https://www.offsec.com/products/cybercore/"
     ],
     "levelNote": "Score weights the required training as well as the exam: a 100-level OffSec foundations course. Exam-only score 25, +3 for the training. level measures the depth a credential demands, not only how the exam checks it."
+  },
+  {
+    "id": "klcp",
+    "name": "KLCP",
+    "fullName": "Kali Linux Certified Professional",
+    "vendor": "OffSec",
+    "vendorUrl": "https://www.offsec.com/courses/pen-103/",
+    "domain": "pentest",
+    "adjacentDomains": [],
+    "level": 20,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": 799,
+      "currency": "USD",
+      "note": "PEN-103 course content is free with account signup. Exam attempt included with Learn Fundamentals ($799/year) or Learn One ($2,749/year) subscriptions. No standalone Course + Cert Bundle pricing confirmed. KLCP does not expire. This is a multiple-choice exam (80 questions, 90 minutes)."
+    },
+    "span": "none",
+    "courseCode": "PEN-103",
+    "examCode": null,
+    "examFormat": "multiple-choice",
+    "examHours": 1.5,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-04",
+    "sources": [
+      "https://www.offsec.com/courses/pen-103/"
+    ],
+    "levelNote": "Re-based onto the common knowledge-exam scale. 90 minutes of multiple choice on tooling."
   }
 ]

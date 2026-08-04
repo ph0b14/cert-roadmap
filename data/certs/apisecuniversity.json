@@ -62,11 +62,51 @@
     "sources": [
       "https://au.apisec.ai/certifications"
     ],
+    "id": "apisec-apisec-power-user",
+    "name": "APIsec Power User",
+    "fullName": "APIsec University APIsec Power User Certification",
+    "domain": "webapp",
+    "level": 42,
+    "examFormat": "practical",
+    "examHours": null,
+    "prerequisites": [
+      "APIsec Power User course"
+    ],
+    "cost": {
+      "amount": 250,
+      "currency": "USD",
+      "note": "Exam fee. The required APIsec University courses are free."
+    },
+    "levelNote": "Raised: a hands-on assessment was sitting below knowledge exams. A practical exercise set; held below the certified tier. A product certification for operating the APIsec.ai scanning platform, not a vendor-neutral API security credential. Scored on that basis."
+  },
+  {
+    "vendor": "APIsec University",
+    "vendorUrl": "https://au.apisec.ai/certifications",
+    "adjacentDomains": [],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "courseCode": null,
+    "examCode": null,
+    "passingScore": null,
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-04",
+    "sources": [
+      "https://au.apisec.ai/certifications"
+    ],
     "id": "apisec-acp",
     "name": "ACP",
     "fullName": "APIsec University APIsec Certified Practitioner",
     "domain": "webapp",
-    "level": 47,
+    "level": 33,
     "examFormat": "multiple-choice",
     "examHours": 2,
     "prerequisites": [
@@ -77,7 +117,7 @@
       "currency": "USD",
       "note": "Exam fee. The required APIsec University courses are free."
     },
-    "levelNote": "100 multiple-choice questions in 2 hours. Broader syllabus than CASA — five required courses rather than one — but the assessment is the same length and format. Score weights the required training as well as the exam: the APIsec University courses are free and self-paced, a few hours each, so the training carries less weight than a multi-day instructor-led programme. Exam-only score 42, +5 for the training. The training bonus is capped for a pure multiple-choice exam: a deep course can lift a knowledge exam, but it remains a knowledge exam."
+    "levelNote": "Re-based onto the common knowledge-exam scale. Two hours of multiple choice on API security. 100 multiple-choice questions in 2 hours. Broader syllabus than CASA — five required courses rather than one — but the assessment is the same length and format. The training bonus is capped for a pure multiple-choice exam: a deep course can lift a knowledge exam, but it remains a knowledge exam."
   },
   {
     "vendor": "APIsec University",
@@ -106,7 +146,7 @@
     "name": "CASA",
     "fullName": "APIsec University Certified API Security Analyst",
     "domain": "webapp",
-    "level": 41,
+    "level": 30,
     "examFormat": "multiple-choice",
     "examHours": 2,
     "prerequisites": [
@@ -117,46 +157,6 @@
       "currency": "USD",
       "note": "Exam fee. The required APIsec University courses are free."
     },
-    "levelNote": "100 multiple-choice questions in 2 hours behind a single course. Score weights the required training as well as the exam: the APIsec University courses are free and self-paced, a few hours each, so the training carries less weight than a multi-day instructor-led programme. Exam-only score 38, +3 for the training."
-  },
-  {
-    "vendor": "APIsec University",
-    "vendorUrl": "https://au.apisec.ai/certifications",
-    "adjacentDomains": [],
-    "span": "none",
-    "scoredBy": "Opus 5",
-    "courseCode": null,
-    "examCode": null,
-    "passingScore": null,
-    "renewal": {
-      "required": false,
-      "years": null,
-      "ceCredits": null
-    },
-    "accreditation": {
-      "ansiIso17024": false,
-      "dod8140": []
-    },
-    "status": "active",
-    "lastVerified": "2026-08-04",
-    "sources": [
-      "https://au.apisec.ai/certifications"
-    ],
-    "id": "apisec-apisec-power-user",
-    "name": "APIsec Power User",
-    "fullName": "APIsec University APIsec Power User Certification",
-    "domain": "webapp",
-    "level": 39,
-    "examFormat": "practical",
-    "examHours": null,
-    "prerequisites": [
-      "APIsec Power User course"
-    ],
-    "cost": {
-      "amount": 250,
-      "currency": "USD",
-      "note": "Exam fee. The required APIsec University courses are free."
-    },
-    "levelNote": "A product certification for operating the APIsec.ai scanning platform, not a vendor-neutral API security credential. Scored on that basis. Score weights the required training as well as the exam: the APIsec University courses are free and self-paced, a few hours each, so the training carries less weight than a multi-day instructor-led programme. Exam-only score 36, +3 for the training."
+    "levelNote": "Re-based onto the common knowledge-exam scale. Two hours of multiple choice, associate syllabus. 100 multiple-choice questions in 2 hours behind a single course."
   }
 ]

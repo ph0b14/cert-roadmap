@@ -71,27 +71,67 @@ these fixed anchors. Do not change the anchors without a separate discussion iss
 | Score | Anchor |
 | --- | --- |
 | 97 | GSE — portfolio of ten GIAC certs including four hands-on Applied Knowledge exams |
-| 95 | OSEE |
+| 93 | OSEE |
 | 91 | GSP — portfolio of five GIAC certs, so it outranks any single GX- practical |
 | 88 | OSCE³ — ceiling for a single course-backed credential |
 | 87 | GX-FA — top of the GIAC experienced tier, no course behind it |
-| 84 | GXPN — SEC660, Advanced |
-| 82 | OSEP |
-| 79 | GREM — FOR610, Advanced |
+| 84 | GXPN · OSEP |
+| 79 | GREM · OSWE · CFCE |
 | 77 | GCFA — FOR508, Intermediate |
-| 75 | CFCE · OSWE |
-| 67 | CPTS · GPEN |
-| 66 | OSCP |
-| 63 | CDSA · GCFE |
-| 48 | CySA+ · PenTest+ · PNPT |
+| 71 | CPTS |
+| 69 | OSCP |
+| 67 | GPEN · CDSA |
+| 63 | GCFE |
+| 56 | CCDL1 — 48-hour analysis exam |
+| 52 | BTL1 — 24-hour live investigation |
+| 48 | SAL1 |
+| 40 | CySA+ · PenTest+ — top of the paper tier |
 | 38 | GSEC — SEC401, Essentials |
-| 33 | Security+ · SSCP · eJPT |
-| 22 | ISC² CC |
+| 33 | Security+ |
+| 20 | ISC² CC |
 | 12 | SC-900 · vendor fundamentals |
 
-The pure-multiple-choice ceiling of 58 still applies to the **exam-only** component of a score. A
-training weight may lift the total above it — GWEB is 61 because SEC522 is Advanced, not because
-its exam got harder.
+No pure multiple-choice exam reaches the top of the paper tier by training weight alone. A deep
+course lifts a knowledge exam — GWEB sits above GPYC because SANS rates SEC522 Advanced — but it
+does not move it into the hands-on bands.
+
+### How a score is built
+
+    level = assessment + training + gating
+
+**Assessment** is the difficulty of what the candidate must demonstrate, on **one scale for every
+issuing body**. This is the part that was broken for a long time and is worth stating plainly,
+because the failure repeats if the reasoning is lost: `exam-only` used to mean total-minus-bonus
+for bodies that bundle training, and *whatever made the total look right* for bodies that do not.
+Market positioning leaked into the one number that describes the exam. That is how a 90-minute
+CrowdStrike paper came to be scored at 50 while a 24-hour live network investigation scored 38 —
+and it is the single root cause behind a long run of separate-looking complaints: GIME over the
+hands-on GIAC exams, eCTHP over GCTI, CEH Practical over PNPT, CTIA level with a 72-hour practical,
+CySA+ and SC-200 over BTL1 and SAL1.
+
+Knowledge exams are scored on this scale regardless of who sells them:
+
+| Range | What it is |
+| --- | --- |
+| 10–16 | vendor fundamentals |
+| 18–24 | entry syllabus, ~2h |
+| 24–30 | product practitioner, 1–2h |
+| 30–36 | professional syllabus, 2–3h |
+| 34–40 | broad professional, 3–4h |
+| 38–46 | course-backed and analysis-heavy — GIAC's multiple-choice tier |
+| 36–44 | hybrid with genuine performance-based questions |
+
+And one floor applies on the other side: **a credential that makes you produce evidence over eight
+hours or more does not sit below a paper.** Where it did, the practical came up.
+
+Duration is an input to assessment, not the driver. A 6-hour CREST exam requiring 60% in two
+independently-marked sections is harder than a 24-hour lab with generous scheduling.
+
+**Gating** is what the body makes you hold or prove before you may sit, and it is scored separately
+rather than smuggled into the exam figure. CPSA is a hard prerequisite for CRT and CPIA for CRIA;
+ISC²'s concentrations require CISSP plus two further years; the GIAC experienced tier requires the
+base certification. Without this component those credentials could only be placed by inflating
+their exam score, which is exactly what went wrong.
 
 ### What `level` measures
 
@@ -100,12 +140,7 @@ and scoring only the exam gets it badly wrong. GCIH is examined in four hours, b
 means working through SEC504: six days, 38 CPEs, 44 labs. A seven-day platform exam with a
 lighter path behind it is not automatically the deeper credential.
 
-So a score has two components:
-
-1. **Assessment rigour** — format, duration, cut score, whether it is hands-on.
-2. **Required body of knowledge** — the training the credential is built on.
-
-The second component uses **each body's own published rating of its training**, per certification —
+The training component uses **each body's own published rating of its training**, per certification —
 not a blanket assumption about the vendor. Those ratings share a four-point shape, so they map onto
 a common scale:
 

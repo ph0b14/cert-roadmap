@@ -271,7 +271,7 @@
     "adjacentDomains": [],
     "span": "none",
     "scoredBy": "Opus 5",
-    "levelNote": "Assessed as a flag-based. Level rests on exam format and course positioning; this body does not publish question counts or cut scores.",
+    "levelNote": "A practical multi-cloud attack exam; unchanged in substance, kept clear of the paper tier. Assessed as a flag-based. Level rests on exam format and course positioning; this body does not publish question counts or cut scores.",
     "courseCode": null,
     "examCode": null,
     "examHours": null,
@@ -287,7 +287,7 @@
       "dod8140": []
     },
     "status": "active",
-    "lastVerified": "2026-08-03",
+    "lastVerified": "2026-08-04",
     "id": "cwl-mcbta",
     "name": "MCBTA",
     "fullName": "CyberWarFare Labs Multi-Cloud Blue Team Analyst",
@@ -295,6 +295,44 @@
     "vendorUrl": "https://cyberwarfare.live/certifications/",
     "domain": "cloud",
     "level": 50,
+    "examFormat": "practical",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "Course and exam sold together."
+    },
+    "sources": [
+      "https://cyberwarfare.live/certifications/"
+    ]
+  },
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "levelNote": "Raised: a hands-on assessment was sitting below knowledge exams. A practical defensive analyst exam. Assessed as a exam-based. Level rests on exam format and course positioning; this body does not publish question counts or cut scores.",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": null,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-04",
+    "id": "cwl-ccda",
+    "name": "CCDA",
+    "fullName": "CyberWarFare Labs Certified Cyber Defence Analyst",
+    "vendor": "CyberWarFare Labs",
+    "vendorUrl": "https://cyberwarfare.live/certifications/",
+    "domain": "soc",
+    "level": 48,
     "examFormat": "practical",
     "cost": {
       "amount": null,
@@ -333,44 +371,6 @@
     "vendorUrl": "https://cyberwarfare.live/certifications/",
     "domain": "pentest",
     "level": 48,
-    "examFormat": "practical",
-    "cost": {
-      "amount": null,
-      "currency": "USD",
-      "note": "Course and exam sold together."
-    },
-    "sources": [
-      "https://cyberwarfare.live/certifications/"
-    ]
-  },
-  {
-    "adjacentDomains": [],
-    "span": "none",
-    "scoredBy": "Opus 5",
-    "levelNote": "Assessed as a exam-based. Level rests on exam format and course positioning; this body does not publish question counts or cut scores.",
-    "courseCode": null,
-    "examCode": null,
-    "examHours": null,
-    "passingScore": null,
-    "prerequisites": [],
-    "renewal": {
-      "required": false,
-      "years": null,
-      "ceCredits": null
-    },
-    "accreditation": {
-      "ansiIso17024": false,
-      "dod8140": []
-    },
-    "status": "active",
-    "lastVerified": "2026-08-03",
-    "id": "cwl-ccda",
-    "name": "CCDA",
-    "fullName": "CyberWarFare Labs Certified Cyber Defence Analyst",
-    "vendor": "CyberWarFare Labs",
-    "vendorUrl": "https://cyberwarfare.live/certifications/",
-    "domain": "soc",
-    "level": 45,
     "examFormat": "practical",
     "cost": {
       "amount": null,
