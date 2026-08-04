@@ -136,14 +136,14 @@
       "dod8140": []
     },
     "status": "active",
-    "lastVerified": "2026-08-03",
+    "lastVerified": "2026-08-04",
     "id": "thm-pt1",
     "name": "PT1",
     "fullName": "TryHackMe Junior Penetration Tester",
     "vendor": "TryHackMe",
     "vendorUrl": "https://tryhackme.com/certification/junior-penetration-tester",
     "domain": "pentest",
-    "level": 51,
+    "level": 48,
     "examFormat": "practical",
     "cost": {
       "amount": 297,
@@ -153,7 +153,7 @@
     "sources": [
       "https://tryhackme.com/certification/junior-penetration-tester"
     ],
-    "levelNote": "Score weights the required training as well as the exam: a TryHackMe entry-professional path, included with the exam voucher. Exam-only score 45, +6 for the training. level measures the depth a credential demands, not only how the exam checks it."
+    "levelNote": "Held under 50: TryHackMe positions this as a junior credential and its 48-hour assessment matches that. Exam-only score 45, +3 for the included path."
   },
   {
     "adjacentDomains": [],

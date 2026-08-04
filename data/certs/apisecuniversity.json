@@ -66,7 +66,7 @@
     "name": "ACP",
     "fullName": "APIsec University APIsec Certified Practitioner",
     "domain": "webapp",
-    "level": 48,
+    "level": 47,
     "examFormat": "multiple-choice",
     "examHours": 2,
     "prerequisites": [
@@ -77,7 +77,7 @@
       "currency": "USD",
       "note": "Exam fee. The required APIsec University courses are free."
     },
-    "levelNote": "100 multiple-choice questions in 2 hours. Broader syllabus than CASA — five required courses rather than one — but the assessment is the same length and format. Score weights the required training as well as the exam: the APIsec University courses are free and self-paced, a few hours each, so the training carries less weight than a multi-day instructor-led programme. Exam-only score 42, +6 for the training."
+    "levelNote": "100 multiple-choice questions in 2 hours. Broader syllabus than CASA — five required courses rather than one — but the assessment is the same length and format. Score weights the required training as well as the exam: the APIsec University courses are free and self-paced, a few hours each, so the training carries less weight than a multi-day instructor-led programme. Exam-only score 42, +5 for the training. The training bonus is capped for a pure multiple-choice exam: a deep course can lift a knowledge exam, but it remains a knowledge exam."
   },
   {
     "vendor": "APIsec University",

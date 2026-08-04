@@ -233,7 +233,7 @@
     "adjacentDomains": [
       "incident-response"
     ],
-    "level": 54,
+    "level": 50,
     "scoredBy": "Opus 5",
     "cost": {
       "amount": 650,
@@ -261,13 +261,13 @@
       ]
     },
     "status": "active",
-    "lastVerified": "2026-08-03",
+    "lastVerified": "2026-08-04",
     "sources": [
       "https://www.eccouncil.org/train-certify/computer-hacking-forensic-investigator-chfi/",
       "https://store.eccouncil.org/product/chfi-ecc-exam-voucher/",
       "https://www.eccouncil.org/accreditations/"
     ],
-    "levelNote": "Score weights the required training as well as the exam: official EC-Council courseware at intermediate level. Exam-only score 45, +9 for the training. level measures the depth a credential demands, not only how the exam checks it."
+    "levelNote": "Score weights the required training as well as the exam: official EC-Council courseware at intermediate level. Exam-only score 45, +5 for the training. level measures the depth a credential demands, not only how the exam checks it. The training bonus is capped for a pure multiple-choice exam: a deep course can lift a knowledge exam, but it remains a knowledge exam."
   },
   {
     "id": "ecde",
@@ -279,7 +279,7 @@
     "adjacentDomains": [
       "appsec"
     ],
-    "level": 53,
+    "level": 49,
     "scoredBy": "Opus 5",
     "cost": {
       "amount": null,
@@ -303,12 +303,12 @@
       "dod8140": []
     },
     "status": "active",
-    "lastVerified": "2026-08-03",
+    "lastVerified": "2026-08-04",
     "sources": [
       "https://www.eccouncil.org/train-certify/certified-devsecops-engineer-ecde/",
       "https://cert.eccouncil.org/retired-certification.html"
     ],
-    "levelNote": "Score weights the required training as well as the exam: official EC-Council courseware at intermediate level. Exam-only score 44, +9 for the training. level measures the depth a credential demands, not only how the exam checks it."
+    "levelNote": "Score weights the required training as well as the exam: official EC-Council courseware at intermediate level. Exam-only score 44, +5 for the training. level measures the depth a credential demands, not only how the exam checks it. The training bonus is capped for a pure multiple-choice exam: a deep course can lift a knowledge exam, but it remains a knowledge exam."
   },
   {
     "id": "ecih",
@@ -320,7 +320,7 @@
     "adjacentDomains": [
       "soc"
     ],
-    "level": 53,
+    "level": 49,
     "scoredBy": "Opus 5",
     "cost": {
       "amount": 450,
@@ -346,13 +346,13 @@
       ]
     },
     "status": "active",
-    "lastVerified": "2026-08-03",
+    "lastVerified": "2026-08-04",
     "sources": [
       "https://www.eccouncil.org/train-certify/ec-council-certified-incident-handler-ecih/",
       "https://store.eccouncil.org/product/ecih-ecc-exam-voucher/",
       "https://www.eccouncil.org/accreditations/"
     ],
-    "levelNote": "Score weights the required training as well as the exam: official EC-Council courseware at intermediate level. Exam-only score 44, +9 for the training. level measures the depth a credential demands, not only how the exam checks it."
+    "levelNote": "Score weights the required training as well as the exam: official EC-Council courseware at intermediate level. Exam-only score 44, +5 for the training. level measures the depth a credential demands, not only how the exam checks it. The training bonus is capped for a pure multiple-choice exam: a deep course can lift a knowledge exam, but it remains a knowledge exam."
   },
   {
     "id": "ctia",
@@ -364,7 +364,7 @@
     "adjacentDomains": [
       "soc"
     ],
-    "level": 52,
+    "level": 48,
     "scoredBy": "Opus 5",
     "cost": {
       "amount": 450,
@@ -388,150 +388,12 @@
       "dod8140": []
     },
     "status": "active",
-    "lastVerified": "2026-08-03",
+    "lastVerified": "2026-08-04",
     "sources": [
       "https://www.eccouncil.org/train-certify/certified-threat-intelligence-analyst-ctia/",
       "https://store.eccouncil.org/product/ctia-ecc-exam-center-voucher/"
     ],
-    "levelNote": "Score weights the required training as well as the exam: official EC-Council courseware at intermediate level. Exam-only score 43, +9 for the training. level measures the depth a credential demands, not only how the exam checks it."
-  },
-  {
-    "id": "ccse",
-    "name": "CCSE",
-    "fullName": "Certified Cloud Security Engineer",
-    "vendor": "EC-Council",
-    "vendorUrl": "https://www.eccouncil.org/train-certify/certified-cloud-security-engineer-course/",
-    "domain": "cloud",
-    "adjacentDomains": [
-      "security-engineering"
-    ],
-    "level": 51,
-    "scoredBy": "Opus 5",
-    "cost": {
-      "amount": 550,
-      "currency": "USD",
-      "note": "CCSE v2 RPS exam voucher from EC-Council Store"
-    },
-    "span": "none",
-    "courseCode": null,
-    "examCode": "312-40",
-    "examFormat": "multiple-choice",
-    "examHours": 4,
-    "passingScore": 70,
-    "prerequisites": [],
-    "renewal": {
-      "required": true,
-      "years": 3,
-      "ceCredits": null
-    },
-    "accreditation": {
-      "ansiIso17024": false,
-      "dod8140": []
-    },
-    "status": "active",
-    "lastVerified": "2026-08-03",
-    "sources": [
-      "https://www.eccouncil.org/train-certify/certified-cloud-security-engineer-course/",
-      "https://store.eccouncil.org/product/ccse-ecc-exam-voucher/"
-    ],
-    "levelNote": "Score weights the required training as well as the exam: official EC-Council courseware at intermediate level. Exam-only score 42, +9 for the training. level measures the depth a credential demands, not only how the exam checks it."
-  },
-  {
-    "id": "ceh",
-    "name": "CEH",
-    "fullName": "Certified Ethical Hacker v13",
-    "vendor": "EC-Council",
-    "vendorUrl": "https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/",
-    "domain": "pentest",
-    "adjacentDomains": [
-      "security-engineering"
-    ],
-    "level": 51,
-    "scoredBy": "Opus 5",
-    "cost": {
-      "amount": 1199,
-      "currency": "USD",
-      "note": "exam voucher via Pearson VUE; RPS (remote-proctored) voucher also available, pricing differs; training bundles start at $1,699"
-    },
-    "span": "none",
-    "courseCode": null,
-    "examCode": "312-50v13",
-    "examFormat": "multiple-choice",
-    "examHours": 4,
-    "passingScore": null,
-    "prerequisites": [],
-    "renewal": {
-      "required": true,
-      "years": 3,
-      "ceCredits": 120
-    },
-    "accreditation": {
-      "ansiIso17024": true,
-      "dod8140": [
-        "111",
-        "141",
-        "511",
-        "531",
-        "541",
-        "661"
-      ]
-    },
-    "status": "active",
-    "lastVerified": "2026-08-03",
-    "sources": [
-      "https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/",
-      "https://store.eccouncil.org/product/ceh-vue-exam-voucher/",
-      "https://cert.eccouncil.org/accreditations.html",
-      "https://www.eccouncil.org/accreditations/"
-    ],
-    "levelNote": "Score weights the required training as well as the exam: the official CEH courseware, 20 modules and 221 hands-on labs. Exam-only score 42, +9 for the training. level measures the depth a credential demands, not only how the exam checks it."
-  },
-  {
-    "id": "cnd",
-    "name": "CND",
-    "fullName": "Certified Network Defender",
-    "vendor": "EC-Council",
-    "vendorUrl": "https://www.eccouncil.org/train-certify/certified-network-security-course/",
-    "domain": "security-engineering",
-    "adjacentDomains": [
-      "soc"
-    ],
-    "level": 49,
-    "scoredBy": "Opus 5",
-    "cost": {
-      "amount": 550,
-      "currency": "USD",
-      "note": "RPS exam voucher; VUE exam voucher $650; training bundles pricing varies by mode"
-    },
-    "span": "none",
-    "courseCode": null,
-    "examCode": "312-38",
-    "examFormat": "multiple-choice",
-    "examHours": 4,
-    "passingScore": null,
-    "prerequisites": [],
-    "renewal": {
-      "required": true,
-      "years": 3,
-      "ceCredits": null
-    },
-    "accreditation": {
-      "ansiIso17024": true,
-      "dod8140": [
-        "511",
-        "521",
-        "531"
-      ]
-    },
-    "status": "active",
-    "lastVerified": "2026-08-03",
-    "sources": [
-      "https://www.eccouncil.org/train-certify/certified-network-security-course/",
-      "https://store.eccouncil.org/product/cnd-ecc-exam-voucher/",
-      "https://store.eccouncil.org/product/cnd-vue-exam-voucher/",
-      "https://www.eccouncil.org/accreditations/"
-    ],
-    "levelNote": "Score weights the required training as well as the exam: official EC-Council courseware at intermediate level. Exam-only score 40, +9 for the training. level measures the depth a credential demands, not only how the exam checks it."
+    "levelNote": "Score weights the required training as well as the exam: official EC-Council courseware at intermediate level. Exam-only score 43, +5 for the training. level measures the depth a credential demands, not only how the exam checks it. The training bonus is capped for a pure multiple-choice exam: a deep course can lift a knowledge exam, but it remains a knowledge exam."
   },
   {
     "id": "ecsa",
@@ -575,6 +437,144 @@
     ]
   },
   {
+    "id": "ccse",
+    "name": "CCSE",
+    "fullName": "Certified Cloud Security Engineer",
+    "vendor": "EC-Council",
+    "vendorUrl": "https://www.eccouncil.org/train-certify/certified-cloud-security-engineer-course/",
+    "domain": "cloud",
+    "adjacentDomains": [
+      "security-engineering"
+    ],
+    "level": 47,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": 550,
+      "currency": "USD",
+      "note": "CCSE v2 RPS exam voucher from EC-Council Store"
+    },
+    "span": "none",
+    "courseCode": null,
+    "examCode": "312-40",
+    "examFormat": "multiple-choice",
+    "examHours": 4,
+    "passingScore": 70,
+    "prerequisites": [],
+    "renewal": {
+      "required": true,
+      "years": 3,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-04",
+    "sources": [
+      "https://www.eccouncil.org/train-certify/certified-cloud-security-engineer-course/",
+      "https://store.eccouncil.org/product/ccse-ecc-exam-voucher/"
+    ],
+    "levelNote": "Score weights the required training as well as the exam: official EC-Council courseware at intermediate level. Exam-only score 42, +5 for the training. level measures the depth a credential demands, not only how the exam checks it. The training bonus is capped for a pure multiple-choice exam: a deep course can lift a knowledge exam, but it remains a knowledge exam."
+  },
+  {
+    "id": "ceh",
+    "name": "CEH",
+    "fullName": "Certified Ethical Hacker v13",
+    "vendor": "EC-Council",
+    "vendorUrl": "https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/",
+    "domain": "pentest",
+    "adjacentDomains": [
+      "security-engineering"
+    ],
+    "level": 47,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": 1199,
+      "currency": "USD",
+      "note": "exam voucher via Pearson VUE; RPS (remote-proctored) voucher also available, pricing differs; training bundles start at $1,699"
+    },
+    "span": "none",
+    "courseCode": null,
+    "examCode": "312-50v13",
+    "examFormat": "multiple-choice",
+    "examHours": 4,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": true,
+      "years": 3,
+      "ceCredits": 120
+    },
+    "accreditation": {
+      "ansiIso17024": true,
+      "dod8140": [
+        "111",
+        "141",
+        "511",
+        "531",
+        "541",
+        "661"
+      ]
+    },
+    "status": "active",
+    "lastVerified": "2026-08-04",
+    "sources": [
+      "https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/",
+      "https://store.eccouncil.org/product/ceh-vue-exam-voucher/",
+      "https://cert.eccouncil.org/accreditations.html",
+      "https://www.eccouncil.org/accreditations/"
+    ],
+    "levelNote": "Score weights the required training as well as the exam: the official CEH courseware, 20 modules and 221 hands-on labs. Exam-only score 42, +5 for the training. level measures the depth a credential demands, not only how the exam checks it. The training bonus is capped for a pure multiple-choice exam: a deep course can lift a knowledge exam, but it remains a knowledge exam."
+  },
+  {
+    "id": "cnd",
+    "name": "CND",
+    "fullName": "Certified Network Defender",
+    "vendor": "EC-Council",
+    "vendorUrl": "https://www.eccouncil.org/train-certify/certified-network-security-course/",
+    "domain": "security-engineering",
+    "adjacentDomains": [
+      "soc"
+    ],
+    "level": 45,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": 550,
+      "currency": "USD",
+      "note": "RPS exam voucher; VUE exam voucher $650; training bundles pricing varies by mode"
+    },
+    "span": "none",
+    "courseCode": null,
+    "examCode": "312-38",
+    "examFormat": "multiple-choice",
+    "examHours": 4,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": true,
+      "years": 3,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": true,
+      "dod8140": [
+        "511",
+        "521",
+        "531"
+      ]
+    },
+    "status": "active",
+    "lastVerified": "2026-08-04",
+    "sources": [
+      "https://www.eccouncil.org/train-certify/certified-network-security-course/",
+      "https://store.eccouncil.org/product/cnd-ecc-exam-voucher/",
+      "https://store.eccouncil.org/product/cnd-vue-exam-voucher/",
+      "https://www.eccouncil.org/accreditations/"
+    ],
+    "levelNote": "Score weights the required training as well as the exam: official EC-Council courseware at intermediate level. Exam-only score 40, +5 for the training. level measures the depth a credential demands, not only how the exam checks it. The training bonus is capped for a pure multiple-choice exam: a deep course can lift a knowledge exam, but it remains a knowledge exam."
+  },
+  {
     "id": "case-net",
     "name": "CASE .NET",
     "fullName": "Certified Application Security Engineer (.NET)",
@@ -584,7 +584,7 @@
     "adjacentDomains": [
       "security-engineering"
     ],
-    "level": 47,
+    "level": 43,
     "scoredBy": "Opus 5",
     "cost": {
       "amount": 450,
@@ -610,12 +610,12 @@
       "dod8140": []
     },
     "status": "active",
-    "lastVerified": "2026-08-03",
+    "lastVerified": "2026-08-04",
     "sources": [
       "https://www.eccouncil.org/train-certify/certified-application-security-engineer-case-net/",
       "https://store.eccouncil.org/product/case-dotnet-exam-voucher/"
     ],
-    "levelNote": "Score weights the required training as well as the exam: official EC-Council courseware at intermediate level. Exam-only score 38, +9 for the training. level measures the depth a credential demands, not only how the exam checks it."
+    "levelNote": "Score weights the required training as well as the exam: official EC-Council courseware at intermediate level. Exam-only score 38, +5 for the training. level measures the depth a credential demands, not only how the exam checks it. The training bonus is capped for a pure multiple-choice exam: a deep course can lift a knowledge exam, but it remains a knowledge exam."
   },
   {
     "id": "case-java",
@@ -627,7 +627,7 @@
     "adjacentDomains": [
       "security-engineering"
     ],
-    "level": 47,
+    "level": 43,
     "scoredBy": "Opus 5",
     "cost": {
       "amount": 450,
@@ -653,12 +653,12 @@
       "dod8140": []
     },
     "status": "active",
-    "lastVerified": "2026-08-03",
+    "lastVerified": "2026-08-04",
     "sources": [
       "https://www.eccouncil.org/train-certify/certified-application-security-engineer-case-java/",
       "https://store.eccouncil.org/product/case-java-exam-voucher/"
     ],
-    "levelNote": "Score weights the required training as well as the exam: official EC-Council courseware at intermediate level. Exam-only score 38, +9 for the training. level measures the depth a credential demands, not only how the exam checks it."
+    "levelNote": "Score weights the required training as well as the exam: official EC-Council courseware at intermediate level. Exam-only score 38, +5 for the training. level measures the depth a credential demands, not only how the exam checks it. The training bonus is capped for a pure multiple-choice exam: a deep course can lift a knowledge exam, but it remains a knowledge exam."
   },
   {
     "id": "csa",
@@ -670,7 +670,7 @@
     "adjacentDomains": [
       "threat-intel"
     ],
-    "level": 45,
+    "level": 41,
     "scoredBy": "Opus 5",
     "cost": {
       "amount": 450,
@@ -694,13 +694,13 @@
       "dod8140": []
     },
     "status": "active",
-    "lastVerified": "2026-08-03",
+    "lastVerified": "2026-08-04",
     "sources": [
       "https://www.eccouncil.org/train-certify/certified-soc-analyst-csa/",
       "https://store.eccouncil.org/product/csav2-exam-voucher-rps/",
       "https://cert.eccouncil.org/retired-certification.html"
     ],
-    "levelNote": "Score weights the required training as well as the exam: official EC-Council courseware at intermediate level. Exam-only score 36, +9 for the training. level measures the depth a credential demands, not only how the exam checks it."
+    "levelNote": "Score weights the required training as well as the exam: official EC-Council courseware at intermediate level. Exam-only score 36, +5 for the training. level measures the depth a credential demands, not only how the exam checks it. The training bonus is capped for a pure multiple-choice exam: a deep course can lift a knowledge exam, but it remains a knowledge exam."
   },
   {
     "id": "eces",
@@ -710,7 +710,7 @@
     "vendorUrl": "https://www.eccouncil.org/train-certify/ec-council-certified-encryption-specialist-eces/",
     "domain": "security-engineering",
     "adjacentDomains": [],
-    "level": 41,
+    "level": 40,
     "scoredBy": "Opus 5",
     "cost": {
       "amount": 249,
@@ -734,11 +734,11 @@
       "dod8140": []
     },
     "status": "active",
-    "lastVerified": "2026-08-03",
+    "lastVerified": "2026-08-04",
     "sources": [
       "https://www.eccouncil.org/train-certify/ec-council-certified-encryption-specialist-eces/",
       "https://store.eccouncil.org/product/eces-rp-exam-voucher/"
     ],
-    "levelNote": "Score weights the required training as well as the exam: the ECES courseware, an essentials-level cryptography programme. Exam-only score 35, +6 for the training. level measures the depth a credential demands, not only how the exam checks it."
+    "levelNote": "Score weights the required training as well as the exam: the ECES courseware, an essentials-level cryptography programme. Exam-only score 35, +5 for the training. level measures the depth a credential demands, not only how the exam checks it. The training bonus is capped for a pure multiple-choice exam: a deep course can lift a knowledge exam, but it remains a knowledge exam."
   }
 ]

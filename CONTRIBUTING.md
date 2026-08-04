@@ -122,6 +122,16 @@ every provider's training is excellent, so extra weight there would only compres
 Bodies that bundle no training (CompTIA, ISC², CREST) receive none; CREST instead gates on
 documented real-world experience.
 
+**The training bonus for a pure multiple-choice exam is capped at +5.** Without that cap the
+weighting inverts the thing it is meant to support: GIME reached 71 on a two-hour paper and
+outranked GWAPT, GMON and GCIH, all longer and hands-on. A deep course can lift a knowledge exam;
+it does not turn it into a practical one.
+
+**A vendor's own label is evidence, not the answer.** Read what the training *is*. INE labels a
+self-paced video path "expert"; SANS labels a six-day, 36-CPE instructor-led course
+"Intermediate". Taking both at face value put eCTHP above GCTI and eWPTXv2 above OSWE-tier web
+credentials. Self-paced video paths top out at tier 2 however they are branded.
+
 Every record carries the evidence the score is argued from — `examFormat`, `examHours`,
 `passingScore`, and `prerequisites`, each read off the issuing body's own certification page. Quote
 those fields when you dispute a score; they are what turns "feels harder" into an argument. Where a

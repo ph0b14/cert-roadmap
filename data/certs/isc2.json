@@ -22,14 +22,14 @@
       "dod8140": []
     },
     "status": "active",
-    "lastVerified": "2026-08-03",
+    "lastVerified": "2026-08-04",
     "id": "isc2-issap",
     "name": "ISSAP",
     "fullName": "ISC² Information Systems Security Architecture Professional",
     "vendor": "ISC²",
     "vendorUrl": "https://www.isc2.org/certifications/issap",
     "domain": "security-engineering",
-    "level": 50,
+    "level": 57,
     "examFormat": "multiple-choice",
     "cost": {
       "amount": 599,
@@ -38,7 +38,8 @@
     },
     "sources": [
       "https://www.isc2.org/certifications/issap"
-    ]
+    ],
+    "levelNote": "Raised. A CISSP concentration gated on holding CISSP plus two further years in the domain — the prerequisite chain is the real bar, not the 125-question paper. Exam-only score 55, +2 for the training."
   },
   {
     "adjacentDomains": [],
@@ -61,14 +62,14 @@
       "dod8140": []
     },
     "status": "active",
-    "lastVerified": "2026-08-03",
+    "lastVerified": "2026-08-04",
     "id": "isc2-issep",
     "name": "ISSEP",
     "fullName": "ISC² Information Systems Security Engineering Professional",
     "vendor": "ISC²",
     "vendorUrl": "https://www.isc2.org/certifications/issep",
     "domain": "security-engineering",
-    "level": 50,
+    "level": 57,
     "examFormat": "multiple-choice",
     "cost": {
       "amount": 599,
@@ -77,7 +78,8 @@
     },
     "sources": [
       "https://www.isc2.org/certifications/issep"
-    ]
+    ],
+    "levelNote": "Raised for the same reason as ISSAP: gated on CISSP plus two further years in security engineering. Exam-only score 55, +2 for the training."
   },
   {
     "adjacentDomains": [],
