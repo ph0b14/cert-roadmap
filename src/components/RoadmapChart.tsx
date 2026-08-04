@@ -293,6 +293,7 @@ export default function RoadmapChart({ certs, domains, tiers }: Props) {
   )
 
   const fields = useMemo(() => buildFields(certs, filterCtx), [certs, filterCtx])
+
   const expression = useMemo(() => describe(filter, fields), [filter, fields])
 
   const visible = useMemo(() => {
@@ -318,6 +319,22 @@ export default function RoadmapChart({ certs, domains, tiers }: Props) {
     for (const list of m.values()) list.sort((a, b) => b.level - a.level)
     return m
   }, [visible, domains])
+
+  /** How many visible certs sit behind each dropdown option. */
+  const optionCounts = useMemo(() => {
+    const out = new Map<string, Map<string, number>>()
+    for (const key of QUICK_FIELDS) {
+      const f = fields.find((x) => x.key === key)
+      if (!f) continue
+      const m = new Map<string, number>()
+      for (const c of visible) {
+        const v = f.get(c, filterCtx)
+        if (typeof v === 'string' && v) m.set(v, (m.get(v) ?? 0) + 1)
+      }
+      out.set(key, m)
+    }
+    return out
+  }, [fields, visible, filterCtx])
 
   /**
    * Certs that cover a domain without being primarily of it. Shown beside the
@@ -443,7 +460,13 @@ export default function RoadmapChart({ certs, domains, tiers }: Props) {
             {QUICK_FIELDS.map((key) => {
               const f = fields.find((x) => x.key === key)
               return f ? (
-                <QuickFilter key={key} field={f} state={filter} onChange={setFilter} />
+                <QuickFilter
+                  key={key}
+                  field={f}
+                  state={filter}
+                  counts={optionCounts.get(key)}
+                  onChange={setFilter}
+                />
               ) : null
             })}
 
@@ -673,6 +696,16 @@ function DesktopChart({
   picking: boolean
   onSelect: (c: Cert) => void
 }) {
+  /**
+   * Which cert the pointer is over. Only 7 of the 96 certs with adjacent
+   * domains sit in neighbouring columns, so almost none can be drawn as one
+   * wide cell — SAL2 covers SOC and Incident Response with Digital Forensics
+   * between them. Marking all 89 permanently would be noise, so coverage is
+   * revealed on hover instead: the columns a cert reaches into light up.
+   */
+  const [hovered, setHovered] = useState<Cert | null>(null)
+  const covered = new Set(hovered ? [hovered.domain, ...hovered.adjacentDomains] : [])
+
   return (
     <div className="chart-scroll overflow-x-auto px-4 pb-16 pt-4">
       <div className="mx-auto" style={{ width: 'max-content', minWidth: '100%' }}>
@@ -708,24 +741,30 @@ function DesktopChart({
             <div
               key={d.id}
               title={d.blurb}
-              className="border-b border-[var(--color-edge)] px-2 py-2 text-[11px] font-semibold leading-tight text-[var(--color-ink-dim)]"
-              style={{ width: COL_W }}
+              className="border-b px-2 py-2 text-[11px] font-semibold leading-tight transition-colors"
+              style={{
+                width: COL_W,
+                borderColor: covered.has(d.id) ? BAND_VAR[d.band] : 'var(--color-edge)',
+                background: covered.has(d.id)
+                  ? `color-mix(in oklab, ${BAND_VAR[d.band]} 16%, transparent)`
+                  : undefined,
+                color: covered.has(d.id) ? BAND_VAR[d.band] : 'var(--color-ink-dim)',
+              }}
             >
               {d.label}
-              <span className="ml-1 font-normal text-[var(--color-ink-faint)]">
-                {byDomain.get(d.id)?.length ?? 0}
+              {/* One number: every cert that covers this discipline, whether or
+                  not this is its primary column. Showing "5 +5" made readers do
+                  arithmetic to answer "how many certs cover exploit dev?". */}
+              <span
+                className="ml-1 font-normal text-[var(--color-ink-faint)]"
+                title={
+                  alsoCovers.get(d.id)
+                    ? `${(byDomain.get(d.id)?.length ?? 0) + (alsoCovers.get(d.id) ?? 0)} certifications cover ${d.label}: ${byDomain.get(d.id)?.length ?? 0} primarily, ${alsoCovers.get(d.id)} as an adjacent domain`
+                    : `${byDomain.get(d.id)?.length ?? 0} certifications cover ${d.label}`
+                }
+              >
+                {(byDomain.get(d.id)?.length ?? 0) + (alsoCovers.get(d.id) ?? 0)}
               </span>
-              {/* Certs whose primary domain is elsewhere but which also cover this
-                  one. Counting only the primary understated columns badly —
-                  Malware Analysis reads 2 but four credentials cover it. */}
-              {alsoCovers.get(d.id) ? (
-                <span
-                  className="ml-1 font-normal text-[var(--pri-color)]"
-                  title={`${alsoCovers.get(d.id)} more certifications cover ${d.label} as an adjacent domain, counted in their own column`}
-                >
-                  +{alsoCovers.get(d.id)}
-                </span>
-              ) : null}
             </div>
           ))}
         </div>
@@ -775,6 +814,7 @@ function DesktopChart({
               owned={owned.has(p.cert.id)}
               picking={picking}
               onSelect={onSelect}
+              onHover={setHovered}
             />
           ))}
         </div>
@@ -789,12 +829,14 @@ function CertCell({
   owned,
   picking,
   onSelect,
+  onHover,
 }: {
   placement: Placement
   band: string
   owned: boolean
   picking: boolean
   onSelect: (c: Cert) => void
+  onHover: (c: Cert | null) => void
 }) {
   const { cert, row, slot, start, span } = placement
   const retired = cert.status === 'retired'
@@ -807,12 +849,17 @@ function CertCell({
   return (
     <button
       onClick={() => onSelect(cert)}
+      onMouseEnter={() => onHover(cert)}
+      onMouseLeave={() => onHover(null)}
+      onFocus={() => onHover(cert)}
+      onBlur={() => onHover(null)}
       role={picking ? 'checkbox' : undefined}
       aria-checked={picking ? owned : undefined}
       title={
         picking
           ? `${owned ? 'Remove' : 'Mark as held'}: ${cert.fullName}`
-          : `${cert.fullName} — ${cert.vendor} · level ${cert.level} · ${formatCost(cert)}`
+          : `${cert.fullName} — ${cert.vendor} · level ${cert.level} · ${formatCost(cert)}` +
+            (cert.adjacentDomains.length ? ` · also covers ${cert.adjacentDomains.length} more domain${cert.adjacentDomains.length > 1 ? 's' : ''}` : '')
       }
       className="absolute grid place-items-center overflow-hidden rounded border px-1 text-center text-[10px] leading-tight transition-colors hover:z-10 hover:brightness-125"
       style={{

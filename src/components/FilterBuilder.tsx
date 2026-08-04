@@ -113,10 +113,13 @@ function ValuePicker({
 export function QuickFilter({
   field,
   state,
+  counts,
   onChange,
 }: {
   field: FieldDef
   state: FilterState
+  /** How many currently-visible certs each option matches. */
+  counts?: Map<string, number>
   onChange: (s: FilterState) => void
 }) {
   const existing = state.conditions.find((c) => c.field === field.key && c.op === 'anyOf')
@@ -142,6 +145,7 @@ export function QuickFilter({
     <QuickPicker
       label={field.label}
       options={field.options ?? []}
+      counts={counts}
       selected={selected}
       onChange={apply}
     />
@@ -151,11 +155,13 @@ export function QuickFilter({
 function QuickPicker({
   label,
   options,
+  counts,
   selected,
   onChange,
 }: {
   label: string
   options: string[]
+  counts?: Map<string, number>
   selected: string[]
   onChange: (v: string[]) => void
 }) {
@@ -237,7 +243,12 @@ function QuickPicker({
                 }
                 className="accent-[var(--pri-color)]"
               />
-              <span className="truncate">{o}</span>
+              <span className="flex-1 truncate">{o}</span>
+              {counts ? (
+                <span className="tabular-nums text-[var(--color-ink-faint)]">
+                  {counts.get(o) ?? 0}
+                </span>
+              ) : null}
             </label>
           ))}
           {!shown.length ? (
