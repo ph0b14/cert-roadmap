@@ -59,7 +59,10 @@ async function probe(t: Omit<Row, 'status'>): Promise<Row> {
       signal: ctrl.signal,
       headers: { 'user-agent': 'cert-roadmap-linkcheck/1.0 (+https://certroadmap.dev)' },
     })
-    if (res.status === 405 || res.status === 403 || res.status === 501) {
+    // Retry anything that failed with GET. Plenty of vendor sites mishandle
+    // HEAD — PortSwigger answers it with a 404 and the same URL with 200 — and
+    // a genuinely dead link fails the GET too, so the only cost is one request.
+    if (!res.ok) {
       res = await fetch(t.url, {
         method: 'GET',
         redirect: 'follow',

@@ -1,0 +1,82 @@
+[
+  {
+    "adjacentDomains": [
+      "security-engineering"
+    ],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "levelNote": "60 questions in 120 minutes, open book, 80% to pass. Knowledge-only, but the reference vendor-neutral cloud security credential. No training weight: CSA training is optional and the prep kit is free.",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": 2,
+    "passingScore": 80,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-04",
+    "id": "csa-ccsk",
+    "name": "CCSK",
+    "fullName": "Certificate of Cloud Security Knowledge",
+    "vendor": "Cloud Security Alliance",
+    "vendorUrl": "https://cloudsecurityalliance.org/education/ccsk",
+    "domain": "cloud",
+    "level": 42,
+    "examFormat": "multiple-choice",
+    "cost": {
+      "amount": 445,
+      "currency": "USD",
+      "note": "Two attempts, usable within two years."
+    },
+    "sources": [
+      "https://cloudsecurityalliance.org/education/ccsk"
+    ]
+  },
+  {
+    "adjacentDomains": [
+      "cloud"
+    ],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "levelNote": "60 questions in 120 minutes, open book, 80% to pass. Narrower in scope than CCSK — zero trust architecture specifically. No training weight: the prep kit is free and no course is required.",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": 2,
+    "passingScore": 80,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-04",
+    "id": "csa-cczt",
+    "name": "CCZT",
+    "fullName": "Certificate of Competence in Zero Trust",
+    "vendor": "Cloud Security Alliance",
+    "vendorUrl": "https://cloudsecurityalliance.org/education/cczt",
+    "domain": "security-engineering",
+    "level": 40,
+    "examFormat": "multiple-choice",
+    "cost": {
+      "amount": 175,
+      "currency": "USD",
+      "note": "Two attempts, usable within two years."
+    },
+    "sources": [
+      "https://cloudsecurityalliance.org/education/cczt"
+    ]
+  }
+]

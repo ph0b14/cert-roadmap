@@ -1,0 +1,156 @@
+[
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "levelNote": "80 questions — 60 multiple choice and 20 practical — with no time limit and not proctored, which caps how much the assessment alone can attest to. The course behind it is deep and well regarded, and does most of the work here. Gold, Silver and Bronze tiers reflect which attempt you passed on. Does not expire. Exam-only score 44, +9 for the training.",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": null,
+    "passingScore": 70,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-04",
+    "id": "13cubed-iwe",
+    "name": "IWE",
+    "fullName": "13Cubed Investigating Windows Endpoints",
+    "vendor": "13Cubed",
+    "vendorUrl": "https://training.13cubed.com/certifications",
+    "domain": "forensics",
+    "level": 53,
+    "examFormat": "hybrid",
+    "cost": {
+      "amount": 795,
+      "currency": "USD",
+      "note": "Certification is included in the course price; no separate exam fee."
+    },
+    "sources": [
+      "https://training.13cubed.com/certifications"
+    ]
+  },
+  {
+    "adjacentDomains": [
+      "malware-re"
+    ],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "levelNote": "80 questions — 60 multiple choice and 20 practical — with no time limit and not proctored, which caps how much the assessment alone can attest to. The course behind it is deep and well regarded, and does most of the work here. Gold, Silver and Bronze tiers reflect which attempt you passed on. Does not expire. Exam-only score 44, +9 for the training.",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": null,
+    "passingScore": 70,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-04",
+    "id": "13cubed-iwm",
+    "name": "IWM",
+    "fullName": "13Cubed Investigating Windows Memory",
+    "vendor": "13Cubed",
+    "vendorUrl": "https://training.13cubed.com/certifications",
+    "domain": "forensics",
+    "level": 53,
+    "examFormat": "hybrid",
+    "cost": {
+      "amount": 795,
+      "currency": "USD",
+      "note": "Certification is included in the course price; no separate exam fee."
+    },
+    "sources": [
+      "https://training.13cubed.com/certifications"
+    ]
+  },
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "levelNote": "80 questions — 60 multiple choice and 20 practical — with no time limit and not proctored, which caps how much the assessment alone can attest to. The course behind it is deep and well regarded, and does most of the work here. Gold, Silver and Bronze tiers reflect which attempt you passed on. Does not expire. Exam-only score 42, +9 for the training.",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": null,
+    "passingScore": 70,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-04",
+    "id": "13cubed-ild",
+    "name": "ILD",
+    "fullName": "13Cubed Investigating Linux Devices",
+    "vendor": "13Cubed",
+    "vendorUrl": "https://training.13cubed.com/certifications",
+    "domain": "forensics",
+    "level": 51,
+    "examFormat": "hybrid",
+    "cost": {
+      "amount": 795,
+      "currency": "USD",
+      "note": "Certification is included in the course price; no separate exam fee."
+    },
+    "sources": [
+      "https://training.13cubed.com/certifications"
+    ]
+  },
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "levelNote": "80 questions — 60 multiple choice and 20 practical — with no time limit and not proctored, which caps how much the assessment alone can attest to. The course behind it is deep and well regarded, and does most of the work here. Gold, Silver and Bronze tiers reflect which attempt you passed on. Does not expire. Exam-only score 42, +9 for the training.",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": null,
+    "passingScore": 70,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-04",
+    "id": "13cubed-ime",
+    "name": "IME",
+    "fullName": "13Cubed Investigating macOS Endpoints",
+    "vendor": "13Cubed",
+    "vendorUrl": "https://training.13cubed.com/certifications",
+    "domain": "forensics",
+    "level": 51,
+    "examFormat": "hybrid",
+    "cost": {
+      "amount": 795,
+      "currency": "USD",
+      "note": "Certification is included in the course price; no separate exam fee."
+    },
+    "sources": [
+      "https://training.13cubed.com/certifications"
+    ]
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "levelNote": "A 45-minute written paper plus three practical case studies requiring full forensic reports — the practicals carry the weight, not the paper. Long established in law enforcement. Below CFCE, which gates on a four-month mentored peer review on top of its practicals. No training weight: the ISFCE course is one route in, but documented experience is an alternative.",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": 0.75,
+    "passingScore": 70,
+    "prerequisites": [
+      "18 months of forensic examination experience, or ISFCE training"
+    ],
+    "renewal": {
+      "required": true,
+      "years": 2,
+      "ceCredits": 40
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-04",
+    "id": "isfce-cce",
+    "name": "CCE",
+    "fullName": "ISFCE Certified Computer Examiner",
+    "vendor": "ISFCE",
+    "vendorUrl": "https://isfce.com/cce-certification.html",
+    "domain": "forensics",
+    "level": 60,
+    "examFormat": "hybrid",
+    "cost": {
+      "amount": 395,
+      "currency": "USD",
+      "note": "Exam fee. ISFCE training is priced separately."
+    },
+    "sources": [
+      "https://isfce.com/cce-certification.html"
+    ]
+  }
+]

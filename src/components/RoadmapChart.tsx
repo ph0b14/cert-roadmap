@@ -319,6 +319,18 @@ export default function RoadmapChart({ certs, domains, tiers }: Props) {
     return m
   }, [visible, domains])
 
+  /**
+   * Certs that cover a domain without being primarily of it. Shown beside the
+   * primary count so a column is not judged by its narrowest reading.
+   */
+  const alsoCovers = useMemo(() => {
+    const m = new Map<string, number>()
+    for (const c of visible)
+      for (const a of c.adjacentDomains)
+        if (a !== c.domain) m.set(a, (m.get(a) ?? 0) + 1)
+    return m
+  }, [visible])
+
   const colIndex = useMemo(() => new Map(domains.map((d, i) => [d.id, i])), [domains])
 
   const { placements, bands: tierBands, rows } = useMemo(
@@ -618,6 +630,7 @@ export default function RoadmapChart({ certs, domains, tiers }: Props) {
           byDomain={byDomain}
           placements={placements}
           tierBands={tierBands}
+          alsoCovers={alsoCovers}
           height={height}
           owned={owned}
           picking={picking}
@@ -644,6 +657,7 @@ function DesktopChart({
   byDomain,
   placements,
   tierBands,
+  alsoCovers,
   height,
   owned,
   picking,
@@ -653,6 +667,7 @@ function DesktopChart({
   byDomain: Map<string, Cert[]>
   placements: Placement[]
   tierBands: Band[]
+  alsoCovers: Map<string, number>
   height: number
   owned: Set<string>
   picking: boolean
@@ -700,6 +715,17 @@ function DesktopChart({
               <span className="ml-1 font-normal text-[var(--color-ink-faint)]">
                 {byDomain.get(d.id)?.length ?? 0}
               </span>
+              {/* Certs whose primary domain is elsewhere but which also cover this
+                  one. Counting only the primary understated columns badly —
+                  Malware Analysis reads 2 but four credentials cover it. */}
+              {alsoCovers.get(d.id) ? (
+                <span
+                  className="ml-1 font-normal text-[var(--pri-color)]"
+                  title={`${alsoCovers.get(d.id)} more certifications cover ${d.label} as an adjacent domain, counted in their own column`}
+                >
+                  +{alsoCovers.get(d.id)}
+                </span>
+              ) : null}
             </div>
           ))}
         </div>

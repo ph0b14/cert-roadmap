@@ -1,0 +1,236 @@
+[
+  {
+    "adjacentDomains": [
+      "soc"
+    ],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "levelNote": "ATT&CK-mapped assessment combining knowledge and hands-on work. This body does not publish full exam specifications; level rests on format and scope. Score weights the required training: MAD20 courses are self-paced with labs. Exam-only score 50, +5 for the training.",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": null,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-04",
+    "id": "mad20-adem",
+    "name": "MAD ADEM",
+    "fullName": "MAD20 ATT&CK Adversary Emulation",
+    "vendor": "MAD20",
+    "vendorUrl": "https://mad20.com/adversary-emulation-methodology",
+    "domain": "pentest",
+    "level": 55,
+    "examFormat": "hybrid",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "Sold through a MAD20 subscription."
+    },
+    "sources": [
+      "https://mad20.com/adversary-emulation-methodology"
+    ]
+  },
+  {
+    "adjacentDomains": [
+      "threat-intel"
+    ],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "levelNote": "ATT&CK-mapped assessment combining knowledge and hands-on work. This body does not publish full exam specifications; level rests on format and scope. Score weights the required training: MAD20 courses are self-paced with labs. Exam-only score 50, +5 for the training.",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": null,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-04",
+    "id": "mad20-thde",
+    "name": "MAD THDE",
+    "fullName": "MAD20 ATT&CK Threat Hunting and Detection Engineering",
+    "vendor": "MAD20",
+    "vendorUrl": "https://mad20.com/threat-hunting-and-detection-engineering",
+    "domain": "soc",
+    "level": 55,
+    "examFormat": "hybrid",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "Sold through a MAD20 subscription."
+    },
+    "sources": [
+      "https://mad20.com/threat-hunting-and-detection-engineering"
+    ]
+  },
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "levelNote": "ATT&CK-mapped assessment combining knowledge and hands-on work. This body does not publish full exam specifications; level rests on format and scope. Score weights the required training: MAD20 courses are self-paced with labs. Exam-only score 45, +6 for the training.",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": null,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-04",
+    "id": "mad20-cti",
+    "name": "MAD CTI",
+    "fullName": "MAD20 ATT&CK Cyber Threat Intelligence",
+    "vendor": "MAD20",
+    "vendorUrl": "https://mad20.com/cyber-threat-intelligence",
+    "domain": "threat-intel",
+    "level": 51,
+    "examFormat": "hybrid",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "Sold through a MAD20 subscription."
+    },
+    "sources": [
+      "https://mad20.com/cyber-threat-intelligence"
+    ]
+  },
+  {
+    "adjacentDomains": [
+      "pentest"
+    ],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "levelNote": "ATT&CK-mapped assessment combining knowledge and hands-on work. This body does not publish full exam specifications; level rests on format and scope. Score weights the required training: MAD20 courses are self-paced with labs. Exam-only score 44, +6 for the training.",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": null,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-04",
+    "id": "mad20-pt",
+    "name": "MAD PT",
+    "fullName": "MAD20 ATT&CK Purple Teaming",
+    "vendor": "MAD20",
+    "vendorUrl": "https://mad20.com/individuals",
+    "domain": "soc",
+    "level": 50,
+    "examFormat": "hybrid",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "Sold through a MAD20 subscription."
+    },
+    "sources": [
+      "https://mad20.com/individuals"
+    ]
+  },
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "levelNote": "ATT&CK-mapped assessment combining knowledge and hands-on work. This body does not publish full exam specifications; level rests on format and scope. Score weights the required training: MAD20 courses are self-paced with labs. Exam-only score 42, +6 for the training.",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": null,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-04",
+    "id": "mad20-soc",
+    "name": "MAD SOC",
+    "fullName": "MAD20 ATT&CK SOC Assessments",
+    "vendor": "MAD20",
+    "vendorUrl": "https://mad20.com/soc-assessment",
+    "domain": "soc",
+    "level": 48,
+    "examFormat": "hybrid",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "Sold through a MAD20 subscription."
+    },
+    "sources": [
+      "https://mad20.com/soc-assessment"
+    ]
+  },
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "levelNote": "ATT&CK-mapped assessment combining knowledge and hands-on work. This body does not publish full exam specifications; level rests on format and scope. Score weights the required training: MAD20 courses are self-paced with labs. Exam-only score 28, +3 for the training.",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": null,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-04",
+    "id": "mad20-fund",
+    "name": "MAD FUND",
+    "fullName": "MAD20 ATT&CK Fundamentals",
+    "vendor": "MAD20",
+    "vendorUrl": "https://mad20.com/individuals",
+    "domain": "soc",
+    "level": 31,
+    "examFormat": "hybrid",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "Sold through a MAD20 subscription."
+    },
+    "sources": [
+      "https://mad20.com/individuals"
+    ]
+  }
+]

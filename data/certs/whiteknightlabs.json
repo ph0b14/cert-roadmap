@@ -1,0 +1,276 @@
+[
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "levelNote": "Hands-on, performance-based exam. This body does not publish full exam specifications; level rests on format and scope. Score weights the required training: WKL courses are self-paced with lab access. Exam-only score 60, +5 for the training.",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": null,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-04",
+    "id": "wkl-artoc",
+    "name": "ARTOC",
+    "fullName": "White Knight Labs Advanced Red Team Operations Certification",
+    "vendor": "White Knight Labs",
+    "vendorUrl": "https://training.whiteknightlabs.com/certifications/",
+    "domain": "pentest",
+    "level": 65,
+    "examFormat": "practical",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "Priced per course; see the vendor page."
+    },
+    "sources": [
+      "https://training.whiteknightlabs.com/certifications/"
+    ]
+  },
+  {
+    "adjacentDomains": [
+      "pentest"
+    ],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "levelNote": "Hands-on, performance-based exam. This body does not publish full exam specifications; level rests on format and scope. Score weights the required training: WKL courses are self-paced with lab access. Exam-only score 55, +5 for the training.",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": null,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-04",
+    "id": "wkl-oaotc",
+    "name": "OAOTC",
+    "fullName": "White Knight Labs Offensive Azure Operations and Tactics Certification",
+    "vendor": "White Knight Labs",
+    "vendorUrl": "https://training.whiteknightlabs.com/certifications/",
+    "domain": "cloud",
+    "level": 60,
+    "examFormat": "practical",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "Priced per course; see the vendor page."
+    },
+    "sources": [
+      "https://training.whiteknightlabs.com/certifications/"
+    ]
+  },
+  {
+    "adjacentDomains": [
+      "malware-re"
+    ],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "levelNote": "Multi-phase hands-on challenge: bypass EDR and AV, build custom tooling, prove operational success across several targets. Filed under Exploit Dev rather than Malware Analysis — it tests writing offensive code, not analysing someone else's. This body does not publish full exam specifications; level rests on format and scope. Exam-only score 55, +5 for the training.",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": null,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-04",
+    "id": "wkl-odpc",
+    "name": "ODPC",
+    "fullName": "White Knight Labs Offensive Development Practitioner Certification",
+    "vendor": "White Knight Labs",
+    "vendorUrl": "https://training.whiteknightlabs.com/certifications/",
+    "domain": "exploitdev",
+    "level": 60,
+    "examFormat": "practical",
+    "cost": {
+      "amount": 500,
+      "currency": "USD",
+      "note": "Course including one exam attempt; an exam-only voucher is $250."
+    },
+    "sources": [
+      "https://training.whiteknightlabs.com/certifications/"
+    ]
+  },
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "levelNote": "Hands-on, performance-based exam. This body does not publish full exam specifications; level rests on format and scope. Score weights the required training: WKL courses are self-paced with lab access. Exam-only score 52, +5 for the training.",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": null,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-04",
+    "id": "wkl-oadoc",
+    "name": "OADOC",
+    "fullName": "White Knight Labs Offensive Active Directory Operations Certification",
+    "vendor": "White Knight Labs",
+    "vendorUrl": "https://training.whiteknightlabs.com/certifications/",
+    "domain": "pentest",
+    "level": 57,
+    "examFormat": "practical",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "Priced per course; see the vendor page."
+    },
+    "sources": [
+      "https://training.whiteknightlabs.com/certifications/"
+    ]
+  },
+  {
+    "adjacentDomains": [
+      "pentest"
+    ],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "levelNote": "Hands-on, performance-based exam. This body does not publish full exam specifications; level rests on format and scope. Score weights the required training: WKL courses are self-paced with lab access. Exam-only score 52, +5 for the training.",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": null,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-04",
+    "id": "wkl-ogotc",
+    "name": "OGOTC",
+    "fullName": "White Knight Labs Offensive GCP Operations and Tactics Certification",
+    "vendor": "White Knight Labs",
+    "vendorUrl": "https://training.whiteknightlabs.com/certifications/",
+    "domain": "cloud",
+    "level": 57,
+    "examFormat": "practical",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "Priced per course; see the vendor page."
+    },
+    "sources": [
+      "https://training.whiteknightlabs.com/certifications/"
+    ]
+  },
+  {
+    "adjacentDomains": [
+      "cloud"
+    ],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "levelNote": "Hands-on, performance-based exam. This body does not publish full exam specifications; level rests on format and scope. Score weights the required training: WKL courses are self-paced with lab access. Exam-only score 50, +5 for the training.",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": null,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-04",
+    "id": "wkl-ascpc",
+    "name": "ASCPC",
+    "fullName": "White Knight Labs Attacking and Securing CI/CD Pipeline Certification",
+    "vendor": "White Knight Labs",
+    "vendorUrl": "https://training.whiteknightlabs.com/certifications/",
+    "domain": "appsec",
+    "level": 55,
+    "examFormat": "practical",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "Priced per course; see the vendor page."
+    },
+    "sources": [
+      "https://training.whiteknightlabs.com/certifications/"
+    ]
+  },
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "levelNote": "Hands-on, performance-based exam. This body does not publish full exam specifications; level rests on format and scope. Score weights the required training: WKL courses are self-paced with lab access. Exam-only score 32, +6 for the training.",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": null,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-04",
+    "id": "wkl-elpt",
+    "name": "ELPT",
+    "fullName": "White Knight Labs Entry-Level Penetration Tester Certification",
+    "vendor": "White Knight Labs",
+    "vendorUrl": "https://training.whiteknightlabs.com/certifications/",
+    "domain": "pentest",
+    "level": 38,
+    "examFormat": "practical",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "Priced per course; see the vendor page."
+    },
+    "sources": [
+      "https://training.whiteknightlabs.com/certifications/"
+    ]
+  }
+]
