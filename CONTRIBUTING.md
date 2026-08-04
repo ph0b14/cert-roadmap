@@ -132,6 +132,17 @@ self-paced video path "expert"; SANS labels a six-day, 36-CPE instructor-led cou
 "Intermediate". Taking both at face value put eCTHP above GCTI and eWPTXv2 above OSWE-tier web
 credentials. Self-paced video paths top out at tier 2 however they are branded.
 
+The rule cuts upward too. 13Cubed's courses are weighted at tier 2 — above the *Essentials* rating
+SANS gives FOR500 — because that is what the training is, regardless of it coming from a
+two-person shop rather than an institute.
+
+**An unproctored exam is discounted, not dismissed.** Untimed and unproctored are two separate
+concessions and neither erases a practical component: analysing a supplied image and answering
+evidence-derived questions is work you cannot look up. 13Cubed's exam-only figure of 44 treated its
+20 practical questions as nearly worthless and left IWE below credentials with weaker training and
+a weaker assessment. The discount is real — it is why IWE sits under a proctored forensics exam of
+the same scope — but it is a discount, not a write-off.
+
 Every record carries the evidence the score is argued from — `examFormat`, `examHours`,
 `passingScore`, and `prerequisites`, each read off the issuing body's own certification page. Quote
 those fields when you dispute a score; they are what turns "feels harder" into an argument. Where a
@@ -203,6 +214,15 @@ merely touching them: OSCE³ is three certifications covering the entire offensi
 assessed across forensics, incident response, and hunting in one exam, and BTL2 covers incident
 response and threat hunting. Use `full` only for portfolio credentials assembled from anywhere in
 the catalogue — currently just GSE and GSP.
+
+A `full` cert draws in its own violet, not in the colour of the band its `domain` field points at.
+GSE is not a security-engineering credential; it only has to name *some* column, and colouring it
+green said otherwise.
+
+**Column counts are what you can count.** The number beside a column heading is the cells drawn in
+that column — its own certs plus any wide cell passing through. Certs that name the domain in
+`adjacentDomains` but are drawn elsewhere go in the tooltip instead. Adding the two together put
+`67` above a column holding 51 cells, and a figure a reader cannot check is worse than a narrow one.
 
 This is deliberately explicit rather than inferred from `adjacentDomains`. Inferring it turned
 roughly a sixth of the dataset into wide banners, including certs that merely brush a neighbouring

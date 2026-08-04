@@ -20,7 +20,7 @@
       "dod8140": []
     },
     "status": "retired",
-    "lastVerified": "2026-08-03",
+    "lastVerified": "2026-08-04",
     "cost": {
       "amount": null,
       "currency": "USD",
@@ -31,12 +31,13 @@
     "fullName": "eLearnSecurity Certified Penetration Tester eXtreme",
     "vendorUrl": "https://ine.com/blog/els-is-retiring-5-certifications-heres-what-you-need-to-know",
     "domain": "pentest",
-    "level": 78,
+    "level": 76,
     "scoredBy": "Opus 5",
     "examFormat": "practical",
     "sources": [
       "https://ine.com/blog/els-is-retiring-5-certifications-heres-what-you-need-to-know"
-    ]
+    ],
+    "levelNote": "A multi-day practical against a defended Active Directory estate with a report requirement — the hardest exam INE sets. The training behind it is a self-paced video path, so it carries tier-2 weight however the catalogue labels it. Exam-only score 71, +5 for the training."
   },
   {
     "vendor": "INE Security",
@@ -57,7 +58,7 @@
       "dod8140": []
     },
     "status": "retired",
-    "lastVerified": "2026-08-03",
+    "lastVerified": "2026-08-04",
     "cost": {
       "amount": null,
       "currency": "USD",
@@ -68,12 +69,13 @@
     "fullName": "eLearnSecurity Certified eXploit Developer",
     "vendorUrl": "https://ine.com/blog/els-is-retiring-5-certifications-heres-what-you-need-to-know",
     "domain": "exploitdev",
-    "level": 74,
+    "level": 73,
     "scoredBy": "Opus 5",
     "examFormat": "practical",
     "sources": [
       "https://ine.com/blog/els-is-retiring-5-certifications-heres-what-you-need-to-know"
-    ]
+    ],
+    "levelNote": "A practical exploit-development exam. Re-based with the rest of the INE catalogue: the self-paced path carries tier-2 weight, not the 'expert' branding. Exam-only score 68, +5 for the training."
   },
   {
     "vendor": "INE Security",
@@ -135,7 +137,7 @@
       "dod8140": []
     },
     "status": "retired",
-    "lastVerified": "2026-08-03",
+    "lastVerified": "2026-08-04",
     "cost": {
       "amount": null,
       "currency": "USD",
@@ -151,7 +153,8 @@
     "examFormat": "practical",
     "sources": [
       "https://ine.com/blog/els-is-retiring-5-certifications-heres-what-you-need-to-know"
-    ]
+    ],
+    "levelNote": "A practical malware-analysis exam with a report requirement, behind a self-paced path weighted at tier 2. Exam-only score 63, +7 for the training."
   },
   {
     "vendor": "INE Security",
@@ -172,7 +175,7 @@
       "dod8140": []
     },
     "status": "retired",
-    "lastVerified": "2026-08-03",
+    "lastVerified": "2026-08-04",
     "cost": {
       "amount": null,
       "currency": "USD",
@@ -188,7 +191,8 @@
     "examFormat": "practical",
     "sources": [
       "https://ine.com/blog/els-is-retiring-5-certifications-heres-what-you-need-to-know"
-    ]
+    ],
+    "levelNote": "A practical reverse-engineering exam, behind a self-paced path weighted at tier 2. Exam-only score 61, +7 for the training."
   },
   {
     "vendor": "INE Security",
@@ -449,7 +453,7 @@
       "dod8140": []
     },
     "status": "retired",
-    "lastVerified": "2026-08-03",
+    "lastVerified": "2026-08-04",
     "cost": {
       "amount": null,
       "currency": "USD",
@@ -460,12 +464,13 @@
     "fullName": "eLearnSecurity Web Defense Professional",
     "vendorUrl": "https://ine.com/blog/els-is-retiring-5-certifications-heres-what-you-need-to-know",
     "domain": "appsec",
-    "level": 55,
+    "level": 57,
     "scoredBy": "Opus 5",
     "examFormat": "practical",
     "sources": [
       "https://ine.com/blog/els-is-retiring-5-certifications-heres-what-you-need-to-know"
-    ]
+    ],
+    "levelNote": "A practical defensive web exam. Re-based with the rest of the INE catalogue rather than left on an older standard. Exam-only score 48, +9 for the training."
   },
   {
     "vendor": "INE Security",

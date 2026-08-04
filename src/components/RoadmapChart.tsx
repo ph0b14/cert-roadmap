@@ -64,6 +64,12 @@ const BAND_VAR: Record<string, string> = {
   defensive: 'var(--color-band-defensive)',
   platform: 'var(--color-band-platform)',
   specialist: 'var(--color-band-specialist)',
+  /*
+   * Not a band in the taxonomy — the colour a `span: full` cert draws in. A
+   * portfolio credential is assembled from the whole catalogue, so taking the
+   * colour of its `domain` column said GSE was a security-engineering cert.
+   */
+  portfolio: 'var(--color-band-portfolio)',
 }
 
 function formatCost(cert: Cert): string {
@@ -336,19 +342,38 @@ export default function RoadmapChart({ certs, domains, tiers }: Props) {
     return out
   }, [fields, visible, filterCtx])
 
-  /**
-   * Certs that cover a domain without being primarily of it. Shown beside the
-   * primary count so a column is not judged by its narrowest reading.
-   */
-  const alsoCovers = useMemo(() => {
-    const m = new Map<string, number>()
-    for (const c of visible)
-      for (const a of c.adjacentDomains)
-        if (a !== c.domain) m.set(a, (m.get(a) ?? 0) + 1)
-    return m
-  }, [visible])
-
   const colIndex = useMemo(() => new Map(domains.map((d, i) => [d.id, i])), [domains])
+
+  /**
+   * Two different counts, and the header must show the one you can verify.
+   *
+   * `drawn` is how many cells the column actually contains — its own certs plus
+   * any wide cell passing through it. `alsoCovers` is certs that name the domain
+   * in `adjacentDomains` but are drawn elsewhere, which is real coverage but
+   * invisible here. Adding them together produced a header saying 67 above a
+   * column holding 51 cells, and a number you cannot count is worse than a
+   * narrow one. So `drawn` goes in the header and `alsoCovers` in the tooltip.
+   */
+  const { drawn, alsoCovers } = useMemo(() => {
+    const drawn = new Map<string, number>()
+    const alsoCovers = new Map<string, number>()
+    for (const c of visible) {
+      const s = spanFor(c, colIndex, domains.length)
+      const inCell = new Set<string>()
+      if (s) {
+        for (let i = s.start; i < s.start + s.span; i++) {
+          const id = domains[i]?.id
+          if (id) {
+            inCell.add(id)
+            drawn.set(id, (drawn.get(id) ?? 0) + 1)
+          }
+        }
+      }
+      for (const a of c.adjacentDomains)
+        if (!inCell.has(a)) alsoCovers.set(a, (alsoCovers.get(a) ?? 0) + 1)
+    }
+    return { drawn, alsoCovers }
+  }, [visible, colIndex, domains])
 
   const { placements, bands: tierBands, rows } = useMemo(
     () => layoutGrid(visible, colIndex, domains.length, tiers),
@@ -654,6 +679,7 @@ export default function RoadmapChart({ certs, domains, tiers }: Props) {
           placements={placements}
           tierBands={tierBands}
           alsoCovers={alsoCovers}
+          drawn={drawn}
           height={height}
           owned={owned}
           picking={picking}
@@ -681,6 +707,7 @@ function DesktopChart({
   placements,
   tierBands,
   alsoCovers,
+  drawn,
   height,
   owned,
   picking,
@@ -691,6 +718,7 @@ function DesktopChart({
   placements: Placement[]
   tierBands: Band[]
   alsoCovers: Map<string, number>
+  drawn: Map<string, number>
   height: number
   owned: Set<string>
   picking: boolean
@@ -752,18 +780,18 @@ function DesktopChart({
               }}
             >
               {d.label}
-              {/* One number: every cert that covers this discipline, whether or
-                  not this is its primary column. Showing "5 +5" made readers do
-                  arithmetic to answer "how many certs cover exploit dev?". */}
+              {/* The number of cells in this column — countable on screen. Certs
+                  that cover the discipline from another column are named in the
+                  tooltip rather than added in, so the figure stays checkable. */}
               <span
                 className="ml-1 font-normal text-[var(--color-ink-faint)]"
                 title={
                   alsoCovers.get(d.id)
-                    ? `${(byDomain.get(d.id)?.length ?? 0) + (alsoCovers.get(d.id) ?? 0)} certifications cover ${d.label}: ${byDomain.get(d.id)?.length ?? 0} primarily, ${alsoCovers.get(d.id)} as an adjacent domain`
-                    : `${byDomain.get(d.id)?.length ?? 0} certifications cover ${d.label}`
+                    ? `${drawn.get(d.id) ?? 0} certifications shown in ${d.label}, and ${alsoCovers.get(d.id)} more cover it from another column`
+                    : `${drawn.get(d.id) ?? 0} certifications shown in ${d.label}`
                 }
               >
-                {(byDomain.get(d.id)?.length ?? 0) + (alsoCovers.get(d.id) ?? 0)}
+                {drawn.get(d.id) ?? 0}
               </span>
             </div>
           ))}
@@ -810,7 +838,11 @@ function DesktopChart({
             <CertCell
               key={p.cert.id}
               placement={p}
-              band={domains.find((d) => d.id === p.cert.domain)?.band ?? 'offensive'}
+              band={
+                p.cert.span === 'full'
+                  ? 'portfolio'
+                  : (domains.find((d) => d.id === p.cert.domain)?.band ?? 'offensive')
+              }
               owned={owned.has(p.cert.id)}
               picking={picking}
               onSelect={onSelect}
