@@ -81,12 +81,13 @@ these fixed anchors. Do not change the anchors without a separate discussion iss
 | 71 | CPTS |
 | 69 | OSCP |
 | 67 | GPEN · CDSA |
+| 64 | GIME — documented exception, see below |
 | 63 | GCFE |
-| 56 | CCDL1 — 48-hour analysis exam |
-| 52 | BTL1 — 24-hour live investigation |
-| 48 | SAL1 |
+| 48 | GSEC — SEC401, Essentials |
+| 44 | CCDL1 — top of the Associate band |
+| 43 | BTL1 |
+| 41 | SAL1 |
 | 40 | CySA+ · PenTest+ — top of the paper tier |
-| 38 | GSEC — SEC401, Essentials |
 | 33 | Security+ |
 | 20 | ISC² CC |
 | 12 | SC-900 · vendor fundamentals |
@@ -118,11 +119,28 @@ Knowledge exams are scored on this scale regardless of who sells them:
 | 24–30 | product practitioner, 1–2h |
 | 30–36 | professional syllabus, 2–3h |
 | 34–40 | broad professional, 3–4h |
-| 38–46 | course-backed and analysis-heavy — GIAC's multiple-choice tier |
 | 36–44 | hybrid with genuine performance-based questions |
 
-And one floor applies on the other side: **a credential that makes you produce evidence over eight
-hours or more does not sit below a paper.** Where it did, the practical came up.
+GIAC's multiple-choice exams are scored on their own band, above the vendor papers and below the
+hands-on tier. Treating them as ordinary papers was wrong: 75–115 questions drawn from a five- or
+six-day instructor-led course is not a 90-minute product exam, and the absence of CyberLive should
+keep them under the hands-on exams rather than drop them among the vendor ones. Each is banded by
+the level SANS publishes for the course behind it:
+
+| Course level | Exam band | Examples |
+| --- | --- | --- |
+| Beginner | 41 | GCLD (SEC388) |
+| Essentials | 46–50 | GSOC, GOSI, GBFA, GPCS, GCIP, GASF |
+| Intermediate | 53–55 | GCPN, GAWN, GMOB, GCDA, GCTD, GRID, GDSA, GCSA |
+| Advanced | 56–58 | GDAT, GCAD, GWEB, GPYC |
+
+And one floor applies on the other side: **a paper does not outrank a hands-on credential of
+comparable syllabus level.** The qualifier matters and was missing at first, which made the rule
+overshoot. A GIAC paper sitting behind an Advanced six-day SANS course legitimately outranks an
+entry-level 24-hour lab exam — GDAT above BTL1 is not an inversion, it is two different tiers of
+credential. What the rule forbids is a paper outranking a hands-on exam *pitched at the same
+level*: CySA+ over BTL1, CTIA over a 72-hour practical, a 90-minute product exam over anything at
+all.
 
 Duration is an input to assessment, not the driver. A 6-hour CREST exam requiring 60% in two
 independently-marked sections is harder than a 24-hour lab with generous scheduling.

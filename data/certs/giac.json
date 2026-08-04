@@ -938,6 +938,47 @@
     "levelNote": "Score weights the required training as well as the exam. SEC542 is rated Intermediate by SANS. Exam-only score 58, +7 for the course. level measures the depth a credential demands, not only how the exam checks it."
   },
   {
+    "id": "giac-gime",
+    "name": "GIME",
+    "fullName": "GIAC iOS and macOS Examiner",
+    "vendor": "GIAC",
+    "vendorUrl": "https://www.giac.org/certifications/ios-macos-examiner-gime",
+    "domain": "forensics",
+    "adjacentDomains": [],
+    "level": 64,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": 999,
+      "currency": "USD",
+      "note": "Certification attempt only. Bundled SANS training costs several thousand more."
+    },
+    "span": "none",
+    "courseCode": "FOR518",
+    "examCode": null,
+    "examFormat": "multiple-choice",
+    "examHours": 2,
+    "passingScore": 67,
+    "prerequisites": [
+      "Digital forensics experience"
+    ],
+    "renewal": {
+      "required": true,
+      "years": 4,
+      "ceCredits": 36
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-04",
+    "sources": [
+      "https://www.giac.org/certifications/",
+      "https://www.giac.org/pricing"
+    ],
+    "levelNote": "Kept above the multiple-choice band on the documented exception: FOR518 carries no CyberLive because provisioning macOS exam VMs is impractical, not because the material is lighter, and practitioners who have sat it report depth comparable to the hands-on forensics exams. Any score that breaks a rule on purpose carries a note."
+  },
+  {
     "id": "giac-gcfe",
     "name": "GCFE",
     "fullName": "GIAC Certified Forensic Examiner",
@@ -1018,13 +1059,15 @@
     "levelNote": "Score weights the required training as well as the exam. SEC504 is rated Essentials by SANS. Exam-only score 57, +5 for the course. level measures the depth a credential demands, not only how the exam checks it."
   },
   {
-    "id": "giac-gime",
-    "name": "GIME",
-    "fullName": "GIAC iOS and macOS Examiner",
+    "id": "giac-gcad",
+    "name": "GCAD",
+    "fullName": "GIAC Cloud Security Architecture and Design",
     "vendor": "GIAC",
-    "vendorUrl": "https://www.giac.org/certifications/ios-macos-examiner-gime",
-    "domain": "forensics",
-    "adjacentDomains": [],
+    "vendorUrl": "https://www.giac.org/certifications/cloud-security-architecture-design-gcad",
+    "domain": "cloud",
+    "adjacentDomains": [
+      "security-engineering"
+    ],
     "level": 58,
     "scoredBy": "Opus 5",
     "cost": {
@@ -1033,14 +1076,12 @@
       "note": "Certification attempt only. Bundled SANS training costs several thousand more."
     },
     "span": "none",
-    "courseCode": "FOR518",
+    "courseCode": "SEC549",
     "examCode": null,
     "examFormat": "multiple-choice",
     "examHours": 2,
-    "passingScore": 67,
-    "prerequisites": [
-      "Digital forensics experience"
-    ],
+    "passingScore": 63,
+    "prerequisites": [],
     "renewal": {
       "required": true,
       "years": 4,
@@ -1056,7 +1097,90 @@
       "https://www.giac.org/certifications/",
       "https://www.giac.org/pricing"
     ],
-    "levelNote": "Kept above the multiple-choice ceiling on the documented exception: FOR518 carries no CyberLive because provisioning macOS exam VMs is impractical, not because the material is lighter. Re-based within that exception rather than left to outrank hands-on forensics exams. Held above the multiple-choice ceiling on purpose: FOR518 has no CyberLive because provisioning macOS exam VMs is impractical, not because the material is shallow, and practitioners who have sat it report depth comparable to the hands-on forensics exams. Moderated from 71 — the exception justifies clearing the ceiling, not outranking every hands-on GIAC exam by six points."
+    "levelNote": "SEC549, rated Advanced by SANS. GIAC's multiple-choice tier. No CyberLive, so it stays below the hands-on exams — but it is not a vendor product paper either: 75-115 questions drawn from a five- or six-day instructor-led SANS course, and scored on that course's published level."
+  },
+  {
+    "id": "giac-gdat",
+    "name": "GDAT",
+    "fullName": "GIAC Defending Advanced Threats",
+    "vendor": "GIAC",
+    "vendorUrl": "https://www.giac.org/certifications/defending-advanced-threats-gdat",
+    "domain": "soc",
+    "adjacentDomains": [
+      "pentest",
+      "security-engineering"
+    ],
+    "level": 58,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": 999,
+      "currency": "USD",
+      "note": "Certification attempt only. Bundled SANS training costs several thousand more."
+    },
+    "span": "none",
+    "courseCode": "SEC599",
+    "examCode": null,
+    "examFormat": "multiple-choice",
+    "examHours": 2,
+    "passingScore": 70,
+    "prerequisites": [],
+    "renewal": {
+      "required": true,
+      "years": 4,
+      "ceCredits": 36
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-04",
+    "sources": [
+      "https://www.giac.org/certifications/",
+      "https://www.giac.org/pricing"
+    ],
+    "levelNote": "SEC599, rated Advanced by SANS. GIAC's multiple-choice tier. No CyberLive, so it stays below the hands-on exams — but it is not a vendor product paper either: 75-115 questions drawn from a five- or six-day instructor-led SANS course, and scored on that course's published level."
+  },
+  {
+    "id": "giac-gweb",
+    "name": "GWEB",
+    "fullName": "GIAC Certified Web Application Defender",
+    "vendor": "GIAC",
+    "vendorUrl": "https://www.giac.org/certifications/certified-web-application-defender-gweb",
+    "domain": "appsec",
+    "adjacentDomains": [
+      "webapp"
+    ],
+    "level": 58,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": 999,
+      "currency": "USD",
+      "note": "Certification attempt only. Bundled SANS training costs several thousand more."
+    },
+    "span": "none",
+    "courseCode": "SEC522",
+    "examCode": null,
+    "examFormat": "multiple-choice",
+    "examHours": 3,
+    "passingScore": 68,
+    "prerequisites": [],
+    "renewal": {
+      "required": true,
+      "years": 4,
+      "ceCredits": 36
+    },
+    "accreditation": {
+      "ansiIso17024": true,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-04",
+    "sources": [
+      "https://www.giac.org/certifications/",
+      "https://www.giac.org/pricing"
+    ],
+    "levelNote": "SEC522, rated Advanced by SANS. GIAC's multiple-choice tier. No CyberLive, so it stays below the hands-on exams — but it is not a vendor product paper either: 75-115 questions drawn from a five- or six-day instructor-led SANS course, and scored on that course's published level."
   },
   {
     "id": "giac-gicsp",
@@ -1100,6 +1224,168 @@
     "levelNote": "Score weights the required training as well as the exam. ICS410 is rated Essentials by SANS. Exam-only score 52, +5 for the course. level measures the depth a credential demands, not only how the exam checks it."
   },
   {
+    "id": "giac-gpyc",
+    "name": "GPYC",
+    "fullName": "GIAC Python Coder",
+    "vendor": "GIAC",
+    "vendorUrl": "https://www.giac.org/certifications/python-coder-gpyc",
+    "domain": "appsec",
+    "adjacentDomains": [],
+    "level": 56,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": 999,
+      "currency": "USD",
+      "note": "Certification attempt only. Bundled SANS training costs several thousand more."
+    },
+    "span": "none",
+    "courseCode": "SEC573",
+    "examCode": null,
+    "examFormat": "multiple-choice",
+    "examHours": 2,
+    "passingScore": 67,
+    "prerequisites": [],
+    "renewal": {
+      "required": true,
+      "years": 4,
+      "ceCredits": 36
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-04",
+    "sources": [
+      "https://www.giac.org/certifications/",
+      "https://www.giac.org/pricing"
+    ],
+    "levelNote": "SEC573, rated Advanced by SANS; scored a little under the other Advanced-backed papers because the subject is developer tooling. GIAC's multiple-choice tier. No CyberLive, so it stays below the hands-on exams — but it is not a vendor product paper either: 75-115 questions drawn from a five- or six-day instructor-led SANS course, and scored on that course's published level."
+  },
+  {
+    "id": "giac-gcpn",
+    "name": "GCPN",
+    "fullName": "GIAC Cloud Penetration Tester",
+    "vendor": "GIAC",
+    "vendorUrl": "https://www.giac.org/certifications/cloud-penetration-tester-gcpn",
+    "domain": "pentest",
+    "adjacentDomains": [
+      "cloud"
+    ],
+    "level": 55,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": 999,
+      "currency": "USD",
+      "note": "Certification attempt only. Bundled SANS training costs several thousand more."
+    },
+    "span": "none",
+    "courseCode": "SEC588",
+    "examCode": null,
+    "examFormat": "multiple-choice",
+    "examHours": 2,
+    "passingScore": 70,
+    "prerequisites": [],
+    "renewal": {
+      "required": true,
+      "years": 4,
+      "ceCredits": 36
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-04",
+    "sources": [
+      "https://www.giac.org/certifications/",
+      "https://www.giac.org/pricing"
+    ],
+    "levelNote": "SEC588, rated Intermediate by SANS. GIAC's multiple-choice tier. No CyberLive, so it stays below the hands-on exams — but it is not a vendor product paper either: 75-115 questions drawn from a five- or six-day instructor-led SANS course, and scored on that course's published level."
+  },
+  {
+    "id": "giac-gcsa",
+    "name": "GCSA",
+    "fullName": "GIAC Cloud Security Automation",
+    "vendor": "GIAC",
+    "vendorUrl": "https://www.giac.org/certifications/cloud-security-automation-gcsa",
+    "domain": "appsec",
+    "adjacentDomains": [
+      "cloud"
+    ],
+    "level": 55,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": 999,
+      "currency": "USD",
+      "note": "Certification attempt only. Bundled SANS training costs several thousand more."
+    },
+    "span": "none",
+    "courseCode": "SEC540",
+    "examCode": null,
+    "examFormat": "multiple-choice",
+    "examHours": 2,
+    "passingScore": 66,
+    "prerequisites": [],
+    "renewal": {
+      "required": true,
+      "years": 4,
+      "ceCredits": 36
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-04",
+    "sources": [
+      "https://www.giac.org/certifications/",
+      "https://www.giac.org/pricing"
+    ],
+    "levelNote": "SEC540, rated Intermediate by SANS. GIAC's multiple-choice tier. No CyberLive, so it stays below the hands-on exams — but it is not a vendor product paper either: 75-115 questions drawn from a five- or six-day instructor-led SANS course, and scored on that course's published level."
+  },
+  {
+    "id": "giac-gctd",
+    "name": "GCTD",
+    "fullName": "GIAC Cloud Threat Detection",
+    "vendor": "GIAC",
+    "vendorUrl": "https://www.giac.org/certifications/cloud-threat-detection-gctd",
+    "domain": "soc",
+    "adjacentDomains": [
+      "cloud"
+    ],
+    "level": 55,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": 999,
+      "currency": "USD",
+      "note": "Certification attempt only. Bundled SANS training costs several thousand more."
+    },
+    "span": "none",
+    "courseCode": "SEC541",
+    "examCode": null,
+    "examFormat": "multiple-choice",
+    "examHours": 2,
+    "passingScore": 70,
+    "prerequisites": [],
+    "renewal": {
+      "required": true,
+      "years": 4,
+      "ceCredits": 36
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-04",
+    "sources": [
+      "https://www.giac.org/certifications/",
+      "https://www.giac.org/pricing"
+    ],
+    "levelNote": "SEC541, rated Intermediate by SANS. GIAC's multiple-choice tier. No CyberLive, so it stays below the hands-on exams — but it is not a vendor product paper either: 75-115 questions drawn from a five- or six-day instructor-led SANS course, and scored on that course's published level."
+  },
+  {
     "id": "giac-gcux",
     "name": "GCUX",
     "fullName": "GIAC UNIX Security Administrator",
@@ -1137,6 +1423,45 @@
     ]
   },
   {
+    "id": "giac-gdsa",
+    "name": "GDSA",
+    "fullName": "GIAC Defensible Security Architect",
+    "vendor": "GIAC",
+    "vendorUrl": "https://www.giac.org/certifications/defensible-security-architecture-gdsa",
+    "domain": "security-engineering",
+    "adjacentDomains": [],
+    "level": 55,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": 999,
+      "currency": "USD",
+      "note": "Certification attempt only. Bundled SANS training costs several thousand more."
+    },
+    "span": "none",
+    "courseCode": "SEC530",
+    "examCode": null,
+    "examFormat": "multiple-choice",
+    "examHours": 2,
+    "passingScore": 63,
+    "prerequisites": [],
+    "renewal": {
+      "required": true,
+      "years": 4,
+      "ceCredits": 36
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-04",
+    "sources": [
+      "https://www.giac.org/certifications/",
+      "https://www.giac.org/pricing"
+    ],
+    "levelNote": "SEC530, rated Intermediate by SANS. GIAC's multiple-choice tier. No CyberLive, so it stays below the hands-on exams — but it is not a vendor product paper either: 75-115 questions drawn from a five- or six-day instructor-led SANS course, and scored on that course's published level."
+  },
+  {
     "id": "giac-gppa",
     "name": "GPPA",
     "fullName": "GIAC Perimeter Protection Analyst",
@@ -1172,6 +1497,47 @@
     "sources": [
       "https://www.giac.org/retired-certifications"
     ]
+  },
+  {
+    "id": "giac-grid",
+    "name": "GRID",
+    "fullName": "GIAC Response and Industrial Defense",
+    "vendor": "GIAC",
+    "vendorUrl": "https://www.giac.org/certifications/response-industrial-defense-grid",
+    "domain": "ot-ics-iot",
+    "adjacentDomains": [
+      "incident-response"
+    ],
+    "level": 55,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": 999,
+      "currency": "USD",
+      "note": "Certification attempt only. Bundled SANS training costs several thousand more."
+    },
+    "span": "none",
+    "courseCode": "ICS515",
+    "examCode": null,
+    "examFormat": "multiple-choice",
+    "examHours": 2,
+    "passingScore": 74,
+    "prerequisites": [],
+    "renewal": {
+      "required": true,
+      "years": 4,
+      "ceCredits": 36
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-04",
+    "sources": [
+      "https://www.giac.org/certifications/",
+      "https://www.giac.org/pricing"
+    ],
+    "levelNote": "ICS515, rated Intermediate by SANS. GIAC's multiple-choice tier. No CyberLive, so it stays below the hands-on exams — but it is not a vendor product paper either: 75-115 questions drawn from a five- or six-day instructor-led SANS course, and scored on that course's published level."
   },
   {
     "id": "giac-gssp-java",
@@ -1248,16 +1614,299 @@
     ]
   },
   {
-    "id": "giac-gcad",
-    "name": "GCAD",
-    "fullName": "GIAC Cloud Security Architecture and Design",
+    "id": "giac-gawn",
+    "name": "GAWN",
+    "fullName": "GIAC Assessing and Auditing Wireless Networks",
     "vendor": "GIAC",
-    "vendorUrl": "https://www.giac.org/certifications/cloud-security-architecture-design-gcad",
+    "vendorUrl": "https://www.giac.org/certifications/assessing-auditing-wireless-networks-gawn",
+    "domain": "pentest",
+    "adjacentDomains": [
+      "security-engineering"
+    ],
+    "level": 54,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": 999,
+      "currency": "USD",
+      "note": "Certification attempt only. Bundled SANS training costs several thousand more."
+    },
+    "span": "none",
+    "courseCode": "SEC617",
+    "examCode": null,
+    "examFormat": "multiple-choice",
+    "examHours": 2,
+    "passingScore": 70,
+    "prerequisites": [],
+    "renewal": {
+      "required": true,
+      "years": 4,
+      "ceCredits": 36
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-04",
+    "sources": [
+      "https://www.giac.org/certifications/",
+      "https://www.giac.org/pricing"
+    ],
+    "levelNote": "SEC617, rated Intermediate by SANS. GIAC's multiple-choice tier. No CyberLive, so it stays below the hands-on exams — but it is not a vendor product paper either: 75-115 questions drawn from a five- or six-day instructor-led SANS course, and scored on that course's published level."
+  },
+  {
+    "id": "giac-gcda",
+    "name": "GCDA",
+    "fullName": "GIAC Certified Detection Analyst",
+    "vendor": "GIAC",
+    "vendorUrl": "https://www.giac.org/certifications/certified-detection-analyst-gcda",
+    "domain": "soc",
+    "adjacentDomains": [],
+    "level": 54,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": 999,
+      "currency": "USD",
+      "note": "Certification attempt only. Bundled SANS training costs several thousand more."
+    },
+    "span": "none",
+    "courseCode": "SEC555",
+    "examCode": null,
+    "examFormat": "multiple-choice",
+    "examHours": 2,
+    "passingScore": 76,
+    "prerequisites": [],
+    "renewal": {
+      "required": true,
+      "years": 4,
+      "ceCredits": 36
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-04",
+    "sources": [
+      "https://www.giac.org/certifications/",
+      "https://www.giac.org/pricing"
+    ],
+    "levelNote": "SEC555, rated Intermediate by SANS. GIAC's multiple-choice tier. No CyberLive, so it stays below the hands-on exams — but it is not a vendor product paper either: 75-115 questions drawn from a five- or six-day instructor-led SANS course, and scored on that course's published level."
+  },
+  {
+    "id": "giac-gmob",
+    "name": "GMOB",
+    "fullName": "GIAC Mobile Device Security Analyst",
+    "vendor": "GIAC",
+    "vendorUrl": "https://www.giac.org/certifications/mobile-device-security-analyst-gmob",
+    "domain": "pentest",
+    "adjacentDomains": [
+      "appsec"
+    ],
+    "level": 54,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": 999,
+      "currency": "USD",
+      "note": "Certification attempt only. Bundled SANS training costs several thousand more."
+    },
+    "span": "none",
+    "courseCode": "SEC575",
+    "examCode": null,
+    "examFormat": "multiple-choice",
+    "examHours": 2,
+    "passingScore": 71,
+    "prerequisites": [],
+    "renewal": {
+      "required": true,
+      "years": 4,
+      "ceCredits": 36
+    },
+    "accreditation": {
+      "ansiIso17024": true,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-04",
+    "sources": [
+      "https://www.giac.org/certifications/",
+      "https://www.giac.org/pricing"
+    ],
+    "levelNote": "SEC575, rated Intermediate by SANS. GIAC's multiple-choice tier. No CyberLive, so it stays below the hands-on exams — but it is not a vendor product paper either: 75-115 questions drawn from a five- or six-day instructor-led SANS course, and scored on that course's published level."
+  },
+  {
+    "id": "giac-gmle",
+    "name": "GMLE",
+    "fullName": "GIAC Machine Learning Engineer",
+    "vendor": "GIAC",
+    "vendorUrl": "https://www.giac.org/certifications/machine-learning-engineer-gmle",
+    "domain": "ai-security",
+    "adjacentDomains": [],
+    "level": 53,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": 999,
+      "currency": "USD",
+      "note": "Certification attempt only. Bundled SANS training costs several thousand more."
+    },
+    "span": "none",
+    "courseCode": "SEC595",
+    "examCode": null,
+    "examFormat": "multiple-choice",
+    "examHours": 3,
+    "passingScore": 65,
+    "prerequisites": [],
+    "renewal": {
+      "required": true,
+      "years": 4,
+      "ceCredits": 36
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-04",
+    "sources": [
+      "https://www.giac.org/certifications/",
+      "https://www.giac.org/pricing"
+    ],
+    "levelNote": "An intermediate machine-learning security programme. GIAC's multiple-choice tier. No CyberLive, so it stays below the hands-on exams — but it is not a vendor product paper either: 75-115 questions drawn from a five- or six-day instructor-led SANS course, and scored on that course's published level."
+  },
+  {
+    "id": "giac-gasf",
+    "name": "GASF",
+    "fullName": "GIAC Advanced Smartphone Forensics",
+    "vendor": "GIAC",
+    "vendorUrl": "https://www.giac.org/certifications/advanced-smartphone-forensics-gasf",
+    "domain": "forensics",
+    "adjacentDomains": [],
+    "level": 50,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": 999,
+      "currency": "USD",
+      "note": "Certification attempt only. Bundled SANS training costs several thousand more."
+    },
+    "span": "none",
+    "courseCode": "FOR585",
+    "examCode": null,
+    "examFormat": "multiple-choice",
+    "examHours": 2,
+    "passingScore": 69,
+    "prerequisites": [],
+    "renewal": {
+      "required": true,
+      "years": 4,
+      "ceCredits": 36
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-04",
+    "sources": [
+      "https://www.giac.org/certifications/",
+      "https://www.giac.org/pricing"
+    ],
+    "levelNote": "FOR585. SANS rates the course Essentials, but it is a demanding smartphone-forensics programme and the exam is scored at the top of the Essentials band. GIAC's multiple-choice tier. No CyberLive, so it stays below the hands-on exams — but it is not a vendor product paper either: 75-115 questions drawn from a five- or six-day instructor-led SANS course, and scored on that course's published level."
+  },
+  {
+    "id": "giac-gced",
+    "name": "GCED",
+    "fullName": "GIAC Certified Enterprise Defender",
+    "vendor": "GIAC",
+    "vendorUrl": "https://www.giac.org/certifications/certified-enterprise-defender-gced",
+    "domain": "security-engineering",
+    "adjacentDomains": [
+      "incident-response"
+    ],
+    "level": 49,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": 999,
+      "currency": "USD",
+      "note": "Certification attempt only. Bundled SANS training costs several thousand more."
+    },
+    "span": "none",
+    "courseCode": "SEC501",
+    "examCode": null,
+    "examFormat": "multiple-choice",
+    "examHours": 3,
+    "passingScore": 69,
+    "prerequisites": [
+      "GSEC recommended"
+    ],
+    "renewal": {
+      "required": true,
+      "years": 4,
+      "ceCredits": 36
+    },
+    "accreditation": {
+      "ansiIso17024": true,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-04",
+    "sources": [
+      "https://www.giac.org/certifications/",
+      "https://www.giac.org/pricing"
+    ],
+    "levelNote": "An essentials-level enterprise defence programme, examined over three hours. GIAC's multiple-choice tier. No CyberLive, so it stays below the hands-on exams — but it is not a vendor product paper either: 75-115 questions drawn from a five- or six-day instructor-led SANS course, and scored on that course's published level."
+  },
+  {
+    "id": "giac-gsoc",
+    "name": "GSOC",
+    "fullName": "GIAC Security Operations Certified",
+    "vendor": "GIAC",
+    "vendorUrl": "https://www.giac.org/certifications/security-operations-certified-gsoc",
+    "domain": "soc",
+    "adjacentDomains": [
+      "incident-response"
+    ],
+    "level": 49,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": 999,
+      "currency": "USD",
+      "note": "Certification attempt only. Bundled SANS training costs several thousand more."
+    },
+    "span": "none",
+    "courseCode": "SEC450",
+    "examCode": null,
+    "examFormat": "multiple-choice",
+    "examHours": 2,
+    "passingScore": 67,
+    "prerequisites": [],
+    "renewal": {
+      "required": true,
+      "years": 4,
+      "ceCredits": 36
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-04",
+    "sources": [
+      "https://www.giac.org/certifications/",
+      "https://www.giac.org/pricing"
+    ],
+    "levelNote": "SEC450, rated Essentials by SANS. GIAC's multiple-choice tier. No CyberLive, so it stays below the hands-on exams — but it is not a vendor product paper either: 75-115 questions drawn from a five- or six-day instructor-led SANS course, and scored on that course's published level."
+  },
+  {
+    "id": "giac-gpcs",
+    "name": "GPCS",
+    "fullName": "GIAC Public Cloud Security",
+    "vendor": "GIAC",
+    "vendorUrl": "https://www.giac.org/certifications/public-cloud-security-gpcs",
     "domain": "cloud",
     "adjacentDomains": [
       "security-engineering"
     ],
-    "level": 46,
+    "level": 48,
     "scoredBy": "Opus 5",
     "cost": {
       "amount": 999,
@@ -1265,11 +1914,11 @@
       "note": "Certification attempt only. Bundled SANS training costs several thousand more."
     },
     "span": "none",
-    "courseCode": "SEC549",
+    "courseCode": "SEC510",
     "examCode": null,
     "examFormat": "multiple-choice",
     "examHours": 2,
-    "passingScore": 63,
+    "passingScore": 64,
     "prerequisites": [],
     "renewal": {
       "required": true,
@@ -1286,182 +1935,19 @@
       "https://www.giac.org/certifications/",
       "https://www.giac.org/pricing"
     ],
-    "levelNote": "Re-based onto the common knowledge-exam scale. GIAC's multiple-choice tier, behind SEC549. SEC549 is rated Advanced by SANS. The training bonus is capped for a pure multiple-choice exam: a deep course can lift a knowledge exam, but it remains a knowledge exam."
+    "levelNote": "SEC488, rated Essentials by SANS. GIAC's multiple-choice tier. No CyberLive, so it stays below the hands-on exams — but it is not a vendor product paper either: 75-115 questions drawn from a five- or six-day instructor-led SANS course, and scored on that course's published level."
   },
   {
-    "id": "giac-gcpn",
-    "name": "GCPN",
-    "fullName": "GIAC Cloud Penetration Tester",
+    "id": "giac-gsec",
+    "name": "GSEC",
+    "fullName": "GIAC Security Essentials",
     "vendor": "GIAC",
-    "vendorUrl": "https://www.giac.org/certifications/cloud-penetration-tester-gcpn",
-    "domain": "pentest",
-    "adjacentDomains": [
-      "cloud"
-    ],
-    "level": 46,
-    "scoredBy": "Opus 5",
-    "cost": {
-      "amount": 999,
-      "currency": "USD",
-      "note": "Certification attempt only. Bundled SANS training costs several thousand more."
-    },
-    "span": "none",
-    "courseCode": "SEC588",
-    "examCode": null,
-    "examFormat": "multiple-choice",
-    "examHours": 2,
-    "passingScore": 70,
-    "prerequisites": [],
-    "renewal": {
-      "required": true,
-      "years": 4,
-      "ceCredits": 36
-    },
-    "accreditation": {
-      "ansiIso17024": false,
-      "dod8140": []
-    },
-    "status": "active",
-    "lastVerified": "2026-08-04",
-    "sources": [
-      "https://www.giac.org/certifications/",
-      "https://www.giac.org/pricing"
-    ],
-    "levelNote": "Re-based onto the common knowledge-exam scale. GIAC's multiple-choice tier sits above vendor papers because SEC588 is behind it, and below every hands-on cloud attack credential. SEC588 is rated Intermediate by SANS. The training bonus is capped for a pure multiple-choice exam: a deep course can lift a knowledge exam, but it remains a knowledge exam."
-  },
-  {
-    "id": "giac-gcsa",
-    "name": "GCSA",
-    "fullName": "GIAC Cloud Security Automation",
-    "vendor": "GIAC",
-    "vendorUrl": "https://www.giac.org/certifications/cloud-security-automation-gcsa",
-    "domain": "appsec",
-    "adjacentDomains": [
-      "cloud"
-    ],
-    "level": 46,
-    "scoredBy": "Opus 5",
-    "cost": {
-      "amount": 999,
-      "currency": "USD",
-      "note": "Certification attempt only. Bundled SANS training costs several thousand more."
-    },
-    "span": "none",
-    "courseCode": "SEC540",
-    "examCode": null,
-    "examFormat": "multiple-choice",
-    "examHours": 2,
-    "passingScore": 66,
-    "prerequisites": [],
-    "renewal": {
-      "required": true,
-      "years": 4,
-      "ceCredits": 36
-    },
-    "accreditation": {
-      "ansiIso17024": false,
-      "dod8140": []
-    },
-    "status": "active",
-    "lastVerified": "2026-08-04",
-    "sources": [
-      "https://www.giac.org/certifications/",
-      "https://www.giac.org/pricing"
-    ],
-    "levelNote": "Re-based onto the common knowledge-exam scale. GIAC's multiple-choice tier, behind SEC540. SEC540 is rated Advanced by SANS. The training bonus is capped for a pure multiple-choice exam: a deep course can lift a knowledge exam, but it remains a knowledge exam."
-  },
-  {
-    "id": "giac-gctd",
-    "name": "GCTD",
-    "fullName": "GIAC Cloud Threat Detection",
-    "vendor": "GIAC",
-    "vendorUrl": "https://www.giac.org/certifications/cloud-threat-detection-gctd",
-    "domain": "soc",
-    "adjacentDomains": [
-      "cloud"
-    ],
-    "level": 46,
-    "scoredBy": "Opus 5",
-    "cost": {
-      "amount": 999,
-      "currency": "USD",
-      "note": "Certification attempt only. Bundled SANS training costs several thousand more."
-    },
-    "span": "none",
-    "courseCode": "SEC541",
-    "examCode": null,
-    "examFormat": "multiple-choice",
-    "examHours": 2,
-    "passingScore": 70,
-    "prerequisites": [],
-    "renewal": {
-      "required": true,
-      "years": 4,
-      "ceCredits": 36
-    },
-    "accreditation": {
-      "ansiIso17024": false,
-      "dod8140": []
-    },
-    "status": "active",
-    "lastVerified": "2026-08-04",
-    "sources": [
-      "https://www.giac.org/certifications/",
-      "https://www.giac.org/pricing"
-    ],
-    "levelNote": "Re-based onto the common knowledge-exam scale. GIAC's multiple-choice tier: above vendor papers on the strength of SEC541, below every hands-on detection credential. SEC541 is rated Advanced by SANS. The training bonus is capped for a pure multiple-choice exam: a deep course can lift a knowledge exam, but it remains a knowledge exam."
-  },
-  {
-    "id": "giac-gdat",
-    "name": "GDAT",
-    "fullName": "GIAC Defending Advanced Threats",
-    "vendor": "GIAC",
-    "vendorUrl": "https://www.giac.org/certifications/defending-advanced-threats-gdat",
-    "domain": "soc",
-    "adjacentDomains": [
-      "pentest",
-      "security-engineering"
-    ],
-    "level": 46,
-    "scoredBy": "Opus 5",
-    "cost": {
-      "amount": 999,
-      "currency": "USD",
-      "note": "Certification attempt only. Bundled SANS training costs several thousand more."
-    },
-    "span": "none",
-    "courseCode": "SEC599",
-    "examCode": null,
-    "examFormat": "multiple-choice",
-    "examHours": 2,
-    "passingScore": 70,
-    "prerequisites": [],
-    "renewal": {
-      "required": true,
-      "years": 4,
-      "ceCredits": 36
-    },
-    "accreditation": {
-      "ansiIso17024": false,
-      "dod8140": []
-    },
-    "status": "active",
-    "lastVerified": "2026-08-04",
-    "sources": [
-      "https://www.giac.org/certifications/",
-      "https://www.giac.org/pricing"
-    ],
-    "levelNote": "Re-based onto the common knowledge-exam scale. Two hours of multiple choice behind SEC599. SEC599 is rated Intermediate by SANS. The training bonus is capped for a pure multiple-choice exam: a deep course can lift a knowledge exam, but it remains a knowledge exam."
-  },
-  {
-    "id": "giac-gdsa",
-    "name": "GDSA",
-    "fullName": "GIAC Defensible Security Architect",
-    "vendor": "GIAC",
-    "vendorUrl": "https://www.giac.org/certifications/defensible-security-architecture-gdsa",
+    "vendorUrl": "https://www.giac.org/certifications/security-essentials-gsec",
     "domain": "security-engineering",
-    "adjacentDomains": [],
-    "level": 46,
+    "adjacentDomains": [
+      "soc"
+    ],
+    "level": 48,
     "scoredBy": "Opus 5",
     "cost": {
       "amount": 999,
@@ -1469,11 +1955,11 @@
       "note": "Certification attempt only. Bundled SANS training costs several thousand more."
     },
     "span": "none",
-    "courseCode": "SEC530",
+    "courseCode": "SEC401",
     "examCode": null,
-    "examFormat": "multiple-choice",
-    "examHours": 2,
-    "passingScore": 63,
+    "examFormat": "hybrid",
+    "examHours": 4,
+    "passingScore": 72,
     "prerequisites": [],
     "renewal": {
       "required": true,
@@ -1481,7 +1967,7 @@
       "ceCredits": 36
     },
     "accreditation": {
-      "ansiIso17024": false,
+      "ansiIso17024": true,
       "dod8140": []
     },
     "status": "active",
@@ -1490,19 +1976,19 @@
       "https://www.giac.org/certifications/",
       "https://www.giac.org/pricing"
     ],
-    "levelNote": "Re-based onto the common knowledge-exam scale. GIAC's multiple-choice tier, behind SEC530. SEC530 is rated Intermediate by SANS. The training bonus is capped for a pure multiple-choice exam: a deep course can lift a knowledge exam, but it remains a knowledge exam."
+    "levelNote": "SEC401, rated Essentials by SANS — broad and foundational, examined over four hours with a light hands-on component."
   },
   {
-    "id": "giac-grid",
-    "name": "GRID",
-    "fullName": "GIAC Response and Industrial Defense",
+    "id": "giac-gaips",
+    "name": "GAIPS",
+    "fullName": "GIAC AI Platform Security",
     "vendor": "GIAC",
-    "vendorUrl": "https://www.giac.org/certifications/response-industrial-defense-grid",
-    "domain": "ot-ics-iot",
+    "vendorUrl": "https://www.giac.org/certifications/ai-security-platform-security-gaips",
+    "domain": "ai-security",
     "adjacentDomains": [
-      "incident-response"
+      "cloud"
     ],
-    "level": 46,
+    "level": 47,
     "scoredBy": "Opus 5",
     "cost": {
       "amount": 999,
@@ -1510,11 +1996,11 @@
       "note": "Certification attempt only. Bundled SANS training costs several thousand more."
     },
     "span": "none",
-    "courseCode": "ICS515",
+    "courseCode": "SEC545",
     "examCode": null,
-    "examFormat": "multiple-choice",
+    "examFormat": "hybrid",
     "examHours": 2,
-    "passingScore": 74,
+    "passingScore": 65,
     "prerequisites": [],
     "renewal": {
       "required": true,
@@ -1531,7 +2017,165 @@
       "https://www.giac.org/certifications/",
       "https://www.giac.org/pricing"
     ],
-    "levelNote": "Re-based onto the common knowledge-exam scale. GIAC's multiple-choice tier, behind ICS515. ICS515 is rated Intermediate by SANS. The training bonus is capped for a pure multiple-choice exam: a deep course can lift a knowledge exam, but it remains a knowledge exam."
+    "levelNote": "An essentials-level AI security programme. GIAC's multiple-choice tier. No CyberLive, so it stays below the hands-on exams — but it is not a vendor product paper either: 75-115 questions drawn from a five- or six-day instructor-led SANS course, and scored on that course's published level."
+  },
+  {
+    "id": "giac-gbfa",
+    "name": "GBFA",
+    "fullName": "GIAC Battlefield Forensics and Acquisition",
+    "vendor": "GIAC",
+    "vendorUrl": "https://www.giac.org/certifications/battlefield-forensics-acquisition-gbfa",
+    "domain": "forensics",
+    "adjacentDomains": [],
+    "level": 47,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": 999,
+      "currency": "USD",
+      "note": "Certification attempt only. Bundled SANS training costs several thousand more."
+    },
+    "span": "none",
+    "courseCode": "FOR498",
+    "examCode": null,
+    "examFormat": "multiple-choice",
+    "examHours": 2,
+    "passingScore": 69,
+    "prerequisites": [],
+    "renewal": {
+      "required": true,
+      "years": 4,
+      "ceCredits": 36
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-04",
+    "sources": [
+      "https://www.giac.org/certifications/",
+      "https://www.giac.org/pricing"
+    ],
+    "levelNote": "FOR498, rated Essentials by SANS. GIAC's multiple-choice tier. No CyberLive, so it stays below the hands-on exams — but it is not a vendor product paper either: 75-115 questions drawn from a five- or six-day instructor-led SANS course, and scored on that course's published level."
+  },
+  {
+    "id": "giac-gcip",
+    "name": "GCIP",
+    "fullName": "GIAC Critical Infrastructure Protection",
+    "vendor": "GIAC",
+    "vendorUrl": "https://www.giac.org/certifications/critical-infrastructure-protection-gcip",
+    "domain": "ot-ics-iot",
+    "adjacentDomains": [],
+    "level": 47,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": 999,
+      "currency": "USD",
+      "note": "Certification attempt only. Bundled SANS training costs several thousand more."
+    },
+    "span": "none",
+    "courseCode": "ICS456",
+    "examCode": null,
+    "examFormat": "multiple-choice",
+    "examHours": 3,
+    "passingScore": 70,
+    "prerequisites": [],
+    "renewal": {
+      "required": true,
+      "years": 4,
+      "ceCredits": 36
+    },
+    "accreditation": {
+      "ansiIso17024": true,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-04",
+    "sources": [
+      "https://www.giac.org/certifications/",
+      "https://www.giac.org/pricing"
+    ],
+    "levelNote": "ICS456, rated Essentials by SANS. GIAC's multiple-choice tier. No CyberLive, so it stays below the hands-on exams — but it is not a vendor product paper either: 75-115 questions drawn from a five- or six-day instructor-led SANS course, and scored on that course's published level."
+  },
+  {
+    "id": "giac-gosi",
+    "name": "GOSI",
+    "fullName": "GIAC Open Source Intelligence",
+    "vendor": "GIAC",
+    "vendorUrl": "https://www.giac.org/certifications/open-source-intelligence-gosi",
+    "domain": "threat-intel",
+    "adjacentDomains": [],
+    "level": 47,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": 999,
+      "currency": "USD",
+      "note": "Certification attempt only. Bundled SANS training costs several thousand more."
+    },
+    "span": "none",
+    "courseCode": "SEC497",
+    "examCode": null,
+    "examFormat": "multiple-choice",
+    "examHours": 2,
+    "passingScore": 69,
+    "prerequisites": [],
+    "renewal": {
+      "required": true,
+      "years": 4,
+      "ceCredits": 36
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-04",
+    "sources": [
+      "https://www.giac.org/certifications/",
+      "https://www.giac.org/pricing"
+    ],
+    "levelNote": "SEC487, rated Essentials by SANS. GIAC's multiple-choice tier. No CyberLive, so it stays below the hands-on exams — but it is not a vendor product paper either: 75-115 questions drawn from a five- or six-day instructor-led SANS course, and scored on that course's published level."
+  },
+  {
+    "id": "giac-goaa",
+    "name": "GOAA",
+    "fullName": "GIAC Offensive AI Analyst",
+    "vendor": "GIAC",
+    "vendorUrl": "https://www.giac.org/certifications/offensive-ai-analyst-goaa",
+    "domain": "ai-security",
+    "adjacentDomains": [
+      "pentest"
+    ],
+    "level": 46,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": 999,
+      "currency": "USD",
+      "note": "Certification attempt only. Bundled SANS training costs several thousand more."
+    },
+    "span": "none",
+    "courseCode": "SEC535",
+    "examCode": null,
+    "examFormat": "hybrid",
+    "examHours": 2,
+    "passingScore": 67,
+    "prerequisites": [],
+    "renewal": {
+      "required": true,
+      "years": 4,
+      "ceCredits": 36
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-04",
+    "sources": [
+      "https://www.giac.org/certifications/",
+      "https://www.giac.org/pricing"
+    ],
+    "levelNote": "An essentials-level offensive AI programme on a young syllabus. GIAC's multiple-choice tier. No CyberLive, so it stays below the hands-on exams — but it is not a vendor product paper either: 75-115 questions drawn from a five- or six-day instructor-led SANS course, and scored on that course's published level."
   },
   {
     "id": "giac-geva",
@@ -1574,609 +2218,6 @@
     ]
   },
   {
-    "id": "giac-gasf",
-    "name": "GASF",
-    "fullName": "GIAC Advanced Smartphone Forensics",
-    "vendor": "GIAC",
-    "vendorUrl": "https://www.giac.org/certifications/advanced-smartphone-forensics-gasf",
-    "domain": "forensics",
-    "adjacentDomains": [],
-    "level": 44,
-    "scoredBy": "Opus 5",
-    "cost": {
-      "amount": 999,
-      "currency": "USD",
-      "note": "Certification attempt only. Bundled SANS training costs several thousand more."
-    },
-    "span": "none",
-    "courseCode": "FOR585",
-    "examCode": null,
-    "examFormat": "multiple-choice",
-    "examHours": 2,
-    "passingScore": 69,
-    "prerequisites": [],
-    "renewal": {
-      "required": true,
-      "years": 4,
-      "ceCredits": 36
-    },
-    "accreditation": {
-      "ansiIso17024": false,
-      "dod8140": []
-    },
-    "status": "active",
-    "lastVerified": "2026-08-04",
-    "sources": [
-      "https://www.giac.org/certifications/",
-      "https://www.giac.org/pricing"
-    ],
-    "levelNote": "Re-based onto the common knowledge-exam scale. Two hours of multiple choice behind FOR585. FOR585 is rated Essentials by SANS."
-  },
-  {
-    "id": "giac-gawn",
-    "name": "GAWN",
-    "fullName": "GIAC Assessing and Auditing Wireless Networks",
-    "vendor": "GIAC",
-    "vendorUrl": "https://www.giac.org/certifications/assessing-auditing-wireless-networks-gawn",
-    "domain": "pentest",
-    "adjacentDomains": [
-      "security-engineering"
-    ],
-    "level": 44,
-    "scoredBy": "Opus 5",
-    "cost": {
-      "amount": 999,
-      "currency": "USD",
-      "note": "Certification attempt only. Bundled SANS training costs several thousand more."
-    },
-    "span": "none",
-    "courseCode": "SEC617",
-    "examCode": null,
-    "examFormat": "multiple-choice",
-    "examHours": 2,
-    "passingScore": 70,
-    "prerequisites": [],
-    "renewal": {
-      "required": true,
-      "years": 4,
-      "ceCredits": 36
-    },
-    "accreditation": {
-      "ansiIso17024": false,
-      "dod8140": []
-    },
-    "status": "active",
-    "lastVerified": "2026-08-04",
-    "sources": [
-      "https://www.giac.org/certifications/",
-      "https://www.giac.org/pricing"
-    ],
-    "levelNote": "Re-based onto the common knowledge-exam scale. Two hours of multiple choice behind SEC617; scored below CWP, which examines the same discipline for six hours and takes a report. SEC617 is rated Advanced by SANS. The training bonus is capped for a pure multiple-choice exam: a deep course can lift a knowledge exam, but it remains a knowledge exam."
-  },
-  {
-    "id": "giac-gcda",
-    "name": "GCDA",
-    "fullName": "GIAC Certified Detection Analyst",
-    "vendor": "GIAC",
-    "vendorUrl": "https://www.giac.org/certifications/certified-detection-analyst-gcda",
-    "domain": "soc",
-    "adjacentDomains": [],
-    "level": 44,
-    "scoredBy": "Opus 5",
-    "cost": {
-      "amount": 999,
-      "currency": "USD",
-      "note": "Certification attempt only. Bundled SANS training costs several thousand more."
-    },
-    "span": "none",
-    "courseCode": "SEC555",
-    "examCode": null,
-    "examFormat": "multiple-choice",
-    "examHours": 2,
-    "passingScore": 76,
-    "prerequisites": [],
-    "renewal": {
-      "required": true,
-      "years": 4,
-      "ceCredits": 36
-    },
-    "accreditation": {
-      "ansiIso17024": false,
-      "dod8140": []
-    },
-    "status": "active",
-    "lastVerified": "2026-08-04",
-    "sources": [
-      "https://www.giac.org/certifications/",
-      "https://www.giac.org/pricing"
-    ],
-    "levelNote": "Re-based onto the common knowledge-exam scale. Two hours of multiple choice behind SEC555. SEC555 is rated Intermediate by SANS. The training bonus is capped for a pure multiple-choice exam: a deep course can lift a knowledge exam, but it remains a knowledge exam."
-  },
-  {
-    "id": "giac-gmle",
-    "name": "GMLE",
-    "fullName": "GIAC Machine Learning Engineer",
-    "vendor": "GIAC",
-    "vendorUrl": "https://www.giac.org/certifications/machine-learning-engineer-gmle",
-    "domain": "ai-security",
-    "adjacentDomains": [],
-    "level": 44,
-    "scoredBy": "Opus 5",
-    "cost": {
-      "amount": 999,
-      "currency": "USD",
-      "note": "Certification attempt only. Bundled SANS training costs several thousand more."
-    },
-    "span": "none",
-    "courseCode": "SEC595",
-    "examCode": null,
-    "examFormat": "multiple-choice",
-    "examHours": 3,
-    "passingScore": 65,
-    "prerequisites": [],
-    "renewal": {
-      "required": true,
-      "years": 4,
-      "ceCredits": 36
-    },
-    "accreditation": {
-      "ansiIso17024": false,
-      "dod8140": []
-    },
-    "status": "active",
-    "lastVerified": "2026-08-04",
-    "sources": [
-      "https://www.giac.org/certifications/",
-      "https://www.giac.org/pricing"
-    ],
-    "levelNote": "Re-based onto the common knowledge-exam scale. Three hours of multiple choice. SEC595 is a 6-day Advanced SANS course, but it teaches applied data science rather than adversarial security and the exam is pure multiple choice."
-  },
-  {
-    "id": "giac-gmob",
-    "name": "GMOB",
-    "fullName": "GIAC Mobile Device Security Analyst",
-    "vendor": "GIAC",
-    "vendorUrl": "https://www.giac.org/certifications/mobile-device-security-analyst-gmob",
-    "domain": "pentest",
-    "adjacentDomains": [
-      "appsec"
-    ],
-    "level": 44,
-    "scoredBy": "Opus 5",
-    "cost": {
-      "amount": 999,
-      "currency": "USD",
-      "note": "Certification attempt only. Bundled SANS training costs several thousand more."
-    },
-    "span": "none",
-    "courseCode": "SEC575",
-    "examCode": null,
-    "examFormat": "multiple-choice",
-    "examHours": 2,
-    "passingScore": 71,
-    "prerequisites": [],
-    "renewal": {
-      "required": true,
-      "years": 4,
-      "ceCredits": 36
-    },
-    "accreditation": {
-      "ansiIso17024": true,
-      "dod8140": []
-    },
-    "status": "active",
-    "lastVerified": "2026-08-04",
-    "sources": [
-      "https://www.giac.org/certifications/",
-      "https://www.giac.org/pricing"
-    ],
-    "levelNote": "Re-based onto the common knowledge-exam scale. Two hours of multiple choice behind SEC575. SEC575 is rated Intermediate by SANS. The training bonus is capped for a pure multiple-choice exam: a deep course can lift a knowledge exam, but it remains a knowledge exam."
-  },
-  {
-    "id": "giac-gpcs",
-    "name": "GPCS",
-    "fullName": "GIAC Public Cloud Security",
-    "vendor": "GIAC",
-    "vendorUrl": "https://www.giac.org/certifications/public-cloud-security-gpcs",
-    "domain": "cloud",
-    "adjacentDomains": [
-      "security-engineering"
-    ],
-    "level": 44,
-    "scoredBy": "Opus 5",
-    "cost": {
-      "amount": 999,
-      "currency": "USD",
-      "note": "Certification attempt only. Bundled SANS training costs several thousand more."
-    },
-    "span": "none",
-    "courseCode": "SEC510",
-    "examCode": null,
-    "examFormat": "multiple-choice",
-    "examHours": 2,
-    "passingScore": 64,
-    "prerequisites": [],
-    "renewal": {
-      "required": true,
-      "years": 4,
-      "ceCredits": 36
-    },
-    "accreditation": {
-      "ansiIso17024": false,
-      "dod8140": []
-    },
-    "status": "active",
-    "lastVerified": "2026-08-04",
-    "sources": [
-      "https://www.giac.org/certifications/",
-      "https://www.giac.org/pricing"
-    ],
-    "levelNote": "Re-based onto the common knowledge-exam scale. Two hours of multiple choice behind SEC488. SEC510 is rated Advanced by SANS. The training bonus is capped for a pure multiple-choice exam: a deep course can lift a knowledge exam, but it remains a knowledge exam."
-  },
-  {
-    "id": "giac-gweb",
-    "name": "GWEB",
-    "fullName": "GIAC Certified Web Application Defender",
-    "vendor": "GIAC",
-    "vendorUrl": "https://www.giac.org/certifications/certified-web-application-defender-gweb",
-    "domain": "appsec",
-    "adjacentDomains": [
-      "webapp"
-    ],
-    "level": 44,
-    "scoredBy": "Opus 5",
-    "cost": {
-      "amount": 999,
-      "currency": "USD",
-      "note": "Certification attempt only. Bundled SANS training costs several thousand more."
-    },
-    "span": "none",
-    "courseCode": "SEC522",
-    "examCode": null,
-    "examFormat": "multiple-choice",
-    "examHours": 3,
-    "passingScore": 68,
-    "prerequisites": [],
-    "renewal": {
-      "required": true,
-      "years": 4,
-      "ceCredits": 36
-    },
-    "accreditation": {
-      "ansiIso17024": true,
-      "dod8140": []
-    },
-    "status": "active",
-    "lastVerified": "2026-08-04",
-    "sources": [
-      "https://www.giac.org/certifications/",
-      "https://www.giac.org/pricing"
-    ],
-    "levelNote": "Re-based onto the common knowledge-exam scale. Three hours of multiple choice behind SEC522, which SANS rates Advanced. SEC522 is rated Advanced by SANS. The training bonus is capped for a pure multiple-choice exam: a deep course can lift a knowledge exam, but it remains a knowledge exam."
-  },
-  {
-    "id": "giac-gaips",
-    "name": "GAIPS",
-    "fullName": "GIAC AI Platform Security",
-    "vendor": "GIAC",
-    "vendorUrl": "https://www.giac.org/certifications/ai-security-platform-security-gaips",
-    "domain": "ai-security",
-    "adjacentDomains": [
-      "cloud"
-    ],
-    "level": 42,
-    "scoredBy": "Opus 5",
-    "cost": {
-      "amount": 999,
-      "currency": "USD",
-      "note": "Certification attempt only. Bundled SANS training costs several thousand more."
-    },
-    "span": "none",
-    "courseCode": "SEC545",
-    "examCode": null,
-    "examFormat": "hybrid",
-    "examHours": 2,
-    "passingScore": 65,
-    "prerequisites": [],
-    "renewal": {
-      "required": true,
-      "years": 4,
-      "ceCredits": 36
-    },
-    "accreditation": {
-      "ansiIso17024": false,
-      "dod8140": []
-    },
-    "status": "active",
-    "lastVerified": "2026-08-04",
-    "sources": [
-      "https://www.giac.org/certifications/",
-      "https://www.giac.org/pricing"
-    ],
-    "levelNote": "Re-based onto the common knowledge-exam scale. Two hours with a light hands-on component. AI security is roughly three years old as a discipline and its credentials have not yet accumulated the depth of the established expert-tier certs. The whole column was re-rated together on that basis. SEC545 is a 5-day Advanced course, but 54 questions in 2 hours is the shortest exam GIAC offers."
-  },
-  {
-    "id": "giac-gced",
-    "name": "GCED",
-    "fullName": "GIAC Certified Enterprise Defender",
-    "vendor": "GIAC",
-    "vendorUrl": "https://www.giac.org/certifications/certified-enterprise-defender-gced",
-    "domain": "security-engineering",
-    "adjacentDomains": [
-      "incident-response"
-    ],
-    "level": 42,
-    "scoredBy": "Opus 5",
-    "cost": {
-      "amount": 999,
-      "currency": "USD",
-      "note": "Certification attempt only. Bundled SANS training costs several thousand more."
-    },
-    "span": "none",
-    "courseCode": "SEC501",
-    "examCode": null,
-    "examFormat": "multiple-choice",
-    "examHours": 3,
-    "passingScore": 69,
-    "prerequisites": [
-      "GSEC recommended"
-    ],
-    "renewal": {
-      "required": true,
-      "years": 4,
-      "ceCredits": 36
-    },
-    "accreditation": {
-      "ansiIso17024": true,
-      "dod8140": []
-    },
-    "status": "active",
-    "lastVerified": "2026-08-04",
-    "sources": [
-      "https://www.giac.org/certifications/",
-      "https://www.giac.org/pricing"
-    ],
-    "levelNote": "Re-based onto the common knowledge-exam scale. Three hours of multiple choice. SEC501 is rated Intermediate by SANS. The training bonus is capped for a pure multiple-choice exam: a deep course can lift a knowledge exam, but it remains a knowledge exam."
-  },
-  {
-    "id": "giac-gcip",
-    "name": "GCIP",
-    "fullName": "GIAC Critical Infrastructure Protection",
-    "vendor": "GIAC",
-    "vendorUrl": "https://www.giac.org/certifications/critical-infrastructure-protection-gcip",
-    "domain": "ot-ics-iot",
-    "adjacentDomains": [],
-    "level": 42,
-    "scoredBy": "Opus 5",
-    "cost": {
-      "amount": 999,
-      "currency": "USD",
-      "note": "Certification attempt only. Bundled SANS training costs several thousand more."
-    },
-    "span": "none",
-    "courseCode": "ICS456",
-    "examCode": null,
-    "examFormat": "multiple-choice",
-    "examHours": 3,
-    "passingScore": 70,
-    "prerequisites": [],
-    "renewal": {
-      "required": true,
-      "years": 4,
-      "ceCredits": 36
-    },
-    "accreditation": {
-      "ansiIso17024": true,
-      "dod8140": []
-    },
-    "status": "active",
-    "lastVerified": "2026-08-04",
-    "sources": [
-      "https://www.giac.org/certifications/",
-      "https://www.giac.org/pricing"
-    ],
-    "levelNote": "Re-based onto the common knowledge-exam scale. Three hours of multiple choice behind ICS456. ICS456 is rated Essentials by SANS. The training bonus is capped for a pure multiple-choice exam: a deep course can lift a knowledge exam, but it remains a knowledge exam."
-  },
-  {
-    "id": "giac-gosi",
-    "name": "GOSI",
-    "fullName": "GIAC Open Source Intelligence",
-    "vendor": "GIAC",
-    "vendorUrl": "https://www.giac.org/certifications/open-source-intelligence-gosi",
-    "domain": "threat-intel",
-    "adjacentDomains": [],
-    "level": 42,
-    "scoredBy": "Opus 5",
-    "cost": {
-      "amount": 999,
-      "currency": "USD",
-      "note": "Certification attempt only. Bundled SANS training costs several thousand more."
-    },
-    "span": "none",
-    "courseCode": "SEC497",
-    "examCode": null,
-    "examFormat": "multiple-choice",
-    "examHours": 2,
-    "passingScore": 69,
-    "prerequisites": [],
-    "renewal": {
-      "required": true,
-      "years": 4,
-      "ceCredits": 36
-    },
-    "accreditation": {
-      "ansiIso17024": false,
-      "dod8140": []
-    },
-    "status": "active",
-    "lastVerified": "2026-08-04",
-    "sources": [
-      "https://www.giac.org/certifications/",
-      "https://www.giac.org/pricing"
-    ],
-    "levelNote": "Re-based onto the common knowledge-exam scale. Two hours of multiple choice behind SEC487. SEC497 is rated Intermediate by SANS. The training bonus is capped for a pure multiple-choice exam: a deep course can lift a knowledge exam, but it remains a knowledge exam."
-  },
-  {
-    "id": "giac-gsoc",
-    "name": "GSOC",
-    "fullName": "GIAC Security Operations Certified",
-    "vendor": "GIAC",
-    "vendorUrl": "https://www.giac.org/certifications/security-operations-certified-gsoc",
-    "domain": "soc",
-    "adjacentDomains": [
-      "incident-response"
-    ],
-    "level": 42,
-    "scoredBy": "Opus 5",
-    "cost": {
-      "amount": 999,
-      "currency": "USD",
-      "note": "Certification attempt only. Bundled SANS training costs several thousand more."
-    },
-    "span": "none",
-    "courseCode": "SEC450",
-    "examCode": null,
-    "examFormat": "multiple-choice",
-    "examHours": 2,
-    "passingScore": 67,
-    "prerequisites": [],
-    "renewal": {
-      "required": true,
-      "years": 4,
-      "ceCredits": 36
-    },
-    "accreditation": {
-      "ansiIso17024": false,
-      "dod8140": []
-    },
-    "status": "active",
-    "lastVerified": "2026-08-04",
-    "sources": [
-      "https://www.giac.org/certifications/",
-      "https://www.giac.org/pricing"
-    ],
-    "levelNote": "Re-based onto the common knowledge-exam scale. Two hours of multiple choice behind SEC450. SEC450 is rated Intermediate by SANS. The training bonus is capped for a pure multiple-choice exam: a deep course can lift a knowledge exam, but it remains a knowledge exam."
-  },
-  {
-    "id": "giac-gbfa",
-    "name": "GBFA",
-    "fullName": "GIAC Battlefield Forensics and Acquisition",
-    "vendor": "GIAC",
-    "vendorUrl": "https://www.giac.org/certifications/battlefield-forensics-acquisition-gbfa",
-    "domain": "forensics",
-    "adjacentDomains": [],
-    "level": 40,
-    "scoredBy": "Opus 5",
-    "cost": {
-      "amount": 999,
-      "currency": "USD",
-      "note": "Certification attempt only. Bundled SANS training costs several thousand more."
-    },
-    "span": "none",
-    "courseCode": "FOR498",
-    "examCode": null,
-    "examFormat": "multiple-choice",
-    "examHours": 2,
-    "passingScore": 69,
-    "prerequisites": [],
-    "renewal": {
-      "required": true,
-      "years": 4,
-      "ceCredits": 36
-    },
-    "accreditation": {
-      "ansiIso17024": false,
-      "dod8140": []
-    },
-    "status": "active",
-    "lastVerified": "2026-08-04",
-    "sources": [
-      "https://www.giac.org/certifications/",
-      "https://www.giac.org/pricing"
-    ],
-    "levelNote": "Re-based onto the common knowledge-exam scale. Two hours of multiple choice behind FOR498. FOR498 is rated Essentials by SANS. The training bonus is capped for a pure multiple-choice exam: a deep course can lift a knowledge exam, but it remains a knowledge exam."
-  },
-  {
-    "id": "giac-goaa",
-    "name": "GOAA",
-    "fullName": "GIAC Offensive AI Analyst",
-    "vendor": "GIAC",
-    "vendorUrl": "https://www.giac.org/certifications/offensive-ai-analyst-goaa",
-    "domain": "ai-security",
-    "adjacentDomains": [
-      "pentest"
-    ],
-    "level": 40,
-    "scoredBy": "Opus 5",
-    "cost": {
-      "amount": 999,
-      "currency": "USD",
-      "note": "Certification attempt only. Bundled SANS training costs several thousand more."
-    },
-    "span": "none",
-    "courseCode": "SEC535",
-    "examCode": null,
-    "examFormat": "hybrid",
-    "examHours": 2,
-    "passingScore": 67,
-    "prerequisites": [],
-    "renewal": {
-      "required": true,
-      "years": 4,
-      "ceCredits": 36
-    },
-    "accreditation": {
-      "ansiIso17024": false,
-      "dod8140": []
-    },
-    "status": "active",
-    "lastVerified": "2026-08-04",
-    "sources": [
-      "https://www.giac.org/certifications/",
-      "https://www.giac.org/pricing"
-    ],
-    "levelNote": "Re-based onto the common knowledge-exam scale. Two hours with a light hands-on component. AI security is roughly three years old as a discipline and its credentials have not yet accumulated the depth of the established expert-tier certs. The whole column was re-rated together on that basis. SEC535 is only a 3-day, 18-CPE course and the exam is 56 questions in 2 hours — the lightest combination in the AI column."
-  },
-  {
-    "id": "giac-gpyc",
-    "name": "GPYC",
-    "fullName": "GIAC Python Coder",
-    "vendor": "GIAC",
-    "vendorUrl": "https://www.giac.org/certifications/python-coder-gpyc",
-    "domain": "appsec",
-    "adjacentDomains": [],
-    "level": 40,
-    "scoredBy": "Opus 5",
-    "cost": {
-      "amount": 999,
-      "currency": "USD",
-      "note": "Certification attempt only. Bundled SANS training costs several thousand more."
-    },
-    "span": "none",
-    "courseCode": "SEC573",
-    "examCode": null,
-    "examFormat": "multiple-choice",
-    "examHours": 2,
-    "passingScore": 67,
-    "prerequisites": [],
-    "renewal": {
-      "required": true,
-      "years": 4,
-      "ceCredits": 36
-    },
-    "accreditation": {
-      "ansiIso17024": false,
-      "dod8140": []
-    },
-    "status": "active",
-    "lastVerified": "2026-08-04",
-    "sources": [
-      "https://www.giac.org/certifications/",
-      "https://www.giac.org/pricing"
-    ],
-    "levelNote": "Re-based onto the common knowledge-exam scale. Two hours of multiple choice behind SEC573. SEC573 is rated Advanced by SANS. The training bonus is capped for a pure multiple-choice exam: a deep course can lift a knowledge exam, but it remains a knowledge exam."
-  },
-  {
     "id": "giac-gcld",
     "name": "GCLD",
     "fullName": "GIAC Cloud Security Essentials",
@@ -2184,7 +2225,7 @@
     "vendorUrl": "https://www.giac.org/certifications/cloud-security-essentials-gcld",
     "domain": "cloud",
     "adjacentDomains": [],
-    "level": 38,
+    "level": 41,
     "scoredBy": "Opus 5",
     "cost": {
       "amount": 999,
@@ -2213,48 +2254,7 @@
       "https://www.giac.org/certifications/",
       "https://www.giac.org/pricing"
     ],
-    "levelNote": "Re-based onto the common knowledge-exam scale. Two hours of multiple choice behind SEC388. SEC488 is rated Essentials by SANS (inferred from the course title; not returned by the catalogue facet). The training bonus is capped for a pure multiple-choice exam: a deep course can lift a knowledge exam, but it remains a knowledge exam."
-  },
-  {
-    "id": "giac-gsec",
-    "name": "GSEC",
-    "fullName": "GIAC Security Essentials",
-    "vendor": "GIAC",
-    "vendorUrl": "https://www.giac.org/certifications/security-essentials-gsec",
-    "domain": "security-engineering",
-    "adjacentDomains": [
-      "soc"
-    ],
-    "level": 38,
-    "scoredBy": "Opus 5",
-    "cost": {
-      "amount": 999,
-      "currency": "USD",
-      "note": "Certification attempt only. Bundled SANS training costs several thousand more."
-    },
-    "span": "none",
-    "courseCode": "SEC401",
-    "examCode": null,
-    "examFormat": "hybrid",
-    "examHours": 4,
-    "passingScore": 72,
-    "prerequisites": [],
-    "renewal": {
-      "required": true,
-      "years": 4,
-      "ceCredits": 36
-    },
-    "accreditation": {
-      "ansiIso17024": true,
-      "dod8140": []
-    },
-    "status": "active",
-    "lastVerified": "2026-08-03",
-    "sources": [
-      "https://www.giac.org/certifications/",
-      "https://www.giac.org/pricing"
-    ],
-    "levelNote": "Score weights the required training as well as the exam. SEC401 is rated Essentials by SANS. Exam-only score 32, +6 for the course. level measures the depth a credential demands, not only how the exam checks it."
+    "levelNote": "SEC388, rated Beginner by SANS. GIAC's multiple-choice tier. No CyberLive, so it stays below the hands-on exams — but it is not a vendor product paper either: 75-115 questions drawn from a five- or six-day instructor-led SANS course, and scored on that course's published level."
   },
   {
     "id": "giac-gfact",
@@ -2267,7 +2267,7 @@
       "pentest",
       "soc"
     ],
-    "level": 20,
+    "level": 26,
     "scoredBy": "Opus 5",
     "cost": {
       "amount": 399,
@@ -2296,7 +2296,7 @@
       "https://www.giac.org/certifications/",
       "https://www.giac.org/pricing"
     ],
-    "levelNote": "Re-based onto the common knowledge-exam scale. An entry paper. SEC275 is rated Beginner by SANS."
+    "levelNote": "An entry paper on computing foundations."
   },
   {
     "id": "giac-gisf",
@@ -2306,7 +2306,7 @@
     "vendorUrl": "https://www.giac.org/certifications/information-security-fundamentals-gisf",
     "domain": "security-engineering",
     "adjacentDomains": [],
-    "level": 13,
+    "level": 16,
     "scoredBy": "Opus 5",
     "cost": {
       "amount": 499,
@@ -2335,6 +2335,6 @@
       "https://www.giac.org/certifications/",
       "https://www.giac.org/pricing"
     ],
-    "levelNote": "Re-based onto the common knowledge-exam scale. A fundamentals paper. SEC275 is rated Beginner by SANS."
+    "levelNote": "A fundamentals paper."
   }
 ]

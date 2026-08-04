@@ -307,44 +307,6 @@
     "adjacentDomains": [],
     "span": "none",
     "scoredBy": "Opus 5",
-    "levelNote": "Raised: a hands-on assessment was sitting below knowledge exams. A 48-hour practical with a report. 2-day practical assessment plus a two-day reporting window. Level rests on exam format and course positioning; this body does not publish question counts or cut scores.",
-    "courseCode": null,
-    "examCode": null,
-    "examHours": 48,
-    "passingScore": null,
-    "prerequisites": [],
-    "renewal": {
-      "required": false,
-      "years": null,
-      "ceCredits": null
-    },
-    "accreditation": {
-      "ansiIso17024": false,
-      "dod8140": []
-    },
-    "status": "active",
-    "lastVerified": "2026-08-04",
-    "id": "tcm-psaa",
-    "name": "PSAA",
-    "fullName": "TCM Security Practical SOC Analyst Associate",
-    "vendor": "TCM Security",
-    "vendorUrl": "https://certifications.tcm-sec.com/",
-    "domain": "soc",
-    "level": 48,
-    "examFormat": "practical",
-    "cost": {
-      "amount": null,
-      "currency": "USD",
-      "note": "Sold as a voucher; TCM Academy training is separate."
-    },
-    "sources": [
-      "https://certifications.tcm-sec.com/"
-    ]
-  },
-  {
-    "adjacentDomains": [],
-    "span": "none",
-    "scoredBy": "Opus 5",
     "levelNote": "Raised: a hands-on assessment was sitting below knowledge exams. A 48-hour practical with a report, previously below a two-hour paper. 2-day practical assessment plus a two-day reporting window. Level rests on exam format and course positioning; this body does not publish question counts or cut scores.",
     "courseCode": null,
     "examCode": null,
@@ -445,6 +407,44 @@
     "vendorUrl": "https://certifications.tcm-sec.com/",
     "domain": "pentest",
     "level": 46,
+    "examFormat": "practical",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "Sold as a voucher; TCM Academy training is separate."
+    },
+    "sources": [
+      "https://certifications.tcm-sec.com/"
+    ]
+  },
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "levelNote": "Held in the Associate band. A genuine hands-on assessment and clear of every knowledge exam in its column, but a first defensive credential rather than a professional one. A 48-hour practical with a written report.",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": 48,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-04",
+    "id": "tcm-psaa",
+    "name": "PSAA",
+    "fullName": "TCM Security Practical SOC Analyst Associate",
+    "vendor": "TCM Security",
+    "vendorUrl": "https://certifications.tcm-sec.com/",
+    "domain": "soc",
+    "level": 42,
     "examFormat": "practical",
     "cost": {
       "amount": null,

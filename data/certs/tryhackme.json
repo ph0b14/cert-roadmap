@@ -181,7 +181,7 @@
     "vendor": "TryHackMe",
     "vendorUrl": "https://tryhackme.com/certification/security-analyst-level-1",
     "domain": "soc",
-    "level": 48,
+    "level": 41,
     "examFormat": "practical",
     "cost": {
       "amount": 349,
@@ -191,7 +191,7 @@
     "sources": [
       "https://tryhackme.com/certification/security-analyst-level-1"
     ],
-    "levelNote": "A 24-hour practical investigation behind TryHackMe's SOC analyst path. Above the knowledge exams it used to sit under, and below BTL1, which is the broader programme."
+    "levelNote": "Held in the Associate band. A genuine hands-on assessment and clear of every knowledge exam in its column, but a first defensive credential rather than a professional one. A 24-hour practical investigation behind TryHackMe's SOC analyst path. Above the knowledge exams, below BTL1, which is the broader programme."
   },
   {
     "adjacentDomains": [

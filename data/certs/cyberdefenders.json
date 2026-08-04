@@ -73,7 +73,7 @@
     "vendor": "CyberDefenders",
     "vendorUrl": "https://cyberdefenders.org/certifications/certified-cyberdefender-level1/",
     "domain": "soc",
-    "level": 56,
+    "level": 44,
     "examFormat": "practical",
     "cost": {
       "amount": null,
@@ -83,6 +83,6 @@
     "sources": [
       "https://cyberdefenders.org/certifications/certified-cyberdefender-level1/"
     ],
-    "levelNote": "A 48-hour exam whose answers require the analysis to have been done, across six modules including DFIR and cloud forensics. Re-based. The old note called this \"an entry-level SOC programme\" and gave it a token +3, the same blanket vendor reading that held BTL1 down. The curriculum is six modules — SOC operations, network and endpoint security, SIEM operations, email security, digital forensics and incident response, and cloud forensics — which is intermediate weight and broader than its own Level 1 branding suggests. The exam runs 48 hours at a 70% cut and answers require the analysis to have actually been done rather than recognised. Scored above BTL1: twice the window, a wider curriculum, and cloud forensics that BTL1 does not reach."
+    "levelNote": "Held in the Associate band. A genuine hands-on assessment and clear of every knowledge exam in its column, but a first defensive credential rather than a professional one. A 48-hour exam whose answers require the analysis to have been done, across six modules including DFIR and cloud forensics — the broadest of the entry defensive credentials, and the top of the band."
   }
 ]
