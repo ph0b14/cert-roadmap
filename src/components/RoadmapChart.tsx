@@ -227,7 +227,16 @@ export default function RoadmapChart({ certs, domains, tiers }: Props) {
   const [editorOpen, setEditorOpen] = useState(false)
   const [showRetired, setShowRetired] = useState(false)
   const [selected, setSelected] = useState<Cert | null>(null)
-  const [narrow, setNarrow] = useState(false)
+  /**
+   * Chart zoom. The chart is one artefact at every width — a phone gets the
+   * same 13 columns as a desktop, because a separate mobile list was a
+   * different product that happened to share a dataset: no tiers, no
+   * proportional axis, no spanning cells, so the one thing the roadmap is for
+   * (seeing where a credential sits against its peers) was missing exactly
+   * where screen space was tightest. It scrolls horizontally instead, and
+   * zoom makes the whole picture reachable.
+   */
+  const [zoom, setZoom] = useState(1)
   const [picking, setPicking] = useState(false)
   const [owned, setOwned] = useState<Set<string>>(new Set())
   const [exporting, setExporting] = useState(false)
@@ -271,13 +280,21 @@ export default function RoadmapChart({ certs, domains, tiers }: Props) {
     })
   }, [])
 
+  /*
+   * Open a narrow screen slightly zoomed out, but floored at 0.6.
+   *
+   * Not fit-to-width: on a 414px phone that computes to 0.17, which draws the
+   * whole roadmap at once with 2px labels — the same view in the sense that a
+   * thumbnail is the same view. 0.6 keeps acronyms legible and shows two or
+   * three columns, which is enough to compare a cert against its neighbours,
+   * and the chart pans for the rest. The Fit button still goes all the way out
+   * when the shape is what you want rather than the names.
+   */
   useEffect(() => {
-    const mq = window.matchMedia('(max-width: 860px)')
-    const sync = () => setNarrow(mq.matches)
-    sync()
-    mq.addEventListener('change', sync)
-    return () => mq.removeEventListener('change', sync)
-  }, [])
+    const full = GUTTER + domains.length * COL_W
+    const fit = (window.innerWidth - 32) / full
+    if (fit < 1) setZoom(Math.max(0.6, Math.round(fit * 20) / 20))
+  }, [domains.length])
 
   useEffect(() => {
     if (!selected) return
@@ -476,15 +493,17 @@ export default function RoadmapChart({ certs, domains, tiers }: Props) {
       {/* Sits directly under Base.astro's 48px site bar. */}
       <div className="sticky top-12 z-30 border-b border-[var(--color-edge)] bg-[var(--color-surface)]/95 backdrop-blur px-4 py-3">
         <div className="mx-auto flex max-w-[1600px] flex-col gap-2.5">
-          {/* Row one: finding things. Row two: narrowing them down. */}
-          <div className="flex items-center gap-2">
+          {/* Row one: finding things. Row two: narrowing them down.
+              Wraps rather than overflowing: the same controls have to fit a
+              phone, and the chart below is now the same chart at every width. */}
+          <div className="flex flex-wrap items-center gap-2">
             <input
               type="search"
               value={query}
               onChange={(e) => setQuery(e.target.value)}
               placeholder="Search certs, vendors, course or exam codes…"
               aria-label="Search certifications"
-              className="min-w-[200px] flex-1 rounded-md border border-[var(--color-edge)] bg-[var(--color-surface-2)] px-3 py-1.5 text-sm text-[var(--color-ink)] outline-none placeholder:text-[var(--color-ink-faint)] focus:border-[var(--color-ink-dim)]"
+              className="w-full min-w-[200px] flex-1 rounded-md border border-[var(--color-edge)] sm:w-auto bg-[var(--color-surface-2)] px-3 py-1.5 text-sm text-[var(--color-ink)] outline-none placeholder:text-[var(--color-ink-faint)] focus:border-[var(--color-ink-dim)]"
             />
 
             {QUICK_FIELDS.map((key) => {
@@ -668,17 +687,10 @@ export default function RoadmapChart({ certs, domains, tiers }: Props) {
         <p className="px-4 py-24 text-center text-sm text-[var(--color-ink-faint)]">
           No certifications match those filters.
         </p>
-      ) : narrow ? (
-        <MobileList
-          domains={domains}
-          byDomain={byDomain}
-          tierOf={tierOf}
-          owned={owned}
-          picking={picking}
-          onSelect={(c) => (picking ? toggleOwned(c.id) : setSelected(c))}
-        />
       ) : (
-        <DesktopChart
+        <Chart
+          zoom={zoom}
+          onZoom={setZoom}
           domains={domains}
           byDomain={byDomain}
           placements={placements}
@@ -706,7 +718,9 @@ export default function RoadmapChart({ certs, domains, tiers }: Props) {
 
 /* ------------------------------------------------------------------ */
 
-function DesktopChart({
+function Chart({
+  zoom,
+  onZoom,
   domains,
   byDomain,
   placements,
@@ -718,6 +732,8 @@ function DesktopChart({
   picking,
   onSelect,
 }: {
+  zoom: number
+  onZoom: (z: number) => void
   domains: DomainMeta[]
   byDomain: Map<string, Cert[]>
   placements: Placement[]
@@ -739,9 +755,52 @@ function DesktopChart({
   const [hovered, setHovered] = useState<Cert | null>(null)
   const covered = new Set(hovered ? [hovered.domain, ...hovered.adjacentDomains] : [])
 
+  const step = (d: number) => onZoom(Math.min(1.5, Math.max(0.25, Math.round((zoom + d) * 20) / 20)))
+  const fitAll = () => {
+    const full = GUTTER + domains.length * COL_W
+    onZoom(Math.min(1.5, Math.max(0.25, Math.round(((window.innerWidth - 32) / full) * 20) / 20)))
+  }
+
   return (
     <div className="chart-scroll overflow-x-auto px-4 pb-16 pt-4">
-      <div className="mx-auto" style={{ width: 'max-content', minWidth: '100%' }}>
+      {/* Zoom. Pinned to the viewport rather than the chart, so it stays put
+          while the chart is panned. */}
+      <div
+        className="fixed bottom-4 right-4 z-30 flex items-center gap-0.5 rounded-full border border-[var(--color-edge)] bg-[var(--color-surface)]/95 p-1 shadow-lg backdrop-blur"
+        style={{ zoom: 'normal' }}
+      >
+        <button
+          onClick={() => step(-0.1)}
+          disabled={zoom <= 0.25}
+          aria-label="Zoom out"
+          className="grid h-8 w-8 place-items-center rounded-full text-base leading-none text-[var(--color-ink-dim)] hover:bg-[var(--color-surface-2)] disabled:opacity-30"
+        >
+          &#8722;
+        </button>
+        <button
+          onClick={fitAll}
+          className="min-w-[3.25rem] rounded-full px-2 py-1 text-[11px] font-medium tabular-nums text-[var(--color-ink-dim)] hover:bg-[var(--color-surface-2)]"
+          title="Fit the whole chart to the screen"
+        >
+          {Math.round(zoom * 100)}%
+        </button>
+        <button
+          onClick={() => step(0.1)}
+          disabled={zoom >= 1.5}
+          aria-label="Zoom in"
+          className="grid h-8 w-8 place-items-center rounded-full text-base leading-none text-[var(--color-ink-dim)] hover:bg-[var(--color-surface-2)] disabled:opacity-30"
+        >
+          +
+        </button>
+      </div>
+
+      {/*
+        `zoom`, not `transform: scale()`. A transform makes the scaled element the
+        containing block for its descendants, which breaks the sticky column
+        headers — and those headers are the only thing telling you which column
+        you are looking at once the chart is wider than the screen.
+      */}
+      <div className="mx-auto" style={{ width: 'max-content', minWidth: '100%', zoom }}>
         {/* band headers */}
         <div className="flex" style={{ marginLeft: GUTTER }}>
           {groupByBand(domains).map((g) => (
@@ -924,83 +983,6 @@ function CertCell({
     >
       <span className="w-full truncate">{cert.name}</span>
     </button>
-  )
-}
-
-function MobileList({
-  domains,
-  byDomain,
-  tierOf,
-  owned,
-  picking,
-  onSelect,
-}: {
-  domains: DomainMeta[]
-  byDomain: Map<string, Cert[]>
-  tierOf: (l: number) => Tier
-  owned: Set<string>
-  picking: boolean
-  onSelect: (c: Cert) => void
-}) {
-  return (
-    <div className="px-4 pb-20 pt-4">
-      {domains.map((d) => {
-        const items = byDomain.get(d.id) ?? []
-        if (!items.length) return null
-        return (
-          <section key={d.id} className="mb-7">
-            <h2
-              className="mb-2 border-b pb-1.5 text-sm font-semibold"
-              style={{ borderColor: BAND_VAR[d.band], color: BAND_VAR[d.band] }}
-            >
-              {d.label}
-              <span className="ml-2 text-xs font-normal text-[var(--color-ink-faint)]">
-                {items.length}
-              </span>
-            </h2>
-            <ul className="flex flex-col gap-1">
-              {items.map((c) => (
-                <li key={c.id}>
-                  <button
-                    onClick={() => onSelect(c)}
-                    role={picking ? 'checkbox' : undefined}
-                    aria-checked={picking ? owned.has(c.id) : undefined}
-                    className="flex w-full items-center gap-2 rounded border px-2.5 py-2 text-left"
-                    style={{
-                      borderColor: owned.has(c.id) ? BAND_VAR[d.band] : 'var(--color-edge)',
-                      background: owned.has(c.id)
-                        ? `color-mix(in oklab, ${BAND_VAR[d.band]} 18%, var(--color-surface-2))`
-                        : 'var(--color-surface-2)',
-                      opacity: picking && !owned.has(c.id) ? 0.55 : 1,
-                    }}
-                  >
-                    <span
-                      className="w-9 shrink-0 text-center text-[10px] font-bold tabular-nums"
-                      style={{ color: BAND_VAR[d.band] }}
-                    >
-                      {owned.has(c.id) ? '✓' : c.level}
-                    </span>
-                    <span className="min-w-0 flex-1">
-                      <span
-                        className="block truncate text-[13px] font-medium"
-                        style={{
-                          textDecoration: c.status === 'retired' ? 'line-through' : undefined,
-                        }}
-                      >
-                        {c.name}
-                      </span>
-                      <span className="block truncate text-[11px] text-[var(--color-ink-faint)]">
-                        {c.vendor} · {tierOf(c.level).label} · {formatCost(c)}
-                      </span>
-                    </span>
-                  </button>
-                </li>
-              ))}
-            </ul>
-          </section>
-        )
-      })}
-    </div>
   )
 }
 
