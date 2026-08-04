@@ -207,6 +207,11 @@ function layoutGrid(
   // where the tier's score range does.
   const bands: Band[] = [...tiers]
     .sort((a, b) => b.max - a.max)
+    // A tier the filtered set does not reach into has no rows to occupy. Kept
+    // in, every such tier clamped to the same edge row and stacked its label on
+    // top of the others: filtering to one issuing body scoring 48-55 drew
+    // MASTER, EXPERT and PROFESSIONAL over each other in the gutter.
+    .filter((t) => t.max >= bottom && t.min <= top)
     .map((t) => {
       const startRow = rowOf(Math.min(t.max, top))
       const endRow = rowOf(Math.max(t.min, bottom))

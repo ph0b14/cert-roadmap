@@ -39,11 +39,11 @@
   },
   {
     "adjacentDomains": [
-      "pentest"
+      "cloud"
     ],
     "span": "none",
     "scoredBy": "Opus 5",
-    "levelNote": "Hands-on, performance-based exam. This body does not publish full exam specifications; level rests on format and scope. Score weights the required training: WKL courses are self-paced with lab access. Exam-only score 55, +5 for the training.",
+    "levelNote": "Hands-on, performance-based exam. This body does not publish full exam specifications; level rests on format and scope. Score weights the required training: WKL courses are self-paced with lab access. Exam-only score 55, +5 for the training. Filed under Penetration Testing with Cloud & Container Security as an adjacent domain: the exam tests offensive tradecraft, and the cloud is the terrain it is tested on. GCPN was already filed this way, so the rest of the cloud red-team credentials now match it.",
     "courseCode": null,
     "examCode": null,
     "examHours": null,
@@ -65,7 +65,7 @@
     "fullName": "White Knight Labs Offensive Azure Operations and Tactics Certification",
     "vendor": "White Knight Labs",
     "vendorUrl": "https://training.whiteknightlabs.com/certifications/",
-    "domain": "cloud",
+    "domain": "pentest",
     "level": 60,
     "examFormat": "practical",
     "cost": {
@@ -157,11 +157,11 @@
   },
   {
     "adjacentDomains": [
-      "pentest"
+      "cloud"
     ],
     "span": "none",
     "scoredBy": "Opus 5",
-    "levelNote": "Hands-on, performance-based exam. This body does not publish full exam specifications; level rests on format and scope. Score weights the required training: WKL courses are self-paced with lab access. Exam-only score 52, +5 for the training.",
+    "levelNote": "Hands-on, performance-based exam. This body does not publish full exam specifications; level rests on format and scope. Score weights the required training: WKL courses are self-paced with lab access. Exam-only score 52, +5 for the training. Filed under Penetration Testing with Cloud & Container Security as an adjacent domain: the exam tests offensive tradecraft, and the cloud is the terrain it is tested on. GCPN was already filed this way, so the rest of the cloud red-team credentials now match it.",
     "courseCode": null,
     "examCode": null,
     "examHours": null,
@@ -183,7 +183,7 @@
     "fullName": "White Knight Labs Offensive GCP Operations and Tactics Certification",
     "vendor": "White Knight Labs",
     "vendorUrl": "https://training.whiteknightlabs.com/certifications/",
-    "domain": "cloud",
+    "domain": "pentest",
     "level": 57,
     "examFormat": "practical",
     "cost": {

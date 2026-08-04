@@ -228,10 +228,12 @@
     ]
   },
   {
-    "adjacentDomains": [],
+    "adjacentDomains": [
+      "cloud"
+    ],
     "span": "none",
     "scoredBy": "Opus 5",
-    "levelNote": "Assessed as a flag-based across AWS, Azure and GCP. Level rests on exam format and course positioning; this body does not publish question counts or cut scores.",
+    "levelNote": "Assessed as a flag-based across AWS, Azure and GCP. Level rests on exam format and course positioning; this body does not publish question counts or cut scores. Filed under Penetration Testing with Cloud & Container Security as an adjacent domain: the exam tests offensive tradecraft, and the cloud is the terrain it is tested on. GCPN was already filed this way, so the rest of the cloud red-team credentials now match it.",
     "courseCode": null,
     "examCode": null,
     "examHours": null,
@@ -247,13 +249,13 @@
       "dod8140": []
     },
     "status": "active",
-    "lastVerified": "2026-08-03",
+    "lastVerified": "2026-08-04",
     "id": "cwl-mcrta",
     "name": "MCRTA",
     "fullName": "CyberWarFare Labs Multi-Cloud Red Team Analyst",
     "vendor": "CyberWarFare Labs",
     "vendorUrl": "https://cyberwarfare.live/certifications/",
-    "domain": "cloud",
+    "domain": "pentest",
     "level": 52,
     "examFormat": "practical",
     "cost": {

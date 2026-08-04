@@ -216,6 +216,14 @@ score moves, the reasoning goes in the PR description, so the history of *why* s
 
 ## Domain placement
 
+**The primary domain is the discipline the exam tests, not the terrain it tests it on.** A cloud
+penetration-testing credential is a penetration-testing credential examined against cloud, so it is
+filed under Penetration Testing with `cloud` adjacent — the same way an Active Directory red-team
+cert is not filed under a Windows column. This was inconsistent for a while: GCPN sat in
+Penetration Testing while CARTP, CARTE, MCRTA, OAOTC and OGOTC sat in Cloud & Container Security,
+which put red-team credentials inside the Platform & Build band and made the cloud column read as
+half a defensive discipline. They all follow GCPN now.
+
 Each cert has one primary `domain` and up to two `adjacentDomains`. If a credential genuinely spans
 columns — GREM is malware RE but touches software and testing — express that with
 `adjacentDomains` rather than duplicating the record. Duplicate `id`s fail CI.
