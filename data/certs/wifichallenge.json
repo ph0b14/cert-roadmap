@@ -1,0 +1,34 @@
+[
+  {
+    "id": "wifichallenge-cwp",
+    "name": "CWP",
+    "fullName": "Certified WiFiChallenge Professional",
+    "vendor": "WiFiChallenge Academy",
+    "vendorUrl": "https://academy.wifichallenge.com/courses/certified-wifichallenge-professional-cwp",
+    "domain": "pentest",
+    "adjacentDomains": [],
+    "span": "none",
+    "level": 55,
+    "scoredBy": "Opus 5",
+    "levelNote": "A 6-hour practical against a wireless range in which at least four of five access points must be compromised, followed by a 24-hour window to submit a write-up explaining how each was taken. Scored well above OSWP: it runs longer, requires a report where OSWP does not, sets a higher bar at four of five, and examines WPA3, PMKID and enterprise EAP attacks that the older syllabus predates. Held level with PNPT rather than above it — the cut line is harder but the scope is one discipline against a five-day full-network engagement. Every candidate receives written feedback whether they pass or fail. The 202-lesson course is bundled with the exam voucher and carries intermediate weight. Exam-only score 46, +9 for the training.",
+    "examFormat": "practical",
+    "examCode": null,
+    "courseCode": null,
+    "examHours": 6,
+    "passingScore": 80,
+    "cost": {
+      "amount": 199,
+      "currency": "EUR",
+      "note": "Course and exam voucher sold together; the voucher expires one year after purchase."
+    },
+    "prerequisites": [],
+    "renewal": { "required": false, "years": null, "ceCredits": null },
+    "accreditation": { "ansiIso17024": false, "dod8140": [] },
+    "status": "active",
+    "lastVerified": "2026-08-04",
+    "sources": [
+      "https://academy.wifichallenge.com/courses/certified-wifichallenge-professional-cwp",
+      "https://routezero.security/2025/07/27/certified-wifichallenge-professional-cwp-review/"
+    ]
+  }
+]

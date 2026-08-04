@@ -48,6 +48,13 @@ different chart.
 **Also out of scope:** training courses, lab subscriptions, and learning paths that do not issue a
 credential backed by an assessment.
 
+Submitted work is not the test — **a credential is.** Intel-Ops' *Hunting Adversary Infrastructure*
+is the worked example: its nine assignments are real analysis against live adversary infrastructure,
+uploaded for review, and the material is excellent. But there is no pass mark, no proctor, and no
+certificate; the syllabus calls it a training course and progress is self-marked. Nothing here
+ranks it, because a roadmap of certifications has nothing to rank. If a graded credential is added,
+it belongs in the chart.
+
 ### Columns we deliberately do not have
 
 Red teaming, network security, and identity are real specialisms, but as *columns* they split hairs
@@ -177,7 +184,19 @@ Rules that follow from the anchors:
   person applying the rules mechanically will quietly undo it.
 - **Duration is not difficulty.** A 48-hour window on a beginner lab exam is generous scheduling,
   not depth. SEC1, BTL1 and PT1 all run for a day or more and are correctly scored under 50.
-- **Prestige is not difficulty.** A widely-recognised HR-filter cert may still be an easy exam.
+- **Prestige is not difficulty**, in both directions. A widely-recognised HR-filter cert may still
+  be an easy exam — and a body whose standing has fallen does not thereby get a lower score.
+  Reputation is not an input. Re-read the assessment and the training; if they have not changed,
+  neither does the number. What *is* fair game is a score that was never argued from evidence in
+  the first place: eleven EC-Council records shared one copy-pasted note claiming "courseware at
+  intermediate level" for programmes ranging from three days to 221 labs, which is the blanket
+  vendor assumption this section exists to forbid. That is what got them re-scored, not the
+  headlines.
+- **A higher cut line on the same exam is a tier, not a second assessment.** EC-Council awards
+  LPT (Master) automatically to anyone scoring 90% on the ordinary CPENT sitting. Scoring it as a
+  separate, harder credential put a 24-hour exam above credentials examined over 160 hours. Where a
+  body publishes no per-course difficulty rating at all, judge the programme by what it is — days
+  of instruction, lab count, whether it is instructor-led — and say so in the `levelNote`.
 
 ### Attribution
 

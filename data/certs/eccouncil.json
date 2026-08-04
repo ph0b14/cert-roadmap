@@ -9,7 +9,7 @@
     "adjacentDomains": [
       "exploitdev"
     ],
-    "level": 82,
+    "level": 73,
     "scoredBy": "Opus 5",
     "cost": {
       "amount": null,
@@ -35,12 +35,12 @@
       "dod8140": []
     },
     "status": "active",
-    "lastVerified": "2026-08-03",
+    "lastVerified": "2026-08-04",
     "sources": [
       "https://www.eccouncil.org/train-certify/licensed-penetration-tester-lpt-master/",
       "https://www.eccouncil.org/train-certify/certified-penetration-testing-professional-cpent/"
     ],
-    "levelNote": "Score weights the required training as well as the exam: the CPENT courseware, EC-Council’s most advanced offensive programme. Exam-only score 78, +4 for the training. level measures the depth a credential demands, not only how the exam checks it."
+    "levelNote": "Not a separate exam. EC-Council awards LPT (Master) automatically to anyone scoring 90% or above on the same CPENT sitting, so the gap over CPENT reflects a higher cut line on one exam — real, but worth a few points, not a rank above CREST's certification exams and Zero-Point's CRTL. EC-Council publishes no difficulty rating for its courses, so the weight here is read off what the programme actually is rather than assumed from the vendor. Exam-only score 68, +5 for the training."
   },
   {
     "id": "cpent",
@@ -50,7 +50,7 @@
     "vendorUrl": "https://www.eccouncil.org/train-certify/certified-penetration-testing-professional-cpent/",
     "domain": "pentest",
     "adjacentDomains": [],
-    "level": 75,
+    "level": 69,
     "scoredBy": "Opus 5",
     "cost": {
       "amount": 999,
@@ -76,62 +76,13 @@
       "dod8140": []
     },
     "status": "active",
-    "lastVerified": "2026-08-03",
+    "lastVerified": "2026-08-04",
     "sources": [
       "https://www.eccouncil.org/train-certify/certified-penetration-testing-professional-cpent/",
       "https://store.eccouncil.org/product/cpent-exam-range/",
       "https://cert.eccouncil.org/accreditations.html"
     ],
-    "levelNote": "Score weights the required training as well as the exam: the CPENT courseware, EC-Council’s most advanced offensive programme. Exam-only score 68, +7 for the training. level measures the depth a credential demands, not only how the exam checks it."
-  },
-  {
-    "id": "ceh-practical",
-    "name": "CEH Practical",
-    "fullName": "Certified Ethical Hacker Practical",
-    "vendor": "EC-Council",
-    "vendorUrl": "https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh-practical/",
-    "domain": "pentest",
-    "adjacentDomains": [],
-    "level": 62,
-    "scoredBy": "Opus 5",
-    "cost": {
-      "amount": 550,
-      "currency": "USD",
-      "note": "standalone practical exam voucher; also available bundled with knowledge exam voucher"
-    },
-    "span": "none",
-    "courseCode": null,
-    "examCode": null,
-    "examFormat": "practical",
-    "examHours": 6,
-    "passingScore": null,
-    "prerequisites": [
-      "ceh"
-    ],
-    "renewal": {
-      "required": true,
-      "years": 3,
-      "ceCredits": 120
-    },
-    "accreditation": {
-      "ansiIso17024": true,
-      "dod8140": [
-        "111",
-        "141",
-        "511",
-        "531",
-        "541",
-        "661"
-      ]
-    },
-    "status": "active",
-    "lastVerified": "2026-08-03",
-    "sources": [
-      "https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh-practical/",
-      "https://store.eccouncil.org/product/ceh-practical-exam/",
-      "https://www.eccouncil.org/accreditations/"
-    ],
-    "levelNote": "Score weights the required training as well as the exam: the official CEH courseware, 20 modules and 221 hands-on labs. Exam-only score 55, +7 for the training. level measures the depth a credential demands, not only how the exam checks it."
+    "levelNote": "A genuine 24-hour practical across five ranges with a report due within seven days, at a 70% cut. Re-based off a 24-hour exam rather than the breadth of the syllabus: it is comparable to OSCP in what it asks of a candidate on the day, and cannot outrank credentials examined over 160 hours or more. EC-Council publishes no difficulty rating for its courses, so the weight here is read off what the programme actually is rather than assumed from the vendor. 40 hours of instruction and 110+ labs supports intermediate weight. Exam-only score 62, +7 for the training."
   },
   {
     "id": "ceh-master",
@@ -141,7 +92,7 @@
     "vendorUrl": "https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh-practical/",
     "domain": "pentest",
     "adjacentDomains": [],
-    "level": 55,
+    "level": 56,
     "scoredBy": "Opus 5",
     "cost": {
       "amount": null,
@@ -175,12 +126,12 @@
       ]
     },
     "status": "active",
-    "lastVerified": "2026-08-03",
+    "lastVerified": "2026-08-04",
     "sources": [
       "https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh-practical/",
       "https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/"
     ],
-    "levelNote": "Composite credential, awarded for holding its component certifications. No training weight applied — that would count the components' courses twice."
+    "levelNote": "Composite credential, awarded for holding CEH and CEH Practical. No training weight applied — that would count the same courseware twice. Tracks its components. Exam-only score 56; no training weight."
   },
   {
     "id": "coasp",
@@ -222,6 +173,55 @@
       "https://certificationpractice.com/exam-overviews/ec-council-certified-offensive-ai-security-professional-quick-facts"
     ],
     "levelNote": "AI security is roughly three years old as a discipline and its credentials have not yet accumulated the depth of the established expert-tier certs. The whole column was re-rated together on that basis. EC-Council courseware with a hybrid exam; scope is broad rather than deep."
+  },
+  {
+    "id": "ceh-practical",
+    "name": "CEH Practical",
+    "fullName": "Certified Ethical Hacker Practical",
+    "vendor": "EC-Council",
+    "vendorUrl": "https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh-practical/",
+    "domain": "pentest",
+    "adjacentDomains": [],
+    "level": 54,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": 550,
+      "currency": "USD",
+      "note": "standalone practical exam voucher; also available bundled with knowledge exam voucher"
+    },
+    "span": "none",
+    "courseCode": null,
+    "examCode": null,
+    "examFormat": "practical",
+    "examHours": 6,
+    "passingScore": null,
+    "prerequisites": [
+      "ceh"
+    ],
+    "renewal": {
+      "required": true,
+      "years": 3,
+      "ceCredits": 120
+    },
+    "accreditation": {
+      "ansiIso17024": true,
+      "dod8140": [
+        "111",
+        "141",
+        "511",
+        "531",
+        "541",
+        "661"
+      ]
+    },
+    "status": "active",
+    "lastVerified": "2026-08-04",
+    "sources": [
+      "https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh-practical/",
+      "https://store.eccouncil.org/product/ceh-practical-exam/",
+      "https://www.eccouncil.org/accreditations/"
+    ],
+    "levelNote": "20 challenges in 6 hours on the Aspen range at a 70% cut, with no report. Re-based hard: at 62 it sat level with CRTO (96 hours) and above PNPT (five days plus a report), which a six-hour challenge exam cannot support. EC-Council publishes no difficulty rating for its courses, so the weight here is read off what the programme actually is rather than assumed from the vendor. The 221 labs behind CEH are substantial and carry intermediate weight. Exam-only score 45, +9 for the training."
   },
   {
     "id": "chfi",
@@ -270,132 +270,6 @@
     "levelNote": "Score weights the required training as well as the exam: official EC-Council courseware at intermediate level. Exam-only score 45, +5 for the training. level measures the depth a credential demands, not only how the exam checks it. The training bonus is capped for a pure multiple-choice exam: a deep course can lift a knowledge exam, but it remains a knowledge exam."
   },
   {
-    "id": "ecde",
-    "name": "ECDE",
-    "fullName": "EC-Council Certified DevSecOps Engineer",
-    "vendor": "EC-Council",
-    "vendorUrl": "https://www.eccouncil.org/train-certify/certified-devsecops-engineer-ecde/",
-    "domain": "security-engineering",
-    "adjacentDomains": [
-      "appsec"
-    ],
-    "level": 49,
-    "scoredBy": "Opus 5",
-    "cost": {
-      "amount": null,
-      "currency": "USD",
-      "note": "exam voucher price not cleanly verified from primary store; third-party sources list ~$393 for RPS voucher; training bundles pricing varies"
-    },
-    "span": "none",
-    "courseCode": null,
-    "examCode": "312-97",
-    "examFormat": "multiple-choice",
-    "examHours": 4,
-    "passingScore": 70,
-    "prerequisites": [],
-    "renewal": {
-      "required": true,
-      "years": 3,
-      "ceCredits": null
-    },
-    "accreditation": {
-      "ansiIso17024": false,
-      "dod8140": []
-    },
-    "status": "active",
-    "lastVerified": "2026-08-04",
-    "sources": [
-      "https://www.eccouncil.org/train-certify/certified-devsecops-engineer-ecde/",
-      "https://cert.eccouncil.org/retired-certification.html"
-    ],
-    "levelNote": "Score weights the required training as well as the exam: official EC-Council courseware at intermediate level. Exam-only score 44, +5 for the training. level measures the depth a credential demands, not only how the exam checks it. The training bonus is capped for a pure multiple-choice exam: a deep course can lift a knowledge exam, but it remains a knowledge exam."
-  },
-  {
-    "id": "ecih",
-    "name": "ECIH",
-    "fullName": "EC-Council Certified Incident Handler",
-    "vendor": "EC-Council",
-    "vendorUrl": "https://www.eccouncil.org/train-certify/ec-council-certified-incident-handler-ecih/",
-    "domain": "incident-response",
-    "adjacentDomains": [
-      "soc"
-    ],
-    "level": 49,
-    "scoredBy": "Opus 5",
-    "cost": {
-      "amount": 450,
-      "currency": "USD",
-      "note": "RPS exam voucher from EC-Council Store"
-    },
-    "span": "none",
-    "courseCode": null,
-    "examCode": "212-89",
-    "examFormat": "multiple-choice",
-    "examHours": 3,
-    "passingScore": null,
-    "prerequisites": [],
-    "renewal": {
-      "required": true,
-      "years": 3,
-      "ceCredits": null
-    },
-    "accreditation": {
-      "ansiIso17024": true,
-      "dod8140": [
-        "531"
-      ]
-    },
-    "status": "active",
-    "lastVerified": "2026-08-04",
-    "sources": [
-      "https://www.eccouncil.org/train-certify/ec-council-certified-incident-handler-ecih/",
-      "https://store.eccouncil.org/product/ecih-ecc-exam-voucher/",
-      "https://www.eccouncil.org/accreditations/"
-    ],
-    "levelNote": "Score weights the required training as well as the exam: official EC-Council courseware at intermediate level. Exam-only score 44, +5 for the training. level measures the depth a credential demands, not only how the exam checks it. The training bonus is capped for a pure multiple-choice exam: a deep course can lift a knowledge exam, but it remains a knowledge exam."
-  },
-  {
-    "id": "ctia",
-    "name": "CTIA",
-    "fullName": "Certified Threat Intelligence Analyst",
-    "vendor": "EC-Council",
-    "vendorUrl": "https://www.eccouncil.org/train-certify/certified-threat-intelligence-analyst-ctia/",
-    "domain": "threat-intel",
-    "adjacentDomains": [
-      "soc"
-    ],
-    "level": 48,
-    "scoredBy": "Opus 5",
-    "cost": {
-      "amount": 450,
-      "currency": "USD",
-      "note": "CTIA v2 RPS exam voucher from EC-Council Store"
-    },
-    "span": "none",
-    "courseCode": null,
-    "examCode": "312-85",
-    "examFormat": "multiple-choice",
-    "examHours": 2,
-    "passingScore": 70,
-    "prerequisites": [],
-    "renewal": {
-      "required": true,
-      "years": 3,
-      "ceCredits": null
-    },
-    "accreditation": {
-      "ansiIso17024": false,
-      "dod8140": []
-    },
-    "status": "active",
-    "lastVerified": "2026-08-04",
-    "sources": [
-      "https://www.eccouncil.org/train-certify/certified-threat-intelligence-analyst-ctia/",
-      "https://store.eccouncil.org/product/ctia-ecc-exam-center-voucher/"
-    ],
-    "levelNote": "Score weights the required training as well as the exam: official EC-Council courseware at intermediate level. Exam-only score 43, +5 for the training. level measures the depth a credential demands, not only how the exam checks it. The training bonus is capped for a pure multiple-choice exam: a deep course can lift a knowledge exam, but it remains a knowledge exam."
-  },
-  {
     "id": "ecsa",
     "name": "ECSA",
     "fullName": "EC-Council Certified Security Analyst",
@@ -437,6 +311,91 @@
     ]
   },
   {
+    "id": "ecde",
+    "name": "ECDE",
+    "fullName": "EC-Council Certified DevSecOps Engineer",
+    "vendor": "EC-Council",
+    "vendorUrl": "https://www.eccouncil.org/train-certify/certified-devsecops-engineer-ecde/",
+    "domain": "security-engineering",
+    "adjacentDomains": [
+      "appsec"
+    ],
+    "level": 45,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "exam voucher price not cleanly verified from primary store; third-party sources list ~$393 for RPS voucher; training bundles pricing varies"
+    },
+    "span": "none",
+    "courseCode": null,
+    "examCode": "312-97",
+    "examFormat": "multiple-choice",
+    "examHours": 4,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": true,
+      "years": 3,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-04",
+    "sources": [
+      "https://www.eccouncil.org/train-certify/certified-devsecops-engineer-ecde/",
+      "https://cert.eccouncil.org/retired-certification.html"
+    ],
+    "levelNote": "4 hours of multiple choice. EC-Council publishes no difficulty rating for its courses, so the weight here is read off what the programme actually is rather than assumed from the vendor. A three-day DevSecOps programme is essentials-level, and the paper is not evidence of pipeline engineering skill. Exam-only score 40, +5 for the training."
+  },
+  {
+    "id": "ecih",
+    "name": "ECIH",
+    "fullName": "EC-Council Certified Incident Handler",
+    "vendor": "EC-Council",
+    "vendorUrl": "https://www.eccouncil.org/train-certify/ec-council-certified-incident-handler-ecih/",
+    "domain": "incident-response",
+    "adjacentDomains": [
+      "soc"
+    ],
+    "level": 45,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": 450,
+      "currency": "USD",
+      "note": "RPS exam voucher from EC-Council Store"
+    },
+    "span": "none",
+    "courseCode": null,
+    "examCode": "212-89",
+    "examFormat": "multiple-choice",
+    "examHours": 3,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": true,
+      "years": 3,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": true,
+      "dod8140": [
+        "531"
+      ]
+    },
+    "status": "active",
+    "lastVerified": "2026-08-04",
+    "sources": [
+      "https://www.eccouncil.org/train-certify/ec-council-certified-incident-handler-ecih/",
+      "https://store.eccouncil.org/product/ecih-ecc-exam-voucher/",
+      "https://www.eccouncil.org/accreditations/"
+    ],
+    "levelNote": "3 hours of multiple choice. Re-based: at 49 it sat within three points of OSIR, an 8-hour hands-on incident-response exam. EC-Council publishes no difficulty rating for its courses, so the weight here is read off what the programme actually is rather than assumed from the vendor. A three-day programme is essentials-level, not intermediate. Exam-only score 40, +5 for the training."
+  },
+  {
     "id": "ccse",
     "name": "CCSE",
     "fullName": "Certified Cloud Security Engineer",
@@ -446,7 +405,7 @@
     "adjacentDomains": [
       "security-engineering"
     ],
-    "level": 47,
+    "level": 43,
     "scoredBy": "Opus 5",
     "cost": {
       "amount": 550,
@@ -458,7 +417,7 @@
     "examCode": "312-40",
     "examFormat": "multiple-choice",
     "examHours": 4,
-    "passingScore": 70,
+    "passingScore": null,
     "prerequisites": [],
     "renewal": {
       "required": true,
@@ -475,7 +434,7 @@
       "https://www.eccouncil.org/train-certify/certified-cloud-security-engineer-course/",
       "https://store.eccouncil.org/product/ccse-ecc-exam-voucher/"
     ],
-    "levelNote": "Score weights the required training as well as the exam: official EC-Council courseware at intermediate level. Exam-only score 42, +5 for the training. level measures the depth a credential demands, not only how the exam checks it. The training bonus is capped for a pure multiple-choice exam: a deep course can lift a knowledge exam, but it remains a knowledge exam."
+    "levelNote": "4 hours of multiple choice on cloud security across three providers. EC-Council publishes no difficulty rating for its courses, so the weight here is read off what the programme actually is rather than assumed from the vendor. Breadth of syllabus is not depth of assessment. Exam-only score 38, +5 for the training."
   },
   {
     "id": "ceh",
@@ -487,7 +446,7 @@
     "adjacentDomains": [
       "security-engineering"
     ],
-    "level": 47,
+    "level": 43,
     "scoredBy": "Opus 5",
     "cost": {
       "amount": 1199,
@@ -525,7 +484,48 @@
       "https://cert.eccouncil.org/accreditations.html",
       "https://www.eccouncil.org/accreditations/"
     ],
-    "levelNote": "Score weights the required training as well as the exam: the official CEH courseware, 20 modules and 221 hands-on labs. Exam-only score 42, +5 for the training. level measures the depth a credential demands, not only how the exam checks it. The training bonus is capped for a pure multiple-choice exam: a deep course can lift a knowledge exam, but it remains a knowledge exam."
+    "levelNote": "125 multiple-choice questions in 4 hours. EC-Council does not publish a fixed cut score for it — their own guidance puts the range at 60–85% depending on exam form — so the assessment guarantee is weaker than a body that publishes one per exam. Re-based below PenTest+, which carries performance-based questions. EC-Council publishes no difficulty rating for its courses, so the weight here is read off what the programme actually is rather than assumed from the vendor. 20 modules and 221 labs is real content and carries intermediate weight, capped at +5 because the exam is pure multiple choice. Exam-only score 38, +5 for the training."
+  },
+  {
+    "id": "ctia",
+    "name": "CTIA",
+    "fullName": "Certified Threat Intelligence Analyst",
+    "vendor": "EC-Council",
+    "vendorUrl": "https://www.eccouncil.org/train-certify/certified-threat-intelligence-analyst-ctia/",
+    "domain": "threat-intel",
+    "adjacentDomains": [
+      "soc"
+    ],
+    "level": 43,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": 450,
+      "currency": "USD",
+      "note": "CTIA v2 RPS exam voucher from EC-Council Store"
+    },
+    "span": "none",
+    "courseCode": null,
+    "examCode": "312-85",
+    "examFormat": "multiple-choice",
+    "examHours": 2,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": true,
+      "years": 3,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-04",
+    "sources": [
+      "https://www.eccouncil.org/train-certify/certified-threat-intelligence-analyst-ctia/",
+      "https://store.eccouncil.org/product/ctia-ecc-exam-center-voucher/"
+    ],
+    "levelNote": "2 hours of multiple choice. Re-based: at 48 it sat exactly level with PORP, a 72-hour practical with a report. EC-Council publishes no difficulty rating for its courses, so the weight here is read off what the programme actually is rather than assumed from the vendor. Three days of instruction is essentials-level. Exam-only score 38, +5 for the training."
   },
   {
     "id": "cnd",
@@ -537,7 +537,7 @@
     "adjacentDomains": [
       "soc"
     ],
-    "level": 45,
+    "level": 41,
     "scoredBy": "Opus 5",
     "cost": {
       "amount": 550,
@@ -572,7 +572,7 @@
       "https://store.eccouncil.org/product/cnd-vue-exam-voucher/",
       "https://www.eccouncil.org/accreditations/"
     ],
-    "levelNote": "Score weights the required training as well as the exam: official EC-Council courseware at intermediate level. Exam-only score 40, +5 for the training. level measures the depth a credential demands, not only how the exam checks it. The training bonus is capped for a pure multiple-choice exam: a deep course can lift a knowledge exam, but it remains a knowledge exam."
+    "levelNote": "4 hours of multiple choice. EC-Council publishes no difficulty rating for its courses, so the weight here is read off what the programme actually is rather than assumed from the vendor. A defensive networking programme at essentials level. Exam-only score 36, +5 for the training."
   },
   {
     "id": "case-net",
@@ -584,7 +584,7 @@
     "adjacentDomains": [
       "security-engineering"
     ],
-    "level": 43,
+    "level": 39,
     "scoredBy": "Opus 5",
     "cost": {
       "amount": 450,
@@ -596,7 +596,7 @@
     "examCode": null,
     "examFormat": "multiple-choice",
     "examHours": 2,
-    "passingScore": 70,
+    "passingScore": null,
     "prerequisites": [
       "Two years .NET development experience"
     ],
@@ -615,7 +615,7 @@
       "https://www.eccouncil.org/train-certify/certified-application-security-engineer-case-net/",
       "https://store.eccouncil.org/product/case-dotnet-exam-voucher/"
     ],
-    "levelNote": "Score weights the required training as well as the exam: official EC-Council courseware at intermediate level. Exam-only score 38, +5 for the training. level measures the depth a credential demands, not only how the exam checks it. The training bonus is capped for a pure multiple-choice exam: a deep course can lift a knowledge exam, but it remains a knowledge exam."
+    "levelNote": "2 hours of multiple choice on secure .NET development. EC-Council publishes no difficulty rating for its courses, so the weight here is read off what the programme actually is rather than assumed from the vendor. Three days of instruction is essentials-level. Exam-only score 34, +5 for the training."
   },
   {
     "id": "case-java",
@@ -627,7 +627,7 @@
     "adjacentDomains": [
       "security-engineering"
     ],
-    "level": 43,
+    "level": 39,
     "scoredBy": "Opus 5",
     "cost": {
       "amount": 450,
@@ -658,7 +658,7 @@
       "https://www.eccouncil.org/train-certify/certified-application-security-engineer-case-java/",
       "https://store.eccouncil.org/product/case-java-exam-voucher/"
     ],
-    "levelNote": "Score weights the required training as well as the exam: official EC-Council courseware at intermediate level. Exam-only score 38, +5 for the training. level measures the depth a credential demands, not only how the exam checks it. The training bonus is capped for a pure multiple-choice exam: a deep course can lift a knowledge exam, but it remains a knowledge exam."
+    "levelNote": "2 hours of multiple choice on secure Java development. EC-Council publishes no difficulty rating for its courses, so the weight here is read off what the programme actually is rather than assumed from the vendor. Three days of instruction is essentials-level. Exam-only score 34, +5 for the training."
   },
   {
     "id": "csa",
@@ -670,7 +670,7 @@
     "adjacentDomains": [
       "threat-intel"
     ],
-    "level": 41,
+    "level": 38,
     "scoredBy": "Opus 5",
     "cost": {
       "amount": 450,
@@ -682,7 +682,7 @@
     "examCode": "312-39",
     "examFormat": "multiple-choice",
     "examHours": 3,
-    "passingScore": 70,
+    "passingScore": null,
     "prerequisites": [],
     "renewal": {
       "required": true,
@@ -700,7 +700,7 @@
       "https://store.eccouncil.org/product/csav2-exam-voucher-rps/",
       "https://cert.eccouncil.org/retired-certification.html"
     ],
-    "levelNote": "Score weights the required training as well as the exam: official EC-Council courseware at intermediate level. Exam-only score 36, +5 for the training. level measures the depth a credential demands, not only how the exam checks it. The training bonus is capped for a pure multiple-choice exam: a deep course can lift a knowledge exam, but it remains a knowledge exam."
+    "levelNote": "3 hours of multiple choice. Re-based: at 41 it outranked BTL1, a 24-hour hands-on defensive exam, and sat close to CCDL1 at 48 hours. EC-Council publishes no difficulty rating for its courses, so the weight here is read off what the programme actually is rather than assumed from the vendor. Exam-only score 33, +5 for the training."
   },
   {
     "id": "eces",
@@ -710,7 +710,7 @@
     "vendorUrl": "https://www.eccouncil.org/train-certify/ec-council-certified-encryption-specialist-eces/",
     "domain": "security-engineering",
     "adjacentDomains": [],
-    "level": 40,
+    "level": 38,
     "scoredBy": "Opus 5",
     "cost": {
       "amount": 249,
@@ -722,7 +722,7 @@
     "examCode": "212-81",
     "examFormat": "multiple-choice",
     "examHours": 2,
-    "passingScore": 70,
+    "passingScore": null,
     "prerequisites": [],
     "renewal": {
       "required": true,
@@ -739,6 +739,6 @@
       "https://www.eccouncil.org/train-certify/ec-council-certified-encryption-specialist-eces/",
       "https://store.eccouncil.org/product/eces-rp-exam-voucher/"
     ],
-    "levelNote": "Score weights the required training as well as the exam: the ECES courseware, an essentials-level cryptography programme. Exam-only score 35, +5 for the training. level measures the depth a credential demands, not only how the exam checks it. The training bonus is capped for a pure multiple-choice exam: a deep course can lift a knowledge exam, but it remains a knowledge exam."
+    "levelNote": "2 hours of multiple choice on applied cryptography. EC-Council publishes no difficulty rating for its courses, so the weight here is read off what the programme actually is rather than assumed from the vendor. Exam-only score 33, +5 for the training."
   }
 ]
