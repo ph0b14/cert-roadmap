@@ -4,7 +4,7 @@
     "span": "none",
     "scoredBy": "Opus 5",
     "levelNote": "72 hours of active lab time spread over eight days, gated on holding CRTO.",
-    "courseCode": null,
+    "courseCode": "RTO II",
     "examCode": null,
     "examHours": 192,
     "passingScore": null,
@@ -21,12 +21,12 @@
       "dod8140": []
     },
     "status": "active",
-    "lastVerified": "2026-08-03",
+    "lastVerified": "2026-08-04",
     "id": "zps-crtl",
     "name": "CRTL",
     "fullName": "Zero-Point Certified Red Team Lead",
     "vendor": "Zero-Point Security",
-    "vendorUrl": "https://www.zeropointsecurity.co.uk/red-team-lead/wt3ky",
+    "vendorUrl": "https://training.zeropointsecurity.co.uk/courses/red-team-ops-ii",
     "domain": "pentest",
     "level": 75,
     "examFormat": "practical",
@@ -36,7 +36,7 @@
       "note": "Course and exam sold together."
     },
     "sources": [
-      "https://www.zeropointsecurity.co.uk/"
+      "https://training.zeropointsecurity.co.uk/courses/red-team-ops-ii"
     ]
   },
   {
@@ -44,7 +44,7 @@
     "span": "none",
     "scoredBy": "Opus 5",
     "levelNote": "48 hours of lab time across four days, six of eight flags to pass, behind a 20-hour course.",
-    "courseCode": null,
+    "courseCode": "RTO",
     "examCode": null,
     "examHours": 96,
     "passingScore": null,
@@ -59,12 +59,12 @@
       "dod8140": []
     },
     "status": "active",
-    "lastVerified": "2026-08-03",
+    "lastVerified": "2026-08-04",
     "id": "zps-crto",
     "name": "CRTO",
     "fullName": "Zero-Point Certified Red Team Operator",
     "vendor": "Zero-Point Security",
-    "vendorUrl": "https://www.zeropointsecurity.co.uk/red-team-ops/kkbtl",
+    "vendorUrl": "https://training.zeropointsecurity.co.uk/courses/red-team-ops",
     "domain": "pentest",
     "level": 62,
     "examFormat": "practical",
@@ -74,7 +74,7 @@
       "note": "Course and exam bundle."
     },
     "sources": [
-      "https://www.zeropointsecurity.co.uk/"
+      "https://training.zeropointsecurity.co.uk/courses/red-team-ops"
     ]
   }
 ]

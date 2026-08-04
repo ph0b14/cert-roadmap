@@ -3,11 +3,11 @@
     "adjacentDomains": [],
     "span": "none",
     "scoredBy": "Opus 5",
-    "levelNote": "No training weight: this body sells the exam on its own and its courseware is optional. Level reflects the exam alone.",
+    "levelNote": "No training weight: this body sells the exam on its own and its courseware is optional. Level reflects the exam alone. Exam is 60 questions in 90 minutes.",
     "courseCode": null,
     "examCode": null,
     "examFormat": "multiple-choice",
-    "examHours": null,
+    "examHours": 1.5,
     "passingScore": null,
     "prerequisites": [],
     "renewal": {
@@ -20,12 +20,12 @@
       "dod8140": []
     },
     "status": "active",
-    "lastVerified": "2026-08-03",
+    "lastVerified": "2026-08-04",
     "id": "cs-ccfh",
     "name": "CCFH",
     "fullName": "CrowdStrike Certified Falcon Hunter",
     "vendor": "CrowdStrike",
-    "vendorUrl": "https://www.crowdstrike.com/en-us/services/university/",
+    "vendorUrl": "https://www.crowdstrike.com/en-us/crowdstrike-university/crowdstrike-falcon-certification-program/",
     "domain": "threat-intel",
     "level": 50,
     "cost": {
@@ -34,18 +34,18 @@
       "note": "Priced through CrowdStrike University."
     },
     "sources": [
-      "https://www.crowdstrike.com/en-us/services/university/"
+      "https://www.crowdstrike.com/en-us/crowdstrike-university/crowdstrike-falcon-certification-program/"
     ]
   },
   {
     "adjacentDomains": [],
     "span": "none",
     "scoredBy": "Opus 5",
-    "levelNote": "No training weight: this body sells the exam on its own and its courseware is optional. Level reflects the exam alone.",
+    "levelNote": "No training weight: this body sells the exam on its own and its courseware is optional. Level reflects the exam alone. Exam is 60 questions in 90 minutes.",
     "courseCode": null,
     "examCode": null,
     "examFormat": "multiple-choice",
-    "examHours": null,
+    "examHours": 1.5,
     "passingScore": null,
     "prerequisites": [],
     "renewal": {
@@ -58,12 +58,12 @@
       "dod8140": []
     },
     "status": "active",
-    "lastVerified": "2026-08-03",
+    "lastVerified": "2026-08-04",
     "id": "cs-ccse",
     "name": "CCSE",
     "fullName": "CrowdStrike Certified SIEM Engineer",
     "vendor": "CrowdStrike",
-    "vendorUrl": "https://www.crowdstrike.com/en-us/services/university/",
+    "vendorUrl": "https://www.crowdstrike.com/en-us/crowdstrike-university/crowdstrike-falcon-certification-program/",
     "domain": "soc",
     "level": 50,
     "cost": {
@@ -72,18 +72,18 @@
       "note": "Priced through CrowdStrike University."
     },
     "sources": [
-      "https://www.crowdstrike.com/en-us/services/university/"
+      "https://www.crowdstrike.com/en-us/crowdstrike-university/crowdstrike-falcon-certification-program/"
     ]
   },
   {
     "adjacentDomains": [],
     "span": "none",
     "scoredBy": "Opus 5",
-    "levelNote": "No training weight: this body sells the exam on its own and its courseware is optional. Level reflects the exam alone.",
+    "levelNote": "No training weight: this body sells the exam on its own and its courseware is optional. Level reflects the exam alone. Exam is 60 questions in 90 minutes.",
     "courseCode": null,
     "examCode": null,
     "examFormat": "multiple-choice",
-    "examHours": null,
+    "examHours": 1.5,
     "passingScore": null,
     "prerequisites": [],
     "renewal": {
@@ -96,12 +96,12 @@
       "dod8140": []
     },
     "status": "active",
-    "lastVerified": "2026-08-03",
+    "lastVerified": "2026-08-04",
     "id": "cs-cccs",
     "name": "CCCS",
     "fullName": "CrowdStrike Certified Falcon Cloud Specialist",
     "vendor": "CrowdStrike",
-    "vendorUrl": "https://www.crowdstrike.com/en-us/services/university/",
+    "vendorUrl": "https://www.crowdstrike.com/en-us/crowdstrike-university/crowdstrike-falcon-certification-program/",
     "domain": "cloud",
     "level": 45,
     "cost": {
@@ -110,18 +110,18 @@
       "note": "Priced through CrowdStrike University."
     },
     "sources": [
-      "https://www.crowdstrike.com/en-us/services/university/"
+      "https://www.crowdstrike.com/en-us/crowdstrike-university/crowdstrike-falcon-certification-program/"
     ]
   },
   {
     "adjacentDomains": [],
     "span": "none",
     "scoredBy": "Opus 5",
-    "levelNote": "No training weight: this body sells the exam on its own and its courseware is optional. Level reflects the exam alone.",
+    "levelNote": "No training weight: this body sells the exam on its own and its courseware is optional. Level reflects the exam alone. Exam is 60 questions in 90 minutes.",
     "courseCode": null,
     "examCode": null,
     "examFormat": "multiple-choice",
-    "examHours": null,
+    "examHours": 1.5,
     "passingScore": null,
     "prerequisites": [],
     "renewal": {
@@ -134,12 +134,12 @@
       "dod8140": []
     },
     "status": "active",
-    "lastVerified": "2026-08-03",
+    "lastVerified": "2026-08-04",
     "id": "cs-ccfr",
     "name": "CCFR",
     "fullName": "CrowdStrike Certified Falcon Responder",
     "vendor": "CrowdStrike",
-    "vendorUrl": "https://www.crowdstrike.com/en-us/services/university/",
+    "vendorUrl": "https://www.crowdstrike.com/en-us/crowdstrike-university/crowdstrike-falcon-certification-program/",
     "domain": "incident-response",
     "level": 45,
     "cost": {
@@ -148,18 +148,18 @@
       "note": "Priced through CrowdStrike University."
     },
     "sources": [
-      "https://www.crowdstrike.com/en-us/services/university/"
+      "https://www.crowdstrike.com/en-us/crowdstrike-university/crowdstrike-falcon-certification-program/"
     ]
   },
   {
     "adjacentDomains": [],
     "span": "none",
     "scoredBy": "Opus 5",
-    "levelNote": "No training weight: this body sells the exam on its own and its courseware is optional. Level reflects the exam alone.",
+    "levelNote": "No training weight: this body sells the exam on its own and its courseware is optional. Level reflects the exam alone. Exam is 60 questions in 90 minutes.",
     "courseCode": null,
     "examCode": null,
     "examFormat": "multiple-choice",
-    "examHours": null,
+    "examHours": 1.5,
     "passingScore": null,
     "prerequisites": [],
     "renewal": {
@@ -172,12 +172,12 @@
       "dod8140": []
     },
     "status": "active",
-    "lastVerified": "2026-08-03",
+    "lastVerified": "2026-08-04",
     "id": "cs-ccis",
     "name": "CCIS",
     "fullName": "CrowdStrike Certified Falcon Identity Specialist",
     "vendor": "CrowdStrike",
-    "vendorUrl": "https://www.crowdstrike.com/en-us/services/university/",
+    "vendorUrl": "https://www.crowdstrike.com/en-us/crowdstrike-university/crowdstrike-falcon-certification-program/",
     "domain": "security-engineering",
     "level": 42,
     "cost": {
@@ -186,18 +186,18 @@
       "note": "Priced through CrowdStrike University."
     },
     "sources": [
-      "https://www.crowdstrike.com/en-us/services/university/"
+      "https://www.crowdstrike.com/en-us/crowdstrike-university/crowdstrike-falcon-certification-program/"
     ]
   },
   {
     "adjacentDomains": [],
     "span": "none",
     "scoredBy": "Opus 5",
-    "levelNote": "No training weight: this body sells the exam on its own and its courseware is optional. Level reflects the exam alone.",
+    "levelNote": "No training weight: this body sells the exam on its own and its courseware is optional. Level reflects the exam alone. Exam is 60 questions in 90 minutes.",
     "courseCode": null,
     "examCode": null,
     "examFormat": "multiple-choice",
-    "examHours": null,
+    "examHours": 1.5,
     "passingScore": null,
     "prerequisites": [],
     "renewal": {
@@ -210,12 +210,12 @@
       "dod8140": []
     },
     "status": "active",
-    "lastVerified": "2026-08-03",
+    "lastVerified": "2026-08-04",
     "id": "cs-ccsa",
     "name": "CCSA",
     "fullName": "CrowdStrike Certified SIEM Analyst",
     "vendor": "CrowdStrike",
-    "vendorUrl": "https://www.crowdstrike.com/en-us/services/university/",
+    "vendorUrl": "https://www.crowdstrike.com/en-us/crowdstrike-university/crowdstrike-falcon-certification-program/",
     "domain": "soc",
     "level": 42,
     "cost": {
@@ -224,18 +224,18 @@
       "note": "Priced through CrowdStrike University."
     },
     "sources": [
-      "https://www.crowdstrike.com/en-us/services/university/"
+      "https://www.crowdstrike.com/en-us/crowdstrike-university/crowdstrike-falcon-certification-program/"
     ]
   },
   {
     "adjacentDomains": [],
     "span": "none",
     "scoredBy": "Opus 5",
-    "levelNote": "No training weight: this body sells the exam on its own and its courseware is optional. Level reflects the exam alone.",
+    "levelNote": "No training weight: this body sells the exam on its own and its courseware is optional. Level reflects the exam alone. Exam is 60 questions in 90 minutes.",
     "courseCode": null,
     "examCode": null,
     "examFormat": "multiple-choice",
-    "examHours": null,
+    "examHours": 1.5,
     "passingScore": null,
     "prerequisites": [],
     "renewal": {
@@ -248,12 +248,12 @@
       "dod8140": []
     },
     "status": "active",
-    "lastVerified": "2026-08-03",
+    "lastVerified": "2026-08-04",
     "id": "cs-ccfa",
     "name": "CCFA",
     "fullName": "CrowdStrike Certified Falcon Administrator",
     "vendor": "CrowdStrike",
-    "vendorUrl": "https://www.crowdstrike.com/en-us/services/university/",
+    "vendorUrl": "https://www.crowdstrike.com/en-us/crowdstrike-university/crowdstrike-falcon-certification-program/",
     "domain": "security-engineering",
     "level": 38,
     "cost": {
@@ -262,7 +262,7 @@
       "note": "Priced through CrowdStrike University."
     },
     "sources": [
-      "https://www.crowdstrike.com/en-us/services/university/"
+      "https://www.crowdstrike.com/en-us/crowdstrike-university/crowdstrike-falcon-certification-program/"
     ]
   }
 ]
