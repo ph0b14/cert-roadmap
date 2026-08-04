@@ -1,0 +1,42 @@
+[
+  {
+    "id": "portswigger-bscp",
+    "name": "BSCP",
+    "fullName": "Burp Suite Certified Practitioner",
+    "vendor": "PortSwigger",
+    "vendorUrl": "https://portswigger.net/web-security/certification",
+    "domain": "webapp",
+    "adjacentDomains": [],
+    "span": "none",
+    "level": 65,
+    "scoredBy": "Opus 5",
+    "levelNote": "Four-hour proctored practical against two applications, each needing a foothold, privilege escalation to admin and data exfiltration — all six stages must be completed to pass, which is an unusually unforgiving bar for a short exam. Tool-coupled rather than vendor-neutral: it requires a Burp Suite Professional licence, though what it tests is web security skill rather than product administration. Score weights the required training as well as the exam: the Web Security Academy is free, self-paced and very large, comparable in substance to an intermediate course. Exam-only score 58, +7 for the training.",
+    "cost": {
+      "amount": 99,
+      "currency": "USD",
+      "note": "Per attempt. A Burp Suite Professional subscription is required to sit it, which is a separate annual cost."
+    },
+    "courseCode": null,
+    "examCode": null,
+    "examFormat": "practical",
+    "examHours": 4,
+    "passingScore": 100,
+    "prerequisites": [
+      "Active Burp Suite Professional subscription"
+    ],
+    "renewal": {
+      "required": true,
+      "years": 5,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-04",
+    "sources": [
+      "https://portswigger.net/web-security/certification"
+    ]
+  }
+]
