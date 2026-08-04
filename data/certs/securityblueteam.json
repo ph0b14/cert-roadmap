@@ -94,9 +94,10 @@
     "vendorUrl": "https://www.centri.org/certifications/blue-team-level-1",
     "domain": "soc",
     "adjacentDomains": [
-      "incident-response"
+      "incident-response",
+      "forensics"
     ],
-    "level": 49,
+    "level": 47,
     "scoredBy": "Opus 5",
     "cost": {
       "amount": 531,
@@ -125,7 +126,7 @@
       "https://www.centri.org/certifications/blue-team-level-1",
       "https://www.centri.org/"
     ],
-    "levelNote": "Re-based. The old note called this \"a Centri entry-level course with hands-on labs\" and weighted it at entry tier — a blanket reading that did not survive checking what the programme is: 330+ lessons and 23 browser labs with 100 hours of access, across six domains (security fundamentals, phishing analysis, threat intelligence, digital forensics, SIEM and incident response). That is intermediate weight. The exam is a 24-hour hands-on investigation of a live compromised corporate network answering 20 evidence-derived tasks at a 70% cut, which is a real assessment rather than a generous window on an easy one — it now scores above every multiple-choice credential in its column and above the narrower 24-hour practicals beside it. Held just under 50: it is still a first defensive certification, and CDSA and the GIAC blue-team exams ask materially more. Exam-only score 40, +9 for the training."
+    "levelNote": "Re-based twice. The original note called this \"a Centri entry-level course with hands-on labs\" and weighted it at entry tier, which did not survive checking the programme: 330+ lessons and 23 browser labs with 100 hours of access across six domains — security fundamentals, phishing analysis, threat intelligence, digital forensics, SIEM and incident response. That correction then overshot to 49, putting it above CCDL1, which examines a broader curriculum over twice the window. The exam is a 24-hour hands-on investigation of a live compromised corporate network answering 20 evidence-derived tasks at a 70% cut: a real assessment, and comfortably above the multiple-choice papers in its column, but the first step in the series rather than the top of it. Exam-only score 38, +9 for the training."
   },
   {
     "id": "cjde",

@@ -44,7 +44,8 @@
   },
   {
     "adjacentDomains": [
-      "incident-response"
+      "incident-response",
+      "forensics"
     ],
     "span": "none",
     "scoredBy": "Opus 5",
@@ -65,14 +66,14 @@
       "dod8140": []
     },
     "status": "active",
-    "lastVerified": "2026-08-03",
+    "lastVerified": "2026-08-04",
     "id": "cd-ccdl1",
     "name": "CCDL1",
     "fullName": "Certified CyberDefender Level 1",
     "vendor": "CyberDefenders",
     "vendorUrl": "https://cyberdefenders.org/certifications/certified-cyberdefender-level1/",
     "domain": "soc",
-    "level": 45,
+    "level": 52,
     "examFormat": "practical",
     "cost": {
       "amount": null,
@@ -82,6 +83,6 @@
     "sources": [
       "https://cyberdefenders.org/certifications/certified-cyberdefender-level1/"
     ],
-    "levelNote": "Score weights the required training as well as the exam: the CCDL1 course, an entry-level SOC programme. Exam-only score 42, +3 for the training. level measures the depth a credential demands, not only how the exam checks it."
+    "levelNote": "Re-based. The old note called this \"an entry-level SOC programme\" and gave it a token +3, the same blanket vendor reading that held BTL1 down. The curriculum is six modules — SOC operations, network and endpoint security, SIEM operations, email security, digital forensics and incident response, and cloud forensics — which is intermediate weight and broader than its own Level 1 branding suggests. The exam runs 48 hours at a 70% cut and answers require the analysis to have actually been done rather than recognised. Scored above BTL1: twice the window, a wider curriculum, and cloud forensics that BTL1 does not reach. Exam-only score 43, +9 for the training."
   }
 ]
