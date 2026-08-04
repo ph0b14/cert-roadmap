@@ -87,6 +87,47 @@
     "levelNote": "Score weights the required training as well as the exam: the CSOM course, an intermediate security operations programme. Exam-only score 50, +7 for the training. level measures the depth a credential demands, not only how the exam checks it."
   },
   {
+    "id": "btl1",
+    "name": "BTL1",
+    "fullName": "Blue Team Level 1",
+    "vendor": "Centri",
+    "vendorUrl": "https://www.centri.org/certifications/blue-team-level-1",
+    "domain": "soc",
+    "adjacentDomains": [
+      "incident-response"
+    ],
+    "level": 49,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": 531,
+      "currency": "USD",
+      "note": "£399 GBP; converted at ~1.33 GBP/USD (Aug 2026); includes course, labs, and 2 exam attempts"
+    },
+    "span": "none",
+    "courseCode": null,
+    "examCode": null,
+    "examFormat": "practical",
+    "examHours": 24,
+    "passingScore": 70,
+    "prerequisites": [],
+    "renewal": {
+      "required": false,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-04",
+    "sources": [
+      "https://www.centri.org/certifications/blue-team-level-1",
+      "https://www.centri.org/"
+    ],
+    "levelNote": "Re-based. The old note called this \"a Centri entry-level course with hands-on labs\" and weighted it at entry tier — a blanket reading that did not survive checking what the programme is: 330+ lessons and 23 browser labs with 100 hours of access, across six domains (security fundamentals, phishing analysis, threat intelligence, digital forensics, SIEM and incident response). That is intermediate weight. The exam is a 24-hour hands-on investigation of a live compromised corporate network answering 20 evidence-derived tasks at a 70% cut, which is a real assessment rather than a generous window on an easy one — it now scores above every multiple-choice credential in its column and above the narrower 24-hour practicals beside it. Held just under 50: it is still a first defensive certification, and CDSA and the GIAC blue-team exams ask materially more. Exam-only score 40, +9 for the training."
+  },
+  {
     "id": "cjde",
     "name": "CJDE",
     "fullName": "Certified Junior Detection Engineer",
@@ -126,46 +167,5 @@
       "https://www.centri.org/"
     ],
     "levelNote": "Score weights the required training as well as the exam: a Centri entry-level course with hands-on labs. Exam-only score 36, +6 for the training. level measures the depth a credential demands, not only how the exam checks it."
-  },
-  {
-    "id": "btl1",
-    "name": "BTL1",
-    "fullName": "Blue Team Level 1",
-    "vendor": "Centri",
-    "vendorUrl": "https://www.centri.org/certifications/blue-team-level-1",
-    "domain": "soc",
-    "adjacentDomains": [
-      "incident-response"
-    ],
-    "level": 39,
-    "scoredBy": "Opus 5",
-    "cost": {
-      "amount": 531,
-      "currency": "USD",
-      "note": "£399 GBP; converted at ~1.33 GBP/USD (Aug 2026); includes course, labs, and 2 exam attempts"
-    },
-    "span": "none",
-    "courseCode": null,
-    "examCode": null,
-    "examFormat": "practical",
-    "examHours": 24,
-    "passingScore": null,
-    "prerequisites": [],
-    "renewal": {
-      "required": false,
-      "years": null,
-      "ceCredits": null
-    },
-    "accreditation": {
-      "ansiIso17024": false,
-      "dod8140": []
-    },
-    "status": "active",
-    "lastVerified": "2026-08-03",
-    "sources": [
-      "https://www.centri.org/certifications/blue-team-level-1",
-      "https://www.centri.org/"
-    ],
-    "levelNote": "Score weights the required training as well as the exam: a Centri entry-level course with hands-on labs. Exam-only score 33, +6 for the training. level measures the depth a credential demands, not only how the exam checks it."
   }
 ]

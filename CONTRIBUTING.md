@@ -182,8 +182,13 @@ Rules that follow from the anchors:
   forensics exams. It is scored at 64, above the ceiling, and carries a `levelNote` saying so.
   **Any score that breaks a rule on purpose must carry a `levelNote`** — otherwise the next
   person applying the rules mechanically will quietly undo it.
-- **Duration is not difficulty.** A 48-hour window on a beginner lab exam is generous scheduling,
-  not depth. SEC1, BTL1 and PT1 all run for a day or more and are correctly scored under 50.
+- **Duration is not difficulty — but ask whether the window is used.** A 48-hour window on a
+  beginner lab exam is generous scheduling, and SEC1 and PT1 are correctly scored under 50 despite
+  running for a day or more. The test is what the time is *spent on*. BTL1 was held at 39 by a
+  blunt reading of this rule, which left a 24-hour investigation of a live compromised network
+  scoring below two-hour multiple-choice papers in its own column — the exact inversion the rule
+  above it forbids. Twenty evidence-derived tasks against a real environment is work, not
+  scheduling. Cite what the candidate has to produce, not the length of the booking.
 - **Prestige is not difficulty**, in both directions. A widely-recognised HR-filter cert may still
   be an easy exam — and a body whose standing has fallen does not thereby get a lower score.
   Reputation is not an input. Re-read the assessment and the training; if they have not changed,
