@@ -45,10 +45,14 @@ const CELL_W = (COL_W - COL_PAD * 2 - SLOT_GAP * (SLOTS - 1)) / SLOTS
 const CELL_H = 26
 const ROW_GAP = 4
 const ROW_PITCH = CELL_H + ROW_GAP
-/** Rows a tier occupies even when nearly empty, so its label always has room. */
-const MIN_TIER_ROWS = 2
-/** Blank rows between tiers, so the dashed boundary reads as a separation. */
-const TIER_GAP = 1
+/**
+ * One row per level point, across the whole axis. This is what makes vertical
+ * distance mean the same thing everywhere: a five-point gap is five rows in
+ * Expert and five rows in Associate.
+ */
+const ROWS_PER_POINT = 1
+/** A little headroom above the highest score and below the lowest. */
+const AXIS_PAD = 2
 /** Left gutter for the tier axis labels. Must clear the longest ("Professional"). */
 const GUTTER = 98
 
@@ -109,16 +113,18 @@ function spanFor(cert: Cert, colIndex: Map<string, number>, columns: number) {
 }
 
 /**
- * Lay the chart out tier by tier, giving each tier exactly the height its
- * densest column needs.
+ * Lay the chart out on a single proportional axis: one row per level point,
+ * top to bottom.
  *
- * The obvious alternative — map level linearly onto a fixed row grid — is what
- * this replaces, and it was wrong: Professional spans 45–69, a quarter of the
- * axis, but holds well over half the dataset. Its certs overflowed downward and
- * rendered below the Associate boundary, putting credentials in a tier they do
- * not belong to. Sizing each band to its own population keeps every cert inside
- * its tier. The trade is that vertical distance is no longer proportional to
- * level; within a tier, certs are still ordered by level, highest first.
+ * This replaces a per-tier layout that sized each band to its own population.
+ * That kept every cert inside its tier, but gave each band a different
+ * pixels-per-point scale — so GSOA (75) and CCTIM (70) landed on the same row
+ * while eCTHP (70) and GCTI (69) sat two rows apart. Vertical distance has to
+ * mean the same thing everywhere, so the scale is now global.
+ *
+ * Collisions nudge to the nearest free row but are clamped inside the cert's
+ * own tier, so a crowded band still cannot push a credential across a boundary
+ * into a tier it does not belong to.
  */
 function layoutGrid(
   certs: Cert[],
@@ -126,93 +132,82 @@ function layoutGrid(
   columns: number,
   tiers: Tier[],
 ) {
-  // Render highest tier first — the chart reads top-down from Master.
-  const descending = [...tiers].sort((a, b) => b.max - a.max)
-  const buckets = new Map<string, Cert[]>(descending.map((t) => [t.id, []]))
-  for (const cert of certs) {
-    const tier =
-      descending.find((t) => cert.level >= t.min && cert.level <= t.max) ??
-      descending[descending.length - 1]
-    buckets.get(tier.id)!.push(cert)
+  const levels = certs.map((c) => c.level)
+  const top = Math.min(100, Math.max(...levels, 0) + AXIS_PAD)
+  const bottom = Math.max(0, Math.min(...levels, 100) - AXIS_PAD)
+  const rowOf = (level: number) => Math.round((top - level) * ROWS_PER_POINT)
+  const totalRows = Math.max(1, rowOf(bottom) + 1)
+
+  const occupied: boolean[][][] = Array.from({ length: columns }, () => [])
+  const rowAt = (col: number, row: number) => {
+    while (occupied[col].length <= row) occupied[col].push(new Array(SLOTS).fill(false))
+    return occupied[col][row]
   }
+  const fits = (start: number, width: number, row: number) =>
+    row >= 0 &&
+    (width > 1
+      ? Array.from({ length: width }, (_, k) => rowAt(start + k, row)).every(
+          (r) => !r.some(Boolean),
+        )
+      : rowAt(start, row).indexOf(false) !== -1)
+
+  const tierFor = (level: number) =>
+    tiers.find((t) => level >= t.min && level <= t.max) ?? tiers[0]
 
   const placements: Placement[] = []
-  const bands: Band[] = []
-  let offset = 0
+  const ordered = [...certs].sort((a, b) => b.level - a.level || a.name.localeCompare(b.name))
 
-  for (const tier of descending) {
-    // Occupancy restarts per tier, so a crowded tier cannot push certs into
-    // the next one down.
-    // [column][row][slot]
-    const occupied: boolean[][][] = Array.from({ length: columns }, () => [])
-    const rowAt = (col: number, row: number) => {
-      while (occupied[col].length <= row) occupied[col].push(new Array(SLOTS).fill(false))
-      return occupied[col][row]
-    }
+  for (const cert of ordered) {
+    const where = spanFor(cert, colIndex, columns)
+    if (!where) continue
+    const { start, span: width } = where
 
-    const ordered = buckets
-      .get(tier.id)!
-      .sort((a, b) => b.level - a.level || a.name.localeCompare(b.name))
+    const tier = tierFor(cert.level)
+    // Never leave the tier: clamp the search to the rows this tier owns.
+    const hi = rowOf(Math.min(tier.max, top))
+    const lo = rowOf(Math.max(tier.min, bottom))
+    const ideal = rowOf(cert.level)
 
-    // Height the band needs at two cells per row, before any spreading.
-    const perColumn = new Map<string, number>()
-    for (const c of ordered) perColumn.set(c.domain, (perColumn.get(c.domain) ?? 0) + 1)
-    const capacityRows = Math.ceil(Math.max(0, ...perColumn.values()) / SLOTS)
-    const tierRows = Math.max(capacityRows, MIN_TIER_ROWS)
-
-    const span = tier.max - tier.min || 1
-    /** Where a level wants to sit inside its own band: 69 near the top of
-     *  Professional, 45 near the bottom, rather than everything at the top. */
-    const idealRow = (level: number) =>
-      Math.round(((tier.max - level) / span) * (tierRows - 1))
-
-    const fits = (start: number, width: number, row: number) =>
-      width > 1
-        ? Array.from({ length: width }, (_, k) => rowAt(start + k, row)).every(
-            (r) => !r.some(Boolean),
-          )
-        : rowAt(start, row).indexOf(false) !== -1
-
-    let maxRow = -1
-    for (const cert of ordered) {
-      const where = spanFor(cert, colIndex, columns)
-      if (!where) continue
-      const { start, span: width } = where
-
-      // Search outward from the ideal row so a taken row nudges a cert to the
-      // nearest free one either side, instead of always pushing it downward
-      // and collapsing the band against its top edge.
-      const ideal = idealRow(cert.level)
-      let row = -1
-      for (let d = 0; d < tierRows * 2 + 8 && row === -1; d++) {
-        for (const cand of d === 0 ? [ideal] : [ideal + d, ideal - d]) {
-          if (cand < 0) continue
-          if (fits(start, width, cand)) {
-            row = cand
-            break
-          }
+    let row = -1
+    for (let d = 0; d <= totalRows && row === -1; d++) {
+      for (const cand of d === 0 ? [ideal] : [ideal + d, ideal - d]) {
+        if (cand < hi || cand > lo) continue
+        if (fits(start, width, cand)) {
+          row = cand
+          break
         }
       }
-      if (row === -1) row = tierRows
-
-      let slot = 0
-      if (width > 1) {
-        for (let k = 0; k < width; k++) rowAt(start + k, row).fill(true)
-      } else {
-        slot = rowAt(start, row).indexOf(false)
-        rowAt(start, row)[slot] = true
-      }
-
-      maxRow = Math.max(maxRow, row)
-      placements.push({ cert, row: offset + row, slot, start, span: width })
+    }
+    // Only if the whole tier is full: fall back to anywhere at or below ideal.
+    if (row === -1) {
+      row = ideal
+      while (!fits(start, width, row)) row++
     }
 
-    const rows = Math.max(maxRow + 1, tierRows, MIN_TIER_ROWS)
-    bands.push({ ...tier, startRow: offset, rows })
-    offset += rows + TIER_GAP
+    let slot = 0
+    if (width > 1) {
+      for (let k = 0; k < width; k++) rowAt(start + k, row).fill(true)
+    } else {
+      slot = rowAt(start, row).indexOf(false)
+      rowAt(start, row)[slot] = true
+    }
+    placements.push({ cert, row, slot, start, span: width })
   }
 
-  return { placements, bands, rows: offset }
+  const maxRow = placements.reduce((m, p) => Math.max(m, p.row), 0)
+  const rows = Math.max(totalRows, maxRow + 1)
+
+  // Bands are read off the same scale, so the dashed boundaries land exactly
+  // where the tier's score range does.
+  const bands: Band[] = [...tiers]
+    .sort((a, b) => b.max - a.max)
+    .map((t) => {
+      const startRow = rowOf(Math.min(t.max, top))
+      const endRow = rowOf(Math.max(t.min, bottom))
+      return { ...t, startRow, rows: Math.max(1, endRow - startRow + 1) }
+    })
+
+  return { placements, bands, rows }
 }
 
 export default function RoadmapChart({ certs, domains, tiers }: Props) {

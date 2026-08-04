@@ -174,7 +174,7 @@
       "dod8140": []
     },
     "status": "active",
-    "lastVerified": "2026-08-03",
+    "lastVerified": "2026-08-04",
     "cost": {
       "amount": null,
       "currency": "USD",
@@ -185,14 +185,14 @@
     "fullName": "INE Certified Threat Hunting Professional",
     "vendorUrl": "https://ine.com/security/certifications/ecthp-certification",
     "domain": "threat-intel",
-    "level": 70,
+    "level": 64,
     "scoredBy": "Opus 5",
     "examFormat": "practical",
     "sources": [
       "https://ine.com/security/certifications/ecthp-certification",
       "https://ine.com/security"
     ],
-    "levelNote": "Score weights the required training as well as the exam: an INE expert-level learning path. Exam-only score 60, +10 for the training. level measures the depth a credential demands, not only how the exam checks it."
+    "levelNote": "Re-based. INE labels this path 'expert', but its training is a self-paced video path — not comparable to FOR578 behind GCTI, which SANS rates Intermediate and delivers over six days with 36 CPEs. Treating a vendor's own label as the whole story had this outranking GCTI, which does not reflect either exam or training. Exam-only score 57, +7 for the training."
   },
   {
     "vendor": "INE Security",
