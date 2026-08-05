@@ -817,47 +817,6 @@
     "levelNote": "Score weights the required training as well as the exam. SEC560 is rated Intermediate by SANS. Exam-only score 60, +7 for the course. level measures the depth a credential demands, not only how the exam checks it."
   },
   {
-    "id": "giac-gasae",
-    "name": "GASAE",
-    "fullName": "GIAC AI Security Automation Engineer",
-    "vendor": "GIAC",
-    "vendorUrl": "https://www.giac.org/certifications/ai-security-automation-engineer-gasae",
-    "domain": "ai-security",
-    "adjacentDomains": [
-      "appsec"
-    ],
-    "level": 65,
-    "scoredBy": "Opus 5",
-    "cost": {
-      "amount": 999,
-      "currency": "USD",
-      "note": "Certification attempt only. Bundled SANS training costs several thousand more."
-    },
-    "span": "none",
-    "courseCode": "SEC598",
-    "examCode": null,
-    "examFormat": "hybrid",
-    "examHours": 3,
-    "passingScore": 70,
-    "prerequisites": [],
-    "renewal": {
-      "required": true,
-      "years": 4,
-      "ceCredits": 36
-    },
-    "accreditation": {
-      "ansiIso17024": false,
-      "dod8140": []
-    },
-    "status": "active",
-    "lastVerified": "2026-08-03",
-    "sources": [
-      "https://www.giac.org/certifications/",
-      "https://www.giac.org/pricing"
-    ],
-    "levelNote": "AI security is roughly three years old as a discipline and its credentials have not yet accumulated the depth of the established expert-tier certs. The whole column was re-rated together on that basis. SEC598 is a 6-day, 36-CPE SANS course and the exam is 82 questions over 3 hours with CyberLive — the most substantial of GIAC's AI credentials."
-  },
-  {
     "id": "giac-gmon",
     "name": "GMON",
     "fullName": "GIAC Continuous Monitoring",
@@ -1059,6 +1018,47 @@
     "levelNote": "Score weights the required training as well as the exam. SEC504 is rated Essentials by SANS. Exam-only score 57, +5 for the course. level measures the depth a credential demands, not only how the exam checks it."
   },
   {
+    "id": "giac-gaips",
+    "name": "GAIPS",
+    "fullName": "GIAC AI Platform Security",
+    "vendor": "GIAC",
+    "vendorUrl": "https://www.giac.org/certifications/ai-security-platform-security-gaips",
+    "domain": "ai-security",
+    "adjacentDomains": [
+      "cloud"
+    ],
+    "level": 58,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": 999,
+      "currency": "USD",
+      "note": "Certification attempt only. Bundled SANS training costs several thousand more."
+    },
+    "span": "none",
+    "courseCode": "SEC545",
+    "examCode": null,
+    "examFormat": "hybrid",
+    "examHours": 2,
+    "passingScore": 65,
+    "prerequisites": [],
+    "renewal": {
+      "required": true,
+      "years": 4,
+      "ceCredits": 36
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-05",
+    "sources": [
+      "https://www.giac.org/certifications/",
+      "https://www.giac.org/pricing"
+    ],
+    "levelNote": "CyberLive: 54 performance-based questions in 2 hours at a 65% cut, in a live VM rather than on paper. Raised above GIAC's multiple-choice band accordingly, on SEC545, a five-day GenAI and LLM application security programme. AI security is a young discipline and the column is rated together on that basis, so even a hands-on AI credential sits below the established practical exams."
+  },
+  {
     "id": "giac-gcad",
     "name": "GCAD",
     "fullName": "GIAC Cloud Security Architecture and Design",
@@ -1224,6 +1224,47 @@
     "levelNote": "Score weights the required training as well as the exam. ICS410 is rated Essentials by SANS. Exam-only score 52, +5 for the course. level measures the depth a credential demands, not only how the exam checks it."
   },
   {
+    "id": "giac-gaipt",
+    "name": "GAIPT",
+    "fullName": "GIAC AI Penetration Tester",
+    "vendor": "GIAC",
+    "vendorUrl": "https://www.giac.org/certifications/offensive-ai-penetration-tester-gaipt",
+    "domain": "ai-security",
+    "adjacentDomains": [
+      "pentest"
+    ],
+    "level": 56,
+    "scoredBy": "Opus 5",
+    "levelNote": "CyberLive: performance-based challenges in a live VM rather than a paper, covering direct and indirect prompt injection, RAG exploitation, agentic systems, MCP server attacks, alignment failures and AI architectural flaws. Scored above GIAC's multiple-choice AI exams on the strength of that format, and below GAIPS despite SEC536 being rated Intermediate: the course is two days and 12 CPE against SEC545's five, so the training weight is a fraction of a full SANS programme. AI security is a young discipline and the column is rated together on that basis, so even a hands-on AI credential sits below the established practical exams.",
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "No standalone price published yet — presale only, and purchasable solely with an affiliated course until general availability on 2026-12-15."
+    },
+    "span": "none",
+    "courseCode": "SEC536",
+    "examCode": null,
+    "examFormat": "hybrid",
+    "examHours": null,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": true,
+      "years": 4,
+      "ceCredits": 36
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "announced",
+    "lastVerified": "2026-08-05",
+    "sources": [
+      "https://www.giac.org/certifications/offensive-ai-penetration-tester-gaipt",
+      "https://www.sans.org/cyber-security-courses/adversarial-ai"
+    ]
+  },
+  {
     "id": "giac-gpyc",
     "name": "GPYC",
     "fullName": "GIAC Python Coder",
@@ -1261,6 +1302,47 @@
       "https://www.giac.org/pricing"
     ],
     "levelNote": "SEC573, rated Advanced by SANS; scored a little under the other Advanced-backed papers because the subject is developer tooling. GIAC's multiple-choice tier. No CyberLive, so it stays below the hands-on exams — but it is not a vendor product paper either: 75-115 questions drawn from a five- or six-day instructor-led SANS course, and scored on that course's published level."
+  },
+  {
+    "id": "giac-gasae",
+    "name": "GASAE",
+    "fullName": "GIAC AI Security Automation Engineer",
+    "vendor": "GIAC",
+    "vendorUrl": "https://www.giac.org/certifications/ai-security-automation-engineer-gasae",
+    "domain": "ai-security",
+    "adjacentDomains": [
+      "appsec"
+    ],
+    "level": 55,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": 999,
+      "currency": "USD",
+      "note": "Certification attempt only. Bundled SANS training costs several thousand more."
+    },
+    "span": "none",
+    "courseCode": "SEC598",
+    "examCode": null,
+    "examFormat": "multiple-choice",
+    "examHours": 3,
+    "passingScore": 70,
+    "prerequisites": [],
+    "renewal": {
+      "required": true,
+      "years": 4,
+      "ceCredits": 36
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-08-05",
+    "sources": [
+      "https://www.giac.org/certifications/",
+      "https://www.giac.org/pricing"
+    ],
+    "levelNote": "Corrected on the evidence, and it moved the score: recorded as a hybrid at 65, but GIAC publishes it as 82 multiple-choice questions in 3 hours at a 70% cut, with no CyberLive. It belongs in GIAC's multiple-choice band, and SEC598 is rated Intermediate by SANS — six days, 36 CPE, 25 labs — which places it at the top of that band rather than above it. AI security is a young discipline and the column is rated together on that basis, so even a hands-on AI credential sits below the established practical exams."
   },
   {
     "id": "giac-gcpn",
@@ -1979,47 +2061,6 @@
     "levelNote": "SEC401, rated Essentials by SANS — broad and foundational, examined over four hours with a light hands-on component."
   },
   {
-    "id": "giac-gaips",
-    "name": "GAIPS",
-    "fullName": "GIAC AI Platform Security",
-    "vendor": "GIAC",
-    "vendorUrl": "https://www.giac.org/certifications/ai-security-platform-security-gaips",
-    "domain": "ai-security",
-    "adjacentDomains": [
-      "cloud"
-    ],
-    "level": 47,
-    "scoredBy": "Opus 5",
-    "cost": {
-      "amount": 999,
-      "currency": "USD",
-      "note": "Certification attempt only. Bundled SANS training costs several thousand more."
-    },
-    "span": "none",
-    "courseCode": "SEC545",
-    "examCode": null,
-    "examFormat": "hybrid",
-    "examHours": 2,
-    "passingScore": 65,
-    "prerequisites": [],
-    "renewal": {
-      "required": true,
-      "years": 4,
-      "ceCredits": 36
-    },
-    "accreditation": {
-      "ansiIso17024": false,
-      "dod8140": []
-    },
-    "status": "active",
-    "lastVerified": "2026-08-04",
-    "sources": [
-      "https://www.giac.org/certifications/",
-      "https://www.giac.org/pricing"
-    ],
-    "levelNote": "An essentials-level AI security programme. GIAC's multiple-choice tier. No CyberLive, so it stays below the hands-on exams — but it is not a vendor product paper either: 75-115 questions drawn from a five- or six-day instructor-led SANS course, and scored on that course's published level."
-  },
-  {
     "id": "giac-gbfa",
     "name": "GBFA",
     "fullName": "GIAC Battlefield Forensics and Acquisition",
@@ -2156,7 +2197,7 @@
     "span": "none",
     "courseCode": "SEC535",
     "examCode": null,
-    "examFormat": "hybrid",
+    "examFormat": "multiple-choice",
     "examHours": 2,
     "passingScore": 67,
     "prerequisites": [],
@@ -2170,12 +2211,12 @@
       "dod8140": []
     },
     "status": "active",
-    "lastVerified": "2026-08-04",
+    "lastVerified": "2026-08-05",
     "sources": [
       "https://www.giac.org/certifications/",
       "https://www.giac.org/pricing"
     ],
-    "levelNote": "An essentials-level offensive AI programme on a young syllabus. GIAC's multiple-choice tier. No CyberLive, so it stays below the hands-on exams — but it is not a vendor product paper either: 75-115 questions drawn from a five- or six-day instructor-led SANS course, and scored on that course's published level."
+    "levelNote": "Corrected on the evidence: recorded as a hybrid, but GIAC publishes it as 56 multiple-choice questions in 2 hours at a 67% cut, with no CyberLive. An essentials-level offensive AI programme. AI security is a young discipline and the column is rated together on that basis, so even a hands-on AI credential sits below the established practical exams."
   },
   {
     "id": "giac-geva",
