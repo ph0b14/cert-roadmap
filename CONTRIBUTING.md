@@ -225,6 +225,19 @@ Rules that follow from the anchors:
 - **Practical exams outrank multiple-choice** at the same nominal tier. For GIAC specifically this
   means checking whether the exam carries CyberLive hands-on questions — several certifications
   that look advanced from their syllabus are sat entirely as multiple choice.
+
+  **Check that against GIAC's own CyberLive facet, not the prose on the certification page.**
+  Every GIAC page carries a generic block explaining what CyberLive is, whether or not *that* exam
+  uses it, so reading the page — or asking a summariser to read it — produces confident wrong
+  answers in both directions. The authoritative list is the filtered catalogue:
+
+      https://www.giac.org/certifications?...[facets.examFeature][0]=CyberLive
+
+  reachable from the "Certifications with CyberLive" section of <https://www.giac.org/cyberlive>.
+  Cross-checking the whole GIAC set against it found three records wrong — GASAE, GOAA and GMLE
+  were all filed as multiple choice and are all CyberLive — while confirming the other twenty were
+  right. A score built on a wrong `examFormat` is wrong no matter how carefully the rules are
+  applied to it, so verify the field before arguing about the number.
 - **A pure multiple-choice exam does not score above 58**, and does not outrank a hands-on
   credential of comparable scope from the same body. Score the assessment, not the syllabus: a
   demanding course assessed by 75 questions in two hours is still 75 questions in two hours.
