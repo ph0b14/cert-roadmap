@@ -137,10 +137,9 @@ function layoutGrid(
   colIndex: Map<string, number>,
   columns: number,
   tiers: Tier[],
+  axis: { top: number; bottom: number },
 ) {
-  const levels = certs.map((c) => c.level)
-  const top = Math.min(100, Math.max(...levels, 0) + AXIS_PAD)
-  const bottom = Math.max(0, Math.min(...levels, 100) - AXIS_PAD)
+  const { top, bottom } = axis
   const rowOf = (level: number) => Math.round((top - level) * ROWS_PER_POINT)
   const totalRows = Math.max(1, rowOf(bottom) + 1)
 
@@ -207,10 +206,11 @@ function layoutGrid(
   // where the tier's score range does.
   const bands: Band[] = [...tiers]
     .sort((a, b) => b.max - a.max)
-    // A tier the filtered set does not reach into has no rows to occupy. Kept
-    // in, every such tier clamped to the same edge row and stacked its label on
-    // top of the others: filtering to one issuing body scoring 48-55 drew
-    // MASTER, EXPERT and PROFESSIONAL over each other in the gutter.
+    // Belt and braces. The axis now spans the whole catalogue, so every tier
+    // has rows and nothing is dropped — but when the axis was derived from the
+    // filtered set, tiers outside it all clamped to the same edge row and
+    // stacked their labels in the gutter. Kept so a future change to the axis
+    // cannot bring that back silently.
     .filter((t) => t.max >= bottom && t.min <= top)
     .map((t) => {
       const startRow = rowOf(Math.min(t.max, top))
@@ -397,9 +397,26 @@ export default function RoadmapChart({ certs, domains, tiers }: Props) {
     return { drawn, alsoCovers }
   }, [visible, colIndex, domains])
 
+  /**
+   * The vertical axis spans the whole catalogue and never moves.
+   *
+   * It used to be derived from whatever was on screen, so filtering rescaled
+   * it: narrow the chart to a single Associate credential and the page redrew
+   * as one short Associate band, which answers "does this cert match" while
+   * destroying the question people actually came with — where does it stand
+   * against everything else. A filter should hide certs, not redraw the map.
+   */
+  const axis = useMemo(() => {
+    const levels = certs.map((c) => c.level)
+    return {
+      top: Math.min(100, Math.max(...levels, 0) + AXIS_PAD),
+      bottom: Math.max(0, Math.min(...levels, 100) - AXIS_PAD),
+    }
+  }, [certs])
+
   const { placements, bands: tierBands, rows } = useMemo(
-    () => layoutGrid(visible, colIndex, domains.length, tiers),
-    [visible, colIndex, domains.length, tiers],
+    () => layoutGrid(visible, colIndex, domains.length, tiers, axis),
+    [visible, colIndex, domains.length, tiers, axis],
   )
 
   const height = rows * ROW_PITCH + CELL_H
@@ -414,6 +431,7 @@ export default function RoadmapChart({ certs, domains, tiers }: Props) {
         colIndex,
         domains.length,
         tiers,
+        axis,
       )
       await downloadRoadmapPng(
         {
@@ -461,7 +479,7 @@ export default function RoadmapChart({ certs, domains, tiers }: Props) {
     } finally {
       setExporting(false)
     }
-  }, [certs, colIndex, domains, tiers, owned])
+  }, [certs, colIndex, domains, tiers, owned, axis])
 
   const toggle = (set: Set<string>, key: string, apply: (s: Set<string>) => void) => {
     const next = new Set(set)
