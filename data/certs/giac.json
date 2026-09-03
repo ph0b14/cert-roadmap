@@ -15,7 +15,7 @@
     "cost": {
       "amount": null,
       "currency": "USD",
-      "note": "No standalone fee — awarded on a portfolio of ten GIAC certifications, so the cost is the sum of those ten."
+      "note": "No standalone fee \u2014 awarded on a portfolio of ten GIAC certifications, so the cost is the sum of those ten."
     },
     "span": "full",
     "courseCode": null,
@@ -58,7 +58,7 @@
     "cost": {
       "amount": null,
       "currency": "USD",
-      "note": "No standalone fee — awarded on a portfolio of five GIAC certifications, so the cost is the sum of those five."
+      "note": "No standalone fee \u2014 awarded on a portfolio of five GIAC certifications, so the cost is the sum of those five."
     },
     "span": "full",
     "courseCode": null,
@@ -696,6 +696,47 @@
     "levelNote": "Score weights the required training as well as the exam. FOR577 is rated Intermediate by SANS. Exam-only score 68, +5 for the course. level measures the depth a credential demands, not only how the exam checks it."
   },
   {
+    "id": "giac-gasae",
+    "name": "GASAE",
+    "fullName": "GIAC AI Security Automation Engineer",
+    "vendor": "GIAC",
+    "vendorUrl": "https://www.giac.org/certifications/ai-security-automation-engineer-gasae",
+    "domain": "ai-security",
+    "adjacentDomains": [
+      "appsec"
+    ],
+    "level": 69,
+    "scoredBy": "Opus 5",
+    "cost": {
+      "amount": 999,
+      "currency": "USD",
+      "note": "Certification attempt only. Bundled SANS training costs several thousand more."
+    },
+    "span": "none",
+    "courseCode": "SEC598",
+    "examCode": null,
+    "examFormat": "hybrid",
+    "examHours": 3,
+    "passingScore": 70,
+    "prerequisites": [],
+    "renewal": {
+      "required": true,
+      "years": 4,
+      "ceCredits": 36
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-09-03",
+    "sources": [
+      "https://www.giac.org/certifications/",
+      "https://www.giac.org/pricing"
+    ],
+    "levelNote": "CyberLive: 82 performance-based questions in 3 hours at a 70% cut, in live VMs rather than on paper. Format and exam parameters verified against GIAC's own certification page. Re-based from 65: on every measure that separates these exams it leads the GIAC AI set \u2014 the most questions (82 against 54-56), the longest sitting (3 hours against 2), the highest cut (70% against 65-67%), and the deepest programme behind it in SEC598 at six days, 36 CPE and 25 labs. The earlier score under-weighted how much hands-on work that density demands under time pressure. Held at the top of the Professional band rather than pushed into Expert: at three hours this is not a multi-day practical, so it stays below OSAI (73) and COAE (70), which are."
+  },
+  {
     "id": "giac-gcti",
     "name": "GCTI",
     "fullName": "GIAC Cyber Threat Intelligence",
@@ -775,7 +816,7 @@
       "https://www.giac.org/certifications/",
       "https://www.giac.org/pricing"
     ],
-    "levelNote": "Re-based: a 4-hour exam on an Intermediate course is a strong professional credential, not an expert one — GX-IA is the experienced tier above it. Score weights the required training as well as the exam: SEC503 is rated Intermediate by SANS. Exam-only score 60, +7 for the training."
+    "levelNote": "Re-based: a 4-hour exam on an Intermediate course is a strong professional credential, not an expert one \u2014 GX-IA is the experienced tier above it. Score weights the required training as well as the exam: SEC503 is rated Intermediate by SANS. Exam-only score 60, +7 for the training."
   },
   {
     "id": "giac-gpen",
@@ -815,47 +856,6 @@
       "https://www.giac.org/pricing"
     ],
     "levelNote": "Score weights the required training as well as the exam. SEC560 is rated Intermediate by SANS. Exam-only score 60, +7 for the course. level measures the depth a credential demands, not only how the exam checks it."
-  },
-  {
-    "id": "giac-gasae",
-    "name": "GASAE",
-    "fullName": "GIAC AI Security Automation Engineer",
-    "vendor": "GIAC",
-    "vendorUrl": "https://www.giac.org/certifications/ai-security-automation-engineer-gasae",
-    "domain": "ai-security",
-    "adjacentDomains": [
-      "appsec"
-    ],
-    "level": 65,
-    "scoredBy": "Opus 5",
-    "cost": {
-      "amount": 999,
-      "currency": "USD",
-      "note": "Certification attempt only. Bundled SANS training costs several thousand more."
-    },
-    "span": "none",
-    "courseCode": "SEC598",
-    "examCode": null,
-    "examFormat": "hybrid",
-    "examHours": 3,
-    "passingScore": 70,
-    "prerequisites": [],
-    "renewal": {
-      "required": true,
-      "years": 4,
-      "ceCredits": 36
-    },
-    "accreditation": {
-      "ansiIso17024": false,
-      "dod8140": []
-    },
-    "status": "active",
-    "lastVerified": "2026-08-05",
-    "sources": [
-      "https://www.giac.org/certifications/",
-      "https://www.giac.org/pricing"
-    ],
-    "levelNote": "CyberLive: 82 performance-based questions in 3 hours at a 70% cut, in live VMs rather than on paper. Format verified against GIAC's own CyberLive facet at giac.org/cyberlive rather than read off the page prose. The deepest programme of the GIAC AI set — SEC598 is rated Intermediate at six days, 36 CPE and 25 labs — which is why it tops them. AI security is a young discipline and the column is rated together on that basis, so even a hands-on AI credential sits below the established practical exams."
   },
   {
     "id": "giac-gmon",
@@ -1138,7 +1138,7 @@
       "https://www.giac.org/certifications/",
       "https://www.giac.org/pricing"
     ],
-    "levelNote": "SEC549, rated Advanced by SANS. GIAC's multiple-choice tier. No CyberLive, so it stays below the hands-on exams — but it is not a vendor product paper either: 75-115 questions drawn from a five- or six-day instructor-led SANS course, and scored on that course's published level."
+    "levelNote": "SEC549, rated Advanced by SANS. GIAC's multiple-choice tier. No CyberLive, so it stays below the hands-on exams \u2014 but it is not a vendor product paper either: 75-115 questions drawn from a five- or six-day instructor-led SANS course, and scored on that course's published level."
   },
   {
     "id": "giac-gdat",
@@ -1180,7 +1180,7 @@
       "https://www.giac.org/certifications/",
       "https://www.giac.org/pricing"
     ],
-    "levelNote": "SEC599, rated Advanced by SANS. GIAC's multiple-choice tier. No CyberLive, so it stays below the hands-on exams — but it is not a vendor product paper either: 75-115 questions drawn from a five- or six-day instructor-led SANS course, and scored on that course's published level."
+    "levelNote": "SEC599, rated Advanced by SANS. GIAC's multiple-choice tier. No CyberLive, so it stays below the hands-on exams \u2014 but it is not a vendor product paper either: 75-115 questions drawn from a five- or six-day instructor-led SANS course, and scored on that course's published level."
   },
   {
     "id": "giac-gmle",
@@ -1260,7 +1260,7 @@
       "https://www.giac.org/certifications/",
       "https://www.giac.org/pricing"
     ],
-    "levelNote": "SEC522, rated Advanced by SANS. GIAC's multiple-choice tier. No CyberLive, so it stays below the hands-on exams — but it is not a vendor product paper either: 75-115 questions drawn from a five- or six-day instructor-led SANS course, and scored on that course's published level."
+    "levelNote": "SEC522, rated Advanced by SANS. GIAC's multiple-choice tier. No CyberLive, so it stays below the hands-on exams \u2014 but it is not a vendor product paper either: 75-115 questions drawn from a five- or six-day instructor-led SANS course, and scored on that course's published level."
   },
   {
     "id": "giac-gicsp",
@@ -1381,7 +1381,7 @@
       "https://www.giac.org/certifications/",
       "https://www.giac.org/pricing"
     ],
-    "levelNote": "SEC573, rated Advanced by SANS; scored a little under the other Advanced-backed papers because the subject is developer tooling. GIAC's multiple-choice tier. No CyberLive, so it stays below the hands-on exams — but it is not a vendor product paper either: 75-115 questions drawn from a five- or six-day instructor-led SANS course, and scored on that course's published level."
+    "levelNote": "SEC573, rated Advanced by SANS; scored a little under the other Advanced-backed papers because the subject is developer tooling. GIAC's multiple-choice tier. No CyberLive, so it stays below the hands-on exams \u2014 but it is not a vendor product paper either: 75-115 questions drawn from a five- or six-day instructor-led SANS course, and scored on that course's published level."
   },
   {
     "id": "giac-gcpn",
@@ -1422,7 +1422,7 @@
       "https://www.giac.org/certifications/",
       "https://www.giac.org/pricing"
     ],
-    "levelNote": "SEC588, rated Intermediate by SANS. GIAC's multiple-choice tier. No CyberLive, so it stays below the hands-on exams — but it is not a vendor product paper either: 75-115 questions drawn from a five- or six-day instructor-led SANS course, and scored on that course's published level."
+    "levelNote": "SEC588, rated Intermediate by SANS. GIAC's multiple-choice tier. No CyberLive, so it stays below the hands-on exams \u2014 but it is not a vendor product paper either: 75-115 questions drawn from a five- or six-day instructor-led SANS course, and scored on that course's published level."
   },
   {
     "id": "giac-gcsa",
@@ -1463,7 +1463,7 @@
       "https://www.giac.org/certifications/",
       "https://www.giac.org/pricing"
     ],
-    "levelNote": "SEC540, rated Intermediate by SANS. GIAC's multiple-choice tier. No CyberLive, so it stays below the hands-on exams — but it is not a vendor product paper either: 75-115 questions drawn from a five- or six-day instructor-led SANS course, and scored on that course's published level."
+    "levelNote": "SEC540, rated Intermediate by SANS. GIAC's multiple-choice tier. No CyberLive, so it stays below the hands-on exams \u2014 but it is not a vendor product paper either: 75-115 questions drawn from a five- or six-day instructor-led SANS course, and scored on that course's published level."
   },
   {
     "id": "giac-gctd",
@@ -1504,7 +1504,7 @@
       "https://www.giac.org/certifications/",
       "https://www.giac.org/pricing"
     ],
-    "levelNote": "SEC541, rated Intermediate by SANS. GIAC's multiple-choice tier. No CyberLive, so it stays below the hands-on exams — but it is not a vendor product paper either: 75-115 questions drawn from a five- or six-day instructor-led SANS course, and scored on that course's published level."
+    "levelNote": "SEC541, rated Intermediate by SANS. GIAC's multiple-choice tier. No CyberLive, so it stays below the hands-on exams \u2014 but it is not a vendor product paper either: 75-115 questions drawn from a five- or six-day instructor-led SANS course, and scored on that course's published level."
   },
   {
     "id": "giac-gcux",
@@ -1519,7 +1519,7 @@
     "cost": {
       "amount": null,
       "currency": "USD",
-      "note": "Retired — no longer available for new attempts."
+      "note": "Retired \u2014 no longer available for new attempts."
     },
     "span": "none",
     "courseCode": null,
@@ -1580,7 +1580,7 @@
       "https://www.giac.org/certifications/",
       "https://www.giac.org/pricing"
     ],
-    "levelNote": "SEC530, rated Intermediate by SANS. GIAC's multiple-choice tier. No CyberLive, so it stays below the hands-on exams — but it is not a vendor product paper either: 75-115 questions drawn from a five- or six-day instructor-led SANS course, and scored on that course's published level."
+    "levelNote": "SEC530, rated Intermediate by SANS. GIAC's multiple-choice tier. No CyberLive, so it stays below the hands-on exams \u2014 but it is not a vendor product paper either: 75-115 questions drawn from a five- or six-day instructor-led SANS course, and scored on that course's published level."
   },
   {
     "id": "giac-gppa",
@@ -1595,7 +1595,7 @@
     "cost": {
       "amount": null,
       "currency": "USD",
-      "note": "Retired — no longer available for new attempts."
+      "note": "Retired \u2014 no longer available for new attempts."
     },
     "span": "none",
     "courseCode": null,
@@ -1658,7 +1658,7 @@
       "https://www.giac.org/certifications/",
       "https://www.giac.org/pricing"
     ],
-    "levelNote": "ICS515, rated Intermediate by SANS. GIAC's multiple-choice tier. No CyberLive, so it stays below the hands-on exams — but it is not a vendor product paper either: 75-115 questions drawn from a five- or six-day instructor-led SANS course, and scored on that course's published level."
+    "levelNote": "ICS515, rated Intermediate by SANS. GIAC's multiple-choice tier. No CyberLive, so it stays below the hands-on exams \u2014 but it is not a vendor product paper either: 75-115 questions drawn from a five- or six-day instructor-led SANS course, and scored on that course's published level."
   },
   {
     "id": "giac-gssp-java",
@@ -1673,7 +1673,7 @@
     "cost": {
       "amount": null,
       "currency": "USD",
-      "note": "Retired — no longer available for new attempts."
+      "note": "Retired \u2014 no longer available for new attempts."
     },
     "span": "none",
     "courseCode": null,
@@ -1710,7 +1710,7 @@
     "cost": {
       "amount": null,
       "currency": "USD",
-      "note": "Retired — no longer available for new attempts."
+      "note": "Retired \u2014 no longer available for new attempts."
     },
     "span": "none",
     "courseCode": null,
@@ -1750,7 +1750,7 @@
     "cost": {
       "amount": null,
       "currency": "USD",
-      "note": "No standalone price published yet — presale only, and purchasable solely with an affiliated course until general availability on 2026-12-15."
+      "note": "No standalone price published yet \u2014 presale only, and purchasable solely with an affiliated course until general availability on 2026-12-15."
     },
     "span": "none",
     "courseCode": "SEC536",
@@ -1814,7 +1814,7 @@
       "https://www.giac.org/certifications/",
       "https://www.giac.org/pricing"
     ],
-    "levelNote": "SEC617, rated Intermediate by SANS. GIAC's multiple-choice tier. No CyberLive, so it stays below the hands-on exams — but it is not a vendor product paper either: 75-115 questions drawn from a five- or six-day instructor-led SANS course, and scored on that course's published level."
+    "levelNote": "SEC617, rated Intermediate by SANS. GIAC's multiple-choice tier. No CyberLive, so it stays below the hands-on exams \u2014 but it is not a vendor product paper either: 75-115 questions drawn from a five- or six-day instructor-led SANS course, and scored on that course's published level."
   },
   {
     "id": "giac-gcda",
@@ -1853,7 +1853,7 @@
       "https://www.giac.org/certifications/",
       "https://www.giac.org/pricing"
     ],
-    "levelNote": "SEC555, rated Intermediate by SANS. GIAC's multiple-choice tier. No CyberLive, so it stays below the hands-on exams — but it is not a vendor product paper either: 75-115 questions drawn from a five- or six-day instructor-led SANS course, and scored on that course's published level."
+    "levelNote": "SEC555, rated Intermediate by SANS. GIAC's multiple-choice tier. No CyberLive, so it stays below the hands-on exams \u2014 but it is not a vendor product paper either: 75-115 questions drawn from a five- or six-day instructor-led SANS course, and scored on that course's published level."
   },
   {
     "id": "giac-gmob",
@@ -1894,7 +1894,7 @@
       "https://www.giac.org/certifications/",
       "https://www.giac.org/pricing"
     ],
-    "levelNote": "SEC575, rated Intermediate by SANS. GIAC's multiple-choice tier. No CyberLive, so it stays below the hands-on exams — but it is not a vendor product paper either: 75-115 questions drawn from a five- or six-day instructor-led SANS course, and scored on that course's published level."
+    "levelNote": "SEC575, rated Intermediate by SANS. GIAC's multiple-choice tier. No CyberLive, so it stays below the hands-on exams \u2014 but it is not a vendor product paper either: 75-115 questions drawn from a five- or six-day instructor-led SANS course, and scored on that course's published level."
   },
   {
     "id": "giac-gasf",
@@ -1933,7 +1933,7 @@
       "https://www.giac.org/certifications/",
       "https://www.giac.org/pricing"
     ],
-    "levelNote": "FOR585. SANS rates the course Essentials, but it is a demanding smartphone-forensics programme and the exam is scored at the top of the Essentials band. GIAC's multiple-choice tier. No CyberLive, so it stays below the hands-on exams — but it is not a vendor product paper either: 75-115 questions drawn from a five- or six-day instructor-led SANS course, and scored on that course's published level."
+    "levelNote": "FOR585. SANS rates the course Essentials, but it is a demanding smartphone-forensics programme and the exam is scored at the top of the Essentials band. GIAC's multiple-choice tier. No CyberLive, so it stays below the hands-on exams \u2014 but it is not a vendor product paper either: 75-115 questions drawn from a five- or six-day instructor-led SANS course, and scored on that course's published level."
   },
   {
     "id": "giac-gced",
@@ -1976,7 +1976,7 @@
       "https://www.giac.org/certifications/",
       "https://www.giac.org/pricing"
     ],
-    "levelNote": "An essentials-level enterprise defence programme, examined over three hours. GIAC's multiple-choice tier. No CyberLive, so it stays below the hands-on exams — but it is not a vendor product paper either: 75-115 questions drawn from a five- or six-day instructor-led SANS course, and scored on that course's published level."
+    "levelNote": "An essentials-level enterprise defence programme, examined over three hours. GIAC's multiple-choice tier. No CyberLive, so it stays below the hands-on exams \u2014 but it is not a vendor product paper either: 75-115 questions drawn from a five- or six-day instructor-led SANS course, and scored on that course's published level."
   },
   {
     "id": "giac-gsoc",
@@ -2017,7 +2017,7 @@
       "https://www.giac.org/certifications/",
       "https://www.giac.org/pricing"
     ],
-    "levelNote": "SEC450, rated Essentials by SANS. GIAC's multiple-choice tier. No CyberLive, so it stays below the hands-on exams — but it is not a vendor product paper either: 75-115 questions drawn from a five- or six-day instructor-led SANS course, and scored on that course's published level."
+    "levelNote": "SEC450, rated Essentials by SANS. GIAC's multiple-choice tier. No CyberLive, so it stays below the hands-on exams \u2014 but it is not a vendor product paper either: 75-115 questions drawn from a five- or six-day instructor-led SANS course, and scored on that course's published level."
   },
   {
     "id": "giac-gpcs",
@@ -2058,7 +2058,7 @@
       "https://www.giac.org/certifications/",
       "https://www.giac.org/pricing"
     ],
-    "levelNote": "SEC488, rated Essentials by SANS. GIAC's multiple-choice tier. No CyberLive, so it stays below the hands-on exams — but it is not a vendor product paper either: 75-115 questions drawn from a five- or six-day instructor-led SANS course, and scored on that course's published level."
+    "levelNote": "SEC488, rated Essentials by SANS. GIAC's multiple-choice tier. No CyberLive, so it stays below the hands-on exams \u2014 but it is not a vendor product paper either: 75-115 questions drawn from a five- or six-day instructor-led SANS course, and scored on that course's published level."
   },
   {
     "id": "giac-gsec",
@@ -2099,7 +2099,7 @@
       "https://www.giac.org/certifications/",
       "https://www.giac.org/pricing"
     ],
-    "levelNote": "SEC401, rated Essentials by SANS — broad and foundational, examined over four hours with a light hands-on component."
+    "levelNote": "SEC401, rated Essentials by SANS \u2014 broad and foundational, examined over four hours with a light hands-on component."
   },
   {
     "id": "giac-gbfa",
@@ -2138,7 +2138,7 @@
       "https://www.giac.org/certifications/",
       "https://www.giac.org/pricing"
     ],
-    "levelNote": "FOR498, rated Essentials by SANS. GIAC's multiple-choice tier. No CyberLive, so it stays below the hands-on exams — but it is not a vendor product paper either: 75-115 questions drawn from a five- or six-day instructor-led SANS course, and scored on that course's published level."
+    "levelNote": "FOR498, rated Essentials by SANS. GIAC's multiple-choice tier. No CyberLive, so it stays below the hands-on exams \u2014 but it is not a vendor product paper either: 75-115 questions drawn from a five- or six-day instructor-led SANS course, and scored on that course's published level."
   },
   {
     "id": "giac-gcip",
@@ -2177,7 +2177,7 @@
       "https://www.giac.org/certifications/",
       "https://www.giac.org/pricing"
     ],
-    "levelNote": "ICS456, rated Essentials by SANS. GIAC's multiple-choice tier. No CyberLive, so it stays below the hands-on exams — but it is not a vendor product paper either: 75-115 questions drawn from a five- or six-day instructor-led SANS course, and scored on that course's published level."
+    "levelNote": "ICS456, rated Essentials by SANS. GIAC's multiple-choice tier. No CyberLive, so it stays below the hands-on exams \u2014 but it is not a vendor product paper either: 75-115 questions drawn from a five- or six-day instructor-led SANS course, and scored on that course's published level."
   },
   {
     "id": "giac-gosi",
@@ -2216,7 +2216,7 @@
       "https://www.giac.org/certifications/",
       "https://www.giac.org/pricing"
     ],
-    "levelNote": "SEC487, rated Essentials by SANS. GIAC's multiple-choice tier. No CyberLive, so it stays below the hands-on exams — but it is not a vendor product paper either: 75-115 questions drawn from a five- or six-day instructor-led SANS course, and scored on that course's published level."
+    "levelNote": "SEC487, rated Essentials by SANS. GIAC's multiple-choice tier. No CyberLive, so it stays below the hands-on exams \u2014 but it is not a vendor product paper either: 75-115 questions drawn from a five- or six-day instructor-led SANS course, and scored on that course's published level."
   },
   {
     "id": "giac-geva",
@@ -2233,7 +2233,7 @@
     "cost": {
       "amount": 999,
       "currency": "USD",
-      "note": "In abeyance — GIAC no longer sells attempts."
+      "note": "In abeyance \u2014 GIAC no longer sells attempts."
     },
     "span": "none",
     "courseCode": "SEC460",
@@ -2295,7 +2295,7 @@
       "https://www.giac.org/certifications/",
       "https://www.giac.org/pricing"
     ],
-    "levelNote": "SEC388, rated Beginner by SANS. GIAC's multiple-choice tier. No CyberLive, so it stays below the hands-on exams — but it is not a vendor product paper either: 75-115 questions drawn from a five- or six-day instructor-led SANS course, and scored on that course's published level."
+    "levelNote": "SEC388, rated Beginner by SANS. GIAC's multiple-choice tier. No CyberLive, so it stays below the hands-on exams \u2014 but it is not a vendor product paper either: 75-115 questions drawn from a five- or six-day instructor-led SANS course, and scored on that course's published level."
   },
   {
     "id": "giac-gfact",
