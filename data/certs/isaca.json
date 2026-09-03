@@ -38,5 +38,166 @@
     "sources": [
       "https://www.isaca.org/credentialing/ccoa"
     ]
+  },
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "levelNote": "Computer-based knowledge exam delivered by PSI, gated behind an active CISM or CISSP. The prerequisite signals an experienced audience, not a demanding exam, and the scoring rules judge what the credential demands rather than who is eligible for it. Highest of ISACA's three AI extensions because security management sits closest to the technical column. AI security is a young discipline and the column is rated together on that basis. Placed below ISACA's own CCOA (42), which is a four-hour exam with a hands-on component, because this one is a knowledge exam with none.",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": null,
+    "passingScore": null,
+    "prerequisites": [
+      "Active CISM or CISSP certification"
+    ],
+    "renewal": {
+      "required": true,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-09-03",
+    "id": "isaca-aaism",
+    "name": "AAISM",
+    "fullName": "ISACA Advanced in AI Security Management",
+    "vendor": "ISACA",
+    "vendorUrl": "https://www.isaca.org/credentialing/aaism",
+    "domain": "ai-security",
+    "level": 40,
+    "examFormat": "multiple-choice",
+    "cost": {
+      "amount": 599,
+      "currency": "USD",
+      "note": "Non-member exam registration; members pay US$459. A US$50 application fee is due after passing."
+    },
+    "sources": [
+      "https://www.isaca.org/credentialing/aaism"
+    ]
+  },
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "levelNote": "Launched 15 April 2026: 90 questions in 2.5 hours via PSI, scored on an 800-point scale with a 450 cut. That cut is a scaled score rather than a percentage, so passingScore is left null rather than recording a misleading 56%. Risk framing puts it below AAISM. AI security is a young discipline and the column is rated together on that basis. Placed below ISACA's own CCOA (42), which is a four-hour exam with a hands-on component, because this one is a knowledge exam with none.",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": 2.5,
+    "passingScore": null,
+    "prerequisites": [
+      "An ISACA certification (CISA, CISM, CRISC, CGEIT, CDPSE) or an equivalent global risk designation"
+    ],
+    "renewal": {
+      "required": true,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-09-03",
+    "id": "isaca-aair",
+    "name": "AAIR",
+    "fullName": "ISACA Advanced in AI Risk",
+    "vendor": "ISACA",
+    "vendorUrl": "https://www.isaca.org/credentialing/aair",
+    "domain": "ai-security",
+    "level": 37,
+    "examFormat": "multiple-choice",
+    "cost": {
+      "amount": 599,
+      "currency": "USD",
+      "note": "Non-member exam registration; members pay US$459. A US$50 application fee is due after passing."
+    },
+    "sources": [
+      "https://www.isaca.org/credentialing/aair",
+      "https://www.isaca.org/about-us/newsroom/press-releases/2026/isaca-launches-advanced-in-ai-risk-aair-certification-to-equip-it-risk-professionals"
+    ]
+  },
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "levelNote": "Computer-based knowledge exam via PSI across AI Governance and Risk, AI Operations, and AI Auditing Tools and Techniques. Lowest of the three AI extensions: audit is the furthest of them from hands-on work, and the credential is gated behind CISA or an accounting designation. AI security is a young discipline and the column is rated together on that basis. Placed below ISACA's own CCOA (42), which is a four-hour exam with a hands-on component, because this one is a knowledge exam with none.",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": null,
+    "passingScore": null,
+    "prerequisites": [
+      "CISA, or an accounting/audit designation (CIA, CPA, ACCA, ICAEW and equivalents) held in an IT audit or advisory role"
+    ],
+    "renewal": {
+      "required": true,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "active",
+    "lastVerified": "2026-09-03",
+    "id": "isaca-aaia",
+    "name": "AAIA",
+    "fullName": "ISACA Advanced in AI Audit",
+    "vendor": "ISACA",
+    "vendorUrl": "https://www.isaca.org/credentialing/aaia",
+    "domain": "ai-security",
+    "level": 35,
+    "examFormat": "multiple-choice",
+    "cost": {
+      "amount": 599,
+      "currency": "USD",
+      "note": "Non-member exam registration; members pay US$459. A US$50 application fee is due after passing."
+    },
+    "sources": [
+      "https://www.isaca.org/credentialing/aaia"
+    ]
+  },
+  {
+    "adjacentDomains": [
+      "soc"
+    ],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "levelNote": "Beta programme closed 26 August 2026 and the credential has not launched. ISACA positions it as vendor-neutral and foundational for early-career and career-changing professionals, across Cybersecurity Principles and Techniques, Security Operations, and Secure By Design. Provisionally scored between ISC2's CC (20) and SSCP (31) on that positioning alone; exam format, length and cut score are all unpublished, so this needs re-basing at launch.",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": null,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": true,
+      "years": null,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "announced",
+    "lastVerified": "2026-09-03",
+    "id": "isaca-ccs",
+    "name": "CCS",
+    "fullName": "ISACA Certified Cybersecurity Specialist",
+    "vendor": "ISACA",
+    "vendorUrl": "https://www.isaca.org/credentialing/ccs",
+    "domain": "security-engineering",
+    "level": 30,
+    "examFormat": null,
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "Beta sittings were US$199; general-availability pricing is unpublished."
+    },
+    "sources": [
+      "https://www.isaca.org/credentialing/ccs"
+    ]
   }
 ]

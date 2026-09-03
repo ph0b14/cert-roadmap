@@ -25,8 +25,8 @@
     "lastVerified": "2026-08-04",
     "id": "isc2-issap",
     "name": "ISSAP",
-    "fullName": "ISC² Information Systems Security Architecture Professional",
-    "vendor": "ISC²",
+    "fullName": "ISC\u00b2 Information Systems Security Architecture Professional",
+    "vendor": "ISC\u00b2",
     "vendorUrl": "https://www.isc2.org/certifications/issap",
     "domain": "security-engineering",
     "level": 57,
@@ -34,12 +34,12 @@
     "cost": {
       "amount": 599,
       "currency": "USD",
-      "note": "Exam fee, Americas region. ISC2 also charges an annual maintenance fee. Pass mark is 700 on a 700–1000 scaled range, not a percentage."
+      "note": "Exam fee, Americas region. ISC2 also charges an annual maintenance fee. Pass mark is 700 on a 700\u20131000 scaled range, not a percentage."
     },
     "sources": [
       "https://www.isc2.org/certifications/issap"
     ],
-    "levelNote": "Raised. A CISSP concentration gated on holding CISSP plus two further years in the domain — the prerequisite chain is the real bar, not the 125-question paper. Exam-only score 55, +2 for the training."
+    "levelNote": "Raised. A CISSP concentration gated on holding CISSP plus two further years in the domain \u2014 the prerequisite chain is the real bar, not the 125-question paper. Exam-only score 55, +2 for the training."
   },
   {
     "adjacentDomains": [],
@@ -65,8 +65,8 @@
     "lastVerified": "2026-08-04",
     "id": "isc2-issep",
     "name": "ISSEP",
-    "fullName": "ISC² Information Systems Security Engineering Professional",
-    "vendor": "ISC²",
+    "fullName": "ISC\u00b2 Information Systems Security Engineering Professional",
+    "vendor": "ISC\u00b2",
     "vendorUrl": "https://www.isc2.org/certifications/issep",
     "domain": "security-engineering",
     "level": 57,
@@ -74,12 +74,51 @@
     "cost": {
       "amount": 599,
       "currency": "USD",
-      "note": "Exam fee, Americas region. ISC2 also charges an annual maintenance fee. Pass mark is 700 on a 700–1000 scaled range, not a percentage."
+      "note": "Exam fee, Americas region. ISC2 also charges an annual maintenance fee. Pass mark is 700 on a 700\u20131000 scaled range, not a percentage."
     },
     "sources": [
       "https://www.isc2.org/certifications/issep"
     ],
     "levelNote": "Raised for the same reason as ISSAP: gated on CISSP plus two further years in security engineering. Exam-only score 55, +2 for the training."
+  },
+  {
+    "adjacentDomains": [],
+    "span": "none",
+    "scoredBy": "Opus 5",
+    "levelNote": "Announced 15 July 2026 with a call for volunteers; a pilot exam is planned before the end of 2026 and operational availability is not expected until 2027. No acronym has been published, so the chart label is descriptive rather than invented. Provisionally scored just above ISC2's own CCSP (38) on the assumption of a comparable practitioner-level knowledge exam \u2014 a placeholder to be re-based once the exam outline exists.",
+    "courseCode": null,
+    "examCode": null,
+    "examHours": null,
+    "passingScore": null,
+    "prerequisites": [],
+    "renewal": {
+      "required": true,
+      "years": 3,
+      "ceCredits": null
+    },
+    "accreditation": {
+      "ansiIso17024": false,
+      "dod8140": []
+    },
+    "status": "announced",
+    "lastVerified": "2026-09-03",
+    "id": "isc2-ai-security",
+    "name": "ISC2 AI",
+    "fullName": "ISC2 AI Security Certification (name and acronym not yet announced)",
+    "vendor": "ISC\u00b2",
+    "vendorUrl": "https://www.isc2.org/new-ai-certification",
+    "domain": "ai-security",
+    "level": 42,
+    "examFormat": null,
+    "cost": {
+      "amount": null,
+      "currency": "USD",
+      "note": "Unpublished; the credential is still in development."
+    },
+    "sources": [
+      "https://www.isc2.org/new-ai-certification",
+      "https://www.isc2.org/Insights/2026/07/join-us-and-build-the-ISC2-ai-security-certification"
+    ]
   },
   {
     "adjacentDomains": [
@@ -107,8 +146,8 @@
     "lastVerified": "2026-08-04",
     "id": "isc2-ccsp",
     "name": "CCSP",
-    "fullName": "ISC² Certified Cloud Security Professional",
-    "vendor": "ISC²",
+    "fullName": "ISC\u00b2 Certified Cloud Security Professional",
+    "vendor": "ISC\u00b2",
     "vendorUrl": "https://www.isc2.org/certifications/ccsp",
     "domain": "cloud",
     "level": 38,
@@ -116,7 +155,7 @@
     "cost": {
       "amount": 599,
       "currency": "USD",
-      "note": "Exam fee, Americas region. ISC2 also charges an annual maintenance fee. Pass mark is 700 on a 700–1000 scaled range, not a percentage."
+      "note": "Exam fee, Americas region. ISC2 also charges an annual maintenance fee. Pass mark is 700 on a 700\u20131000 scaled range, not a percentage."
     },
     "sources": [
       "https://www.isc2.org/certifications/ccsp"
@@ -147,8 +186,8 @@
     "lastVerified": "2026-08-04",
     "id": "isc2-csslp",
     "name": "CSSLP",
-    "fullName": "ISC² Certified Secure Software Lifecycle Professional",
-    "vendor": "ISC²",
+    "fullName": "ISC\u00b2 Certified Secure Software Lifecycle Professional",
+    "vendor": "ISC\u00b2",
     "vendorUrl": "https://www.isc2.org/certifications/csslp",
     "domain": "appsec",
     "level": 36,
@@ -156,7 +195,7 @@
     "cost": {
       "amount": 599,
       "currency": "USD",
-      "note": "Exam fee, Americas region. ISC2 also charges an annual maintenance fee. Pass mark is 700 on a 700–1000 scaled range, not a percentage."
+      "note": "Exam fee, Americas region. ISC2 also charges an annual maintenance fee. Pass mark is 700 on a 700\u20131000 scaled range, not a percentage."
     },
     "sources": [
       "https://www.isc2.org/certifications/csslp"
@@ -189,8 +228,8 @@
     "lastVerified": "2026-08-04",
     "id": "isc2-sscp",
     "name": "SSCP",
-    "fullName": "ISC² Systems Security Certified Practitioner",
-    "vendor": "ISC²",
+    "fullName": "ISC\u00b2 Systems Security Certified Practitioner",
+    "vendor": "ISC\u00b2",
     "vendorUrl": "https://www.isc2.org/certifications/sscp",
     "domain": "security-engineering",
     "level": 31,
@@ -198,7 +237,7 @@
     "cost": {
       "amount": 249,
       "currency": "USD",
-      "note": "Exam fee, Americas region. ISC2 also charges an annual maintenance fee. Pass mark is 700 on a 700–1000 scaled range, not a percentage."
+      "note": "Exam fee, Americas region. ISC2 also charges an annual maintenance fee. Pass mark is 700 on a 700\u20131000 scaled range, not a percentage."
     },
     "sources": [
       "https://www.isc2.org/certifications/sscp"
@@ -230,8 +269,8 @@
     "lastVerified": "2026-08-04",
     "id": "isc2-cc",
     "name": "CC",
-    "fullName": "ISC² Certified in Cybersecurity",
-    "vendor": "ISC²",
+    "fullName": "ISC\u00b2 Certified in Cybersecurity",
+    "vendor": "ISC\u00b2",
     "vendorUrl": "https://www.isc2.org/certifications/cc",
     "domain": "security-engineering",
     "level": 20,
@@ -239,7 +278,7 @@
     "cost": {
       "amount": 199,
       "currency": "USD",
-      "note": "Exam fee, Americas region. ISC2 also charges an annual maintenance fee. Pass mark is 700 on a 700–1000 scaled range, not a percentage."
+      "note": "Exam fee, Americas region. ISC2 also charges an annual maintenance fee. Pass mark is 700 on a 700\u20131000 scaled range, not a percentage."
     },
     "sources": [
       "https://www.isc2.org/certifications/cc"
